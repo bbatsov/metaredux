@@ -2,7 +2,9 @@
 layout: post
 title:  "Going Meta"
 date:   2018-10-13 19:47:26 +0200
-categories: posts meta
+category: posts
+tags:
+- Meta
 ---
 
 Writing is hard. As is naming stuff.[^1]
