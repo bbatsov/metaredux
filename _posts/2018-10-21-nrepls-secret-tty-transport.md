@@ -12,7 +12,7 @@ Ever since I took over the development of
 [nREPL](https://github.com/nrepl/nrepl) a few months ago, I've been
 spending a lot of time learning about its inner workings and
 [documenting them meticulously](https://nrepl.xyz).[^1] I've learned a
-ton so far, and I'd like to share some my findings.  I hope this post
+ton so far, and I'd like to share some of my findings.  I hope this post
 is going to be the first of a series of posts on nREPL internals, but I
 won't make any promises. So, let's get to the point!
 
