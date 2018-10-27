@@ -13,7 +13,7 @@ any details on that subject.[^1]
 
 Yesterday the project reached a very important milestone[^2] on its way to the "magic" 1.0 release - namely the introduction
 of extended cop[^3] metadata and the ability to run only cops and auto-corrections that can't possible break your code by
-changing its meaning. Making use of the new functionality is very easy:
+changing its meaning. We call such cops and their auto-corrections "safe". Making use of the new functionality is very easy:
 
 ``` shell
 # Run only safe cops.
@@ -31,16 +31,16 @@ Well, you'll get all possible offenses reported, but RuboCop is going to fix aut
 are safe to fix.
 
 Here's also a small tip for you - if you want to always run only safe cops and do safe auto-corrections you can make use
-of the handy `.rubocop` file. Just put this the root of your project:
+of the handy `.rubocop` file. Just create a `.rubocop` file in the root of your project and place there the following:
 
 ```
 --safe --safe-autocorrect
 ```
 
-By the way, did you know that you could also some default command-line options via the `RUBOCOP_OPTS` environment variable?
+By the way, did you know that you could also pass some default command-line options to RuboCop via the `RUBOCOP_OPTS` environment variable?
 It takes precedence over options set via `.rubocop`.
 
-If you're in hurry you can safely stop reading at this point. For those of you who'd like to learn a bit more about
+If you're in a hurry you can safely stop reading at this point. For those of you who'd like to learn a bit more about
 all this, however, I've got a few extra things I'd like to share.
 
 ## Diving Deeper
@@ -58,11 +58,12 @@ something.keys.include?(key)
 ```
 
 In the first example normally `Style/CollectionMethods` would suggest going for `select` instead of
-`find_all`, but there's also the chance that the receiver(`something`) is not really an instance of a
+`find_all`, but there's also the chance that the receiver (`something`) is not really an instance of a
 collection class that implements `Enumerable`.
+
 In the second example the `Performance/InefficientHashSearch` would normally suggest using `something.key?(key)`,
 which would usually be what you want to do, but in case you have some other classes with `keys` instance methods
-you'll get false positives for them. The checks are pretty useful in general (and that's why they exist), but
+you'll get false positives for them. These type checks are pretty useful in general (and that's why they exist), but
 they can also wreak havoc from time to time (especially if you don't have a good test suite).
 
 An even more nuanced example would be:
@@ -142,9 +143,46 @@ safe by default unless it's marked with some extra metadata in the cop's definit
 a cop won't produce any false positives we marked with `Safe: false` and if a cop's auto-correction doesn't produce
 an equivalent transformation of the code we mark with `SafeAutoCorrect: false`. It's pretty simple, right?
 
+Here's the metadata for `Style/CollectionMethods`:
+
+``` yaml
+# A completely unsafe cop
+Style/CollectionMethods:
+  Description: 'Preferred collection methods.'
+  StyleGuide: '#map-find-select-reduce-size'
+  Enabled: false
+  VersionAdded: 0.9
+  VersionChanged: 0.27
+  Safe: false
+
+# A cop which produces reliable offenses (warnings), but has unsafe auto-correction
+Style/SpecialGlobalVars:
+  Description: 'Avoid Perl-style global variables.'
+  StyleGuide: '#no-cryptic-perlisms'
+  Enabled: true
+  VersionAdded: 0.13
+  VersionChanged: 0.36
+  SafeAutoCorrect: false
+```
+
+If a cop is marked as unsafe then it's auto-correction automatically becomes unsafe as well.
+As you can notice in this example historically we dealt with the problem differently - we marked cops
+that were likely to generate many false positives[^6] as disabled. We also marked some problematic
+auto-corrections as disabled. The value of the new attributes is that now you have even more
+granularity over what exactly you're running and it's also immediately apparent whether some cop
+can introduce any semantic changes to your code or not. It might not sound like a big deal, but I think that's super
+important.
+
+You might also notice that as part of this task we've also added some historical data for all of our cops.
+`VersionAdded` denotes when a cop was introduced and `VersionChanged` denotes when a cop's public behaviour
+changed most recently (e.g. its default configuration was updated).
+
 The real work on this issue was mostly going over all the cops and annotating the unsafe cops accordingly.
 You can read more about underlying metadata [here](https://github.com/rubocop-hq/rubocop/issues/5978) and
 [here](https://github.com/rubocop-hq/rubocop/pull/6293).
+
+I'd like to insert here a very big "Thanks!" to [Maxim Krizhanovsky](https://github.com/Darhazer) who
+did all the heavy lifting!
 
 ## Epilogue
 
@@ -162,3 +200,4 @@ I hope this post was useful and enjoyable to you!
 [^3]: RuboCop's lingo for a check.
 [^4]: And as Jeremy points out [here](https://bugs.ruby-lang.org/issues/14136#note-9) `size` can be used very differently, compared to `length`, in certain context (e.g. `house.size`).
 [^5]: There's actually [quite the story](https://bugs.ruby-lang.org/issues/9123#note-14) behind this.
+[^6]: Or a lot of controversy.
