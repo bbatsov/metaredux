@@ -12,7 +12,7 @@ I'll assume that if you're reading this post, then you probably already know wha
 any details on that subject.[^1]
 
 Yesterday the project reached a very important milestone[^2] on its way to the "magic" 1.0 release - namely the introduction
-of extended cop[^3] metadata and the ability to run only cops and auto-corrections that can't possible break your code by
+of extended cop[^3] metadata and the ability to run only cops and auto-corrections that can't possibly break your code by
 changing its meaning. We call such cops and their auto-corrections "safe". Making use of the new functionality is very easy:
 
 ``` shell
