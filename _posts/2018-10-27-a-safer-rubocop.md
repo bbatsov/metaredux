@@ -111,7 +111,7 @@ The second example is more nuanced - Ruby's `Integer` class has both a `zero?` a
 first instinct would be that it's probably safe to replace `!zero?` with `nonzero?`, but unfortunately they have different semantics.
 
 ``` ruby
-# A classing Ruby WAT :-)
+# A classic Ruby WAT :-)
 0.zero? # => true
 1.zero? # => false
 0.nonzero? # => nil
