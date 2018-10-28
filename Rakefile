@@ -11,7 +11,7 @@ def slug(title)
   title.downcase.gsub(/\s+/, '-')
 end
 
-# usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
+# usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post
 desc 'Create a new post in _posts/'
 task :new_post, :title do |_t, args|
   title = args.title || get_stdin('Enter a title for your post: ')
@@ -34,38 +34,24 @@ task :new_post, :title do |_t, args|
   end
 end
 
-# usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
+# usage rake new_page[my-new-page] or rake new_page
 desc 'Create a new page'
-task :new_page, :filename do |_t, args|
-  args.with_defaults(filename: 'new-page')
+task :new_page, :title do |_t, args|
+  title = args.title || get_stdin('Enter a title for your page: ')
 
-  if args.filename.downcase =~ /(^.+\/)?(.+)/
-    filename, dot, extension = Regexp.last_match(2).rpartition('.').reject(&:empty?) # Get filename and extension
-    title = filename
+  filename = "#{slug(title)}.md"
 
-    if extension.nil?
-      page_dir << filename
-      filename = 'index'
-    end
+  if File.exist?(filename)
+    abort('rake aborted!') if ask("#{filename} already exists. Do you want to overwrite?", %w[y n]) == 'n'
+  end
 
-    extension ||= '.md'
-    filename = filename.downcase.to_url
-    file = "#{filename}.#{extension}"
+  puts "Creating new page: #{filename}"
 
-    if File.exist?(file)
-      abort('rake aborted!') if ask("#{file} already exists. Do you want to overwrite?", %w[y n]) == 'n'
-    end
-
-    puts "Creating new page: #{file}"
-
-    File.open(file, 'w') do |page|
-      page.puts '---'
-      page.puts 'layout: page'
-      page.puts "title: \"#{title}\""
-      page.puts "permalink: /#{filename}/"
-      page.puts '---'
-    end
-  else
-    puts "Syntax error: #{args.filename} contains unsupported characters"
+  File.open(filename, 'w') do |page|
+    page.puts '---'
+    page.puts 'layout: page'
+    page.puts "title: \"#{title}\""
+    page.puts "permalink: /#{slug(title)}/"
+    page.puts '---'
   end
 end
