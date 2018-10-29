@@ -53,7 +53,7 @@ hackers. Later on, Eclipse and NetBeans plugins for Clojure emerged as
 well, and everyone rolled their own implementation of a REPL server that
 powered the interactions users had with Clojure.
 
-I [spoke about this at length][https://www.youtube.com/watch?v=4X-1fJm25Ww&] at Clojure/conj
+I [spoke about this at length](https://www.youtube.com/watch?v=4X-1fJm25Ww&) at Clojure/conj
 2014 and there are some really awesome nREPL design documents like
 [this one](https://docs.google.com/document/edit?id=1dnb1ONTpK9ttO5W4thxiXkU5Ki89gK62anRqKEK4YZI&authkey=CMuszuMI&hl=en#).
 that tell even more of the story.
