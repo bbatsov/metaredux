@@ -269,8 +269,8 @@ more of value for a fraction of the investment. And we can do this
 _today_.
 
 I've put in a lot of work to make sure the underpinnings of CIDER like
-[orchard][https://github.com/clojure-emacs/orchard],
-[cljs-tooling][https://github.com/clojure-emacs/cljs-tooling], etc are
+[orchard](https://github.com/clojure-emacs/orchard),
+[cljs-tooling](https://github.com/clojure-emacs/cljs-tooling), etc are
 not nREPL specific and other tool authors can leverage those, so no one has to
 re-invent the wheel again, but that being said, I really believe that
 we already have the flexible and solid foundation that we need and we
