@@ -16,6 +16,8 @@ ton so far, and I'd like to share some of my findings.  I hope this post
 is going to be the first of a series of posts on nREPL internals, but I
 won't make any promises. So, let's get to the point!
 
+<!--more-->
+
 Most nREPL users probably know that it normally uses a socket-based
 communication protocol where the request/response messages are
 [bencoded](https://wiki.theory.org/index.php/BitTorrentSpecification#Bencoding).[^2]

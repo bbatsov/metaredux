@@ -26,6 +26,8 @@ $ rubocop --safe-auto-correct
 $ rubocop --safe --safe-auto-correct
 ```
 
+<!--more-->
+
 Probably some of you're wondering what will happen if you run all cops, but you perform only safe auto-corrections, right?
 Well, you'll get all possible offenses reported, but RuboCop is going to fix automatically only the ones that
 are safe to fix.

@@ -14,6 +14,8 @@ miserably so far due to a combination of poor choice of tools and lack of
 vision, time, and writing skills. I believe this time around I got the
 tooling[^2] and the vision right, but I can make no promises about the rest.
 
+<!--more-->
+
 Back in the day I wanted to write just for the sake of writing. And maybe with the hope
 that my posts were going to bring me fame and glory. Today I feel that I've got a lot
 of really interesting thoughts worth sharing on my mind and I hope that this blog is

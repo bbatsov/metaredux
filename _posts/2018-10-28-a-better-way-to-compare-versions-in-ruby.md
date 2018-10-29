@@ -21,6 +21,8 @@ else
 end
 ```
 
+<!--more-->
+
 That works fine for simple use-cases, but quickly becomes problematic
 if `version` is something like `2.10`, as due to the lexicographical
 nature of the string comparison the string `2.10` is smaller than
