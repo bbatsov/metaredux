@@ -15,7 +15,7 @@ Here's a list of talks where I feel a did a bit better than average:
 * [The Evolution of the Clojure Tooling for Emacs](https://www.youtube.com/watch?v=4X-1fJm25Ww&) (Clojure/conj 2014)
 * [CIDER: Inside the Brewery](https://www.youtube.com/watch?v=8wLwbpCxRf0) (Clojure/west 2016)
 * [Towards Awesome Clojure Documentation](https://www.youtube.com/watch?v=nrpsMB2gYI0) (ClojuTRE 2017)
-* [The Elements of Style in Programming](https://www.youtube.com/watch?v=n2Mp-OCPPIY) (WebCamp Zabreg 2015)
+* [The Elements of Style in Programming](https://www.youtube.com/watch?v=n2Mp-OCPPIY) (WebCamp Zagreb 2015)
 
 I really hope that I had some other good talks, but I completely forgot about those after
 a proper conference afterparty!
