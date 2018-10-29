@@ -54,8 +54,8 @@ well, and everyone rolled their own implementation of a REPL server that
 powered the interactions users had with Clojure.
 
 I [spoke about this at length](https://www.youtube.com/watch?v=4X-1fJm25Ww&) at Clojure/conj
-2014 and there are some really awesome nREPL design documents like
-[this one](https://docs.google.com/document/edit?id=1dnb1ONTpK9ttO5W4thxiXkU5Ki89gK62anRqKEK4YZI&authkey=CMuszuMI&hl=en#).
+2014 and there are some really awesome nREPL design documents, like
+[this one](https://docs.google.com/document/edit?id=1dnb1ONTpK9ttO5W4thxiXkU5Ki89gK62anRqKEK4YZI&authkey=CMuszuMI&hl=en#),
 that tell even more of the story.
 
 nREPL was created to tackle the problem of the missing common
@@ -141,7 +141,7 @@ definitely value my limited time way too much to be wasting it on a
 process with which I completely disagree.
 
 The people who know me are aware of my immense passion for [free
-software projects](/projects) and that I always want to be build
+software projects](/projects) and that I always want to build
 healthy communities around my projects, nurture contributors,
 etc. Clojure Contrib goes against everything I hold near and dear! I
 could have probably gotten commit access to the nREPL project in
@@ -222,12 +222,12 @@ got us where I wanted us to be!
 
 I believe some of you might be wondering if all this hard work was
 really worth it. After all Clojure now has the [Socket
-REPL][https://dev.clojure.org/display/design/Socket+Server+REPL] and
+REPL](https://dev.clojure.org/display/design/Socket+Server+REPL) and
 if that's part of Clojure probably we're supposed to use it, right?
 
 There are also some interesting projects like
-[unrepl][https://github.com/unrepl/unrepl] and
-[prepl][https://www.reddit.com/r/Clojure/comments/7wdlq4/first_cut_of_prepl_%E8%B7%AF_clojureclojure86a158d/]
+[unrepl](https://github.com/unrepl/unrepl) and
+[prepl](https://www.reddit.com/r/Clojure/comments/7wdlq4/first_cut_of_prepl_%E8%B7%AF_clojureclojure86a158d/)
 that build on top of it to provide a similar functionality to the one
 offered by nREPL.
 
