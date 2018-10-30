@@ -47,6 +47,7 @@ experience:
 * [cljs-tooling](https://github.com/clojure-emacs/cljs-tooling)
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
 * [refactor-nrepl](https://github.com/clojure-emacs/refactor-nrepl)
+* [sayid](https://github.com/clojure-emacs/sayid)
 
 ### Emacs
 
