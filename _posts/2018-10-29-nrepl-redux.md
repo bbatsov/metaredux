@@ -382,7 +382,7 @@ That's from me, folks! Keep hacking!
 [^3]: To my knowledge this had never happened in the past.
 [^4]: That's big! Take a look [here](https://nrepl.xyz/nrepl/0.4.5/usage/misc.html#_hot_loading_dependencies) for details.
 
-[CIDER]: https://cider.mx
+[CIDER]: https://www.cider.mx
 [nREPL]: https://nrepl.xyz
 [SLIME]: https://common-lisp.net/project/slime/
 [Piggieback]: https://github.com/nrepl/piggieback
