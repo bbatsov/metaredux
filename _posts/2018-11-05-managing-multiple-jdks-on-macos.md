@@ -205,7 +205,7 @@ a big deal.
 That's all, folks! Hopefully you enjoyed this post and learned
 something useful from it!
 
-I know there are some special tools to manage multiple JDKs, but it
+I know there are some special tools to manage multiple JDKs[^3], but it
 seems to me that given how simple the manual process is, we don't
 really need those. In the modern age software engineers reach for
 third-party solutions for trivial things and I find this a bit
@@ -217,3 +217,4 @@ a real hacker, doesn't it? ;-)
 
 [^1]: <https://mreinhold.org/blog/forward-faster>
 [^2]: <http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/>
+[^3]: [SDKMAN!](https://sdkman.io) and [jEnv](http://www.jenv.be) immediately come to mind.
