@@ -215,5 +215,5 @@ learn more, you get to build a workflow that's tailored to your needs,
 and you get to have some fun in the process. That makes you feel like
 a real hacker, doesn't it? ;-)
 
-[^1]: https://mreinhold.org/blog/forward-faster
-[^2]: http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/
+[^1]: <https://mreinhold.org/blog/forward-faster>
+[^2]: <http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/>
