@@ -132,7 +132,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
 
 Notice the version scheme change after Java 8 - up to it JDK versions
 were internally 1.x, but since JDK 9 they became 9, 10, and so on. In
-practical terms this means you can pass `-v 8` to `java_home` - you
+practical terms this means you can't pass `-v 8` to `java_home` - you
 have to pass `-v 1.8` instead.
 
 Armed with this knowledge, you can devise some helpful shell script
