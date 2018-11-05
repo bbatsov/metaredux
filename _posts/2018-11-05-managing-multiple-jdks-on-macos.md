@@ -59,7 +59,7 @@ is trivial:
 
 ``` shell
 $ tar xf tar xf openjdk-11.0.1_osx-x64_bin.tar.gz
-$ sudo mv mv jdk-11.0.1.jdk /Library/Java/JavaVirtualMachines
+$ sudo mv jdk-11.0.1.jdk /Library/Java/JavaVirtualMachines
 ```
 
 You just extract it and move it where macOS expects JDKs to be
