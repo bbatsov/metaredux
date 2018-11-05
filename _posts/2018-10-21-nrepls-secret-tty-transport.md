@@ -85,6 +85,6 @@ flexible transports idea is
 support to nREPL.
 
 [^1]: I plan to write a lot more down the road about the process of migrating nREPL out of Clojure Contrib and creating its new site/manual.
-[^2]: nREPL calls this communication abstraction [transport](https://nrepl.xyz/nrepl/0.4.5/design/transports.html).
+[^2]: nREPL calls this communication abstraction [transport](https://nrepl.xyz/nrepl/design/transports.html).
 [^3]: The bencode transport is much more powerful and pretty-much all nREPL-powered tools use it for a good reason.
 [^4]: Especially if we implement a built-in EDN transport as well.

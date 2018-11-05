@@ -301,7 +301,7 @@ On top of this - nREPL is also mature, stable, battle tested and with
 an incredibly flexible design.  I think that 90% of the people who
 complain about nREPL's limitations simply don't understand how easy it
 is to do with it anything you can possible wish for. The
-[transports](https://nrepl.xyz/nrepl/0.4.5/design/transports.html)
+[transports](https://nrepl.xyz/nrepl/design/transports.html)
 abstraction, in particular, is mind-blowing.
 
 ## The Small Victories
