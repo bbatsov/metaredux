@@ -136,19 +136,19 @@ were internally 1.x, but since JDK 9 they became 9, 10, and so on. In
 practical terms this means you can't pass `-v 8` to `java_home` - you
 have to pass `-v 1.8` instead.
 
-Armed with this knowledge, you can devise some helpful shell script
+Armed with this knowledge, you can devise some helpful shell function
 like this:
 
 ``` shell
-#!/bin/bash
-
-echo "Switching to Java $1"
-export JAVA_HOME=$(/usr/libexec/java_home -v $1)
-java -version
+switch_java() {
+    echo "Switching to Java $1"
+    export JAVA_HOME=`/usr/libexec/java_home -v $1`
+    java -version
+}
 ```
 
-Save this as `switch_java`, make it executable, drop it somewhere on
-your `PATH` (e.g. `~/home/bin`), and use it like this:
+Add this to your shell config (e.g. `.bashrc`), reload the config
+(e.g. by using `. .bashrc`), and use it like this:
 
 ``` shell
 $ switch_java 1.8
@@ -163,43 +163,9 @@ OpenJDK Runtime Environment 18.9 (build 11.0.1+13)
 OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 ```
 
-I'll leave it as an exercise for the readers to extend this script to
+I'll leave it as an exercise for the readers to extend this function to
 show you all available JDKs and some indication which one is the
 currently active. Such modification will be fairly straightforward.
-
-If you're not into shell scripts you can simply put something like
-this in your shell config (e.g. `.bashrc`):
-
-``` shell
-export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
-export JAVA_9_HOME=$(/usr/libexec/java_home -v9)
-export JAVA_10_HOME=$(/usr/libexec/java_home -v10)
-export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
-
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-alias java9='export JAVA_HOME=$JAVA_9_HOME'
-alias java10='export JAVA_HOME=$JAVA_10_HOME'
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
-```
-
-Afterwards you can simply switch between JDKs like this:
-
-``` shell
-$ java8
-$ java --version
-java version "1.8.0_131"
-Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-$ java11
-$ java -version
-openjdk version "11.0.1" 2018-10-16
-OpenJDK Runtime Environment 18.9 (build 11.0.1+13)
-OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
-```
-
-The slight disadvantage of this approach is that you'll have to
-manually add a new alias every 6 months, but I guess that's not really
-a big deal.
 
 ## Epilogue
 
