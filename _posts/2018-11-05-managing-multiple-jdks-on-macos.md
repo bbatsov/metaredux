@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Managing Multiple JDKs on macOS
+categories: posts
 tags:
 - Clojure
 - Java
