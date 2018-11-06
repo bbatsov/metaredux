@@ -21,6 +21,14 @@ JDKs and I thought I might share some of my findings with you.
 My workflow is macOS-specific, but I think that users of other Unix-like
 operating system can easily adapt it to their environment.
 
+Another thing to note about my workflow is that it's very lightweight
+and doesn't depend on the usage of any third-party tools. You won't
+find here anything about using [SDKMAN!](https://sdkman.io) and
+[jEnv](http://www.jenv.be). You can think of this post as something in
+the spirit of the awesome talk [Programming with Hand
+Tools](https://www.youtube.com/watch?v=ShEez0JkOFw) - sometimes
+the journey is way more important than the destination itself.
+
 <!--more-->
 
 ## Installation
@@ -172,9 +180,7 @@ currently active. Such modification will be fairly straightforward.
 That's all, folks! Hopefully you enjoyed this post and learned
 something useful from it!
 
-I know there are some special tools to manage multiple JDKs[^3], but it
-seems to me that given how simple the manual process is, we don't
-really need those. In the modern age software engineers reach for
+In the modern age software engineers reach for
 third-party solutions for trivial things and I find this a bit
 troubling. That's really the entire point of this post - rolling up
 your sleeves and getting dirty can be fun and rewarding. You get to
@@ -182,6 +188,7 @@ learn more, you get to build a workflow that's tailored to your needs,
 and you get to have some fun in the process. That makes you feel like
 a real hacker, doesn't it? ;-)
 
+Journey before destination...
+
 [^1]: <https://mreinhold.org/blog/forward-faster>
 [^2]: <http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/>
-[^3]: [SDKMAN!](https://sdkman.io) and [jEnv](http://www.jenv.be) immediately come to mind.
