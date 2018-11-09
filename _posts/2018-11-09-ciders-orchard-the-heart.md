@@ -300,6 +300,10 @@ My "nREPL Redux" post managed to get some people excited about nREPL and the pro
 received a record number of contributions afterwards.[^4] I can only hope that
 we can replicate this effect on a larger scale!
 
+Here and there in the post I've referenced some high-impact tasks that
+you might want to tackle, but I'd welcome each and every contribution,
+no matter how small it is.
+
 [^4]: Including a great [new logo](https://github.com/nrepl/nrepl/pull/71).
 
 ## Epilogue
