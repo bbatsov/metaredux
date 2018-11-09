@@ -294,7 +294,7 @@ CIDER-related tooling in the early days, only me, Vitalie and Alex are still
 very actively involved with the projects.
 
 We really need our new Jeff Valk, Artur Malabarba, Michael Griffiths, Hugo Dundan...
-If we're looking for looking for new open-source gigs - we're certainly "hiring".
+If we're looking for new open-source gigs - we're certainly "hiring".
 
 My "nREPL Redux" post managed to get some people excited about nREPL and the project
 received a record number of contributions afterwards.[^4] I can only hope that
