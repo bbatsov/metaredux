@@ -279,7 +279,7 @@ of Java deps).
 #### Project Status
 
 `MrAnderson` has been serving us well for years, but it definitely has room for improvement
-and I know that it's author could use some help getting `MrAnderson` to the next level.
+and I know that its author could use some help getting `MrAnderson` to the next level.
 
 In particular, I'd love it if someone fixed [this
 bug](https://github.com/benedekfazekas/mranderson/issues/7).
