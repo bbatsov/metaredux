@@ -301,7 +301,7 @@ On top of this - nREPL is also mature, stable, battle tested and with
 an incredibly flexible design.  I think that 90% of the people who
 complain about nREPL's limitations simply don't understand how easy it
 is to do with it anything you can possible wish for. The
-[transports](https://nrepl.xyz/nrepl/design/transports.html)
+[transports](https://nrepl.org/nrepl/design/transports.html)
 abstraction, in particular, is mind-blowing.
 
 ## The Small Victories
@@ -380,10 +380,10 @@ That's from me, folks! Keep hacking!
 [^1]: Probably by now you've realized I'm a huge Batman and Star Wars fan.
 [^2]: Naming is hard!
 [^3]: To my knowledge this had never happened in the past.
-[^4]: That's big! Take a look [here](https://nrepl.xyz/nrepl/0.4.5/usage/misc.html#_hot_loading_dependencies) for details.
+[^4]: That's big! Take a look [here](https://nrepl.org/nrepl/usage/misc.html#_hot_loading_dependencies) for details.
 
 [CIDER]: https://www.cider.mx
-[nREPL]: https://nrepl.xyz
+[nREPL]: https://nrepl.org
 [SLIME]: https://common-lisp.net/project/slime/
 [Piggieback]: https://github.com/nrepl/piggieback
 [Drawbridge]: https://github.com/nrepl/drawbridge

@@ -11,7 +11,7 @@ tags:
 Ever since I took over the development of
 [nREPL](https://github.com/nrepl/nrepl) a few months ago, I've been
 spending a lot of time learning about its inner workings and
-[documenting them meticulously](https://nrepl.xyz).[^1] I've learned a
+[documenting them meticulously](https://nrepl.org).[^1] I've learned a
 ton so far, and I'd like to share some of my findings.  I hope this post
 is going to be the first of a series of posts on nREPL internals, but I
 won't make any promises. So, let's get to the point!
@@ -85,6 +85,6 @@ flexible transports idea is
 support to nREPL.
 
 [^1]: I plan to write a lot more down the road about the process of migrating nREPL out of Clojure Contrib and creating its new site/manual.
-[^2]: nREPL calls this communication abstraction [transport](https://nrepl.xyz/nrepl/design/transports.html).
+[^2]: nREPL calls this communication abstraction [transport](https://nrepl.org/nrepl/design/transports.html).
 [^3]: The bencode transport is much more powerful and pretty-much all nREPL-powered tools use it for a good reason.
 [^4]: Especially if we implement a built-in EDN transport as well.

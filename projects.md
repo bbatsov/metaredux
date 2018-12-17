@@ -41,7 +41,7 @@ And the primary maintainer or a co-maintainer of a ton of commonly
 used tools and libraries focused at creating powerful Clojure editing
 experience:
 
-* [nREPL](https://nrepl.xyz)
+* [nREPL](https://nrepl.org)
 * [Piggieback](https://github.com/nrepl/piggieback)
 * [Drawbridge](https://github.com/nrepl/nrepl/drawbridge)
 * [cljs-tooling](https://github.com/clojure-emacs/cljs-tooling)

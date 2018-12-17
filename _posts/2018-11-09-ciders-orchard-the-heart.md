@@ -320,7 +320,7 @@ the outskirts of CIDER's Orchard and examine the many projects that
 dwell there.
 
 [CIDER]: https://github.com/clojure-emacs/cider
-[nREPL]: https://nrepl.xyz
+[nREPL]: https://nrepl.org
 [MrAnderson]: https://github.com/benedekfazekas/mranderson
 [Piggieback]: https://github.com/nrepl/piggieback
 [SLIME]: https://github.com/slime/slime
