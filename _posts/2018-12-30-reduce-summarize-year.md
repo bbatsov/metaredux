@@ -4,6 +4,11 @@ title: "(reduce summarize year)"
 date: 2018-12-30 11:54 +0200
 ---
 
+> Year's end is neither an end nor a beginning but a going on, with
+> all the wisdom that experience can instill in us.
+>
+> -- Hal Borland
+
 Another year is almost behind us and I guess it's time for all of us
 to take some time to look back on it. For me 2018 was a pretty mixed
 year both professionally and personally.  On one hand I finally
@@ -13,6 +18,8 @@ ran into some health issues, combined with burnout, and I've started
 pondering a lot about the meaning of everything that I'm doing (and
 the meaning of life in general). Yeah, yeah - I'm one deep and
 profound individual. I know.
+
+<!--more-->
 
 I guess most of my dear
 readers care only about the things I've done on the OSS front, so I'll
@@ -32,6 +39,7 @@ I'm proudest of:
 * Coming up with a solid plan for RuboCop 1.0 and growing the team around the project
 * Releasing for the first time a 1.0 version a major project of mine (Projectile) and the subsequent improvements
 for the upcoming Projectile 2.0
+
 
 I've also realized this year that I'm at a point where I can't
 adequately work on all the projects I've started and pursue all the
@@ -128,6 +136,7 @@ the following:
 * read 20-30 fiction books
 * read 5-10 non-fiction books (mostly on management and leadership)
 * become a better human being (that's always the hardest thing to do, right?)
+
 
 I guess that's all from me for now. I sincerely hope that you had a much better year than me and you've got some really awesome plans lined up for 2019!
 
