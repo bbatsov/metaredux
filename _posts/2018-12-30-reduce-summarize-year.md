@@ -2,6 +2,9 @@
 layout: post
 title: "(reduce summarize year)"
 date: 2018-12-30 11:54 +0200
+category: posts
+tags:
+- Meta
 ---
 
 > Year's end is neither an end nor a beginning but a going on, with
