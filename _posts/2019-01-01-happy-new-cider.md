@@ -46,9 +46,10 @@ One more thing about CIDER 0.19 - it fixes [an annoying problem](https://github.
 related to the changed format of the error messages in Clojure 1.10.
 
 You can see the complete list of changes in CIDER 0.19 [here](https://github.com/clojure-emacs/cider/releases/tag/v0.19.0).
+Thanks to all the amazing contributors who worked on this release! You rock and I love you!
 
 What's next for CIDER in 2019? Short-term the focus is going to be
-more fixes and more polish, and afterwards we'll see. Now that latest
+more fixes and more polish, and afterwards we'll see. Now that the latest
 Leiningen (2.8.3) bundles the modern [nREPL](https://nrepl.org), CIDER
 is going to drop support for `tools.nrepl` and implement all the cool
 new features provided by recent nREPLs (e.g. native pretty-printing).
@@ -62,7 +63,9 @@ are looking for ideas as to how to contribute to the project.
 One thing that has been on the back of my mind recently is that we should
 also start evaluating the current set of features and customization
 settings and start removing stuff that's rarely used for the sake of
-having a more compact and easier to maintain codebase.
+having a more compact and easier to maintain codebase. Today the Emacs Lisp
+code is around 14,000 line which is not that much, but still - in programming
+_less_ is usually _more_.
 
 While on the subject of contributing to the project - a few people
 asked me at Clojure/conj and ClojureX how they can donate money to
@@ -70,10 +73,13 @@ CIDER - all the donation channels are documented
 [here](http://www.cider.mx/en/latest/about/contributing/#funding),
 with OpenCollective currently being the preferred channel. As usual
 the year begins with the dream that we're going to get enough funding
-from users and sponsors to be able to allocate more time on the project,
-pay bounties for certain features to be developed and so on. So far
-donations haven't worked out well for CIDER, but at least their annual
-amount has been gradually climbing (it reached almost $5000 this year).
+from users and sponsors to be able to allocate more time to the
+project, pay bounties for certain important features to be developed
+and so on. So far donations haven't worked out well for CIDER, but at
+least their annual amount has been gradually climbing (it reached
+almost $5000 this year).  Perhaps we should revise our strategy on
+this front, as doing the same things and expecting different results
+supposedly doesn't speak very well for one's character...
 
 Some people suggested recently that CIDER should start charging
 commercial users, as most companies would never really donate money,
@@ -84,12 +90,11 @@ what Cognitect did for REBL (adding some text to the license that
 commercial users should pay something like $5/month via
 OpenCollective), but I'll have to find some time to research this
 further. If someone has ideas/experience in this area I'd love to hear
-them!
+them! I'd also appreciate it if you shared in the comments whether you think
+that's a reasonable idea in general.
 
-You can see a full list of the changes in CIDER 0.19 [here](https://github.com/clojure-emacs/cider/blob/master/ROADMAP.md).
-Thanks to all the amazing contributors who worked on this release! You rock and I love you!
-
-That's all from me for now. Enjoy the new CIDER (ir)responsibly and have a wonderful new year full of
-parentheses, sweet REPLs, love and happiness!
+That's all from me for now. Enjoy the new CIDER (ir)responsibly and
+have a wonderful new year full of parentheses, sweet REPLs, love and
+happiness!
 
 [^1]: <https://github.com/vspinu/sesman>
