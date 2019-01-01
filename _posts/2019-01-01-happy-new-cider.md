@@ -88,4 +88,4 @@ Thanks to all the amazing contributors who worked on this release! You rock and 
 That's all from me for now. Enjoy the new CIDER (ir)responsibly and have a wonderful new year full of
 parentheses, sweet REPLs, love and happiness!
 
-[^1]: https://github.com/vspinu/sesman
+[^1]: <https://github.com/vspinu/sesman>
