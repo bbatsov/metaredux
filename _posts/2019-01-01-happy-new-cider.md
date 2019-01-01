@@ -17,15 +17,19 @@ today were shaving and taking a shower).
 
 <!--more-->
 
-Anyways, the most important thing is that CIDER 0.19 (Raleigh) is here! Its codename is
-a tribute to the wonderful time I spent in Raleigh, NC with my buddy Jin around
-Clojure/conj (Raleigh is right next to Durham, where the conference took place).
-Raleigh is not a big city and it's also not a big CIDER release - 0.19 is mostly polishing
-work for the much bigger 0.18. In particular we focused a lot on improving the new
-connection management subsystem.[^1] We've also introduced the concept of [friendly sessions](
-http://www.cider.mx/en/latest/managing_connections/#friendly-sessions), which should
-solve the commonly reported problem that moving from a project to the source of its dependencies
-would result into an error saying that there are no CIDER sessions associated with them.
+Anyways, the most important thing is that CIDER 0.19 (Raleigh) is
+here! Its codename is a tribute to the wonderful time I spent in
+Raleigh, NC with my buddy Jin around Clojure/conj (Raleigh is right
+next to Durham, where the conference took place).  Raleigh is not a
+big city and it's also not a big CIDER release - 0.19 is mostly
+polishing work for the much bigger 0.18. In particular we focused a
+lot on improving the new connection management subsystem.[^1] We've
+also introduced the concept of [friendly sessions](
+http://www.cider.mx/en/latest/managing_connections/#friendly-sessions),
+which should solve the commonly reported problem that moving from a
+project to the source of some of its dependencies, and trying to evaluate
+code there, would result in an error saying that there are no CIDER
+sessions associated with the currently visited file.
 
 All the problems that were reported around the new connection/session
 management reminded me once again how hard it is for a tool writer to
