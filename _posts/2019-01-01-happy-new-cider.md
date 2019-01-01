@@ -15,6 +15,8 @@ going for a while longer. It's also an attempt to clear some overdue items from
 my (humongous) personal todo list at the start of the new year (other overdue items I tackled
 today were shaving and taking a shower).
 
+<!--more-->
+
 Anyways, the most important thing is that CIDER 0.19 (Raleigh) is here! Its codename is
 a tribute to the wonderful time I spent in Raleigh, NC with my buddy Jin around
 Clojure/conj (Raleigh is right next to Durham, where the conference took place).
