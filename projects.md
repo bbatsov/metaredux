@@ -44,7 +44,9 @@ experience:
 * [nREPL](https://nrepl.org)
 * [Piggieback](https://github.com/nrepl/piggieback)
 * [Drawbridge](https://github.com/nrepl/nrepl/drawbridge)
+* [Fastlane](https://github.com/nrepl/nrepl/fastlane)
 * [cljs-tooling](https://github.com/clojure-emacs/cljs-tooling)
+* [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
 * [refactor-nrepl](https://github.com/clojure-emacs/refactor-nrepl)
 * [sayid](https://github.com/clojure-emacs/sayid)
@@ -60,6 +62,7 @@ me as an unreasonable (but powerful) Emacs wielding fanatic!
 * [super-save](https://github.com/bbatsov/super-save)
 * [Zenburn for Emacs](https://github.com/bbatsov/zenburn-emacs)
 * [Solarized for Emacs](https://github.com/bbatsov/solarized-emacs)
+* [guru-mode](https://github.com/bbatsov/guru-mode)
 
 ## Support Me
 
