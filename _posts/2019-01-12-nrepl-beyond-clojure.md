@@ -43,7 +43,7 @@ The validity of this assumption can be backed by the non-Clojure nREPL implement
 * [nREPL CLR](https://github.com/clojure/clr.tools.nrepl) - an nREPL server for ClojureCLR
 
 As you can see nREPL has implementations for many popular Lisp
-dialects, but it's certainly not limited to Lisp dialects.
+dialects, but it's certainly not limited to Lisp dialects.[^1]
 
 I can't speak to the maturity and the sophistication of any of those
 implementations, but the fact that they exist, without any effort to
@@ -123,7 +123,7 @@ they see fit.
 Many people wonder why nREPL uses bencode as its default data encoding - after
 all arent' everyone using XML, JSON, MessagePack, etc? Those are all
 great and extremely flexible data formats, but their flexibility
-also brings a lot of complexity.[^1]
+also brings a lot of complexity.[^2]
 
 The bencode encoding simplifies the work for nREPL client writers,
 as bencode is a **very simple** format. You can represent only four data
@@ -162,6 +162,11 @@ I've long planned to cleanly decouple it, but alas - I never got to
 this point.  On the bright side - that might be a fun weekend project
 for one of you, my dear readers!
 
+In the mean time - it's quite fortunate there's no shortage of
+[nREPL clients](https://nrepl.org/nrepl/usage/clients.html) out there!
+By the way, if you happen to know of clients that are listed on nREPL's
+site, please let me know.
+
 ## Epilogue
 
 I'd certainly love to see more nREPL implementations out there in the
@@ -177,4 +182,5 @@ you'll do so too!
 
 Keep hacking!
 
-[^1]: Especially XML.
+[^1]: You can find a up-to-date list of alternative implementations [here](https://nrepl.org/nrepl/beyond_clojure.html).
+[^2]: Especially XML.
