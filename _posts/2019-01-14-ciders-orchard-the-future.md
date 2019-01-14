@@ -204,14 +204,15 @@ worth about $100/year, I think that the work on CIDER and all the
 Orchard's libraries might be worth something as well.
 
 * If you're a company that does a lot of Clojure development, perhaps
-  you can shell out something like $100-$500/month for CIDER's
-  OpenCollective. For any software business that's a drop in the pond and
-  probably your team getting better tools will more than make up for
-  your "investment" in the future.
+  you can shell out something like $100-$500/month for [CIDER's
+  OpenCollective](https://opencollective.com/cider). For any software
+  business that's a drop in the pond and probably your team getting
+  better tools will more than make up for your "investment" in the
+  future.
 * If you're an individual working in a Clojure company and you're
   relying on tools like CIDER, nREPL, piggieback, etc - try to get
-  your employer to contribute something like $5/person/month to the
-  OpenCollective.
+  your employer to contribute something like $5/person/month to [the
+  OpenCollective](https://opencollective.com/cider).
 
 Even if your company is not supportive, but you're a Clojure
 professional, perhaps you should consider supporting the tools that
