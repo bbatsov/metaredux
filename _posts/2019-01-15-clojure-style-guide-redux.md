@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Clojure Style Guide Redux
-date: 2019-01-13 12:49 +0200
+date: 2019-01-15 19:10 +0200
 category: posts
 tags:
 - Clojure
