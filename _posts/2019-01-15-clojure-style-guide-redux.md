@@ -29,6 +29,8 @@ After the initial announcement of the guide, I never really revisited
 the topic, so it seems to me that this "birthday", is as good of an
 opportunity as any, to do so.
 
+<!--more-->
+
 ## Impact
 
 The main purpose of a style guide is always to educate (beginners) and
@@ -207,7 +209,7 @@ I hope you get the point.
 ## Looking Forward
 
 Once the goals I've mentioned above have been dealt with, I'm
-considering to submit the style guide to <<https://clojure.org>>.
+considering to submit the style guide to <https://clojure.org>.
 Hopefully Alex, Rich and Stu would consider it a valuable addition to
 the official documentation.
 
