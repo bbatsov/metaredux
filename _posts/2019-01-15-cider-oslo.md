@@ -10,7 +10,7 @@ tags:
 ---
 
 Hot on the heals of [yesterday's article]({% post_url
-2019-01-14-ciders-orchard-the-future %})) I've got a new one for you!
+2019-01-14-ciders-orchard-the-future %}) I've got a new one for you!
 This one is going to be short and sweet - just a few notes about the
 release of CIDER 0.20 (Oslo).
 
