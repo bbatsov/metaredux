@@ -287,7 +287,7 @@ just think that what works for Clojure and projects that might
 server. I think that we really should try to have as little
 functionality as possible tied directly to Clojure, so we can be more
 nimble and flexible when it comes to fixing and improving
-things. Probably if the Socket REPL was a least a Contrib project I'd
+things. Probably if the Socket REPL was at least a Contrib project I'd
 have more faith in it, but I definitely don't want to wait one year
 for changes that can be done today, and perhaps some of you share my
 perspective on this.
