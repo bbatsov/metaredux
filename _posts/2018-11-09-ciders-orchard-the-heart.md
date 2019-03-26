@@ -17,8 +17,8 @@ I'm planning 3 installments in the series, but this might change
 depending on my inspiration.
 
 * CIDER's Orchard: The Heart
-* CIDER's Orchard: The Periphery
-* CIDER's Orchard: The Future
+* [CIDER's Orchard: The Periphery]({% post_url 2018-11-11-ciders-orchard-the-periphery %})
+* [CIDER's Orchard: The Future]({% post_url 2019-01-14-ciders-orchard-the-future %})
 
 <!--more-->
 

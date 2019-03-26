@@ -18,7 +18,7 @@ depending on my inspiration.
 
 * [CIDER's Orchard: The Heart]({% post_url 2018-11-09-ciders-orchard-the-heart %})
 * CIDER's Orchard: The Periphery
-* CIDER's Orchard: The Future
+* [CIDER's Orchard: The Future]({% post_url 2019-01-14-ciders-orchard-the-future %})
 
 <!--more-->
 
