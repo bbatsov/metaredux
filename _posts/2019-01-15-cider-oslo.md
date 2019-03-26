@@ -118,5 +118,5 @@ developments next time I open my GitHub!
 
 Enjoy CIDER Oslo (ir)responsibly! Keep hacking!
 
-[^1]: https://github.com/clojure-emacs/cider/releases/tag/v0.20.0
+[^1]: <https://github.com/clojure-emacs/cider/releases/tag/v0.20.0>
 [^2]: Those are hard to spot and result in out of memory errors in nREPL.
