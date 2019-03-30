@@ -380,8 +380,9 @@ stems from the fact it gives you many options for everything and relies
 on you to pick whatever makes you happy. Maybe that's how Matz understands
 "optimizing for happiness".
 
-There's another thing that bothers me when it comes to unifying formatting - often
-several styles work just fine and there's not real reason to push only one. Here's a favourite example of mine:
+There's another thing that bothers me when it comes to unifying
+formatting - often several styles work just fine and there's no real
+reason to push for only one. Here's a favourite example of mine:
 
 ``` ruby
 def send_mail(source)
@@ -401,11 +402,18 @@ def send_mail(source)
 end
 ```
 
-I use those style interchangeable depending on my mood and some nuances of the code I'm writing.
-I could obviously stick to only one style, but I don't see much in doing so. That's why many RuboCop checks
-are a bit lax in what exactly they are enforcing.
+I use those style interchangeable depending on my mood and some
+nuances of the code I'm writing.  I could obviously stick to only one
+style, but I don't see much (any) value in doing so. That's why many
+RuboCop checks are a bit lax in what exactly they are enforcing.
+
+In general I've been thinking that probably we should allow RuboCop
+linters to allow simultaneously several styles down the road, and
+simply to favour one of them when doing auto-corrections.
 
 ## Epilogue
+
+Wow! I wrote an entire novel on a topic I consider to be pretty trivial!
 
 So, what's the take away from all of this? For me the most important
 thing is that when it comes to formatting, the Ruby programmers today
