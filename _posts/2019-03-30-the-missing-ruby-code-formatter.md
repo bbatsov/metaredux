@@ -250,7 +250,7 @@ The other downsides compared to ripper are the speed (although the
 difference is not major) and the fact that `parser` is a third-party
 dependency that you need to add to your projects.
 
-To conclude this section I'd like to appeal to allow formatter tool maintainers to check out `parser` and consider
+To conclude this section I'd like to appeal to fellow formatter tool maintainers to check out `parser` and consider
 giving it a shot. Initially I was very skeptical about it, but today I'm a true believer!
 
 ## General Approach
