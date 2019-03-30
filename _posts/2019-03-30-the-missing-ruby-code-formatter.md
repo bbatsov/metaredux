@@ -445,12 +445,18 @@ point. Time will tell.
 This article is not so much about the formatting tools themselves, but
 more about the idea of the viability of unified formatting style and
 the dangers of reinventing the wheel. It's also about sharing some
-lessons about working with `ripper` that I learned the hard way. I was
-prompted to write this post when I saw the announcement of `rubyfmt`
-recently and I remembered I had already seen 3 similar tools
-already... We can compete, or we can work together towards the common
+lessons about working with `ripper` and building static code analysis
+tools that I learned the hard way.
+
+What prompted me to write this article was the recent announcement of
+`rubyfmt`. I recall that the first thought that came to my mind was
+"Another one?".  How many Ruby code formatters to we need before it's
+enough? When will agree to mark the code formatting as a solved problem?
+
+We can compete, or we can work together towards the common
 goal.  In my experience collaboration yields better results than
 competition (at least with respect to open-source software projects).
+On this positive note I'll wrap it up.
 
 Keep hacking, everyone! May your Ruby code be always perfectly formatted and may RuboCop
 be merciful towards your CI builds!
@@ -458,3 +464,4 @@ be merciful towards your CI builds!
 [^1]: One has to appreciate the irony - after all this formatter tools should spare from having to make certain decisions.
 [^2]: I know, I know - naming is hard!
 [^3]: Pun intended.
+[^4]: Emacs!
