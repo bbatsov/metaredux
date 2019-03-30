@@ -308,16 +308,29 @@ In this regard certainly RuboCop is way behind the competition,
 although implementhing this should not be very complex. We have to decide
 first, however, how far do we want to go in the layout department.[^3]
 
-## Editor Feedback
+## Editor Integration
 
 Ultimately most of the time we don't interact with formatters
 directly - we do some from our favourite editor[^4] or IDE. Designing
 a code formatter with ease of editor integration is essential.
 
-For me it's important for a formatter to be able to provide some
-useful information for my editor, so that I can see some helpful
-messages about problems that exists in my code, without having to
-leave it.  I'll refer to this as "editor feedback". It's basically
+Once aspect of using external code formatters that can be really
+annoying is when your editor wouldn't indent the code the same way the
+external tool would.  Sure, you can train yourself to never expect
+anything meaningful for a command like "Indent Line", but that would
+suck, wouldn't it? It would be really nice if code formatters provided
+some API for editors, so that they could use the information from the
+formatter to do things like indenting lines, regions of lines and
+entire files.  Right now most formatters integrate themselves simply
+via "on save" hooks, but we can do so much more. Of course, that would
+require some help from the editors as well. I don't think any of the existing
+Ruby formatters integrate particularly well with editor indentation engines,
+but that's a global problem of external formatters.
+
+Another useful form of integration is for the formatter to be able to
+provide some useful information for the editor, so that you could see some
+helpful messages about problems that exists in your code, without having
+to leave it.  I'll refer to this as "editor feedback". It's basically
 RuboCop's console output embedded in your editor (location of the
 problematic code, description of the problem, etc).
 
