@@ -9,11 +9,11 @@ tags:
 - CIDER
 ---
 
-> Start spreadin' the news, I'm releasin' today
-> I want to be a part of it
-> New York, New York
-> These vagabond forms, are longing to eval
-> Right through the very REPL of it
+> Start spreadin' the news, I'm releasin' today <br/>
+> I want to be a part of it <br/>
+> New York, New York <br/>
+> These vagabond forms, are longing to eval <br/>
+> Right through the very REPL of it <br/>
 > New York, New York...
 
 Following the long overdue overview of [nREPL 0.6]({% post_url
@@ -192,8 +192,8 @@ participate in the issue grooming process!
 
 ## Epilogue
 
-> If I can eval it there
-> I'm gonna eval it anywhere
+> If I can eval it there <br/>
+> I'm gonna eval it anywhere <br/>
 > It's up to you, New York, New York
 
 It feels awesome to see that in the time I was away CIDER made such a
