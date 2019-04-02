@@ -122,7 +122,8 @@ There are several things about this syntax I dislike:
 * It hides the number of parameters yielded to the block.
 * It promotes the use of cryptic names.
 
-Sure, in simple cases it's OK:
+
+Sure, in simple cases the new syntax looks OK:
 
 ``` ruby
 names.map { @1.upcase }
