@@ -207,7 +207,7 @@ sake of arguing. I understand that this syntax has some limited
 application here and there, and I understand that there might be
 people who even find it appealing and highly desirable. But I'm also
 certain that this feature can be implemented better than it currently
-is.
+is.[^4]
 
 In my opinion half-baked micro-optimizations add nothing, but
 complexity in the long run, and should be avoided. I'm really worried
@@ -259,3 +259,4 @@ Where do you think Ruby really needs to evolve in terms of syntax?
 [^1]: Which are singleton instances of `TrueClass`, `FalseClass` and `NilClass` respectively.
 [^2]: The flip-flop operator (`..`) has been dying a slow death for many years now. Backwards compatibility makes most syntax constructs practically eternal.
 [^3]: On the bright side - we get a new favourite bike-shedding topic.
+[^4]: I believe that a special global variable would probably be a better solution. At least it's more in line with what Ruby has been doing in the past (e.g. regex matches and `$1`, `$2`, etc).
