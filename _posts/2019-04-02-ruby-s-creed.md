@@ -77,9 +77,27 @@ much. Still, I was disappointed when the safe navigation operator as
 introduced, as it basically acknowledged that it's fine to return
 `nil`.
 
-The tipping point for me, however, was just a couple of weeks ago when
-it was announced that Ruby 2.7 would feature the following syntax for
-named block parameters:
+For the sake of completeness, here are some changes that I really enjoyed:
+
+* Lambda literals (a.k.a. stabby lambdas)
+* The ability to use symbols as procs
+* Keyword parameters
+* Squiggly heredocs (`>>~`)
+* Frozen string literals pragma
+* Making UTF-8 the default source code encoding
+* Unifying `Integer` and `Fixnum`
+
+What all of them have in common what they solve actual problems in an
+unobtrusive way. I know that this is all very subjective, of course, but
+somehow I felt that all them fit very well in the rest of Ruby.
+Judging by the feedback all of them received and the wide adoption they got,
+I assume many people enjoyed them as well. Then again - Ruby 1.9 hashes are
+widely adopted as well. :-) I hope you get my point.
+Now back to the my frustrations.
+
+The tipping point for me, however,
+was just a couple of weeks ago when it was announced that Ruby 2.7
+would feature the following syntax for named block parameters:
 
 ``` ruby
 # now
