@@ -174,9 +174,9 @@ I'm still ruminating on the roadmap for the next CIDER release. Most
 likely it will be fairly small and won't feature more than 2-3
 new features. Some shortlisted candidates are:
 
-* Extend the functionality available without `cider-nrepl` (see []())
+* Extend the functionality available without `cider-nrepl` (see [here](https://github.com/clojure-emacs/cider/issues/2611))
 * Ability to hot-load a dependency straight from CIDER (replacement for a functionality that used to live in refactor-nrepl, but got broken with Java 9)
-* Merge orchard and cljs-tooling together (see )
+* Merge orchard and cljs-tooling together (see [here](https://github.com/clojure-emacs/orchard/pull/37))
 
 In general I still believe that the biggest short-term gains are going
 to come from further improvements of nREPL itself, so I'll likely keep my focus there
