@@ -25,6 +25,8 @@ consider their impact, however, you'll see it packs quite the punch!
 In fact it's probably one of the most significant releases CIDER has
 had in the past couple of years.
 
+<!--more-->
+
 ## Printing Improvements
 
 You probably never saw this coming, but CIDER is now the first nREPL

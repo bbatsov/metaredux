@@ -33,6 +33,8 @@ happiness via Ruby code I'd probably do it like this:
 end
 ```
 
+<!--more-->
+
 Having numbers that are just regular objects, instead of some special
 primitive type is very powerful. Having code structure that's
 somewhat intuitive even to non-programmers is very powerful.
