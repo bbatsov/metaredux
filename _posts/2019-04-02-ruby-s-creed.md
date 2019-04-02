@@ -22,7 +22,7 @@ Ruby, however, is very different.  It's world famous for its unique
 creed - "optimizing for programming happiness".  But what does this
 really mean? How does one optimize for happiness?
 
-Unfortunately I've never heart Matz speak about this, so I'll offer
+Unfortunately I've never heard Matz speak about this, so I'll offer
 you my perspective instead - happiness is simplicity, readability,
 consistency, expressiveness and flexibility.  If I have to describe
 happiness via Ruby code I'd probably do it like this:
@@ -84,7 +84,7 @@ For the sake of completeness, here are some changes that I really enjoyed:
 * Lambda literals (a.k.a. stabby lambdas)
 * The ability to use symbols as procs
 * Keyword parameters
-* Squiggly heredocs (`>>~`)
+* Squiggly heredocs (`<<~`)
 * Frozen string literals pragma
 * Making UTF-8 the default source code encoding
 * Unifying `Integer` and `Fixnum`
