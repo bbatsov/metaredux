@@ -137,7 +137,7 @@ support it as well.
 There are several things about this syntax I dislike:
 
 * As the new named variables look like instance variables this adds a bit of
-  cognitive overload (and might break the syntax-highlighting in certain
+  cognitive overhead (and might break the syntax-highlighting in certain
   editors, which had a special coloring for instance vars, based on their `@` prefix).
 * It hides the number of parameters yielded to the block.
 * It promotes the use of cryptic names.
