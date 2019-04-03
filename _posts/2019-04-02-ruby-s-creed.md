@@ -262,3 +262,70 @@ Where do you think Ruby really needs to evolve in terms of syntax?
 [^2]: The flip-flop operator (`..`) has been dying a slow death for many years now. Backwards compatibility makes most syntax constructs practically eternal.
 [^3]: On the bright side - we get a new favourite bike-shedding topic.
 [^4]: I believe that a special global variable would probably be a better solution. At least it's more in line with what Ruby has been doing in the past (e.g. regex matches and `$1`, `$2`, etc).
+
+**Update (2019-04-03):** I guess the timing of my article was pretty
+good, as today another controversial feature landed in Ruby -
+[beginless
+ranges](https://github.com/ruby/ruby/commit/95f7992b89efd35de6b28ac095c4d3477019c583)
+(`..10`). According to their description A beginless range "they might not be as useful
+  as an endless range, but would be good for DSL purpose". There's also a bit of example code to go with this:
+
+``` ruby
+ary[..3]  # identical to ary[0..3]
+where(sales: ..100)
+```
+
+The second example looks pretty weird to me (I can easily imagine a
+clearer DSL like `where { sales < 100 }`), but the array usage seems
+reasonable. Given the presence of endless ranges already, I don't
+think this is a bad addition per se, but it's definitely one with very
+limited potential usefulness.
+
+I've noticed today that the post has stirred quite the conversation on
+[HackerNews](https://news.ycombinator.com/item?id=19560479#19564613).
+I didn't have the time to go over all comments, but I've noticed that
+relatively few people are discussing Ruby's philosophy and its
+overarching language design, and way more people are just arguing
+about syntax or saying I'm just another raging lunatic, who's venting
+out. While I find this to be a bit disappointing, I don't find it
+surprising at all.
+
+By the way, surprisingly a lot of people are arguing about the `&.`
+operator in the comments, so it probably makes sense to make my
+position on it a bit clearer. Long story short - it's useful, but it's
+also dangerous in non-obvious ways. I dislike it mostly because it can
+really obscure the intent of some code and it really begs you to
+violate the [Law of
+Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter). People would
+normally say that `&.` solves real problems and give you a simple
+example like:
+
+``` ruby
+user&.adress&.street
+```
+
+Law of Demeter aside, it makes sense. Consider, however, a few more subtle examples:
+
+``` ruby
+# A quick recipe for leaking nil returns
+def foo
+  bar.baz&.bax
+end
+
+# Can any one of those methods return nil or just the first one? Go figure!
+foo&.bar&.baz.&.bax
+
+# Does any of those methods return nil or someone just decided to play it safe
+# and introduced a potential nil return value that we now have to handle?
+foo&.bar&.baz.&.bax
+
+# How did we allow file to potentially be nil to begin with?
+file&.close
+```
+
+Unfortunately most people would happily cut some corners today than
+think about the long term maintenance and evolution of the code they
+are working on.  Here's a [nice
+post](https://www.theguild.nl/5-reasons-not-to-use-safe-navigation-operators/)
+on the subject that resonates strongly with how I feel about the safe
+navigation operator.
