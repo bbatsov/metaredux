@@ -267,7 +267,7 @@ Where do you think Ruby really needs to evolve in terms of syntax?
 good, as today another controversial feature landed in Ruby -
 [beginless
 ranges](https://github.com/ruby/ruby/commit/95f7992b89efd35de6b28ac095c4d3477019c583)
-(`..10`). According to their description A beginless range "they might not be as useful
+(`..10`).[^5] According to their description A beginless range "they might not be as useful
   as an endless range, but would be good for DSL purpose". There's also a bit of example code to go with this:
 
 ``` ruby
@@ -279,7 +279,8 @@ The second example looks pretty weird to me (I can easily imagine a
 clearer DSL like `where { sales < 100 }`), but the array usage seems
 reasonable. Given the presence of endless ranges already, I don't
 think this is a bad addition per se, but it's definitely one with very
-limited potential usefulness.
+limited potential usefulness. I'll leave it for you to decide if beginless
+ranges fit Ruby's creed.
 
 I've noticed today that the post has stirred quite the conversation on
 [HackerNews](https://news.ycombinator.com/item?id=19560479#19564613).
@@ -329,3 +330,5 @@ are working on.  Here's a [nice
 post](https://www.theguild.nl/5-reasons-not-to-use-safe-navigation-operators/)
 on the subject that resonates strongly with how I feel about the safe
 navigation operator.
+
+[^5]: Naming is hard!
