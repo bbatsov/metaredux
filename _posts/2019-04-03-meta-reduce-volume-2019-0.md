@@ -103,6 +103,17 @@ Circle! I really wish I carried out this migration earlier. Special
 thanks to [Shen Tian](https://github.com/shen-tian), who did a ton of
 work on this and the EDN transport!
 
+Earlier this week I published to MELPA
+[parseedn](https://github.com/clojure-emacs/parseedn) - an EDN parser
+for Emacs. I hope that I'll be able to leverage it in CIDER pretty
+soon. I'll also use this opportunity to remind you we also have
+[parseclj](https://github.com/clojure-emacs/parseclj). It can
+potentially unlock some smarter refactoring and static analysis that's
+baked straight into `clojure-mode`/CIDER. Arne Brasseur created both
+projects a while ago, but I haven't had much time to play with them
+yet. I hope that's going to change this year.  Feel free to play with
+them as well!
+
 I was reminded recently of the excellent
 [emidje](https://github.com/nubank/emidje) plugin for CIDER. It
 basically provides you with the same functionality you'd get in CIDER,
