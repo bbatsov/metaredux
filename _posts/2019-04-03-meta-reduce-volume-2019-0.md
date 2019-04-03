@@ -87,7 +87,7 @@ nREPL and CIDER both had major releases recently and I wrote a couple
 of articles on the subject:
 
 * [nREPL 0.6]({% post_url 2019-03-29-nrepl-0-6 %})
-* [New York, New York]({% post_url 2019-04-01-new-york-new-york.md %})
+* [New York, New York]({% post_url 2019-04-01-new-york-new-york %})
 
 nREPL landed a very important feature
 just a couple of days ago - the addition of a much-anticipated [EDN
