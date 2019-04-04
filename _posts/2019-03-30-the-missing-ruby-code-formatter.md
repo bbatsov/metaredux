@@ -488,11 +488,11 @@ web development). If you already use Prettier, I think going in this direction m
 And in the end we have RuboCop - the only tools in the bunch that's not a dedicated formatter.
 I think its main strength is that you're probably using it already, so if you're happy with what it does,
 you save yourself the trouble of dealing with an extra tool. On the other hand, currently it won't
-do as much as the other formatters would do, and it wouldn't do it as fast.
+do as much as the other formatters would do, and it won't do it as fast.
 RuboCop's deep editor integration is definitely a big point in its favour, as is the fact that it's
 a project with a pretty big community around and is likely to be maintained in the years to come.
 RuboCop offers a massive degree of configuration with respect to layout, which can be both a
-feature and a problem, depending on your respective. It's also the only tools which can give
+feature and a problem, depending on your respective. It's also the only tool which can give
 you reasonable feedback about problems with your layout without fixing them. I didn't mention this earlier, but if you
 want to limit RuboCop to formatting duties only you should take note of those two commands:
 
