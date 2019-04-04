@@ -283,7 +283,7 @@ limited potential usefulness. I'll leave it for you to decide if beginless
 ranges fit Ruby's creed.
 
 I've noticed today that the post has stirred quite the conversation on
-[HackerNews](https://news.ycombinator.com/item?id=19560479#19564613).
+[HackerNews](https://news.ycombinator.com/item?id=19560479).
 I didn't have the time to go over all comments, but I've noticed that
 relatively few people are discussing Ruby's philosophy and its
 overarching language design, and way more people are just arguing
