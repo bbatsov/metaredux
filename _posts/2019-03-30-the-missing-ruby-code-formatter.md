@@ -177,6 +177,13 @@ something meaningful with your code. More about this in the next section.
 RuboCop's design certainly lends itself very to providing good editor feedback and
 in my opinion it's a clear winner when it comes to this.
 
+To be completely fair, however, RuboCop is way slower than its
+competitors if used to reformat files on save (my theory is that it's
+startup time is the problem).  I hope we'll figure out a way to
+address this in the future, but in the mean time
+[rubocop-daemon](https://github.com/fohte/rubocop-daemon) is a very
+good solution to this problem.
+
 ## Interlude - One Code Style to Rule Them All
 
 At this point I'd like to tackle the general premise of having one true
