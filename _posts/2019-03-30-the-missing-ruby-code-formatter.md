@@ -123,9 +123,14 @@ structures at run time), but it's definitely very cool to be able to
 reformat some ugly one-line hash or array literal in your code (or
 some method signature for that matter).
 
-In this regard certainly RuboCop is way behind the competition,
+When it comes to pretty-printing certainly RuboCop is way behind the competition,
 although implementhing this should not be very complex. We have to decide
 first, however, how far do we want to go in the layout department.[^3]
+
+**Update (2019-04-04):** RuboCop 0.67 gained a limited form of
+pretty-printing for arrays, hashes and method arguments. See [this
+pull request](https://github.com/rubocop-hq/rubocop/pull/6824) for
+details. Keep in mind that the relevant cops are **disabled** by default.
 
 ## Editor Integration
 
