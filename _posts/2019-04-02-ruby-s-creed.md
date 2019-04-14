@@ -171,7 +171,7 @@ one of the typical usecases for the numbered parameters:
 ``` ruby
 [2, 4, 8, 16, 32].map { |n| Math.log2(n) }
 
-[2, 4, 8, 16, 32].map { Math.log2($1) }
+[2, 4, 8, 16, 32].map { Math.log2(@1) }
 
 [2, 4, 8, 16, 32].map(&Math.:log2)
 ```
