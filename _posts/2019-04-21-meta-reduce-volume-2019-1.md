@@ -47,6 +47,20 @@ By the way, Josh Glover recently wrote a [nice
 summary](https://medium.com/@jmglov/thoughts-on-dutch-clojure-days-2019-56f70d12cefc)
 of the conference.
 
+### nREPL
+
+There's not much to report here. The most important thing that
+happened was the decision to [make op names strings
+internally](https://github.com/nrepl/nrepl/pull/139). This simplified
+the implementation of the new EDN transport and make the code simpler
+overall.
+
+I've also [updated the nREPL
+section](https://github.com/lambdaisland/lambdaisland-guides/pull/12/files)
+in Lambda Island's [guide to Clojure
+REPLs](https://lambdaisland.com/guides/clojure-repls) to reflect the
+recent nREPL changes.
+
 ### Orchard
 
 On Orchard's front the big news is that we're very close to getting
@@ -135,6 +149,11 @@ I was also quite pleased to see what [Flexport are
 doing](https://flexport.engineering/approximating-prettier-for-ruby-with-rubocop-8b863bd64dc6)
 to push this even further!  I'm really grateful to see them making
 their work open-source and contributing it upstream!
+
+## Haskell
+
+I continue slowly with my Haskell explorations and I'm having quite a bit of fun overall.
+Nothing interesting to report, though.
 
 ## Joe
 
