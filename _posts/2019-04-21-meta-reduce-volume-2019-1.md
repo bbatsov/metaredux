@@ -2,6 +2,8 @@
 layout: post
 title: Meta Reduce, Volume 2019.1
 date: 2019-04-21 10:25 +0300
+categories: posts
+tags:
 - Clojure
 - nREPL
 - Orchard
