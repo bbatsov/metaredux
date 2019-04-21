@@ -174,5 +174,5 @@ today I plan to hit the movies again with "Shazam!". Fingers crossed!
 As usual, I wanted to do many other fun or healthy things, but I miserably failed.
 Better luck next time!
 
-[1]: I was hoping I'd write one each week.
-[2]: Although I've promised this to myself in the past as well.
+[^1]: I was hoping I'd write one each week.
+[^2]: Although I've promised this to myself in the past as well.
