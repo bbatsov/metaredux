@@ -16,6 +16,8 @@ Time to recap what I've been up to lately. Admittedly this post is
 a bit overdue[^1], but there has been a lot on my plate
 lately and I had little time for blogging.
 
+<!--more-->
+
 ## Clojure
 
 ### Dutch Clojure Days
