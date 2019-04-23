@@ -132,7 +132,7 @@ lack of better terminology I'll refer to all "special" libraries as
 "Core Clojure" in this article.
 
 I think Cognitect are aware of this "blurred lines" problem as
-recently they have been favouring using their company's GitHub org for
+recently they have been favouring using their company's GitHub orgs for
 non-core Clojure libraries (e.g. `transit`, REBL, etc). I also haven't
 seen any new non-Cognitect-driven projects join Contrib in a very long
 time, which is a good thing in my book.
