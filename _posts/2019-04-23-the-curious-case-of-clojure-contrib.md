@@ -36,6 +36,8 @@ you can just go and read the discussion or peruse the excellent new
 [documentation](https://clojure.org/community/contrib_libs) that
 conversation resulted in.
 
+<!--more-->
+
 ## The Nature of Contrib
 
 So what is Contrib, really? Let's see what the official documentation has to say
