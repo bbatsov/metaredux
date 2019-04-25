@@ -27,7 +27,7 @@ Here's a brief run-down of my (somewhat) popular projects.[^1]
 
 ### Clojure
 
-These days (circa 2018) Clojure free software work consumes most of my
+These days (circa 2019) Clojure free software work consumes most of my
 time and energy.
 
 I'm the author of a few projects:
