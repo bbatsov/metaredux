@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Community RSpec Style Guide: Reloaded
+title: "The RSpec Style Guide: Reloaded"
 date: 2019-04-26 17:08 +0300
 categories: posts
 tags:
