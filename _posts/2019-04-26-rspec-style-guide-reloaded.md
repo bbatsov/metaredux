@@ -25,7 +25,7 @@ HeadQuarters](https://github.com/rubocop-hq) organization, where it
 joins the ranks of the popular and widely adopted
 [Ruby](https://github.com/rubocop-hq/ruby-style-guide) and
 [Rails](https://github.com/rubocop-hq/rails-style-guide) community
-style guides. RuboCop HQ is becoming a focal point for all sort of
+style guides.[^2] RuboCop HQ is becoming a focal point for all sort of
 initiatives related to promoting and refining Ruby-related best
 programming practices and that certainly pleases me, as this was the
 single most important idea behind the creation of RuboCop HQ.
@@ -66,3 +66,5 @@ Keep hacking! And keep writing beautiful specs!
 [^1]: Frankly, I'm not quite certain about how things went down
     between Better Specs and ReachLocal's style guide. Please, forgive
     any inaccuraries in the background story.
+[^2]: Technically speaking all of this happened about a year ago, but I completely
+    forgot to do a proper announcement back then.
