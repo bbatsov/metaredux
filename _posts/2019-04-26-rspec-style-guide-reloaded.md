@@ -12,9 +12,10 @@ tags:
 I think for many years the gold standard for RSpec best practices has
 been [Better Specs](http://www.betterspecs.org/). Eventually the
 original site was abandoned and Better Specs found a [new
-home](https://lelylan.github.io/betterspecs/). Further down the line
-it was superceded by an RSpec style guide maintained by
-[ReachLocal](https://github.com/reachlocal). Unfortunately at some
+home](https://lelylan.github.io/betterspecs/) at
+[Lelylan](https://github.com/lelylan). Further down the line it was
+superceded by an RSpec style guide maintained by
+[ReachLocal](https://github.com/reachlocal).[^1] Unfortunately at some
 point the new style guide stagnated as well... I guess you sense where
 this story is going, right? Fast forward to the happy end...
 
@@ -61,3 +62,7 @@ I'm happy that I played a small part in the early days of that
 movement. I'm also super excited to see what the future holds for us!
 
 Keep hacking! And keep writing beautiful specs!
+
+[^1]: Frankly, I'm not quite certain about how things went down
+    between Better Specs and ReachLocal's style guide. Please, forgive
+    any inaccuraries in the background story.
