@@ -66,5 +66,6 @@ Keep hacking! And keep writing beautiful specs!
 [^1]: Frankly, I'm not quite certain about how things went down
     between Better Specs and ReachLocal's style guide. Please, forgive
     any inaccuraries in the background story.
+
 [^2]: Technically speaking all of this happened about a year ago, but I completely
     forgot to do a proper announcement back then.
