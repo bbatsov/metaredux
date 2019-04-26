@@ -18,7 +18,7 @@ it was superceded by an RSpec style guide maintained by
 point the new style guide stagnated as well... I guess you sense where
 this story is going, right? Fast forward to the happy end...
 
-I'm happy to report that ReachLocal were kind enough to contribute the
+I'm delighted to announce that ReachLocal were kind enough to contribute the
 RSpec style guide to the [RuboCop
 HeadQuarters](https://github.com/rubocop-hq) organization, where it
 joins the ranks of the popular and widely adopted
@@ -29,9 +29,10 @@ initiatives related to promoting and refining Ruby-related best
 programming practices and that certainly pleases me, as this was the
 single most important idea behind the creation of RuboCop HQ.
 
-Filipp Pirozkov has assumed the editor-in-chief duties for the RSpec guide
-and he updated it carefully to match the structure of the Ruby and
-Rails guides, and recent RSpec developments. The team behind
+[Filipp Pirozkov](https://github.com/pirj) has assumed the
+editor-in-chief duties for the RSpec guide and he updated it carefully
+to match the structure of the Ruby and Rails guides, and recent RSpec
+developments. The team behind
 [rubocop-rspec](https://github.com/rubocop-hq/rubocop-rspec) is also
 involved in the ongoing support of the guide. All in all - I'm
 reasonably certain that RuboCop HQ is going to be its home for many
