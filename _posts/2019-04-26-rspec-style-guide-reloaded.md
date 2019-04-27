@@ -14,7 +14,7 @@ been [Better Specs](http://www.betterspecs.org/). Eventually the
 original site was abandoned and Better Specs found a [new
 home](https://lelylan.github.io/betterspecs/) at
 [Lelylan](https://github.com/lelylan). Further down the line it was
-superceded by an RSpec style guide maintained by
+superseded by an RSpec style guide maintained by
 [ReachLocal](https://github.com/reachlocal).[^1] Unfortunately at some
 point the new style guide stagnated as well... I guess you sense where
 this story is going, right? Fast forward to the happy end...
@@ -45,7 +45,7 @@ that it's going to be a very useful resource for most RSpec
 users. We're also really eager to get feedback and suggestions for
 improvements from all of you! After all it's called a "community"
 guide for a reason - it doesn't reflect the preferences of any single
-individual, but the collective knowledge of experience of many members
+individual, but the collective knowledge and experience of many members
 of our fine community.
 
 That's all great, but for me the real point of the story is something
