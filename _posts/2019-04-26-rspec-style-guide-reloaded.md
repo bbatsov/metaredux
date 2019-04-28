@@ -69,3 +69,33 @@ Keep hacking! And keep writing beautiful specs!
 
 [^2]: Technically speaking all of this happened about a year ago, but I completely
     forgot to do a proper announcement back then.
+
+**Update (2019-04-28)** The article sparkled an [interesting
+conversation on
+Reddit](https://www.reddit.com/r/ruby/comments/bhnc1c/the_rspec_style_guide_reloaded/). Unfortunately,
+there was a lot of bitterness and negativity in some of the comments,
+so I'll take a moment to address those.
+
+Both the new RSpec style guide and
+[rubocop-rspec](https://github.com/rubocop-hq/rubocop-rspec) are
+projects that could **really** benefit from your feedback and your
+help.  There's no status quo, there's nothing set in stone, and we
+truly value collaboration and seek broad consensus.  Unfortunately
+achieving broad consensus on every topic is close to impossible, so
+people should also understand that some compromises have to be
+made. Adopting a hard stance against any efforts to standardize and
+promote good stylistic practices doesn't help anyone. You can be part
+of the problem or part of the solution - the choice is yours!
+
+I also encourage everyone to check out Filipp's comments, as they are
+quite insightful.[^3] The struggles that Better Specs experienced with
+their custom publishing pipeline are a good reinforcement of the
+decision we made to keep things as simple as possible going forward -
+and nothing is simpler than publishing the guide as a single text
+file. This approache served well the community Ruby and Rails style
+guides, and I'm pretty sure it's going to work well for the RSpec
+guide as well.  Is the end of the day I think it's much better to have
+great content than beautiful visuals, right?[^4]
+
+[^3]: Especially the one on the [history of Better Specs](https://www.reddit.com/r/ruby/comments/bhnc1c/the_rspec_style_guide_reloaded/elwm951), and how we ended up where we are today.
+[^4]: Although having them both would be ideal for sure.
