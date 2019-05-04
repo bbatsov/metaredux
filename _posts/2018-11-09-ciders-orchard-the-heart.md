@@ -251,7 +251,7 @@ pick up the slack and drive this to completion.
 
 I'd like to extend a huge "Thanks!" to Alex Yakushev for the awesome
 work he has done with `compliment` for so many years now! He certainly
-deserves more than one compliment! :wink: We need someone like him for
+deserves more than one compliment! We need someone like him for
 every project in The Orchard!
 
 ### MrAnderson

@@ -186,7 +186,7 @@ troubling. That's really the entire point of this post - rolling up
 your sleeves and getting dirty can be fun and rewarding. You get to
 learn more, you get to build a workflow that's tailored to your needs,
 and you get to have some fun in the process. That makes you feel like
-a real hacker, doesn't it? :wink:
+a real hacker, doesn't it?
 
 Journey before destination...
 
