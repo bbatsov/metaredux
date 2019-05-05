@@ -36,9 +36,6 @@ method(:!)
 
 method(:!).owner
 # => BasicObject
-
-Object.ancestors
-# => [Object, Kernel, BasicObject]
 ```
 
 `BasicObject` is at the root of Ruby's class hierarchy, which means
@@ -84,6 +81,22 @@ end
 
 Remember that writing code like this is a *bad* idea in general, but
 it's cool that the option exists.
+
+Note that `!something` and `something.!` are completely identical as
+far as Ruby is concerned. Ruby has some special provisions for unary
+and binary operator methods that allow for using them with a more
+human-friendly (math inspired) notation:
+
+``` ruby
+something.foo.!
+!something.foo
+
+5.+(5)
+5 + 5
+
+x.=(10)
+x = 10
+```
 
 That's all I had for you today! I hope it was weird enough, fun and
 not totally useless! Keep hacking!
