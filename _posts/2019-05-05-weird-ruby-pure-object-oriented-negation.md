@@ -78,7 +78,8 @@ exposes in a uniform manner functionality that's usually special in
 most programming languages. Of course, most operators in Ruby are
 actually regular methods (e.g. `+`, `-`, `==`, `!=`, etc) and this
 gives us as programmers the flexibility to redefine them for
-particular classes.
+particular classes. Now let's abuse this knowledge to make `10.!`
+compute factorial for real:
 
 ``` ruby
 # Don't do this at home!
@@ -90,7 +91,13 @@ end
 
 5.!
 # => 120
+
+!5
+# => 120
 ```
+
+Remember that writing code like this is a *bad* idea in general, but
+it's cool that the option exists.
 
 That's all I had for you today! I hope it was weird enough, fun and
 not totally useless! Keep hacking!
