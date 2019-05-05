@@ -36,7 +36,24 @@ method(:!)
 
 method(:!).owner
 # => BasicObject
+
+method(:!).receiver
+# => main
+
+method(:!).receiver.class
+# => Object
+
+Object.ancestors
+# => [Object, Kernel, BasicObject]
 ```
+
+I hope you were able to follow along, but in case you weren't:
+
+* Normally you're invoking `!` on the "magical" default `main` object,
+which is the implicit receiver of all methods invoked outside the
+scope of a class or a module (also known as Ruby's top-level).
+* This `main` object is an instance of `Object`, which happens to have
+`BasicObject` as its parent class.
 
 `BasicObject` is at the root of Ruby's class hierarchy, which means
 that methods defined in it are available in every Ruby class. Which
