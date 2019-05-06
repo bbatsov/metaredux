@@ -20,8 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Meta-x meta-redux
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://metaredux.com" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: bbatsov
 github_username:  bbatsov
+linkedin_username: bbatsov
+rss: rss
 
 disqus:
   shortname: metaredux
