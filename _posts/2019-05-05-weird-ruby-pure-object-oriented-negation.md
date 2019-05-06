@@ -83,7 +83,7 @@ Remember that writing code like this is a *bad* idea in general, but
 it's cool that the option exists.
 
 Note that `!something` and `something.!` are completely identical as
-far as Ruby is concerned. Ruby has some special provisions for unary
+far as Ruby is concerned. Ruby has some special provisions[^2] for unary
 and binary operator methods that allow for using them with a more
 human-friendly (math inspired) notation:
 
@@ -94,8 +94,11 @@ something.foo.!
 5.+(5)
 5 + 5
 
-x.=(10)
-x = 10
+x.==(10)
+x == 10
+
+x.<(5)
+x < 5
 ```
 
 That's all I had for you today! I hope it was weird enough, fun and
@@ -104,3 +107,4 @@ not totally useless! Keep hacking!
 [^1]: We should probably add a rule in the [community Ruby style
     guide](https://github.com/rubocop-hq/ruby-style-guide) to advise
     against writing such code.
+[^2]: Many people call this "syntax sugar".
