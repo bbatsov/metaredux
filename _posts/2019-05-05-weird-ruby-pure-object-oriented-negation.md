@@ -107,4 +107,5 @@ not totally useless! Keep hacking!
 [^1]: We should probably add a rule in the [community Ruby style
     guide](https://github.com/rubocop-hq/ruby-style-guide) to advise
     against writing such code.
+
 [^2]: Many people call this "syntax sugar".
