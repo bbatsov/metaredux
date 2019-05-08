@@ -74,7 +74,7 @@ a very simple implementation of "find references" that's built on top of the `fd
   [var]
   (let [all-vars (all-vars)
         all-vals (map var-get all-vars)
-        deps-map (zipmap all-vars (map fn-deps all-vals))]
+        deps-map (zipmap all-vars (map fdeps all-vals))]
     (map first (filter (fn [[k v]] (contains? v var)) deps-map))))
 ```
 
