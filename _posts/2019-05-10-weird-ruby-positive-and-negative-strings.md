@@ -51,7 +51,7 @@ foo.upcase!
 
 What's the practical application of this weird notation? I think the
 number one usage would to be to give you an unfrozen string that you
-can use as the receiver for mutating string method
+can use as the receiver for mutating string methods
 (e.g. concatenation):
 
 ``` ruby
