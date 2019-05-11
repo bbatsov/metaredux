@@ -32,8 +32,7 @@ Here we go...
 CIDER's REPL buffer is known to experience slowdowns when a lot of
 output accumulates in it.  That's not a CIDER-specific issue, but more
 like a general Emacs issue. We've tried hard to tune the REPL's
-performance in [CIDER 0.21 (New York)]({% post_url
-2019-04-01-new-york-new-your %}), but it would still grind to a halt if
+performance in [CIDER 0.21 (New York)]({% post_url 2019-04-01-new-york-new-york %}), but it would still grind to a halt if
 you dump a few megabytes of output in it.
 
 I've noticed that many CIDER users would simply restart either CIDER or Emacs when faced with this issue, but there
