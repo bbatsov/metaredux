@@ -13,7 +13,7 @@ tags:
 
 One common struggle people have with CIDER (and Emacs in general) is that there are way too many keybindings to remember, and some of them require pressing a lot of keys. While there are many ways to address those common problems in Emacs, today I'll focus on one that's really simple and CIDER specific.
 
-CIDER's REPL provides a neat trick inspired by SLIME - REPL shortcuts. They are extremely easy to use - just press `,` while at the REPL prompt and you'll get a completing read allowing you run one of the CIDER commands that are bound to REPL shortcuts. Let's now revisit [tidying up our REPL]({% post_url 2019-05-11-hard-cider-keeping-your-repl-tidy %}) in the context of REPL shortcuts you can get a better idea of how this actually works:
+CIDER's REPL provides a neat trick inspired by SLIME - REPL shortcuts. They are extremely easy to use - just press `,` while at the REPL prompt and you'll get a completing read allowing you run one of the CIDER commands that are bound to REPL shortcuts. Let's now revisit [tidying up our REPL]({% post_url 2019-05-11-hard-cider-keeping-your-repl-tidy %}) in the context of REPL shortcuts, so you can get a better idea of how this actually works:
 
 ![CIDER REPL Shortcuts](/assets/images/hard_cider_repl_shortcuts.gif)
 
