@@ -70,7 +70,7 @@ I'm especially interested in getting nREPL middleware and client authors involve
 ### Orchard
 
 Work towards the 0.5 release is progressing steadily.
-Orchard `0.5.0-beta2` has been out for a while and it seems to be working pretty well.
+Orchard `0.5.0-beta3` has been out for a while and it seems to be working pretty well.
 
 The planned ClojureScript support might land in 0.5 as well after all.
 That's going to be decided soon.
