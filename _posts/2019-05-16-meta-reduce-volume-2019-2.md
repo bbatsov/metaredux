@@ -144,11 +144,13 @@ release of Solarized for Emacs in several years.
 In other news I've developed a massive time saver when it comes to blogging with Jekyll:
 
 ``` emacs-lisp
+{% raw %}
 (defun jekyll-insert-post-url ()
   (interactive)
   (let* ((files (remove "." (mapcar #'file-name-sans-extension (directory-files "."))))
          (selected-file (completing-read "Select article: " files nil t)))
     (insert (format "{%% post_url %s %%}" selected-file))))
+{% endraw %}
 ```
 
 Linking to other articles has never been easier. Got to love Emacs!
