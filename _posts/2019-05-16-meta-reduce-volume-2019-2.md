@@ -80,6 +80,9 @@ That's going to be decided soon.
 ### Ruby Style Guide
 
 After a long period of stagnation I've started to slowly go through the issues in the backlog and tweaked the guide here and there.
+My ultimate goal is to go over all the issues and all the existing rules.
+I want to make sure that the wording and examples everywhere are clear and consistent.
+More importantly - I want to make sure that the guide is very cohesive and all its parts fit together like a glove.
 
 I also plan to convert the guide to use AsciiDoc, so we can get richer formatting options and publish it easily in more formats.
 
