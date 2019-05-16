@@ -48,6 +48,13 @@ I've started a new blog series dedicated to CIDER. Here are the articles in the 
 
 I plan to write many more, but knowing me - I'll probably fail miserably. Time will tell.
 
+Alongside it, I've created a [demo project](https://github.com/bbatsov/hard-cider) I'll be using the blog series.
+It's basically empty at this point, but I hope it's going to become an useful reference for newcomers at some point.
+
+I've been experimenting with some gif-recording tools around "Hard CIDER" and I really liked [Gifox](https://gifox.io/).
+I'm thinking I might be able to combine it somehow with [keycastr](https://github.com/keycastr/keycastr) for optimal results.
+As you can see I'd rather have short animated gifs in the posts instead of real videos, but I might reconsider this down the road.
+
 ### nREPL
 
 It has been mostly quiet on the nREPL front lately.
@@ -58,7 +65,7 @@ There are a few interesting open tickets that are worth taking a look at and cou
 * [with-safe-transport](https://github.com/nrepl/nrepl/issues/142)
 * [Deferred/dynamic middleware](https://github.com/nrepl/nrepl/issues/143)
 
-I'm especially interesting in getting nREPL middleware and client authors involved in those conversations.
+I'm especially interested in getting nREPL middleware and client authors involved in those conversations.
 
 ### Orchard
 
