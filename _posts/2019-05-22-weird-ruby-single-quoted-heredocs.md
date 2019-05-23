@@ -31,7 +31,7 @@ TEXT
 ```
 
 There's a way to suppress this behavior and make heredocs behave like
-single-quoted strings, but it's a little bit... weird:
+single-quoted strings, but it's a little bit... weird[^1]:
 
 ``` ruby
 land = 'Mordor'
@@ -66,3 +66,5 @@ That's all I have for you today! Keep hacking and keep Ruby weird!
   {% endif %}  <!-- tags if -->
 {% endfor %} <!-- posts for -->
 </ul>
+
+[^1]: Unless you're into Perl.
