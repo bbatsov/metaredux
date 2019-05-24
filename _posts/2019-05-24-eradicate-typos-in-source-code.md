@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eradicate Typos in Source Files
+title: Eradicate Typos in Source Code
 date: 2019-05-24 16:28 +0200
 category: posts
 tags:
