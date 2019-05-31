@@ -17,7 +17,7 @@ I hope that by now most CIDER users have heard of <https://docs.cider.mx>[^1]
 and I have spent some quality time there. Today I'm excited to share with you a few
 updates about CIDER's documentation site.[^2]
 
-Since the site was launched it was always powered by a combination of [MkDoc](https://www.mkdocs.org/)
+Since the site was launched it was always powered by a combination of [MkDocs](https://www.mkdocs.org/)
 and [ReadTheDocs](https://readthedocs.org/). MkDocs was used to convert the documentation from Markdown to
 HTML, and ReadTheDocs (RTD for short) was used to build and publish the documentation. This arrangement
 worked out reasonably well, but it was also frustrating for several reasons:
