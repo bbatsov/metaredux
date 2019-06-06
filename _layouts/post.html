@@ -24,6 +24,8 @@ layout: default
     {{ content }}
   </div>
 
+  {% include post_nav.html page=page %}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
