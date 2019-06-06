@@ -10,7 +10,7 @@ permalink: /tags/
     <h2>All tags</h2>
         <p>
         {% for tag in sorted_tags %}
-            <a class="post-tag" href="{{ site.baseurl }}/tags/#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+            <code class="highlighter-rouge"><a class="post-tag" href="{{ site.baseurl }}/tags/#{{ tag[0] | slugify }}">{{ tag[0] }}</a></code>
         {% endfor %}
         </p>
     <h2>Posts by tags</h2>
