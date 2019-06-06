@@ -30,7 +30,7 @@ putting this off as I don't enjoy writing such articles much.
 I finally found the inspiration that I needed after a recent
 conversation I had [on
 GitHub](https://github.com/clojure/clojure-site/issues/348) with Sean
-Cornfield, Alex Miller and Stu Halloway about Contrib's philosophy. I
+Corfield, Alex Miller and Stu Halloway about Contrib's philosophy. I
 won't reproduce here everything that we discussed there - after all
 you can just go and read the discussion or peruse the excellent new
 [documentation](https://clojure.org/community/contrib_libs) that
@@ -270,4 +270,4 @@ Keep hacking!
 
 [^1]: Usually the wrong idea.
 [^2]: Chas Emerick told me once the only reason he agreed to transfer nREPL to Clojure Contrib was a promise that it can end up as part of Clojure once it stabilizes.
-[^3]: And I'm really partial to Sean Cornfield's opinion he expressed [here](https://github.com/clojure/clojure-site/issues/348#issuecomment-461676330).
+[^3]: And I'm really partial to Sean Corfield's opinion he expressed [here](https://github.com/clojure/clojure-site/issues/348#issuecomment-461676330).
