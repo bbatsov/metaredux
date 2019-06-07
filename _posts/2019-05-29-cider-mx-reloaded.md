@@ -11,11 +11,13 @@ tags:
 - Antora
 ---
 
-## docs.cider.mx
-
 I hope that by now most CIDER users have heard of <https://docs.cider.mx>[^1]
 and I have spent some quality time there. Today I'm excited to share with you a few
-updates about CIDER's documentation site.[^2]
+updates about CIDER's documentation site![^2]
+
+<!--more-->
+
+## docs.cider.mx
 
 Since the site was launched it was always powered by a combination of [MkDocs](https://www.mkdocs.org/)
 and [ReadTheDocs](https://readthedocs.org/). MkDocs was used to convert the documentation from Markdown to

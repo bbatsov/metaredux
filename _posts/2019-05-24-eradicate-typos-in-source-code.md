@@ -17,6 +17,8 @@ typos - often we'd make typos in identifiers, some team mates won't be using
 spell checkers at all, some people would use British spellings instead of US
 spellings and so on.
 
+<!--more-->
+
 Recently I found a really nice tool called
 [misspell](https://github.com/client9/misspell) that really helps with solving
 such problems. It's written in Go and is super fast. The basic usage is fairly
