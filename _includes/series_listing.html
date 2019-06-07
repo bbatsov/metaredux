@@ -1,0 +1,11 @@
+{% if include.show_title != false %}
+  <h2>Articles in the Series</h2>
+{% endif %}
+
+<ul>
+{% for post in include.site.posts reversed %}
+  {% if post.tags contains include.series %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}  <!-- tags if -->
+{% endfor %} <!-- posts for -->
+</ul>

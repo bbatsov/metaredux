@@ -110,12 +110,4 @@ not totally useless! Keep hacking!
 
 [^2]: Many people call this "syntax sugar".
 
-## Articles in the Series
-
-<ul>
-{% for post in site.posts reversed %}
-  {% if post.tags contains 'Weird Ruby' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}  <!-- tags if -->
-{% endfor %} <!-- posts for -->
-</ul>
+{% include series_listing.html site=site series="Weird Ruby" %}

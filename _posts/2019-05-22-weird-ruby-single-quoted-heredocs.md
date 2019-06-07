@@ -57,14 +57,6 @@ within single quotes.
 
 That's all I have for you today! Keep hacking and keep Ruby weird!
 
-## Articles in the Series
-
-<ul>
-{% for post in site.posts reversed %}
-  {% if post.tags contains 'Weird Ruby' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}  <!-- tags if -->
-{% endfor %} <!-- posts for -->
-</ul>
-
 [^1]: Unless you're into Perl.
+
+{% include series_listing.html site=site series="Weird Ruby" %}

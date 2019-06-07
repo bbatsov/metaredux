@@ -112,12 +112,4 @@ That's all for today! I hope it was weird and useful enough for you! Keep hackin
 
 [^1]: This idiom is also popular in the JavaScript world.
 
-## Articles in the Series
-
-<ul>
-{% for post in site.posts reversed %}
-  {% if post.tags contains 'Weird Ruby' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}  <!-- tags if -->
-{% endfor %} <!-- posts for -->
-</ul>
+{% include series_listing.html site=site series="Weird Ruby" %}

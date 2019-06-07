@@ -114,12 +114,4 @@ A word of caution - the positive and negative string literals result in code tha
 
 Until next time! Keep hacking!
 
-## Articles in the Series
-
-<ul>
-{% for post in site.posts reversed %}
-  {% if post.tags contains 'Weird Ruby' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}  <!-- tags if -->
-{% endfor %} <!-- posts for -->
-</ul>
+{% include series_listing.html site=site series="Weird Ruby" %}

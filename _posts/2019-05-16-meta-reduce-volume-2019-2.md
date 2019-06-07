@@ -38,13 +38,7 @@ I've also played a bit with the Read the Docs setup for CIDER and it now serves 
 
 I've started a new blog series dedicated to CIDER. Here are the articles in the series so far:
 
-<ul>
-{% for post in site.posts reversed %}
-  {% if post.tags contains 'Hard CIDER' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}  <!-- tags if -->
-{% endfor %} <!-- posts for -->
-</ul>
+{% include series_listing.html site=site series="Hard CIDER" show_title=false %}
 
 I plan to write many more, but knowing me - I'll probably fail miserably. Time will tell.
 
@@ -103,13 +97,7 @@ and the valuable tips he gave us during the conversion process!
 I've started a new blog series dedicated to some weird and fun aspects of Ruby.
 Here are the articles in the series so far:
 
-<ul>
-{% for post in site.posts reversed %}
-  {% if post.tags contains 'Weird Ruby' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}  <!-- tags if -->
-{% endfor %} <!-- posts for -->
-</ul>
+{% include series_listing.html site=site series="Weird Ruby" show_title=false %}
 
 I'll be aiming to write 2-3 each month. Fingers crossed.
 
