@@ -85,9 +85,10 @@ You can read more about it
 [here](https://ruby-doc.com/docs/ProgrammingRuby/html/rdtool.html).
 
 There's very little documentation on `rdtool` online and I couldn't find any real-world usage of it.
-I assume it predated the rise of RDoc and YARD and was effectively obsoleted by them.
+I assume it predated the rise of RDoc and YARD and was effectively obsoleted by them.[^2]
 Anyways, it's safe to say that this installment of "Weird Ruby" was pretty educational for me!
 
 {% include series_listing.html site=site series="Weird Ruby" %}
 
 [^1]: `/* */` from C and family immediately come to mind.
+[^2]: According to this [Wikipedia article](https://en.wikipedia.org/wiki/Ruby_Document_format) the RD format used to be popular until the early 2000s when it was superseded by RDoc.
