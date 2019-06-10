@@ -69,6 +69,25 @@ need a special block comment syntax at all?
 That's all I have for you today! Hopefully it was weird enough, fun and somewhat useful!
 Keep hacking!
 
+**Update (2019-06-10)**
+
+A couple of people commented that this was not a really a block comment syntax, but more of
+an attempt to emulate Perl's [POD](https://perldoc.perl.org/perlpod.html) documentation system.
+In hindsight that makes a lot of sense given the massive Perl heritage that exists in Ruby today.
+Funny enough I used be a Perl programmer at the beginning of my career, but I had forgotten the
+POD syntax completely by now.
+
+Turns out there's an [rdtool](https://github.com/uwabami/rdtool) for Ruby that's pretty similar to POD.
+Basically `rdtool` scans a file for `=begin` and `=end{=begin...=end@{=begin` pairs, and
+extracts the text between them all. This text is assumed to be documentation in
+[RD format](https://github.com/uwabami/rdtool/blob/master/doc/rd-draft.rd).
+You can read more about it
+[here](https://ruby-doc.com/docs/ProgrammingRuby/html/rdtool.html).
+
+There's very little documentation on `rdtool` online and I couldn't find any real-world usage of it.
+I assume it predated the rise of RDoc and YARD and was effectively obsoleted by them.
+Anyways, it's safe to say that this installment of "Weird Ruby" was pretty educational for me!
+
 {% include series_listing.html site=site series="Weird Ruby" %}
 
 [^1]: `/* */` from C and family immediately come to mind.
