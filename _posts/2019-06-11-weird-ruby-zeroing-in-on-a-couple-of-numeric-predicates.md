@@ -23,7 +23,7 @@ if foo != 0 ...
 if foo.nonzero? ...
 ```
 
-So far, so good. Nothing really weird, right? Let's now take a closer at the two predicate functions:
+So far, so good. Nothing really weird, right? Let's now take a closer at the two predicate methods:
 
 ``` ruby
 0.zero?
