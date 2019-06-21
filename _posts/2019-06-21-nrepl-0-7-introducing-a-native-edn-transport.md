@@ -12,6 +12,8 @@ Today marks the release of the first milestone from the nREPL 0.7 series - namel
 The highlight of the release is the addition of a native (built-in) EDN transport to complement
 the default bencode transport that nREPL has shipped since day 1.
 
+<!--more-->
+
 ## Understanding the EDN Transport
 
 The main difference between the bencode transport and the EDN one is that instead of dealing with bencode dictionaries and lists, and being limited to integer and byte strings, you'd be sending and receiving EDN data, including maps, vectors, lists, sets, strings, keywords and symbols. The structure of the messages is pretty much the same, only the data format changes.
