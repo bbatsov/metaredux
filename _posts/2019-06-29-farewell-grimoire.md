@@ -10,6 +10,8 @@ tags:
 
 A few days ago [Reid McKenzie](https://github.com/arrdem) announced over twitter that he was shutting down Grimoire - a popular alternative to [ClojureDocs](https://clojuredocs.org/) he had created.
 
+<!--more-->
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Grimoire&#39;s deprecated. Traffic now forwarded to clojuredocs, and the domain will be recycled for something eventually. Thanks everyone for your support, eyeballs and kind mentions of the project over the years. <a href="https://t.co/ImOMbEGppR">https://t.co/ImOMbEGppR</a></p>&mdash; actually OPS (@arrdem) <a href="https://twitter.com/arrdem/status/1144065851370299392?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
