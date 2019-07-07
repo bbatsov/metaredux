@@ -43,7 +43,7 @@ CIDER's new [docs site](https://docs.cider.mx) now features a powerful search po
 
 [Heart of Clojure](https://heartofclojure.eu/) is right around the corner and I'm really hyped about it. That's going to be my very first time co-hosting a conference, so I hope I won't mess up too much. :-)
 
-I also got a surprise invitation to speak at [Clojure South](https://clojure-south.com/) - a brand new Clojure conference in Brazil and I'm pretty excited about it as well. I've never been to any conferences in South America and this seems like a
+I also got a surprise invitation to speak at [:clojure/south](https://clojure-south.com/) - a brand new Clojure conference in Brazil and I'm pretty excited about it as well. I've never been to any conferences in South America and this seems like a
 great way to change this.
 
 Looking forward to seeing some of you at one of those two events!
