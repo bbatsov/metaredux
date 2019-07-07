@@ -57,7 +57,7 @@ reason, however, is the exact opposite of the first one.
 It's the summer season here in Europe and I took a bit of downtime recently to recharge my batteries.
 I always liked vacations in the end of June as all the good (seaside) places are still not swarming with people and you can
 actually relax a bit.
-I've enjoyed some quality time in Crete and Sicily[^3] and lots of great Greek and Italian food.
+I've enjoyed some quality time in Crete and Sicily[^2] and lots of great Greek and Italian food.
 I'm also proud of myself for managing to navigate successfully the crazy Sicilian traffic, as I'm certainly many things, but good driver is not one of them.
 
 I made quite a bit of progress with my reading lately. Here are all the books I've read since the last "Meta Reduce":
