@@ -43,8 +43,8 @@ experience:
 
 * [nREPL](https://nrepl.org)
 * [Piggieback](https://github.com/nrepl/piggieback)
-* [Drawbridge](https://github.com/nrepl/nrepl/drawbridge)
-* [Fastlane](https://github.com/nrepl/nrepl/fastlane)
+* [Drawbridge](https://github.com/nrepl/drawbridge)
+* [Fastlane](https://github.com/nrepl/fastlane)
 * [cljs-tooling](https://github.com/clojure-emacs/cljs-tooling)
 * [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
