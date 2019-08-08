@@ -73,9 +73,9 @@ there!
 
 If you like my work consider supporting it by one of those funding platforms:
 
+* [GitHub Sponsors](https://github.com/users/bbatsov/sponsorship)
 * [Patreon](https://www.patreon.com/bbatsov)
 * [PayPal](https://www.paypal.me/bbatsov)
-* [Liberapay](https://liberapay.com/bbatsov/donate)
 
 Thanks!
 
