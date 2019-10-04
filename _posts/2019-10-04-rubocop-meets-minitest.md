@@ -12,7 +12,7 @@ tags:
 RuboCop has had an ["official" extensions for RSpec](https://github.com/rubocop-hq/rubocop-rspec) for years.
 In fact the `rubocop-rspec` project was the thing that pushed us in the direction to make [RuboCop itself modular]({% post_url 2019-05-22-a-modular-rubocop %}) and to make it easy
 to create RuboCop extensions in general. There's still a lot of work remaining to be done when it comes to providing
-a robust extension API, but the explosion of extensions in recent years certainly contributed to a lot of progress of that front.
+a robust extension API, but the explosion of extensions in recent years certainly contributed to a lot of progress on that front.
 Today one of the important goals of the RuboCop project is
 to provide support for every important library or framework in the Ruby ecosystem, as they
 typically have their own sets of best practices. The big goal probably deserves its own post. Today,
