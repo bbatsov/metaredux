@@ -47,6 +47,26 @@ Clojurists Together funding cycle for CIDER.
 
 I wrote a bit more about `rubocop-minitest` [here]({% post_url 2019-10-04-rubocop-meets-minitest %}).
 
+By the way, RuboCop 0.74 achieved one nice milestone - it got downloaded over 1,500,000 times which is
+an all time record for a single RuboCop release!
+
+## GitHub Sponsors
+
+I was invited to participate in the beta of GitHub Sponsors. What's appealing
+about the service is:
+
+* Lower fees than Patreon
+* GitHub are matching all donations up to $5k/year for the first year
+* It's prominently featured within GitHub
+
+So far my early feedback for the service has been positive, as I already have sponsors
+donating about $250/month. It's not much in the grand scheme of things, but
+it's more than I ever managed to raise via my Patreon account, so that's encouraging.
+And thanks to GitHub matching the early donations those $250 got doubled to $500.
+Let's see how things are going to play out in the long run, but for now I'm cautiously optimistic.
+
+You can support my OSS work via GitHub Sponsors [here](https://github.com/users/bbatsov/sponsorship).
+
 ## Conferences
 
 I had a great time at Heart of Clojure (as a co-host) and Clojure/south (as a
