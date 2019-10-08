@@ -41,6 +41,15 @@ Here's a list of all of `cider-selectors`'s keybindings:
 Any of those keys can be prefixed with a `4` to make the target buffer open in a
 different window (as opposed to the current one).
 
+One thing to keep in mind about the default keybinding `C-c M-s` is that it's available only
+in buffers where `cider-mode` is enabled (e.g. Clojure source buffers) and in the CIDER REPL.
+If you want to have it available everywhere it might be a good idea to add a global
+binding in your Emacs config:
+
+``` elisp
+(global-set-key (kbd "C-c s") #'cider-selector)
+```
+
 One cool thing that you probably noticed is that there are also shortcuts for going back to
 whatever is the most recently used Clojure or Emacs Lisp buffer.[^2] Another cool thing is that
 you can easily extend the selector with new commands using `def-cider-selector-method`:
