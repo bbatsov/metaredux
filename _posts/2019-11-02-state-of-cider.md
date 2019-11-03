@@ -6,8 +6,7 @@ tags:
 - Clojure
 - Emacs
 - CIDER
-- Series
-- Hard CIDER
+- Survey
 ---
 
 One of the hardest things for any project author is to figure out whether their
