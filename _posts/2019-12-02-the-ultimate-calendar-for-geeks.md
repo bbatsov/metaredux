@@ -19,6 +19,8 @@ Perhaps I'm just a bitter man stuck in the past, but I really prefer to interact
 simpler and more hacker-friendly calendars. My favourite calendars are one that comes with Emacs[^2] and
 the command-line `cal/ncal` tool.
 
+<!--more-->
+
 If I'm in Emacs and I need the calendar I'd just do `M-x calendar` and that's it.
 The rest of the time[^3] I'd just summon quickly my terminal with `C-~`[^4] and invoke `cal` there.
 As Emacs hasn't achieved world dominance yet, I'll focus on `cal` for the remainder of this article.
