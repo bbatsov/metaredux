@@ -9,8 +9,8 @@ tags:
 - Series
 ---
 
-*This post is part of the ["Meta Advent 2019"]({% post_url 2019-12-01-meta-advent-2019 %}) series. I've committed to writing
-a blog post here every day until Christmas.*
+*This article is part of the ["Meta Advent 2019"]({% post_url 2019-12-01-meta-advent-2019 %}) series. I've committed to writing
+a new blog post here every day until Christmas.*
 
 You know what's the most important thing during the Advent? You're totally right - that's having
 a good calendar where you can constantly check the time left until Christmas.
