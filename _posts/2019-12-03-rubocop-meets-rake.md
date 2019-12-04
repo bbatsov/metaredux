@@ -8,7 +8,6 @@ tags:
 - RuboCop
 - Rake
 - Meta Advent 2019
-- Series
 ---
 
 *This article is part of the ["Meta Advent 2019"]({% post_url 2019-12-01-meta-advent-2019 %}) series. I've committed to writing
