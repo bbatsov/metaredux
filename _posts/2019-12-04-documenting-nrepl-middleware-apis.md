@@ -63,5 +63,5 @@ Believe it or not - documenting APIs can be a lot of fun!
 
 That's all I had for you today. See you tomorrow!
 
-[^1]: You can read more those [here](https://nrepl.org/nrepl/0.6.0/design/overview.html).
+[^1]: You can read more those [here](https://nrepl.org/nrepl/design/overview.html).
 [^2]: Most notably - I had to exclude the built-in middleware prior to generating the output.
