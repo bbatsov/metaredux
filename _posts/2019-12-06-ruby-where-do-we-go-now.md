@@ -180,6 +180,28 @@ end
 Still, I think this is another random addition that doesn't solve real problems
 and just adds mental and technical complexity.
 
+## A RuboCop Perspective
+
+You might be wondering I am so grumpy about a bit of chaos during the development
+cycle of Ruby? After all it seems that most problematic features tend to get improved/removed.
+
+I'm the author of [RuboCop](https://github.com/rubocop-hq/rubocop), a popular
+static code analyzer and formatter for Ruby, that's why my perspective on all of
+this is probably different from that of many other people. Together with RuboCop
+and [Parser](https://github.com/whitequark/parser)'s team we actually have to
+support all of those language changes. Imagine how fun it is to add support for
+something, change this a couple of times, while tracking upstream changes, and
+then just delete it at the end. Or to have to do complex changes to support
+some new syntax that probably is going to be used by a handful of
+people... Trust me, that's get frustrating after a while, and we'd definitely
+appreciate less turbulence in the design of the language.
+
+You might say now - why don't you just wait for the stable release of Ruby before
+implementing support for it? Have you ever seen users who don't want support for the
+latest and greatest feature at day one? Yeah, I haven't seen many of those either. :-)
+Not to mention that when you're in the business of parsing code unknown syntax
+doesn't result in a very pleasant end user experience.
+
 ## Epilogue
 
 So, we made it to the end of this somewhat bitter and rantish article. So, what's the takeaway from
