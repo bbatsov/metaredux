@@ -23,6 +23,8 @@ good project management and a clear vision for the future, right?
 
 Let's examine a few of those ill-fated changes in no particular order...
 
+<!--more-->
+
 ## Flip-flops Forever
 
 Remember how the flip-flop operator (`..`) was finally deprecated in Ruby 2.6 after
