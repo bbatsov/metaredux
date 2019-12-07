@@ -229,6 +229,8 @@ well, so I'm still optimistic about the future.
 I think Matz should take a page from Rich Hickey's[^4] book and take a bit of [hammock-time](https://www.youtube.com/watch?v=f84n5oFoZBc) to figure
 out where he wants to take Ruby next. So, Ruby, where do we go now?
 
+**P.S.** The article generated an interesting discussion [on reddit](https://www.reddit.com/r/ruby/comments/e6ye3t/ruby_where_do_we_go_now/). I encourage you to check it out.
+
 [^1]: That's my favourite one <https://dev.to/baweaver/ruby-2-7-the-pipeline-operator-1b2d>.
 [^2]: You can't here my voice, but that's sarcasm here.
 [^3]: Especially given the fact that the vast majority of ideas for language changes are just ignored and stay dormant for ages.
