@@ -5,6 +5,7 @@ date: 2019-12-07 12:37 +0200
 categories: posts
 tags:
 - Emacs
+- Meta Advent 2019
 ---
 
 *This article is part of the ["Meta Advent 2019"]({% post_url 2019-12-01-meta-advent-2019 %}) series. I've committed to writing
