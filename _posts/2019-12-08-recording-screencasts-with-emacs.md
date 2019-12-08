@@ -48,6 +48,8 @@ Internally the mode shells out to several command-line tools that do the heavy l
 * a tool to optimize the final gif (`gifsicle` by default). Alternative you can
 just set `gif-screencast-want-optimized` to `nil`.
 
+All of those are configurable via `defcustom`s. You can check them out by doing `M-x customize-group gif-screencast`.
+
 I guess it's clear at this point it's a good idea to install ImageMagick to have `gif-screencast` work well.
 If you're using Linux you don't do much besides getting the external tools installed, but macOS users will need a bit of extra
 setup. Put something like this in your Emacs config:
