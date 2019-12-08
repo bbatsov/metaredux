@@ -23,6 +23,8 @@ screencasts and [LICEcap](https://www.cockos.com/licecap/) or
 [Gifox](https://gifox.io/) for simple animated gifs. Let's see if we can do
 better and record some awesome screencasts straight from Emacs!
 
+<!--more-->
+
 Well, it turns out that there's a mode for that![^1] It's named
 [gif-screencast](https://gitlab.com/ambrevar/emacs-gif-screencast) and seems to
 be a fairly new addition to the Emacs ecosystem, as its first commit is from
@@ -87,6 +89,8 @@ A couple of notes:
 * I've noticed that `gif-screencast` doesn't handle properly scrolling (e.g. in a REPL buffer).
 * Cropping is broken on HiDPI displays. See [this issue](https://gitlab.com/ambrevar/emacs-gif-screencast/issues/14) for details.
 * It's hard to show overlays that are immediately cleared on the next command. This is clearly visible in the example I showed earlier.
+* Even with optimization enabled the resulting gif for me was much bigger than what I'd get from Gifox. Perhaps I did something
+wrong.
 * It's a good idea to bind the commands for starting, pausing and stopping screencasts to some keybindings:
 
 ``` emacs-lisp
