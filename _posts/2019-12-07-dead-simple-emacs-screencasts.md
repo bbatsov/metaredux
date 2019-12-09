@@ -14,6 +14,8 @@ a new blog post here every day until Christmas.*
 Finally on the 7th day of the Advent we made it to the One True Editor!
 Today's topic is doing screencasts with Emacs the right/simplest way.
 
+<!--more-->
+
 Generally when you're doing screencasts of a text editor session the most
 important thing is to make it clear what keys are you pressing and what commands
 are being invoked by those keys (as you might have non-standard keybindings).
