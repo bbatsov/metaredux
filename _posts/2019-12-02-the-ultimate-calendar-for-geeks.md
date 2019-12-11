@@ -30,8 +30,8 @@ As Emacs hasn't achieved world dominance yet, I'll focus on `cal` for the remain
 `cal` is quite flexible and here I'll share my favourite ways of using it:
 
 * Show the previous and the following months - `cal -3`
-* Show the entire calendar for the current year - `cal -y` (the `-y` is optional)
-* Show the entire calendar for some year - `cal -y 2020`
+* Show the entire calendar for the current year - `cal -y`
+* Show the entire calendar for some year - `cal -y 2020` (the `-y` is optional)
 * Show some specific month - `cal -m 5`. You can prefix the month with `f` or `p` for `following`/`previous`. Useful if you
 want to check some month in an adjacent year.
 
