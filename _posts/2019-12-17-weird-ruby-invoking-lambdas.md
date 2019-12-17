@@ -56,4 +56,15 @@ do well to avoid this syntax, as the resulting code is quite confusing. Using
 very bad idea to override `[]` for anything that doesn't map somehow to
 accessing an element in an underlying data structure.
 
+But, wait, there's more!
+
+``` ruby
+add_five.yield(10) # => 15
+add_five === 10 # => 15
+```
+
+I think the last example is particularly weird, even if it will work only for a
+single parameter scenario (or a no parameters scenario if you pass `nil` to `===`).
+There's more than one way to invoke a proc indeed!
+
 That's all I have for you today! Hopefully it was both weird and useful! See you tomorrow!
