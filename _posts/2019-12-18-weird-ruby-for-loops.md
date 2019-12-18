@@ -100,3 +100,5 @@ semantics where changed for regular blocks.
 That's all I have for you today! See you again tomorrow!
 
 [^1]: In fact internally `for` is implemented in terms of `each`.
+
+{% include series_listing.html site=site series="Weird Ruby" %}

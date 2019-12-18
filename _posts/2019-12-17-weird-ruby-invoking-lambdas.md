@@ -68,3 +68,5 @@ single parameter scenario (or a no parameters scenario if you pass `nil` to `===
 There's more than one way to invoke a proc indeed!
 
 That's all I have for you today! Hopefully it was both weird and useful! See you tomorrow!
+
+{% include series_listing.html site=site series="Weird Ruby" %}
