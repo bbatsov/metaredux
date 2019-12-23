@@ -2,6 +2,7 @@
 layout: post
 title: 'Hard CIDER: Customizing the Evaluation Results'
 date: 2019-12-12 12:11 +0200
+categories: posts
 tags:
 - Clojure
 - Emacs
