@@ -46,3 +46,5 @@ build tool to use every time I do so.
 That's all I have for you today. See you again tomorrow!
 
 [^1]: CIDER uses the "build tool" terminology for historical reasons, as `tools.deps` didn't exist back then.
+
+{% include series_listing.html site=site series="Hard CIDER" %}
