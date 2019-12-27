@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meta Advent 2019 Redux
+title: 'Meta Advent 2019 Redux'
 date: 2019-12-25 9:01 +0200
 - Meta
 - Meta Advent 2019
