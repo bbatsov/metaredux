@@ -9,7 +9,7 @@ tags:
 
 > Be at war with your vices, at peace with your neighbors, and let every new year find you a better man.
 >
-> -― Benjamin Franklin
+> -- Benjamin Franklin
 
 It's again this time of the year when we get to reflect on the year behind us and
 hope for a better year ahead of us. Earlier today I read my [summary of 2018]({% post_url 2018-12-30-reduce-summarize-year %})
