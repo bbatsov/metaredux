@@ -16,6 +16,8 @@ hope for a better year ahead of us. Earlier today I read my [summary of 2018]({%
 and the goals I set for myself for 2019. As usual, I've failed to fulfill all of my objectives, but I feels that I did reasonably
 well overall.
 
+<!--more-->
+
 ## Programming
 
 The year was a completely failure here. I think I read 0 books on programming and learned 0 new languages/frameworks/etc.
