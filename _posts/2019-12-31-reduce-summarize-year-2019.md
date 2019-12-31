@@ -86,7 +86,7 @@ work/life balance, as previously my workload was insane. The older I get and the
 the more I start to appreciate having proper balance in your life and your work.
 
 The key word for 2019 on the job for
-me has been [OKRs](https://felipecastro.com/en/okr/what-is-okr/). These make such a massive difference! I was skeptical of OKRs at first (who isn't?), but
+me was [OKRs](https://felipecastro.com/en/okr/what-is-okr/). These make such a massive difference! I was skeptical of OKRs at first (who isn't?), but
 now I'm a true believer and I feel than can really help you in your personal life as well.
 
 ## Personal Life
