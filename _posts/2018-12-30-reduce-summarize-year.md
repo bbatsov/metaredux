@@ -29,7 +29,7 @@ readers care only about the things I've done on the OSS front, so I'll
 focus on them first. Without a doubt the thing that consumed most of
 my spare time and my energy this year was Clojure tooling (CIDER,
 nREPL and all the [related projects]({% post_url
-2018-11-09-ciders-orchard-the-heart %}).  I'm also quite happy that I
+2018-11-09-ciders-orchard-the-heart %})).  I'm also quite happy that I
 managed to find some time for RuboCop and Projectile and both projects
 made some significant strides throughout the year. And, of course, I
 finally resurrected my blogging efforts in the form of _Meta Redux_.
