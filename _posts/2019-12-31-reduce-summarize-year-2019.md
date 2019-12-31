@@ -131,7 +131,7 @@ Shame on me (again)! Next year I definitely plan to do better, which shouldn't b
 
 Here are my OKRs for 2020.
 
-**Objective:** Become a better and healthier human being.[^2]
+**Objective:** Become a better and healthier human being.[^1]
 
 * Double the donations my OSS projects are receiving
 * Release RuboCop 1.0, CIDER 1.0 and nREPL 1.0
