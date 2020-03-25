@@ -2,6 +2,15 @@
 layout: post
 title: 'Meta Reduce 2020.0: Lockdown'
 date: 2020-03-25 13:14 +0200
+categories: posts
+tags:
+- Clojure
+- nREPL
+- Meta
+- Emacs
+- CIDER
+- Ruby
+- RuboCop
 ---
 
 I haven't written any blog posts in months and I guess it's high time I changed this.
