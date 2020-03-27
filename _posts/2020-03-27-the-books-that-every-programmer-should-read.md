@@ -11,7 +11,7 @@ tags:
 >
 > -- Rich Hickey, creator of Clojure
 
-Several years ago[^1] I did a talk at "HackConf" titled "The Books That Every
+Several years ago[^1] I did a talk at [HackConf](https://hackconf.bg/) titled "The Books That Every
 Programmer Should Read"[^2].  Back then the conference was geared mostly towards
 young aspiring software engineers, so I wanted to present on a topic that they'd
 find useful. Early on in my career access to high-quality educational resources
