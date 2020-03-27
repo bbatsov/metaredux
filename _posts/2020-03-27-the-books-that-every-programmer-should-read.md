@@ -135,7 +135,7 @@ didn't finish myself. If I had to narrow down the list to the 3 most important
 * Structure and Interpretation of Computer Programs
 * The Elements of Style
 * Code Complete
-* Thinking Fast and Slow
+* Thinking, Fast and Slow
 
 Seems, I've made an off-by-one error, but you'll forgive me.
 
