@@ -83,6 +83,8 @@ Bellow is a listing of all the "good" books my talk, grouped by categories.
 
 ### References
 
+**Note:** Please ignore the specific technologies references here. My point was to simply list a few good reference books as a baseline for all of you, not to promote any particular languages.[^3]
+
 * [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 * [Programming Ruby](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
 * [The Well Grounded Rubyist](https://www.amazon.com/Well-Grounded-Rubyist-Covers-Ruby-1-9-1/dp/1933988657)
@@ -93,6 +95,8 @@ Bellow is a listing of all the "good" books my talk, grouped by categories.
 * [LISP (LISP In Small Pieces)](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)
 
 ### Effective Usage
+
+**Note:** Again, please ignore the references to specific programming languages. They are here for illustrative purposes only.
 
 * [The Elements of Style](https://www.amazon.co.uk/Elements-Style-William-Strunk-Jr/dp/020530902X)
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
@@ -141,7 +145,7 @@ Seems, I've made an off-by-one error, but you'll forgive me.
 
 ## The Sequel
 
-There are many great books that I didn't mention in that talk (mostly due to time constraints). I'll guess I'll have to do a follow-up blog post for them. Generally speaking, I wanted to give people an idea
+There are many great books that I didn't mention in my HackConf talk (mostly due to time constraints). I'll guess I'll have to do a follow-up blog post for them. Generally speaking, I wanted to give people an idea
 of what a quality book means and I was certain they'd be able uncover more of those. Teach a person to fish and all that jazz...
 
 That being said, I wouldn't mind following up on my original talk with a sequel that expands on the basic ideas I outlined there and refines the list of books presented. There were
@@ -157,10 +161,11 @@ manage to find a different message in my presentations after ruminating on them
 for a while.
 
 I hope this post will inspire you to do some quality reading during the
-lockdown[^3] and introduce a bit of joy in your life. It'd be nice of something good came out of it.  By the way, why
+lockdown[^4] and introduce a bit of joy in your life. It'd be nice of something good came out of it.  By the way, why
 don't you share in the comments your favourite books? I'd love to get some
 reading ideas myself!
 
 [^1]: Way back in 2015.
 [^2]: You can find a recording of the talk [here](https://www.youtube.com/watch?v=H6OQ2RESp4s). (it's in Bulgarian)
-[^3]: As I write this in Spring 2020, much of the world's population is under lockdown, because of the ongoing COVID-19 pandemic.
+[^3]: I'm actually quite fond of promoting Lisp(s) - it's an amazing and rather underappreciated language.
+[^4]: As I write this in Spring 2020, much of the world's population is under lockdown, because of the ongoing COVID-19 pandemic.
