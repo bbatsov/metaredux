@@ -7,7 +7,9 @@ tags:
 - Meta
 ---
 
-> I read relentlessly. -- Rich Hickey, creator of Clojure
+> I read relentlessly.
+>
+> -- Rich Hickey, creator of Clojure
 
 Several years ago[^1] I did a talk at "HackConf" titled "The Books That Every
 Programmer Should Read"[^2].  Back then the conference was geared mostly towards
