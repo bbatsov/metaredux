@@ -56,10 +56,11 @@ than any concrete implementation of those ideas.
 
 It was probably not apparent in my talk, but I had picked some of my favourite books in all the areas that
 I consider essential for the success of a programmer - e.g. CS fundamentals, operating systems, effective usage of
-a language/technology stack, software design, etc. You don't really need to read a dozen books on CS fundamentals or
-operating systems and some of the books listed cover more or less the same ground.
+a language/technology stack, software design, etc. Just to be clear - you don't really need to read a dozen books on CS fundamentals or
+operating systems. Furthermore - some of the books listed in each section cover more or less the same ground. Just pick whatever
+seems most interesting to you.
 
-Bellow is a listing of all the "good" books, grouped in categories.
+Bellow is a listing of all the "good" books my talk, grouped by categories.
 
 ### CS Fundamentals
 
