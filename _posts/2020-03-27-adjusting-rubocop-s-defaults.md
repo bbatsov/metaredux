@@ -20,8 +20,21 @@ whatever else frustrations you might have with the default configuration.
 We've avoided changing the defaults in the past couple of years (part of our general effort to reduce the friction of RuboCop's upgrades) and we'll really limit those after RuboCop 1.0. It seems that's our final opportunity to make some sweeping changes and
 make people royally pissed.
 
-I'll leave the survey open for a couple of weeks and might potentially extend the list of questions if I notice some trends
-in the answers to the open-ended question. Please, share the survey around - the more responses we get, the better our actions are going to be.
-That's everyone's simplest way to influence the future direction of RuboCop!
+I'll leave the survey open for a couple of weeks[^1] and might potentially
+extend the list of questions if I notice some trends in the answers to the
+open-ended question. Once the survey is closed I'll publish the results
+online, as I assume they will be of interest to many people.
+
+Note that changes to RuboCop's defaults will be made only if the survey results
+indicate a significant difference between a current default and its alternatives
+(e.g. >10%). If we're looking at numbers like 48% to 52% it's not worth doing
+any updates as any of the values would be just as good of a default. No point in
+breaking anyone's setup without a solid reason to do so.
+
+Please, share the survey around - the more responses we get, the better our
+actions are going to be.  That's everyone's simplest way to influence the future
+direction of RuboCop!
 
 That's all I have for you today! Keep hacking!
+
+[^1]: Currently I plan to close the survey on the 12th of April, but this date might change depending on daily number of the respondees by then.
