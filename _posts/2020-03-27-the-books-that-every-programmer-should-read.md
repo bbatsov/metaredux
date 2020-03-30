@@ -60,6 +60,16 @@ a language/technology stack, software design, etc. Just to be clear - you don't 
 operating systems. Furthermore - some of the books listed in each section cover more or less the same ground. Just pick whatever
 seems most interesting to you.
 
+One really important thing to understand is that the list that follows is just a
+sampling of the type of books that any (good) programmer should read. This
+article (and the talk) could have easily been named "The Type of Books that
+Every Programmer should Read" or "The Makings of a Good Book on
+Programming". Still, naming remains the hardest problem in our industry and some
+titles are more catchy than others. I've noticed that too many people focus on
+the fact that some particular technologies are mentioned (e.g. Unix, C and
+Ruby). Obviously not all developers should know C and Ruby, but when
+discussing what makes a good reference book some concrete examples are always useful.
+
 Bellow is a listing of all the "good" books my talk, grouped by categories.
 
 ### CS Fundamentals
