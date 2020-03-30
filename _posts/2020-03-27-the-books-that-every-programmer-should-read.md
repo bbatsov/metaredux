@@ -70,7 +70,7 @@ the fact that some particular technologies are mentioned (e.g. Unix, C and
 Ruby). Obviously not all developers should know C and Ruby, but when
 discussing what makes a good reference book some concrete examples are always useful.
 
-Bellow is a listing of all the "good" books my talk, grouped by categories.
+Bellow is a listing of all the "good"[^3] books my talk, grouped by categories.
 
 ### CS Fundamentals
 
@@ -93,7 +93,7 @@ Bellow is a listing of all the "good" books my talk, grouped by categories.
 
 ### References
 
-**Note:** Please ignore the specific technologies references here. My point was to simply list a few good reference books as a baseline for all of you, not to promote any particular languages.[^3]
+**Note:** Please ignore the specific technologies references here. My point was to simply list a few good reference books as a baseline for all of you, not to promote any particular languages.[^4]
 
 * [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 * [Programming Ruby](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
@@ -171,11 +171,12 @@ manage to find a different message in my presentations after ruminating on them
 for a while.
 
 I hope this post will inspire you to do some quality reading during the
-lockdown[^4] and introduce a bit of joy in your life. It'd be nice of something good came out of it.  By the way, why
+lockdown[^5] and introduce a bit of joy in your life. It'd be nice of something good came out of it.  By the way, why
 don't you share in the comments your favourite books? I'd love to get some
 reading ideas myself!
 
 [^1]: Way back in 2015.
 [^2]: You can find a recording of the talk [here](https://www.youtube.com/watch?v=H6OQ2RESp4s). (it's in Bulgarian)
-[^3]: I'm actually quite fond of promoting Lisp(s) - it's an amazing and rather underappreciated language.
-[^4]: As I write this in Spring 2020, much of the world's population is under lockdown, because of the ongoing COVID-19 pandemic.
+[^3]: In the talk I kept comparing some books that I consider "bad" to books that I consider "good".
+[^4]: I'm actually quite fond of promoting Lisp(s) - it's an amazing and rather underappreciated language.
+[^5]: As I write this in Spring 2020, much of the world's population is under lockdown, because of the ongoing COVID-19 pandemic.
