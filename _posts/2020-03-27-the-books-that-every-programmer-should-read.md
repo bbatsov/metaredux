@@ -93,7 +93,10 @@ Bellow is a listing of all the "good"[^3] books my talk, grouped by categories.
 
 ### References
 
-**Note:** Please ignore the specific technologies references here. My point was to simply list a few good reference books as a baseline for all of you, not to promote any particular languages.[^4]
+**Note:** Please ignore the specific technologies references here. My point was to simply list a few good reference books as a baseline for all of you, not to promote any particular languages.[^4] Still, I do believe that's it valuable for everyone to
+gain some insight into the languages that shaped our industry (e.g. Lisp, C, Smalltalk), even if you're never going
+to use them directly. Understanding the history and the circumstances that lead to some modern development is certainly going to make you
+a better programmer.
 
 * [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 * [Programming Ruby](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
