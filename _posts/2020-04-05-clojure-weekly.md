@@ -15,10 +15,13 @@ encountered it in the Ruby community some 15 years ago. Newsletters are typicall
 they focus on everything important that happened recently and have a predictable cadence.
 
 Clojure has had several similar initiatives so far. First there was the Clojure Gazette[^1] by Eric Normand,
-then we got [The REPL](https://www.therepl.net/newsletters/) from Daniel Compton. In the past few years
+then we got [The REPL](https://www.therepl.net/newsletters/) from Daniel Compton. While working on this
+article I also learned about [The Def Newsletter](http://defnewsletter.com), which I had somehow missed completely
+in the past. Unfortunately it seems it has been abandoned for a while now.
+
+In the past few years
 "The REPL" was my go to source for everything important that happened in the Clojure world, but unfortunately
 Daniel had a lot on his hands lately and "The REPL" lost some of its traction.
-
 Fortunately, a couple of weeks ago Aleksandar Simic (a.k.a. `@dotemacs`)
 launched [Clojure
 Weekly](https://mailchi.mp/4c649031c3a6/clojure-weekly-issue-4780441?e=95fbd2dda2),
