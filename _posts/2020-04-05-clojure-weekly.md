@@ -23,14 +23,14 @@ Fortunately, a couple of weeks ago Aleksandar Simic (a.k.a. `@dotemacs`)
 launched [Clojure
 Weekly](https://mailchi.mp/4c649031c3a6/clojure-weekly-issue-4780441?e=95fbd2dda2),
 a curated set of Clojure-related news. I really enjoyed the first 3
-editions. I've already learned quite a few cools things from there, and I even
-took some action items:
+editions and I've already learned quite a few cools things from there. I even
+took some action items for my projects:
 
 * Remove support for Nashorn from Piggieback (ClojureScript dropped support for Nashorn recently)[^2]
-* Check out Lambda Island's [Clojure Style Guide](https://nextjournal.com/lambdaisland/clojure-style-guide) and see if I can mine some useful tips for the [Community Style Guide](https://guide.clojure.style/).
+* Check out Lambda Island's [Clojure Style Guide](https://nextjournal.com/lambdaisland/clojure-style-guide) and see if I can mine some useful ideas for the [Community Style Guide](https://guide.clojure.style/).
 
 It was also nice to read all the nREPL-related announcements for the past couple of weeks, but I'm
-obviously quite biases on that topic.
+obviously quite biased on that topic.
 
 Funny enough, the launch of "Clojure Weekly" coincided with "The REPL" coming out of hibernation,
 but you can never have enough information about Clojure. Looking forward to their next editions!
