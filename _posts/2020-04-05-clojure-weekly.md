@@ -36,7 +36,7 @@ Funny enough, the launch of "Clojure Weekly" coincided with "The REPL" coming ou
 but you can never have enough information about Clojure. Looking forward to their next editions!
 
 **P.S.** If you're into Emacs I can heartily recommend [Emacs News](https://sachachua.com/blog/category/geek/emacs/emacs-news/) by
-Sacha Chua.
+Sacha Chua. It's a fantastic newsletter for Emacs users of every skill level!
 
 [^1]: Sadly, it has been defunkt for a while now.
 [^2]: You can find more details [here](https://clojurians-log.clojureverse.org/cljs-dev/2020-03-20).
