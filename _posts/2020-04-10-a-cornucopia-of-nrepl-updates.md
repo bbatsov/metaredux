@@ -56,7 +56,7 @@ I'm super excited to finally see another editor reusing CIDER's debugger, and I'
 ## Babashka Now Ships with a Native nREPL Server
 
 These days everyone has been raging about the awesome [babashka](https://github.com/borkdude/babashka), that
-increased the reach of Clojure almost as much as ClojureScript did a few years ago. Scripting in Clojure is a dream come true for some many people!
+increased the reach of Clojure almost as much as ClojureScript did a few years ago. Scripting in Clojure is a dream come true for so many people!
 
 The industrious Michiel Borkent (a.k.a. `borkdude`) recently unveiled [native nREPL support](https://github.com/borkdude/babashka/releases/tag/v0.0.79)
 for `babashka` in version 0.0.79. What's more - he did such a great job that the new server works pretty well with CIDER
