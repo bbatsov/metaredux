@@ -485,7 +485,7 @@ but probably they could investigate `parser` if it meets their performance crite
 dealing with Node.js (even though that's becoming pretty hard these day in the world of
 web development). If you already use Prettier, I think going in this direction makes a lot of sense.
 
-And in the end we have RuboCop - the only tools in the bunch that's not a dedicated formatter.
+And in the end we have RuboCop - the only tool in the bunch that's not a dedicated formatter.
 I think its main strength is that you're probably using it already, so if you're happy with what it does,
 you save yourself the trouble of dealing with an extra tool. On the other hand, currently it won't
 do as much as the other formatters would do, and it won't do it as fast.
