@@ -23,11 +23,10 @@ forgive me.
 ## Single-quoted vs double-quoted string literals
 
 This is without a doubt the favourite bike-shedding topic of the Ruby community.
-I've wasted countless hours of my life listening on the arguments of both sides,
+I've wasted countless hours of my life listening to the arguments of both sides,
 and I still remain convinced that it doesn't really matter much which style you're
 adopting as long as you apply it consistently. For the record - my personal preference
-has always be double-quoted string literals. So much for the theory that RuboCop's
-defaults are simply my subjective preferences.
+has always been double-quoted string literals.[^1]
 
 The results on this question definitely surprised me:
 
@@ -205,3 +204,5 @@ Thanks to everyone who participated in survey! I hope this article and the chang
 show you that we respect the opinion of our users and that your voice has been heard.
 
 Right now the release of RuboCop 1.0 is imminent and we're unlikely to do anymore last minute changes, but there will always be 2.0, 3,0, etc. Keep hacking!
+
+[^1]: So much for the theory that RuboCop's defaults are simply my subjective preferences.
