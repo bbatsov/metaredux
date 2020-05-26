@@ -157,6 +157,17 @@ No surprises here as well.
 
 Seems that's one area that could be substantially improved. More about this in the next section.
 
+## General level of happiness with RuboCop's defaults
+
+* Very happy - 15%
+* Happy - 47%
+* OK - 23%
+* Not happy - 8%
+* Very unhappy - 5%
+
+Not great, but not terrible either. I hope the changes we made in RuboCop 0.84 and that we plan to make down the road
+will improve the overall satisfaction with the defaults.
+
 ## General Feedback
 
 This section of the survey was pure gold and we got a ton of great feedback there. Most of the feedback could probably be summarized as:
@@ -169,6 +180,18 @@ There was also the usual healthy dose of disagreement with some Layout defaults,
 
 At any rate - we're definitely going to tackle the cop presets idea at some point and provide a smaller set of "essential" cops,
 alongside the current somewhat heavy-handed default set of cops.
+
+## Sidenote
+
+When I saw that many people were complaining about the Metrics cops I added an extra question asking if people knew they can
+disable entire cop departments via `.rubocop.yml`. Turns out that 40% of the RuboCop users didn't know that. Here's how this can be done:
+
+``` yaml
+Metrics:
+  Enabled: true
+```
+
+You can read more on the subject [here](https://docs.rubocop.org/en/stable/configuration/#generic-configuration-parameters).
 
 ## Raw Data
 
