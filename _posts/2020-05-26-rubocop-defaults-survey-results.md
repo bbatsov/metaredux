@@ -187,10 +187,10 @@ disable entire cop departments via `.rubocop.yml`. Turns out that 40% of the Rub
 
 ``` yaml
 Metrics:
-  Enabled: true
+  Enabled: false
 ```
 
-You can read more on the subject [here](https://docs.rubocop.org/en/stable/configuration/#generic-configuration-parameters).
+You can read more on the subject [here](https://docs.rubocop.org/rubocop/configuration.html#generic-configuration-parameters).
 
 ## Raw Data
 
