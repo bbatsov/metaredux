@@ -2,6 +2,7 @@
 layout: post
 title: The RuboCop Name Drama Redux
 date: 2020-06-08 09:52 +0300
+author: Bozhidar Batsov, RuboCop's author
 categories: posts
 tags:
 - Ruby
