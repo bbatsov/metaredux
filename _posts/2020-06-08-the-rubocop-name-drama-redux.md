@@ -40,7 +40,7 @@ meant that the issues suggesting to rename the project was resolved.[^1] Then
 suddenly I woke up on Sunday morning to find a lot of messages on Twitter and GitHub,
 and some of them (subjectively) felt aggressive and hostile to me.
 
-I was quite disspointed by the hasty creation of two RuboCop forks, without discussing any specifics with our team.
+I was quite disappointed by the hasty creation of two RuboCop forks, without discussing any specifics with our team.
 There were also some generic snide remarks about my leadership style and me running away from responsibility that
 definitely rubbed me the wrong way. In particular my desire to keep politics out of RuboCop generated a lot of flak.
 On top of this I already had a very bad week and it seemed that things were bound to get even worse.
