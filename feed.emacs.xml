@@ -1,0 +1,33 @@
+---
+layout: null
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Meta Redux | Emacs </title>
+  <link href="https://www.metaredux.com/"/>
+  <link type="application/atom+xml" rel="self" href="https://www.metaredux.com/feed.emacs.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>Meta Redux | Emacs</id>
+  <author>
+    <name>Bozhidar Batsov</name>
+    <email>bozhidar.batsov@gmail.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  {% if post.tags contains 'Emacs' %}
+  <entry>
+    <id>https://www.metaredux.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="https://www.metaredux.com{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Bozhidar Batsov</name>
+      <uri>https://www.metaredux.com/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endif %}
+  {% endfor %}
+
+</feed>
