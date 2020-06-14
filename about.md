@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+Meta Redux is the personal blog of Bozhidar Batsov. It (somewhat) complements
+and (mostly) succeeds my older blog "(think)" at <https://batsov.com>.
+
 ## About Me
 
 I'm Bozhidar[^1] and I love computers in general and programming in
