@@ -9,7 +9,7 @@ tags:
 
 A while ago I wrote [an article]({% post_url 2018-10-27-a-safer-rubocop %}) about our recent efforts to make RuboCop safer
 in terms of the code changes that it suggests and performs in auto-correct mode.
-Today I'll follow up with a small update.
+Today I'll follow up with a small update on the latest developments in that area.
 
 In preparation for the long-awaited RuboCop 1.0, RuboCop's team spent a lot of time
 recently adding auto-correction to more cops, polishing the internal auto-correction logic,
