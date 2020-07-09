@@ -91,7 +91,7 @@ For the sake of completeness, here are some changes that I really enjoyed:
 
 What all of them have in common what they solve actual problems in an
 unobtrusive way. I know that this is all very subjective, of course, but
-somehow I felt that all them fit very well in the rest of Ruby.
+somehow I felt that all them fit very well with the rest of Ruby.
 Judging by the feedback all of them received and the wide adoption they got,
 I assume many people enjoyed them as well. Then again - Ruby 1.9 hashes are
 widely adopted as well. :-) I hope you get my point.
