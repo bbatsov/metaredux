@@ -71,7 +71,7 @@ them. Creating a special hash syntax that could express only a subset
 short-sighted to me. I know that syntax really took off, but I still
 don't like it. I'm used to it, but I don't like it. I won't say
 anything about refinements - I think their almost non-existing
-adoption is the perfect case style of their usefulness.
+adoption is the perfect case study of their usefulness.
 
 The other changes on my list had small impact and fit well with the
 existing language design, so I didn't really care about their addition
