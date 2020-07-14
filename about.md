@@ -50,7 +50,7 @@ FC660C](https://deskthority.net/wiki/Leopold_FC660C)[^4].  When I'm on
 the road I do (or don't do) my writing on a Apple Magic Keyboard or
 the built-in MacBook keyboard[^5].
 
-The source code of the site is freely available at [GitHub](//github.com/bbatsov/metaredux).
+The source code of the site is freely available at [GitHub](https://github.com/bbatsov/metaredux).
 
 [^1]: Божидар in Bulgarian. I know, I know - that's both pretty hard to read and to pronounce. My friends call me Bug and so can you.
 [^2]: Especially Lisps! And Unix-like operating systems! And Emacs! And video games!
