@@ -32,6 +32,12 @@ Knowing me there's a high chance I won't actually write anything at all!
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
 
+## Contacts
+
+* Email - first name at `batsov.com` or `hey.com`.
+* [Twitter](https://twitter.com/bbatsov)
+* [LinkedIn](https://www.linkedin.com/in/bbatsov/)
+
 ## Colophon
 
 This website is powered by [Jekyll](https://jekyllrb.com/) and uses
