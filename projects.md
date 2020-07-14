@@ -21,7 +21,7 @@ Here's a brief run-down of my (somewhat) popular projects.[^1]
 
 ### Ruby
 
-* [RuboCop](http://rubocop.org)
+* [RuboCop](https://rubocop.org)
 * [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
 * [Rails Style Guide](https://github.com/rubocop-hq/rails-style-guide)
 * [RSpec Style Guide](https://github.com/rubocop-hq/rspec-style-guide)
