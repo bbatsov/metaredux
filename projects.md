@@ -52,6 +52,9 @@ experience:
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
 * [refactor-nrepl](https://github.com/clojure-emacs/refactor-nrepl)
 * [sayid](https://github.com/clojure-emacs/sayid)
+* [clojuredocs-edn-export](https://clojuredocs-edn.netlify.app/)
+* [parseclj](https://github.com/clojure-emacs/parseclj)
+* [parseedn](https://github.com/clojure-emacs/parseedn)
 
 ### Emacs
 
@@ -62,9 +65,10 @@ me as an unreasonable (but powerful) Emacs wielding fanatic!
 * [Projectile](https://projectile.mx)
 * [Crux](https://github.com/bbatsov/crux)
 * [super-save](https://github.com/bbatsov/super-save)
+* [guru-mode](https://github.com/bbatsov/guru-mode)
+* [rubocop-emacs](https://github.com/bbatsov/rubocop-emacs)
 * [Zenburn for Emacs](https://github.com/bbatsov/zenburn-emacs)
 * [Solarized for Emacs](https://github.com/bbatsov/solarized-emacs)
-* [guru-mode](https://github.com/bbatsov/guru-mode)
 
 ## Support Me
 
