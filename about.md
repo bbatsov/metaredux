@@ -32,6 +32,27 @@ Knowing me there's a high chance I won't actually write anything at all!
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
 
+## Patronage
+
+As you might imagine maintaining many open-source projects is a
+challenging and time-consuming undertaking (from time to time it's
+also quite frustrating).  While I certainly didn't get involved with
+open-source for money (who in their right mind would?), some funding
+is definitely rewarding, motivating and just useful.
+
+Please, consider supporting my open-source work at one of the following patronage services:
+
+* [GitHub Sponsors](https://github.com/sponsors/bbatsov) (**recommended**)
+* [ko-fi](https://ko-fi.com/bbatsov)
+* [Paypal](https://www.paypal.me/bbatsov)
+* [Patreon](https://www.patreon.com/bbatsov)
+
+Note that some of my projects also have an [Open Collective](https://opencollective.com), which you might consider supporting instead of me directly:
+
+* [CIDER](https://opencollective.com/cider)
+* [nREPL](https://opencollective.com/nrepl)
+* [RuboCop](https://opencollective.com/rubocop)
+
 ## Contacts
 
 * Email - first name at `batsov.com` or `hey.com`.
