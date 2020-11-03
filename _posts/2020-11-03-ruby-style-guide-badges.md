@@ -35,5 +35,7 @@ Pretty simple and straightforward, right? The Markdown code for those badges is 
 ```
 
 Feel free to tweak the badges to your liking. I hope that down the road I'll get to see more of them in (public) Ruby projects.
+I also hope it's clear that there's nothing Ruby-specific about those badges and you
+can apply them to projects written in any programming language whatsoever.
 
 That's all I have for you today. Keep hacking!
