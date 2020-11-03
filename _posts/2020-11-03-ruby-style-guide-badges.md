@@ -16,8 +16,10 @@ adding a badge to your `README` file that looks something like:
 
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
 
-That badge targets the community Ruby style guide, which is the basis for RuboCop's defaults, but you can
-use a similar badge for other Ruby style guides as well - e.g. those from GitHub and AirBnB.
+That badge targets the [community Ruby style
+guide](https://rubystyle.guide), which is the basis for RuboCop's
+defaults, but you can use a similar badge for other Ruby style guides
+as well - e.g. those from GitHub and AirBnB.
 
 If you have your own custom style guide, but you're still using RuboCop to enforce it, you can
 go with something like this generic badge and link to your RuboCop config file:
