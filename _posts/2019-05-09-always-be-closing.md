@@ -43,7 +43,7 @@ frustration.
 
 I happen to be the steward a [few somewhat popular
 projects](/projects) and I'm saying all of this from experience.  I
-know that focus in the key to success in everything, but I've been
+know that focus is the key to success in everything, but I've been
 finding it harder and harder to find my focus when it comes to OSS
 projects, as so much work has piled on my plate there that I
 constantly wonder where to begin. Time to make some changes.
