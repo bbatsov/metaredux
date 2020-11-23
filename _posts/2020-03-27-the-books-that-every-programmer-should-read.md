@@ -17,7 +17,7 @@ young aspiring software engineers, so I wanted to present on a topic that they'd
 find useful. Early on in my career access to high-quality educational resources
 on programming was very limited - the Internet was quite barren by modern
 standards and there were very few online resources, foreign books were very hard
-to procure in Bulgaria, and there weren't that many experience people to learn
+to procure in Bulgaria, and there weren't that many experienced people to learn
 from. I'd tackle every book I could lay my hands onto, and as a result I wasted
 a lot of valuable time that I could have utilized better. On the bright side - after a while
 I could immediately tell if some book was going to help me level up my skills or not.
