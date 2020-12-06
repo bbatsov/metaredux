@@ -109,7 +109,7 @@ Before, I wrap up I want to elaborate a bit on the reasoning behind the (infamou
 ``` clojure
 ;; function call spanning two lines
 (filter even?
-       (range 1 10))
+        (range 1 10))
 
 ;; function call spanning three lines
 (filter
