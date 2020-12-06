@@ -151,6 +151,8 @@ some_method(
 )
 ```
 
+The above example is in Ruby, but it could have easily been in Java, C#, Python, JavaScript, etc.
+
 * In the second example some people would question what they call "the 1-space indent". That's not really indentation at all, but rather standard alignment of list elements. Don't forget the `()` are not some special invocation syntax, but plain old list literals, that are normally formatted like any other collection literal:
 
 ``` clojure
