@@ -114,7 +114,7 @@ an editor of several code style guides, and as the author of a [fairly
 popular Ruby lint/formatter tool](https://docs.rubocop.org).  Yeah,
 lint tools and formatters are very important and they make our lives easier, but we should
 never forget we're writing code for humans to read and (only occasionally) for machines to
-execute. It's be really said if we lost sight of that just to pursue the ultimate degree
+execute. It'd be really sad if we lost sight of that just to pursue the ultimate degree
 of consistency.
 
 And there's also the meta topic of the code we write being some artistic expression of our inner self, but we should
