@@ -216,7 +216,7 @@ especially if they don't have to.
 
 `gofmt` succeeded mostly because it was pushed from the top, pushed
 from the start and everyone was expected to use it. I'm reasonably
-sure this ship has failed for Clojure, just as it has sailed for
+sure this ship has sailed for Clojure, just as it has sailed for
 Ruby. I don't know how successful the similar projects for other
 languages are, but my guess would be they aren't much more successful
 than Ruby's `RuboCop`.
