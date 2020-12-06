@@ -206,7 +206,25 @@ Same here. Obviously `try` is not part of the guideline in question and follows 
 I'll also briefly touch upon the subject of "one formatter to rule them all", that
 was the main driver for "Better Clojure Formatting".
 
-I think that adopting an universal formatter/code style 10 years into
+I find the idea of a universally accepted formatter with no
+configuration options to be appealing, but I doubt that's feasible in
+practice. When I started to work on RuboCop many years ago, it wasn't
+configurable and many people were outraged by this. The Ruby community
+was 15 years old at the time (today Clojure is 12 years old), many
+code formatting patterns existed and very few people cared about
+global code consistency - most cared about getting consistency in
+their projects (and in some cases - their organizations), and of
+course - with their own style preferences. Luckily for us Clojure's
+syntax and semantics are much simpler than Ruby's. Making RuboCop configurable
+was instrumental to its wide adoption in the Ruby community - we never
+got complete alignment in the style department, but we got **some**
+alignment and this definitely beats having **none**. Some newer Ruby
+formatters are trying to rekindle the idea of the one true code formatter,
+but I've lost interest in such endeavors myself. I'm sharing my Ruby
+experience on the subject mostly because I think a lot of parallels
+can be made with the state of affairs in the Clojure community today.
+
+I think that adopting an universal formatter/code style over 10 years into
 the existence of a language is unlikely to (fully) succeed if it's not
 driven from the top (Rich). There will always be strong opposition to
 whatever we decide (as community), as people have built strong preferences at this
@@ -221,12 +239,13 @@ Ruby. I don't know how successful the similar projects for other
 languages are, but my guess would be they aren't much more successful
 than Ruby's `RuboCop`.
 
-I know only that `Prettier` (a JavaScript formatter) is
-quite successful and very widely used, but it's also configurable to some extent and it
-didn't really propose anything novel or controversial in terms of formatting.
-That's why I think that the only way for a tool to gain much traction
-would be if it's aiming to enforce something relatively close to what
-people are doing currently.
+I know that `Prettier` (a JavaScript formatter) is quite successful
+and very widely used, but it's also configurable to some extent and it
+didn't really propose anything novel or controversial in terms of
+formatting.  That's why I think that the only way for a code
+formatting tool to gain much traction in a community with some
+established traditions would be if it's aiming to enforce something
+relatively close to what people are doing currently.
 
 Nikita made one interesting observation when he made the case for the
 "one true formatter":
