@@ -159,6 +159,53 @@ I don't know about you, but I find the following fixed indentation a big weird:
 Admittedly, list literals are not very common in Clojure, that's why it's understandable
 that for many people lists are nothing but an invocation syntax.
 
+"Better Clojure Formatting" argued that the semantic formatting guidelines were not consistent:
+
+> This rule would be easy to automate if it didn’t have a huge list of exceptions. `let`, `cond`, `if`, `defn` and many other forms simply don’t follow this rule.
+
+I disagree with this assessment, as the guideline in question is strictly for forms without bodies (mostly regular function calls).
+All of the cited exceptions are just regular cases of a different [rule](https://guide.clojure.style/#body-indentation).
+
+> Again, exceptions! E.g. `try` doesn’t follow it. Also, having a mix of one- and two-space indents was driving me mad when I was trying to follow those rules manually.
+
+Same here. Obviously `try` is not part of the guideline in question and follows a different guideline, which is hardly an exception.
+
+## One Formatter to Rule Them All
+
+I'll also briefly touch upon the subject of "one formatter to rule them all", that
+was the main driver for "Better Clojure Formatting".
+
+I think that adopting an universal formatter/code style 10 years into
+the existence of a language is unlikely to (fully) succeed if it's not
+driven from the top (Rich). There will always be strong opposition to
+whatever we decide (as community), as people have built strong preferences at this
+point and they'll need extremely compelling arguments to change
+them. Change is hard, and no one really wants to deal with it,
+especially if they don't have to.
+
+`gofmt` succeeded mostly because it was pushed from the top, pushed
+from the start and everyone was expected to use it. I'm reasonably
+sure this ship has failed for Clojure, just as it has sailed for
+Ruby. I don't know how successful the similar projects for other
+languages are, but my guess would be they aren't much more successful
+than Ruby's `RuboCop`.
+
+I know only that `Prettier` (a JavaScript formatter) is
+quite successful and very widely used, but it's also configurable to some extent and it
+didn't really propose anything novel or controversial in terms of formatting.
+That's why I think that the only way for a tool to gain much traction
+would be if it's aiming to enforce something relatively close to what
+people are doing currently.
+
+My observations are that the semantic approach to formatting is still more popular
+in the wild, and I really hope that this is never going to change.
+
+I'll also glad that the two most popular Clojure formatters that exist today (`cljfmt` and `zprint`)
+have embraced the community Clojure style guide (it's basically the default for `cljfmt` and a [configuration
+flag](https://github.com/kkinnear/zprint/blob/master/doc/options/community.md) for `zprint`).
+
+## Closing Thoughts
+
 Anyways, I don't really want to argue which style is better or worse. My one and only point is that
 I'll always value readability over some questionable gains in the tooling department.
 I've also updated the Clojure style guide, as part of the [Advent of Open Source]({% post_url 2020-12-03-advent-of-open-source %}), to feature
