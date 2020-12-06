@@ -224,8 +224,27 @@ flag](https://github.com/kkinnear/zprint/blob/master/doc/options/community.md) f
 
 ## Closing Thoughts
 
+> Nearly everybody is convinced that every style but their own is
+> ugly and unreadable. Leave out the "but their own" and they're
+> probably right...
+>
+> -- Jerry Coffin (on indentation)
+
+As noted in the beginning of the article the purpose of formatting
+should be to enhance the clarity and the readability of the code. Unfortunately,
+in the various programming communities the endless debates on what
+constitutes the optimal code layout have became synonymous with
+[bikeshedding](https://exceptionnotfound.net/bikeshedding-the-daily-software-anti-pattern/).
+Some people are so frustrated with this state of affairs, that they'd
+rather opt for any formatting that can be applied consistently, rather
+than for formatting that would complement best the semantics of the
+underlying code. I totally get their reasoning, but it saddens me
+regardless.
+
 Anyways, I don't really want to argue which style is better or worse.[^3] My one and only point is that
-I'll always value readability over some questionable gains in the tooling department.
+I'll always value readability over some questionable gains in the tooling department. I can only
+that my perspective on the matter resonated with some of you.
+
 I've also updated the Clojure style guide, as part of the [Advent of Open Source]({% post_url 2020-12-03-advent-of-open-source %}), to feature
 a lot more rationale for the controversial formatting rules (start [here](https://guide.clojure.style/#body-indentation) and read on).
 
