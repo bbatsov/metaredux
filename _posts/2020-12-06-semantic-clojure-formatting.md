@@ -53,7 +53,7 @@ Before I go into my arguments let's briefly contrast semantic and fixed indentat
 
 ;; function call spanning two lines
 (filter even?
-       (range 1 10))
+        (range 1 10))
 
 ;; function call spanning three lines
 (filter
