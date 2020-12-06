@@ -227,7 +227,7 @@ flag](https://github.com/kkinnear/zprint/blob/master/doc/options/community.md) f
 Anyways, I don't really want to argue which style is better or worse.[^3] My one and only point is that
 I'll always value readability over some questionable gains in the tooling department.
 I've also updated the Clojure style guide, as part of the [Advent of Open Source]({% post_url 2020-12-03-advent-of-open-source %}), to feature
-a lot more rationale for the controversial formatting rules (start [here](https://guide.clojure.style/#one-space-indent and read on).
+a lot more rationale for the controversial formatting rules (start [here](https://guide.clojure.style/#one-space-indent) and read on).
 
 That's all I have for you today. As usual, I'd love to hear your thoughts on the subject. Keep hacking!
 
