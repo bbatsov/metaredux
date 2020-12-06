@@ -267,7 +267,7 @@ Clearly, its parameters `bindings` and `body` are named in the canonical idiomat
 
 Those considerations aside, here we're discussing a problem that's common in many languages and is typically solved either by:
 
-* *(A process solution)* The developers of the formatters in question adding support for some new language features before they are released (that's what I do with Ruby and RuboCop)
+* *(A process solution)* The developers of the formatters in question adding support for some new language/library features before they are released (that's what I do with Ruby and RuboCop).
 * *(A technical solution)* A bit of configuration to fill in the blanks. I know that's not ideal, but such changes happen infrequently and are pretty straightforward to handle.
 
 My observations are that the semantic approach to formatting is still more popular
