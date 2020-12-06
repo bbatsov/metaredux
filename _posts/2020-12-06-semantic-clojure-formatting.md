@@ -222,7 +222,7 @@ I'll also glad that the two most popular Clojure formatters that exist today (`c
 have embraced the community Clojure style guide (it's basically the default for `cljfmt` and a [configuration
 flag](https://github.com/kkinnear/zprint/blob/master/doc/options/community.md) for `zprint`).
 
-## Closing Thoughts
+## Epilogue
 
 > Nearly everybody is convinced that every style but their own is
 > ugly and unreadable. Leave out the "but their own" and they're
