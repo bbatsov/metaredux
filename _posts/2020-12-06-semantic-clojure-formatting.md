@@ -138,6 +138,19 @@ Before, I wrap up I want to elaborate a bit on the reasoning behind the (infamou
 While some people would argue that the rules are random or inconsistent, I believe that's definitely not the case:
 
 * In the first example, the formatting is similar to the one in every Algol-like language where the name of the function stands out and the arguments are grouped together. Of course, in most Algol-like languages people are still arguing whether to align or not align their function/method arguments. That being said, the case for aligned has always been the case for improved readability.
+
+``` ruby
+# Ruby (aligned arguments)
+some_method(foo, bar
+            baz)
+
+# Ruby (indented & aligned arguments)
+some_method(
+  foo, bar
+  baz
+)
+```
+
 * In the second example some people would question what they call "the 1-space indent". That's not really indentation at all, but rather standard alignment of list elements. Don't forget the `()` are not some special invocation syntax, but plain old list literals, that are normally formatted like any other collection literal:
 
 ``` clojure
