@@ -51,11 +51,11 @@ Before I go into my arguments let's briefly contrast semantic and fixed indentat
   (println "Hello, ")
   (println "world!"))
 
-;; function call spanning two lines
+;; function call spanning two lines (wide formatting)
 (filter even?
         (range 1 10))
 
-;; function call spanning three lines
+;; function call spanning three lines (narrow formatting)
 (filter
  even?
  (range 1 10))
