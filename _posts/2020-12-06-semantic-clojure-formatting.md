@@ -228,6 +228,48 @@ That's why I think that the only way for a tool to gain much traction
 would be if it's aiming to enforce something relatively close to what
 people are doing currently.
 
+Nikita made one interesting observation when he made the case for the
+"one true formatter":
+
+> This is why config/hard-coded rules/exception-based solutions don’t work here.
+> When Clojure 1.6 added `when-some` and `if-some`, no formatters supported it and as a result, `when-let` and `when-some` was formatting differently.
+> This is because `when-let` was is config but `when-some` wasn’t. This also means library macros never would be formatted correctly.
+>
+> The important thing to understand here is that such changes DID happen in the past and WILL happen in the future.
+> So we can’t rely on “let’s enumerate all the exceptions and live forever with them”.
+
+Technically speaking, Nikita is right, but I really don't think the problem is particularly serious.
+
+First of all, I'll use the opportunity for a shameless self-plug - the indentation metadata approach solves this problem, without
+requiring settling for inferior formatting. Sadly, it's still not very common and no one knows if it will ever be.
+Still, I think most formatters can tackle this with the arglists heuristic I mentioned earlier. Here's the definition of `when-some`:
+
+``` clojure
+(defmacro when-some
+  "bindings => binding-form test
+
+   When test is not nil, evaluates body with binding-form bound to the
+   value of test"
+  {:added "1.6"}
+  [bindings & body]
+  (assert-args
+     (vector? bindings) "a vector for its binding"
+     (= 2 (count bindings)) "exactly 2 forms in binding vector")
+   (let [form (bindings 0) tst (bindings 1)]
+    `(let [temp# ~tst]
+       (if (nil? temp#)
+         nil
+         (let [~form temp#]
+           ~@body)))))
+```
+
+Clearly, its parameters `bindings` and `body` are named in the canonical idiomatic way, and it's easy to infer how to format this macro.
+
+Those considerations aside, here we're discussing a problem that's common in many languages and is typically solved either by:
+
+* *(A process solution)* The developers of the formatters in question adding support for some new language features before they are released (that's what I do with Ruby and RuboCop)
+* *(A technical solution)* A bit of configuration to fill in the blanks. I know that's not ideal, but such changes happen infrequently and are pretty straightforward to handle.
+
 My observations are that the semantic approach to formatting is still more popular
 in the wild, and I really hope that this is never going to change.
 
