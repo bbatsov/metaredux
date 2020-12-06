@@ -17,9 +17,8 @@ that I've been maintaining for the past (almost) 8 years.
 
 While the style guide was well received by the Clojure community in general, and universal agreement was reached on most points in it, one aspect
 remains controversial to this day - namely the style guide's preference towards "semantic indentation" over "fixed indentation" for function/macro
-arguments.
-Today I wanted to address an article that suggested that fixed indentation is preferable, as it's simpler and it's easier to provide tooling support for it.
-That article was named [Better Clojure Formatting](https://tonsky.me/blog/clojurefmt/), which admittedly is catchy and made me consider naming my
+arguments. Today I want to address an article that suggested that fixed indentation is preferable, as it's simpler and it's easier to provide tooling support for it.
+That article is named [Better Clojure Formatting](https://tonsky.me/blog/clojurefmt/), which admittedly is catchy and made me consider naming my
 response to it "The Best Clojure Formatting" or "Superb Clojure Formatting", but I've opted for a more modest title in the end.
 
 Before I go into my arguments let's briefly contrast semantic and fixed indentation with a couple of examples.
