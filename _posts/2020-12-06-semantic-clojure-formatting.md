@@ -21,6 +21,23 @@ arguments. Today I want to address an article that suggested that fixed indentat
 That article is named [Better Clojure Formatting](https://tonsky.me/blog/clojurefmt/), which admittedly is catchy and made me consider naming my
 response to it "The Best Clojure Formatting" or "Superb Clojure Formatting", but I've opted for a more modest title in the end.
 
+## Prologue: The Purpose of Formatting
+
+Have you ever thought why formatting (layout) is important at all?
+Not just in code, but in any text in general.[^1]
+
+The answer to this question is quite simple - proper formatting
+can enhance a lot the readability of any text. And here's also the crux
+of it - computers don't really care about readability. As long as some
+code is syntactically correct any compiler or interpreter would be happy
+to compile or run it.
+
+For us humans, however, formatting can be very helpful or extremely confusing.
+As far as I'm concerned any formatting that makes some code easier to read and
+comprehend is good formatting.
+
+## Introducing Semantic Formatting
+
 Before I go into my arguments let's briefly contrast semantic and fixed indentation with a couple of examples.
 
 ``` clojure
@@ -67,7 +84,9 @@ Before I go into my arguments let's briefly contrast semantic and fixed indentat
 I hope it's obvious that the main difference is that "semantic indentation" differentiates between macros with body forms and regular function/macro invocations.
 That makes it easy to visually tell the apart. The "fixed indentation" approach, however, advocates ignoring those differences and indenting everything the same way.
 
-**NOTE:** There are other aspects of "semantic indentation" as well, but I'll stick only to the most prominent/infamous parts.
+**NOTE:** There are other aspects of "semantic indentation" as well, but I'll stick only to the most prominent/infamous parts in this article.
+
+## Semantic Formatting vs Fixed Formatting
 
 The main argument in favor of "fixed indentation" is tooling support - if you don't need to format something differently, obviously creating code formatters becomes easier. There's nothing for the formatter to parse/analyze, and there's no need for configuration. Simplicity is generally a good thing, so this definitely sounds appealing.
 While, I'm all for consistency and good tooling support, I don't think that's that big of a deal in the case of Clojure, though. Consider the following:
@@ -90,7 +109,7 @@ this simple heuristic will work quite well most of the time.
 
 In general I've always found it dangerous that a lot of the reasoning
 around code style in recent years has been centered around how easy it is to enforce
-certain style automatically.[^1]  I've experienced this first-hand both as
+certain style automatically.[^2]  I've experienced this first-hand both as
 an editor of several code style guides, and as the author of a [fairly
 popular Ruby lint/formatter tool](https://docs.rubocop.org).  Yeah,
 lint tools and formatters are very important and they make our lives easier, but we should
@@ -205,12 +224,13 @@ flag](https://github.com/kkinnear/zprint/blob/master/doc/options/community.md) f
 
 ## Closing Thoughts
 
-Anyways, I don't really want to argue which style is better or worse.[^2] My one and only point is that
+Anyways, I don't really want to argue which style is better or worse.[^3] My one and only point is that
 I'll always value readability over some questionable gains in the tooling department.
 I've also updated the Clojure style guide, as part of the [Advent of Open Source]({% post_url 2020-12-03-advent-of-open-source %}), to feature
 a lot more rationale for the controversial formatting rules (start [here](https://guide.clojure.style/#one-space-indent and read on).
 
 That's all I have for you today. As usual, I'd love to hear your thoughts on the subject. Keep hacking!
 
-[^1]: Damn you, `gofmt`!
-[^2]: For the record, I've got nothing but immense respect for Nikita and his work, even if I disagree with him on this topic.
+[^1]: Can you imagine reading a book where there are paragraphs? Or a book where the text is not justified?
+[^2]: Damn you, `gofmt`!
+[^3]: For the record, I've got nothing but immense respect for Nikita and his work, even if I disagree with him on this topic.
