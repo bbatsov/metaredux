@@ -400,5 +400,5 @@ a lot more rationale for the controversial formatting rules (start [here](https:
 That's all I have for you today. As usual, I'd love to hear your thoughts on the subject. Keep hacking!
 
 [^1]: For the record, I've got nothing but immense respect for Nikita and his work, even if I disagree with him on this topic.
-[^2]: Can you imagine reading a book where there are paragraphs? Or a book where the text is not justified?
+[^2]: Can you imagine reading a book where there are no paragraphs? Or a book where the text is not justified?
 [^3]: Damn you, `gofmt`!
