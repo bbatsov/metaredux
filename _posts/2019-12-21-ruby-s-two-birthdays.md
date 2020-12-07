@@ -38,5 +38,5 @@ There's a lot of cool trivia there - e.g. the history of the language's name.
 That's all I have for you today!
 Happy birthday, Ruby! We've had our ups and downs through the past 13 years, but I still love you![^2]
 
-[^1]: This tradition has some exceptions, though, [Ruby 2.0](https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/).
+[^1]: This tradition has some exceptions, though (e.g. [Ruby 2.0](https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/)).
 [^2]: I think I started playing with Ruby around Christmas, 2006, while listening to the song "Ruby" by the "Kaiser Chiefs".
