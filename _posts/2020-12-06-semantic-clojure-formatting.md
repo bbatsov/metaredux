@@ -84,6 +84,9 @@ Before I go into my arguments let's briefly contrast semantic and fixed indentat
 I hope it's obvious that the main difference is that "semantic indentation" differentiates between macros with body forms and regular function/macro invocations.
 That makes it easy to visually tell the apart. The "fixed indentation" approach, however, advocates ignoring those differences and indenting everything the same way.
 
+A different way to think about semantic indentation might be to compare it to syntax highlighting - normally different constructs in a programming language (e.g. special forms, built-in functions and user-defined functions), get highlighted
+differently, to reflect their semantics and to assist the reader in comprehending what they are dealing with.
+
 **NOTE:** There are other aspects of "semantic indentation" as well, but I'll stick only to the most prominent/infamous parts in this article.
 
 ## Semantic Formatting vs Fixed Formatting
@@ -91,7 +94,7 @@ That makes it easy to visually tell the apart. The "fixed indentation" approach,
 The main argument in favor of "fixed indentation" is tooling support - if you don't need to format something differently, obviously creating code formatters becomes easier. There's nothing for the formatter to parse/analyze, and there's no need for configuration. Simplicity is generally a good thing, so this definitely sounds appealing.
 While, I'm all for consistency and good tooling support, I don't think that's that big of a deal in the case of Clojure, though. Consider the following:
 
-* For many macros you can infer the right indentation just by looking for a `body` parameter
+* For many macros you can infer the right indentation just by looking for a `body` parameter:
 
 ``` clojure
 (defmacro when
@@ -202,6 +205,54 @@ All of the cited exceptions are just regular cases of a different [rule](https:/
 > Again, exceptions! E.g. `try` doesn’t follow it. Also, having a mix of one- and two-space indents was driving me mad when I was trying to follow those rules manually.
 
 Same here. Obviously `try` is not part of the guideline in question and follows a different guideline, which is hardly an exception.
+
+## Wide vs Narrow Formatting
+
+I've noticed that many people dislike semantic formatting, as it's too wide for their taste. A reader remarked he finds this
+wide formatting ugly, wasteful, and prohibitive of descriptive (long) function names:
+
+``` clojure
+;; semantic (wide)
+(clojure.core/filter even?
+                     (range 1 10))
+```
+
+It's important to understand that the comparison of wide vs narrow formatting has nothing to do with
+semantic vs fixed. I think the confusion comes mostly from the fact that the semantic formatting is
+often used in it's wide version, although there's a matching narrow version for everything.
+
+``` clojure
+;; semantic (narrow)
+(clojure.core/filter
+ even?
+ (range 1 10))
+
+(cond
+  (zero? n) curr
+  :else (recur nxt (+' curr nxt) (dec n)))
+
+;; semantic (wide)
+(cond (zero? n) curr
+      :else (recur nxt (+' curr nxt) (dec n)))
+```
+
+Fixed formatting, on the other hand, is narrow-only by definition.
+
+``` clojure
+;; fixed (narrow-only)
+(clojure.core/filter
+  even?
+  (range 1 10))
+
+(cond
+  (zero? n) curr
+  :else (recur nxt (+' curr nxt) (dec n)))
+
+(cond (zero? n) curr
+  :else (recur nxt (+' curr nxt) (dec n)))
+```
+
+I hope this illustrates the difference clearly.
 
 ## One Formatter to Rule Them All
 
