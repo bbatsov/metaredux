@@ -81,6 +81,7 @@ disqus:
 Now you need to add the following HTML snippet to every Jekyll layout that you want Hyvor comments enabled for:
 
 ``` html
+{% raw %}
 <div id="hyvor-talk-view"></div>
 <script type="text/javascript">
  var HYVOR_TALK_WEBSITE = YOUR_SITE_ID; // DO NOT CHANGE THIS
@@ -90,7 +91,7 @@ Now you need to add the following HTML snippet to every Jekyll layout that you w
  };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-
+{% endraw %}
 ```
 
 That's the trickiest part of the migration process, as you'll have to tweak some Jekyll layouts manually.
@@ -142,8 +143,10 @@ All of your old comments should be attached to their respective blog posts.
 One thing to keep in mind is that by default the Hyvor snippet for Jekyll looks like:
 
 ```
+{% raw %}
 url: '{{ page.url | absolute_url }}',
 id: '{{page.id}}'
+{% endraw %}
 ```
 
 This implies that comments are mapped to URLs by using relative URLs. However, the exported data from Disqus was using
@@ -151,8 +154,10 @@ absolute URLs.
 I needed to change it the default, so the Hyvor IDs would match what Disqus was using in my case (absolute instead of relative page URLs):
 
 ```
+{% raw %}
 url: '{{ page.url | absolute_url }}',
 id: '{{page.url | absolute_url }}'
+{% endraw %}
 ```
 
 ## Closing Thoughts
