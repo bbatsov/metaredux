@@ -162,7 +162,7 @@ Disqus earlier probably I wouldn't have discovered Hyvor Talk (as it wouldn't ha
 
 > If you are not paying for it, you're not the customer; you're the product being sold.
 
-Hyvor Talk doesn't have a free plan, which might be deal-breaker for some, but I'm more than happy to pay $5/month for
+Hyvor Talk doesn't have a free plan, which might be a deal-breaker for some, but I'm more than happy to pay $5/month for
 a service that is respecting the privacy of my users and could be used on unlimited number of sites. If you'd like to give Hyvor a try I'd appreciated it if you used my [affiliate link](https://talk.hyvor.com?aff=14023)
 to sign up.
 
