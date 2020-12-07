@@ -37,8 +37,8 @@ github_username:  bbatsov
 linkedin_username: bbatsov
 rss: rss
 
-disqus:
-  shortname: metaredux
+# disqus:
+#   shortname: metaredux
 google_analytics: UA-127656492-1
 
 show_excerpts: true
