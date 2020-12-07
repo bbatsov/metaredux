@@ -37,7 +37,7 @@ layout: default
  var HYVOR_TALK_WEBSITE = 2573; // DO NOT CHANGE THIS
  var HYVOR_TALK_CONFIG = {
      url: '{{ page.url | absolute_url }}',
-     id: '{{page.id}}'
+     id: '{{page.url | absolute_url }}'
  };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
