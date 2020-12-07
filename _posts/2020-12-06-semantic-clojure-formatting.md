@@ -208,8 +208,11 @@ Same here. Obviously `try` is not part of the guideline in question and follows 
 
 ## Wide vs Narrow Formatting
 
-I've noticed that many people dislike semantic formatting, as it's too wide for their taste. A reader remarked he finds this
-wide formatting ugly, wasteful, and prohibitive of descriptive (long) function names:
+I've noticed that many people dislike semantic formatting, because
+it's too wide (in the sense of taking up horizontal space) for their
+taste. A reader remarked he finds this wide formatting ugly, wasteful
+of horizontal space, and prohibitive of descriptive (long) function
+names:
 
 ``` clojure
 ;; semantic (wide)
@@ -219,7 +222,7 @@ wide formatting ugly, wasteful, and prohibitive of descriptive (long) function n
 
 It's important to understand that the comparison of wide vs narrow formatting has nothing to do with
 semantic vs fixed. I think the confusion comes mostly from the fact that the semantic formatting is
-often used in it's wide version, although there's a matching narrow version for everything.
+often used in its wide version, although there's a matching narrow version for everything.
 
 ``` clojure
 ;; semantic (narrow)
@@ -252,7 +255,10 @@ Fixed formatting, on the other hand, is narrow-only by definition.
   :else (recur nxt (+' curr nxt) (dec n)))
 ```
 
-I hope this illustrates the difference clearly.
+I hope this illustrates the point I'm trying to make clearly. As long as you
+understand that there's a big difference between reflecting the code
+semantics in its indentation and indenting something widely/narrowly,
+I've achieved my goal with this section.
 
 ## One Formatter to Rule Them All
 
