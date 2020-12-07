@@ -44,7 +44,7 @@ Now, let's the discuss the actual migration process.
 
 ## Migration Steps
 
-The migration itself is pretty simple and literally took me 5 minutes.
+The migration itself is pretty simple and literally took me 5 minutes.[^3]
 The instructions I wrote are for Jekyll in particular, but the process is fairly generic,
 so I'm confident the bulk of them are applicable to most cases.
 
@@ -170,3 +170,4 @@ That's all I have for you today. Keep hacking!
 
 [^1]: Something like 10 years.
 [^2]: I currently have 4 of those.
+[^3]: Writing this article took way longer than the actual migration.
