@@ -18,13 +18,13 @@ that I've been maintaining for the past (almost) 8 years.
 While the style guide was well received by the Clojure community in general, and universal agreement was reached on most points in it, one aspect
 remains controversial to this day - namely the style guide's preference towards "semantic indentation" over "fixed indentation" for function/macro
 arguments. Today I want to address an article that suggested that fixed indentation is preferable, as it's simpler and it's easier to provide tooling support for it.
-That article is named [Better Clojure Formatting](https://tonsky.me/blog/clojurefmt/), which admittedly is catchy and made me consider naming my
+That article is named [Better Clojure Formatting](https://tonsky.me/blog/clojurefmt/)[^1], which admittedly is catchy and made me consider naming my
 response to it "The Best Clojure Formatting" or "Superb Clojure Formatting", but I've opted for a more modest title in the end.
 
 ## Prologue: The Purpose of Formatting
 
 Have you ever thought why formatting (layout) is important at all?
-Not just in code, but in any text in general.[^1]
+Not just in code, but in any text in general.[^2]
 
 The answer to this question is quite simple - proper formatting
 can enhance a lot the readability of any text. And here's also the crux
@@ -112,7 +112,7 @@ this simple heuristic will work quite well most of the time.
 
 In general I've always found it dangerous that a lot of the reasoning
 around code style in recent years has been centered around how easy it is to enforce
-certain style automatically.[^2]  I've experienced this first-hand both as
+certain style automatically.[^3]  I've experienced this first-hand both as
 an editor of several code style guides, and as the author of a [fairly
 popular Ruby lint/formatter tool](https://docs.rubocop.org).  Yeah,
 lint tools and formatters are very important and they make our lives easier, but we should
@@ -374,7 +374,7 @@ than for formatting that would complement best the semantics of the
 underlying code. I totally get their reasoning, but it saddens me
 regardless.
 
-Anyways, I don't really want to argue which style is better or worse.[^3] My one and only point is that
+Anyways, I don't really want to argue which style is better or worse. My one and only point is that
 I'll always value readability over some questionable gains in the tooling department. I can only
 that my perspective on the matter resonated with some of you.
 
@@ -383,6 +383,6 @@ a lot more rationale for the controversial formatting rules (start [here](https:
 
 That's all I have for you today. As usual, I'd love to hear your thoughts on the subject. Keep hacking!
 
-[^1]: Can you imagine reading a book where there are paragraphs? Or a book where the text is not justified?
-[^2]: Damn you, `gofmt`!
-[^3]: For the record, I've got nothing but immense respect for Nikita and his work, even if I disagree with him on this topic.
+[^1]: For the record, I've got nothing but immense respect for Nikita and his work, even if I disagree with him on this topic.
+[^2]: Can you imagine reading a book where there are paragraphs? Or a book where the text is not justified?
+[^3]: Damn you, `gofmt`!
