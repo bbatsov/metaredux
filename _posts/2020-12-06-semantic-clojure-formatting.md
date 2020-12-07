@@ -91,6 +91,22 @@ differently, to reflect their semantics and to assist the reader in comprehendin
 
 ## Semantic Formatting vs Fixed Formatting
 
+The main argument for "semantic formatting" is pretty simple - it
+reflects better the semantics of your code, which results in improved
+clarity/readability. Just by looking at the shape of the code you can
+infer how something is supposed to behave.
+
+A secondary argument might be that's also the formatting that has been employed by
+all major Lisp dialects (e.g. Common Lisp, Scheme, Emacs Lisp) for a very long time.
+Some might argue that following in their footsteps is just [cargo culting](https://en.wikipedia.org/wiki/Cargo_cult_programming),
+but if the premise behind their approach is still relevant today I don't think the cargo cult theory has any merit.
+
+Clojure developers have historically had a love/hate relationship with Lisp tradition, depending on their background.
+That's normal, given that Clojure was often marketed as a modern Lisp that break away from some arcane Lisp dogmas and traditions
+and aligns itself with modern programming practices.
+Tradition, however, doesn't always mean bad, obsolete and irrelevant. In the case of semantic indentation, I think Clojure's
+predecessors had the right idea and nothing has fundamentally changed.
+
 The main argument in favor of "fixed indentation" is tooling support - if you don't need to format something differently, obviously creating code formatters becomes easier. There's nothing for the formatter to parse/analyze, and there's no need for configuration. Simplicity is generally a good thing, so this definitely sounds appealing.
 While, I'm all for consistency and good tooling support, I don't think that's that big of a deal in the case of Clojure, though. Consider the following:
 
