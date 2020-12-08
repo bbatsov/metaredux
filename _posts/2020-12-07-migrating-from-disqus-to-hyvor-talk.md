@@ -19,6 +19,10 @@ I've never been particularly happy with Disqus for various reasons:
 * The formatting options they support are limited, especially if you run a blog
 focused on programming and people are often discussing code snippets in the comments.
 
+I'm guessing the readers of my blogs were not particularly fond of Disqus either,
+as I'd rarely get any Disqus comments, even on articles that would generate a
+lot of feedback on third-party platform like Reddit, HN or Lobsters.
+
 **Note:** This [great article](https://fatfrogmedia.com/delete-disqus-comments-wordpress/) digs deeper into all
 the issues with Disqus.
 
@@ -27,15 +31,19 @@ service supported by Jekyll out-of-the-box, and because they were
 free. Lately, however, Disqus started to insert some horrible ads in
 my blogs automatically, without giving me any options to opt-out of
 this in advance. I've managed to disable the ads for a couple of my
-sites (based on them being small and non-commercial), but I for some
+sites (based on them being small and non-commercial), but for some
 reason I couldn't disable them for Meta Redux and for me this was it.
 Obviously I could have paid Disqus to disable the ads, but given my
-other concerns about their service I preferred to pay someone else.
+other concerns about their service I preferred to pay someone else if I had to.
 
-I looked around for Disqus alternatives and several articles suggested
-the privacy focused [Hyvor Talk](https://talk.hyvor.com/) as a great
-option. As a bonus it supports Markdown-like markup in the comments
-and works well with code snippets. Hyvor is a [small
+I looked around for [Disqus
+alternatives](https://www.andreasrein.net/posts/hyvor-talk-hugo-commenting-systems/)
+and several articles suggested the privacy focused [Hyvor
+Talk](https://talk.hyvor.com/) as a great option. As a bonus it
+supports Markdown-like markup in the comments and works well with code
+snippets.
+
+**Note:** Hyvor is a [small
 startup](https://talk.hyvor.com/blog/100-paying-customers/) that
 reached a 100 paying customers only a month ago, but I'm feeling
 optimistic about their future.
