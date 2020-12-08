@@ -45,8 +45,10 @@ snippets.
 
 **Note:** Hyvor is a [small
 startup](https://talk.hyvor.com/blog/100-paying-customers/) that
-reached a 100 paying customers only a month ago, but I'm feeling
-optimistic about their future.
+reached a 100 paying customers only a month ago. Normally, I'm
+cautious about such small companies, but given my very positive
+experience with their product I'm feeling optimistic about their
+future.
 
 Now, let's the discuss the actual migration process.
 
