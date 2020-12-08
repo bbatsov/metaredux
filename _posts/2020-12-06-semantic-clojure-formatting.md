@@ -82,7 +82,7 @@ Before I go into my arguments let's briefly contrast semantic and fixed indentat
 ```
 
 I hope it's obvious that the main difference is that "semantic indentation" differentiates between macros with body forms and regular function/macro invocations.
-That makes it easy to visually tell the apart. The "fixed indentation" approach, however, advocates ignoring those differences and indenting everything the same way.
+That makes it easy to visually tell them apart. The "fixed indentation" approach, however, advocates ignoring those differences and indenting everything the same way.
 
 A different way to think about semantic indentation might be to compare it to syntax highlighting - normally different constructs in a programming language (e.g. special forms, built-in functions and user-defined functions), get highlighted
 differently, to reflect their semantics and to assist the reader in comprehending what they are dealing with.
