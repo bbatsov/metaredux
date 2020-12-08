@@ -40,7 +40,7 @@ I looked around for [Disqus
 alternatives](https://www.andreasrein.net/posts/hyvor-talk-hugo-commenting-systems/)
 and several articles suggested the privacy focused [Hyvor
 Talk](https://talk.hyvor.com/) as a great option. As a bonus it
-supports Markdown-like markup in the comments and works well with code
+supports [Markdown-like markup](https://talk.hyvor.com/docs/formatting) in the comments and works well with code
 snippets.
 
 **Note:** Hyvor is a [small
