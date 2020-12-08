@@ -108,7 +108,7 @@ Tradition, however, doesn't always mean bad, obsolete and irrelevant. In the cas
 predecessors had the right idea and nothing has fundamentally changed.
 
 The main argument in favor of "fixed indentation" is tooling support - if you don't need to format something differently, obviously creating code formatters becomes easier. There's nothing for the formatter to parse/analyze, and there's no need for configuration. Simplicity is generally a good thing, so this definitely sounds appealing.
-While, I'm all for consistency and good tooling support, I don't think that's that big of a deal in the case of Clojure, though. Consider the following:
+While, I'm all for consistency and good tooling support, I think those are also achievable with semantic indentation in the case of Clojure (although a bit harder). Consider the following:
 
 * For many macros you can infer the right indentation just by looking for a `body` parameter:
 
@@ -122,6 +122,8 @@ While, I'm all for consistency and good tooling support, I don't think that's th
 
 Of course, there will also be counter-examples that need special handling, as they used some non-conventional names, but
 this simple heuristic will work quite well most of the time.
+
+**Note:** Common Lisp's SLIME [has been using this approach](https://common-lisp.net/project/slime/doc/html/Semantic-indentation.html) for a very long time.
 
 * It's easy to specify the right indentation with [metadata](https://docs.cider.mx/cider/indent_spec.html)
 * All popular Clojure editors and formatters that exist today are supporting "semantic indentation" pretty well, so clearly it's not a big obstacle for tooling.
