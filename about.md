@@ -64,6 +64,9 @@ Note that some of my projects also have an [Open Collective](https://opencollect
 This website is powered by [Jekyll](https://jekyllrb.com/) and uses
 its default [Minima theme](https://github.com/jekyll/minima).
 
+The comments are powered by the privacy-focused service [Hyvor Talk](https://talk.hyvor.com).
+One way to support my work is to sign up for Hyvor via my [affiliate link](https://talk.hyvor.com?aff=14023).
+
 I write all of the articles in Emacs and publish them to GitHub
 pages. These days I'm a macOS user most of the time.  When I'm at home
 I do all my writing on my beloved [Leopold
