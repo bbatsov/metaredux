@@ -63,6 +63,11 @@ programming related, but this may very well change down the road.
 
 ## Closing Thoughts
 
+I have to admit that my fondness for the word "redux" turned out to be a major SEO problem due to the massive popularity
+of React in recent years. Just Google "meta redux" and you'll see what I mean. That being said at some point I was
+thinking of doing "Ruby Redux" and "Clojure Redux" as well, but then I came back to my senses and I realized I don't
+have nearly enough time for so much writing, plus I still prefer writing code to writing articles.
+
 You might have noticed that all my blogs are pretty spartan when it comes to the visuals. A while ago I realized
 that a blog is all about the content and we can't have a fancy theme distract us from what matters the most.
 On top of this - my CSS skills are a complete zero, so there's that as well. A bit of Jekyll, a bit of `minima` (its default theme),
