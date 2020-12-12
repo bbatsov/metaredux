@@ -21,7 +21,7 @@ This tweet made my day:
 It's a great reminder of how awesome the Clojure community is. I was truly touched by the tweet (as I didn't really expect it, plus I was
 having a pretty bad day) and I already feel like I've won the "Clojure Hero" award! Thanks for the kind words, Daniel! I'm honoured and humbled to be on your list![^1]
 
-This all reminded me that we often don't value enough the people who make Clojure so awesome. Let me address this today by "nominating" three more Clojurians for the "Clojure Hero" award:
+All this reminded me that we often don't value enough the people who make Clojure so awesome. Let me address this today by "nominating" three more Clojurians for the "Clojure Hero" award:
 
 * [Chas Emerick](https://github.com/cemerick)
 * [Phil Hagelberg](https://github.com/technomancy)
