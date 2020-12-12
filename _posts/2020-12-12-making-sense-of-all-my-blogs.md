@@ -7,9 +7,11 @@ tags:
 - Emacs
 ---
 
-I've noticed recently that some of the people who follow my open-source
-work and my writings are wondering why I'm publishing articles on 3 different blogs and can't figure how I decide where to publish something. This short article is
-an attempt to shed some light on this.
+I've noticed recently that some of the people who follow my
+open-source work and my writings are wondering why am I publishing
+articles on 3 different blogs and can't figure how I decide where to
+publish something. This short article is an attempt to shed some light
+on this.
 
 Let's go over each of my blogs in the order of their creation.
 
