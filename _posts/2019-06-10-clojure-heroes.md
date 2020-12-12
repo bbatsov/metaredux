@@ -31,7 +31,7 @@ I'm reasonably certain they need no introduction and that most of you are well a
 
 Last, but not least - a very big "Thanks!" to Rich, Stu Halloway, Alex Miller, David Nolen and everyone else on Clojure(Script)'s team. There wouldn't be a Clojure community without you![^2]
 
-So, who are your nominees for the "Clojure Hero" award? Why don't you reach out to them and let them know how much you value their contributions to the Clojure community? I'm sure that small gesture is going to mean a lot to them!
+So, who are your nominees for the "Clojure Hero" award? Why don't you reach out to them and let them know how much you value their contributions to the Clojure community? I'm sure this small gesture is going to mean a lot to them!
 
 [^1]: And you're certainly on mine.
 [^2]: I'm pretty sure they are on everyone's list. :-)
