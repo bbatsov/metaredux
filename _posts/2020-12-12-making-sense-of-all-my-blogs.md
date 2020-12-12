@@ -24,7 +24,7 @@ I've started `(think)` on the 5th of May, 2008. Frankly, I don't remember at all
 to achieve with the blog originally. I guess I just thought it was cool to have a blog and I decided to create one.
 Over the course of a decade the blog saw quite a few transformations and shifts in my focus and interests.
 For a few years it was named `DevCraft`[^1] and it was hosted on <<https://wordpress.com>>. Afterwards
-I adopted the `(think)` title and switched to Jekyll, Octopress and then again to Jekyll.
+I adopted the `batsov.com` domain, the `(think)` title and switched to Jekyll, Octopress and then again to Jekyll.
 Originally I was writing mostly tutorials on topics like Linux, Java, Emacs and Ruby, but eventually I started writing some essays
 as well (my favorite type of posts). As my OSS portfolio grew it started to gain
 significant coverage in my blog as well. `(think)` was a bit messy and without a clear
