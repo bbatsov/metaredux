@@ -50,7 +50,9 @@ ways just yet.
 
 [Emacs Redux](https://emacsredux.com) was my second blog. I started it in 2013 with the clear goal
 to write there short Emacs tutorials. That's what I've been doing for the past 7 years with a various
-degree of commitment and efficiency.
+degree of commitment and quality. Still, I consider it a great success that I've kept writing there
+for so long. For a while I wasn't very active there, again due to frustration with Octopress,
+but once I converted Emacs Redux to Jekyll, I've managed to rekindle my passing for it.[^3]
 
 It's important to understand that I don't write about Emacs exclusively on Emacs Redux. Often when an article is
 more "meta" in its nature (e.g. musings on the role of Emacs in modern society) it will end up on Meta Redux.
@@ -79,3 +81,4 @@ That's all I have for you today. I hope now you're finally making some sense of 
 
 [^1]: I used to be a huge StarCraft fan.
 [^2]: I also wanted a blog with a cool (for some definition of cool) name this time around.
+[^3]: A bad tooling decision can really kill your enthusiasm for doing pretty much anything.
