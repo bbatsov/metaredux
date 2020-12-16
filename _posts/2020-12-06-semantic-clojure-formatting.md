@@ -21,6 +21,8 @@ arguments. Today I want to address an article that suggested that fixed indentat
 That article is named [Better Clojure Formatting](https://tonsky.me/blog/clojurefmt/)[^1], which admittedly is catchy and made me consider naming my
 response to it "The Best Clojure Formatting" or "Superb Clojure Formatting", but I've opted for a more modest title in the end.
 
+<!--more-->
+
 ## Prologue: The Purpose of Formatting
 
 Have you ever thought why formatting (layout) is important at all?
