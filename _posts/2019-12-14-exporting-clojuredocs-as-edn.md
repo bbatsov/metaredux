@@ -33,9 +33,9 @@ leads us to the crux of this article...
 
 We didn't really want to deal with JSON, so [Masashi Iizuka](https://github.com/liquidz)
 (of `vim-iced` fame) created a [simple
-service](https://clojuredocs-edn.netlify.com/) that downloads fresh
-data from ClojureDocs each day and converts it to EDN.  As a bonus the service provides
-several versions of the data - a direct port of the original JSON data, a compact version that
+tool](https://github.com/clojure-emacs/clojuredocs-export-edn) that downloads fresh
+data from ClojureDocs each day and converts it to EDN.  As a bonus the tool generates
+several variants of the data - a direct port of the original JSON data, a compact version that
 removes all the data related to updates that were done to some entry, and a minified variant
 of the compact version. Generally what we needed was the compact format, so here I'll share an example of it:
 
@@ -66,13 +66,12 @@ of the compact version. Generally what we needed was the compact format, so here
 ```
 
 Basically you get a simple Clojure map where the keys are fully qualified names and the values are maps describing those names.
-If you're interested in the implementation details you can check out the [GitHub repo](https://github.com/clojure-emacs/clojuredocs-export-edn).
 
-If you're curious how CIDER interacts with this service you should check out [this namespace](https://github.com/clojure-emacs/orchard/blob/master/src/orchard/clojuredocs.clj) in Orchard. Basically Orchard fetches the data once and caches it, refreshing it every few days. It's not super elegant, but it gets the job done.
+If you're curious how CIDER interacts with the EDN data you should check out [this namespace](https://github.com/clojure-emacs/orchard/blob/master/src/orchard/clojuredocs.clj) in Orchard. Basically Orchard fetches the data once and caches it, refreshing it every few days. It's not super elegant, but it gets the job done.
 On the bright side, now once the data gets locally cached all the queries become instantaneous. We've also wrapped in this in a nREPL middleware (part of `cider-nrepl` as well).
 Now it's really simple for tool authors to implement ClojureDocs lookup.
 
-Potentially down the road we can extend the export service to provide some simple data query interface. If someone is looking
+Potentially down the road we can build a service on top of the EDN data, providing some simple data query interface. If someone is looking
 for some simple way to contribute to CIDER and its Orchard, that's as good of a starting point as any.
 For me this story is a great example of the power of cross-team collaboration (in this case `vim-iced`'s and CIDER's) and sharing
 a common foundation for building development tools upon.

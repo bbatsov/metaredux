@@ -52,7 +52,7 @@ experience:
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
 * [refactor-nrepl](https://github.com/clojure-emacs/refactor-nrepl)
 * [sayid](https://github.com/clojure-emacs/sayid)
-* [clojuredocs-edn-export](https://clojuredocs-edn.netlify.app/)
+* [clojuredocs-edn-export](https://github.com/clojure-emacs/clojuredocs-export-edn)
 * [parseclj](https://github.com/clojure-emacs/parseclj)
 * [parseedn](https://github.com/clojure-emacs/parseedn)
 
