@@ -4,6 +4,8 @@ title: 'Meta Reduce 2021.0: Still in Lockdown'
 date: 2021-04-08 09:53 +0300
 tags:
 - Meta
+- Clojure
+- Ruby
 ---
 
 I've noticed the other day that I haven't written any blog posts this
