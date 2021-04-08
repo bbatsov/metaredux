@@ -45,9 +45,13 @@ if I'll manage to make them a reality. I should probably run a couple of project
 
 Outside of OSS things have also been relatively quiet on my end:
 
+- I've been having some fun with algorithms and programming puzzles. This helps me
+feel like a real programmer, even if I don't do much programming on my day job.
 - I finished reading the Witcher books. I have to say I was quite disappointed by the final couple of books.
 - I've been educating myself a bit on blockchain technologies and cryptocurrencies. I'm just curious to learn more on the topic, I don't plan to invest anything in crypto. It's too much hype for my taste.
 - I caught up with "The Walking Dead". The show is getting worse every year.
+- I've started to watch the new "Snowpiercer" show, but I didn't like it. I think the movie was way better.
+- I watched "Zack Snyder's Justice League" and I have to admit is just as good as it was hyped to be.[^2] I didn't even notice that it was 4 hours long.
 - I bought myself a pair of [Audioengine A2+ speakers](https://audioengineusa.com/shop/wirelessspeakers/a2-wireless-computer-speakers/), as I wanted to enjoy better music now that I'm spending so much time at home. My initial impression of them is quite positive.
 - I've rediscovered "Counter-Strike" 20 years later. We've started playing a bit of CS with my co-workers as a bonding activity. It's just as fun as it used to be back in high-school. And I'm still the worst player in every team.
 - I've also been playing on and off "Rise of the Tomb Raider", but for some reason I'm not enjoying the game as much as the first one. Still, it's fun, and I can definitely recommend it to people fond of games like "Uncharted".
@@ -55,3 +59,4 @@ Outside of OSS things have also been relatively quiet on my end:
 That's all from me for now. As usual, I have a huge backlog of topics for "Meta Redux" and I hope that I'll make some progress with it over the months to come. Stay safe, stay strong and keep hacking!
 
 [^1]: At least not here. I did write a couple of articles over at <https://emacsredux.com>.
+[^2]: For DC fans. For everyone else it's probably still one very dumb movie.
