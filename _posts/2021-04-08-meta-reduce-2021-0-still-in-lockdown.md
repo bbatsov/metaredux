@@ -7,7 +7,7 @@ tags:
 ---
 
 I've noticed the other day that I haven't written any blog posts this
-year. This made me sad. Another thing that made is sad is that about
+year.[^1] This made me sad. Another thing that made is sad is that about
 a year ago I wrote [this lockdown-themed article]({% post_url 2020-03-25-meta-reduce-2020-0-lockdown %})
 and very little has changed since then - life is still dominated by the COVID-19
 pandemic and we've been in and out of lockdowns of various strictness ever since.
@@ -39,7 +39,7 @@ the ever stronger competition from other editors and IDEs. Meta-X forever!
 ![Survey Results](/assets/images/clojure_survey_2021_results.png)
 
 I have some interesting ideas for CIDER, nREPL and friends going forward. Let's see
-if I'll manage to make them a reality. I should probably run a couple of project surveys as well, as I completely dropped the ball on those.
+if I'll manage to make them a reality. I should probably run a couple of project surveys myself, as I completely dropped the ball on those.
 
 Outside of OSS things have also been relatively quiet on my end:
 
@@ -51,3 +51,5 @@ Outside of OSS things have also been relatively quiet on my end:
 - I've also been playing on and off "Rise of the Tomb Raider", but for some reason I'm not enjoying the game as much as the first one. Still, it's fun, and I can definitely recommend it to people fond of games like "Uncharted".
 
 That's all from me for now. As usual, I have a huge backlog of topics for "Meta Redux" and I hope that I'll make some progress with it over the months to come. Stay safe, stay strong and keep hacking!
+
+[^1]: At least not here. I did write a couple of articles over at <https://emacsredux.com>.
