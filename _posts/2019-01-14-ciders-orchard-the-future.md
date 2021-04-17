@@ -84,7 +84,7 @@ subscribe to Rich's perspective that [Open-Source is not About
 You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9). Obviously,
 that's something extremely subjective, but my belief is exactly the
 opposite - open-source is all about you! That's what got me into open-source
-to being with - the chance to make a difference, the opportunity to
+to begin with - the chance to make a difference, the opportunity to
 influence the tools that I'm using on a daily basis, the chance to do
 something useful for others.
 
