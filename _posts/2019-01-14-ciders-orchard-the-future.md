@@ -51,7 +51,7 @@ are Emacs specific. Not a big deal, at this point, by maybe something
 worth revisiting down the road.
 
 I've also been wondering how to make sure that all tool writers, who
-are leveraging projects from the Orchard have a sit at the table. I
+are leveraging projects from the Orchard have a seat at the table. I
 definitely don't want to create a perception that CIDER's development
 drives the development of all related libraries. That should ideally
 be some collaborative process. I attribute the current state of affair
