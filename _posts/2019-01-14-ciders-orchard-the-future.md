@@ -113,7 +113,7 @@ that we can change this! If someone has any ideas about how we ended
 up where we are - please, share this with me in the comments.
 
 Hacking on the libraries themselves is certainly not the only way to
-contribute. In the next few section I'll go over a few other options
+contribute. In the following sections I'll go over a few other options
 you might want to consider.
 
 ## Documentation
