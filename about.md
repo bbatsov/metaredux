@@ -55,7 +55,7 @@ Note that some of my projects also have an [Open Collective](https://opencollect
 
 ## Contacts
 
-* Email - first name at `batsov.com` or `hey.com`.
+* Email - first name at `metaredux.com`, `batsov.net` or `hey.com`.
 * [Twitter](https://twitter.com/bbatsov)
 * [LinkedIn](https://www.linkedin.com/in/bbatsov/)
 
