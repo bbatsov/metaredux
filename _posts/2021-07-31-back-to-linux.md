@@ -39,6 +39,17 @@ they still haven't created a package manager (everyone's basically using `homebr
 At this point it's clear to me that macOS is not meant to be an OS for tinkerers, but rather for consumers.
 That's not a bad thing, it just doesn't sit very well with me.
 
+On a more practical note, here are a few things that have bothered me with macOS in recent years:
+
+- Pushing aggressively for the use of the App Store, which limits what applications can do. The OS tries hard to dissuade you from using any externally procured applications.
+- Bringing some applications and weird features from iOS to macOS (has anyone ever used the launchpad?).
+- The need to reinstall XCode after each macOS upgrade.
+- Almost every major OS upgrade breaks Homebrew or some tool that I use (like Karabiner, a keyboard remapping utility).
+- macOS ships by default with Emacs 22. That's not a typo. As noted above there are plenty of outdated Unix tools that ship with macOS.
+- Cheap tricks to obscure some problems, like hiding the remaining battery life estimation.
+
+I can go on, but I'll stop at this point. I hope you get the idea.
+
 ## The New Hardware
 
 Here's the hardware that I got:
@@ -58,10 +69,20 @@ Tomb Raider, Diablo III, etc). I went for the Radeon mostly because of the AMD's
 (supposedly great) open-source GPU driver for Linux. In hindsight this was a big mistake, but I'll
 expand on this topic later.
 
+**Note:** I knew that an Intel CPU with built-in GPU was the safest option in
+terms of driver support, but I really wanted a Ryzen CPU and a reasonably
+powerful discreet GPU.
+
 ## The Distro
 
 I decided to play it safe and I went with Ubuntu 20.04, which was the latest release at the time.
 Historically I preferred Arch Linux and Fedora, but I wanted to minimize the setup efforts.
+
+When I was younger I loved spending lots of time to tweak every aspect of my
+setup (e.g. building a custom kernel, tuning the compilation flags for my
+packages, obtaining proprietary drivers from third-party repos, etc), but now I'm older, lazier and more practical. I still enjoy
+tinkering with my setup a lot, but I don't want to be forced to tinker (the
+Gentoo way).
 
 ## The Drivers
 
