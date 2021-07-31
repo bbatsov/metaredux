@@ -9,8 +9,8 @@ date: 2021-07-31 12:38 +0300
 ---
 ## Background
 
-**Note:** I've started writing this article about one year ago (September 2020), but I dropped it at some point.
-Its final version is way less ambitious than my original plans for it. Still, better than nothing.
+**Note:** _I've started writing this article about one year ago (September 2020), but I dropped it at some point.
+Its final version is way less ambitious than my original plans for it. Still, better than nothing._
 
 A long time ago I [wrote about my frustrations with Linux](https://batsov.com/articles/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop/) that led me to
 abandon the OS after having spent quite a lot of time on it.
