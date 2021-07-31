@@ -90,7 +90,7 @@ In short - everything was better than I remembered it, but nothing was fantastic
 
 [Albert](https://github.com/albertlauncher/albert) was a great alternative to Alfred. That's probably the only new app that I used this time around.
 Some proprietary apps that I need for work like Zoom, Slack and Dropbox didn't work/look great, but this is what I expected anyways. Still,
-they were working better than I remember them to.
+they were working better than I remembered them to.
 
 ## The Development Experience
 
