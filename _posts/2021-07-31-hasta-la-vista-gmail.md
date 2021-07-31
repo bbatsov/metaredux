@@ -67,6 +67,4 @@ We now live at a time where more and more people consider email obsolete and rel
 
 Anyways, that's all from me for now. I'll go back to having more fun with my new inbox. Keep hacking!
 
-**P.S.** Here's a [Fastmail referral link](https://ref.fm/u26676944) that will get you a 10% discount for the first year.
-
 [^1]: Damn, that's 17 years! Almost half my life (I'm 36 as I write this).
