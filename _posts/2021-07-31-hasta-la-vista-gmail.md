@@ -24,7 +24,7 @@ On the other hand, Gmail is really hard to replace/compete with:
 - It's fast, secure and really sleek. Clearly Google's vast resources have been put to good use here.
 
 That's not easy to give up. I've tried a few other e-mail providers over the years, but I never found
-someone compelling enough to make me do a real switch. HEY was pretty close to making the cut, but
+someone compelling enough to make me do a real switch. [HEY](https://hey.com) was pretty close to making the cut, but
 it's still missing some features that I deem essential (e.g. you can't have multiple domains attached to your account, there's no way to
 use HEY without its apps, there's no calendar). Enter Fastmail.
 
