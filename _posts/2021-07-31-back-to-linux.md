@@ -67,10 +67,17 @@ Historically I preferred Arch Linux and Fedora, but I wanted to minimize the set
 
 Everything worked out of the box, but unfortunately not everything worked
 well. I was getting some intermittent issues with my wi-fi and X.org kept
-crashing due to some issues with the GPU drivers. No matter what I tried (and I
-tried a lot of things - updated kernels, MESA, random patches I found here and
-there) I couldn't solve the GPU issues and my computer kept crashing 1-2 times
-per day. As you can imagine this was quite frustrating.
+crashing due to some issues with the GPU drivers. A quick Google search
+revealed I wasn't the only person facing these [GPU issues](https://gitlab.freedesktop.org/drm/amd/-/issues/1149).
+
+No matter what I tried (and I
+tried a lot of things - updated kernels, Mesa, random patches I found here and
+there, etc) I couldn't solve the GPU issue and my computer kept crashing 1-2 times
+per day. As you can imagine this was quite frustrating. Funny enough, after each change the
+crashes would get more frequent or less frequent. Never completely disappear, though.
+
+The wi-fi problem was much easier to address - I just switched to ethernet and never bothered
+to investigate it.
 
 Hardware support was the main reason I left Linux a decade ago and sadly the situation there
 hasn't improved much. Perhaps the situation is better with Nvidia GPUs, but I was hoping
@@ -89,9 +96,16 @@ they were working better than I remember them to.
 
 Absolutely divine. Proper package manager. Proper service management. Docker at its home. It doesn't get better than this.
 
+I'm 100% certain that Linux offers the best development experience for most software engineers. When there aren't hardware issues
+to affect it negatively, that is.
+
 ## Epilogue
 
-Due to the driver issues, in the end I've opted to switch to Windows 10 and WSL
+"Back to Linux" is a bit of a misnomer, because of the long period in which this article
+stayed on my backburner. By the time I wrapped it, I'm no longer using Linux, at least not
+natively.
+
+Due to the GPU driver issues, in the end I've opted to switch to Windows 10 and WSL
 (basically a Linux VM running in Windows). One year later I'm still a happy
 camper.  With Windows 10 I got the best of both worlds:
 
@@ -100,17 +114,24 @@ camper.  With Windows 10 I got the best of both worlds:
 
 As a bonus - I also got the opportunity to play a lot more games.[^2]
 
-Windows still has it's quirks, but the experience with it certainly beats the experience I had with Linux. All proprietary
-apps work great, the drivers are solid and I'm essentially working in Linux all of the time. The only thing from macOS I'm really
-missing is the nice collaboration/sync between all Apple devices - e.g. you take a picture on your phone and it immediately goes to your
-computer. You get an SMS on your phone and it's also on your computer. Not a big deal, but this walled Apple garden kept me on macOS
-even though I was getting more and more frustrated with it.
+Windows still has its quirks, but the experience with it certainly beats the
+experience I had with Linux. All proprietary apps work great, the drivers are
+solid and I'm essentially working in Linux all of the time. The only thing from
+macOS I'm really missing is the nice collaboration/sync between all Apple
+devices - e.g. you take a picture on your phone and it immediately goes to your
+computer. You get an SMS on your phone and it's also on your computer. Not a big
+deal, but this walled Apple garden kept me on macOS even though I was getting
+more and more frustrated with it. I hate walled gardens!
 
-In short, hardware support remains the biggest weakness of Linux, just as always. It's super disappointing that even
-after carefully choosing hardware for Linux compatibility I still ended up with a GPU that didn't work reliably.
+In short, hardware support remains the biggest weakness of Linux as desktop
+operating system, just as always. It's super disappointing that even after
+carefully choosing hardware for Linux compatibility I still ended up with a GPU
+that didn't work reliably.
 
-On the bright side - it was a ton of fun to assemble a new PC, after all those years. You should have seen how happy I was when the thing booted
-from the first try! And it was nice to check in on the progress made in the world of Linux and to find a reason to give Windows another chance.
+On the bright side - it was a ton of fun to assemble a new PC, after all those
+years. You should have seen how happy I was when the thing booted from the first
+try! And it was nice to check in on the progress made in the world of Linux and
+to find a reason to give Windows another chance.
 
 That's all I have for you today. Keep hacking!
 
