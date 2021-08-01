@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Back to Linux
+date: 2021-07-31 12:38 +0300
 tags:
 - Linux
 - macOS
 - Windows
-date: 2021-07-31 12:38 +0300
 ---
 ## Background
 
@@ -106,10 +106,10 @@ avoid dealing with a proprietary driver.[^1]
 
 ## The Apps
 
-Little has changed in the past 10 years, not to mention I don't use that many apps - mostly a browser, Emacs and a terminal.
+Little has changed in the past 10 years, not to mention I don't use that many apps - mostly a browser (Chrome and Firefox), Emacs and a terminal (Guake).
 In short - everything was better than I remembered it, but nothing was fantastic. GNOME and its apps (e.g. Nautilus) still have plenty of rough edges, but they get the job done.
 
-[Albert](https://github.com/albertlauncher/albert) was a great alternative to Alfred. That's probably the only new app that I used this time around.
+[Albert](https://github.com/albertlauncher/albert) was a great alternative to Alfred (one of my favorite macOS tools). That's probably the only new app that I used this time around.
 Some proprietary apps that I need for work like Zoom, Slack and Dropbox didn't work/look great, but this is what I expected anyways. Still,
 they were working better than I remembered them to.
 
@@ -147,7 +147,10 @@ more and more frustrated with it. I hate walled gardens!
 In short, hardware support remains the biggest weakness of Linux as desktop
 operating system, just as always. It's super disappointing that even after
 carefully choosing hardware for Linux compatibility I still ended up with a GPU
-that didn't work reliably.
+that didn't work reliably. I'm reasonably sure that if I had opted for an older GPU
+it would have worked better, but I didn't really want to make too many compromises.
+Who knows, probably by now the problems that plagued me have been fixed, although I'm
+not sure eager to check this.
 
 On the bright side - it was a ton of fun to assemble a new PC, after all those
 years. You should have seen how happy I was when the thing booted from the first
