@@ -52,19 +52,25 @@ I've also opted not to import my Gmail contacts and mails into Fastmail, even th
 
 I guess by now this article might look like a Fastmail advertisement. I want to mention that I certainly don't think it's the only game in time, as there are plenty
 of solid mail providers to choose from.
-I considered several Fastmail alternatives before deciding on Fastmail. They all have their pros and cons and I guess for some of you they might be a better choice.
+I considered several Gmail alternatives before deciding on Fastmail. They all have their pros and cons and I guess for some of you they might be a better choice.
 
-- ProtonMail - a privacy-centered mail service, hosted in Switzerland. I liked ProtonMail a lot (it has all the essential features for me, plus a very sleek web UI), but because of the end to end encryption they use, you're stuck with their clients or a clunky IMAP bridge. I like open standards, that's why I went with Fastmail in the end.
-- mailbox.org - another privacy-centered mail provider, this time hosted in Germany. It offers pretty similar features to Fastmail and it's a bit cheaper. I picked Fastmail over it, mostly because of JMAP.
-- HEY - I already covered it above.
+- [ProtonMail](https://protonmail.com/) - a privacy-centered mail service, hosted in Switzerland. I liked ProtonMail a lot (it has all the essential features for me, plus a very sleek web UI), but because of the end to end encryption they use, you're stuck with their clients or a clunky IMAP bridge. I like open standards, that's why I went with Fastmail in the end.
+- [mailbox.org](https://mailbox.org/en/) - another privacy-centered mail provider, this time hosted in Germany. It offers pretty similar features to Fastmail and it's a bit cheaper. I picked Fastmail over it, mostly because of JMAP.
+- [HEY](https://hey.com) - I already covered it above.
+
+Fastmail, Proton and mailbox.org allow you to have multiple users attached to one account, which is pretty handy if you want to create email accounts for your entire family or your business.
 
 I never considered one of the other big players (Outlook, Hotmail, Yahoo, etc), as I think they suffer from the same problems as Gmail (you pay for them with your privacy).
 Probably there are other cool services that I didn't try out. Feel free to mention those in the comments.
+
+The important thing to note is that there are plenty of good Gmail alternatives, and most of them are not particularly expensive either. ProtonMail has a free plan, Fastmail starts at $3/month and mailbox.org starts at only 1 EUR/month. From my perspective our privacy is worth a lot more than this.
 
 ## Epilogue
 
 We now live at a time where more and more people consider email obsolete and rely mostly on chat apps like Slack, FB Messenger, Whatsapp, Telegram, etc. Many applications claim to be the email killer, but due to their walled garden approaches no one really succeeds in this endeavor. For some reason email has this horrible reputation of something that's always messy and causes a ton of stress, but I think that's just a side effect of how most people use (abuse?) email. Email can be a lot of fun, and no stress at all. You just have invest a bit of time in organizing and streamlining your inbox. For me the migration to Fastmail was a great opportunity to do this and I'm truly having a lot of fun with email right now. It'd be cool if some of you shoot me an email or two! :)
 
-Anyways, that's all from me for now. I'll go back to having more fun with my new inbox. Keep hacking!
+I hope I managed to convince a few of you that Gmail has viable (and fun) alternatives. I regret a bit not doing the switch earlier, but better late than never, right? For a long time privacy was an afterthought for me, but as I've been growing older I've learned to appreciate it more. I'll assume this means I'm getting both older and wiser.
+
+Anyways, that's all from me for now. Time to go back to having more fun with my new inbox. Keep hacking!
 
 [^1]: Damn, that's 17 years! Almost half my life (I'm 36 as I write this).
