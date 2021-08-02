@@ -10,7 +10,8 @@ tags:
 ## Background
 
 **Note:** _I've started writing this article about one year ago (September 2020), but I dropped it at some point.
-Its final version is way less ambitious than my original plans for it. Still, better than nothing._
+Its final version is way less ambitious than my original plans for it, mostly because I forgot some of things that were
+on mind back then. Still, better than nothing._
 
 A long time ago I [wrote about my frustrations with Linux](https://batsov.com/articles/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop/) that led me to
 abandon the OS after having spent quite a lot of time on it.
@@ -84,6 +85,14 @@ packages, obtaining proprietary drivers from third-party repos, etc), but now I'
 tinkering with my setup a lot, but I don't want to be forced to tinker (the
 Gentoo way).
 
+One general trend I've observed is that Linux distros are now more complex than they used to be. Life
+seemed pretty good and simple in the days of System V init, but today systemd dominates everything and makes
+it harder to comprehend. At least to someone like me, who completely missed the transition to systemd.
+
+> systemd is a software suite that provides an array of system components for Linux operating systems. Its main aim is to unify service configuration and behavior across Linux distributions; systemd's primary component is a "system and service manager"—an init system used to bootstrap user space and manage user processes. It also provides replacements for various daemons and utilities, including device management, login management, network connection management, and event logging.
+
+So much for the single-responsibility principle.
+
 ## The Drivers
 
 Everything worked out of the box, but unfortunately not everything worked
@@ -100,6 +109,9 @@ crashes would get more frequent or less frequent. Never completely disappear, th
 The wi-fi problem was much easier to address - I just switched to ethernet and never bothered
 to investigate it.
 
+In the past I also struggled with getting my printer to work properly, but I no longer have a printer, so
+that's one of those problems that solved itself.
+
 Hardware support was the main reason I left Linux a decade ago and sadly the situation there
 hasn't improved much. Perhaps the situation is better with Nvidia GPUs, but I was hoping
 avoid dealing with a proprietary driver.[^1]
@@ -110,12 +122,24 @@ Little has changed in the past 10 years, not to mention I don't use that many ap
 In short - everything was better than I remembered it, but nothing was fantastic. GNOME and its apps (e.g. Nautilus) still have plenty of rough edges, but they get the job done.
 
 [Albert](https://github.com/albertlauncher/albert) was a great alternative to Alfred (one of my favorite macOS tools). That's probably the only new app that I used this time around.
-Some proprietary apps that I need for work like Zoom, Slack and Dropbox didn't work/look great, but this is what I expected anyways. Still,
-they were working better than I remembered them to.
+Some proprietary apps that I need for work (like Zoom, Slack and Dropbox) didn't work/look great (especially when compared to their macOS/Windows versions), but this is what I expected anyways. Still,
+they were working better than I remembered them to. Given the small market share that desktop Linux has, I never expected big corporations to start
+investing heavily in Linux support. I recall that 5 years ago Zoom kept crashing constantly on Linux (colleagues using Linux were often dropping out of
+Zoom calls, that's how I know this), but at least it was working reliably for me.
+
+Back in the day I complained about how bad Skype for Linux was, but fortunately I no longer have to use Skype, so this is a problem that solved itself.
+I also complained about the quality of OpenOffice - another application I no longer needed, as I'm using mostly Google Docs these days.
+In general the trend to move from native desktop applications to web based applications is definitely a benefit for Linux users. In some cases I actually
+preferred the web versions of applications that have a Linux desktop version as they seemed to work better to me (e.g. Slack and Spotify).
+Skype also has a nice web app these days, if you happen to need it.
+
+One more thing - I was happy to see that there were a lot of games (by Linux standards) in Steam, despite the failure of Valve's Steam Machine project
+(a gaming console running Linux). I tried out a couple of older games and they worked fine, apart from the video crashes I was getting because of the
+GPU driver issues.
 
 ## The Development Experience
 
-Absolutely divine. Proper package manager. Proper service management. Docker at its home. It doesn't get better than this.
+Absolutely divine. Proper package manager. Proper service management. Emacs in all its GTK glory! All the fantastic GNU utils. Docker at its home. No more XCode installations. It doesn't get better than this.
 
 I'm 100% certain that Linux offers the best development experience for most software engineers. When there aren't hardware issues
 to affect it negatively, that is.
