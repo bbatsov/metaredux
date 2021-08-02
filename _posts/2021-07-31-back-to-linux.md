@@ -13,7 +13,7 @@ tags:
 Its final version is way less ambitious than my original plans for it, mostly because I forgot some of things that were
 on mind back then. Still, better than nothing._
 
-A long time ago I [wrote about my frustrations with Linux](https://batsov.com/articles/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop/) that led me to
+A long time ago (in 2011) I [wrote about my frustrations with Linux](https://batsov.com/articles/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop/) that led me to
 abandon the OS after having spent quite a lot of time on it.
 
 After this article I made one failed attempt to convert to Windows and eventually
@@ -23,12 +23,13 @@ I was also missing having a custom-built desktop PC for a while, so I was very
 tempted to get one and run Linux on it. For various reasons (e.g. a lot of work-related
 travel and excessive laziness) I never got to doing so. Until now.
 
-2020 has been a horrible year on many levels, but it presented me with an unique opportunity
-to follow through with my plans, as I was finally grounded at home. In this article I'll
-share my experience revisiting Linux and rediscovering the joy of being in control of your
-operating system and your hardware.
+2020 has been a horrible year on many levels, but it presented me with an unique
+opportunity to follow through with my Linux PC plans, as I was finally grounded
+at home and had some extra time on my hands. In this article I'll share my
+experience revisiting Linux and rediscovering the joy of being in control of
+your operating system and your hardware.
 
-## The Downfall of macOS
+## The Downfall of macOS for Software Development
 
 I won't go into much details here, as I hope everyone has noticed the shift in macOS to be
 something more like iOS. That's good for most users, but not really for software engineers.
@@ -53,7 +54,7 @@ I can go on, but I'll stop at this point. I hope you get the idea.
 
 ## The New Hardware
 
-Here's the hardware that I got:
+Here's the hardware that I got in early July 2020 (it took me almost 3 months to settle on all the parts):
 
 | CPU | AMD RYZEN 7 3700X |
 | GPU | ASUS DUAL Radeon RX 5500 XT EVO OC 8G |
@@ -73,6 +74,17 @@ expand on this topic later.
 **Note:** I knew that an Intel CPU with built-in GPU was the safest option in
 terms of driver support, but I really wanted a Ryzen CPU and a reasonably
 powerful discreet GPU.
+
+I have to say that this 1,600 EUR desktop completely blew out of the water my way more expensive MacBook Pro. Of course,
+desktops always offered better value/performance than most laptops, but in recent years we've all became completely obsessed with laptop/tablets.
+While portability is definitely a problem with desktops, they also have some cool advantages like:
+
+- They don't overheat
+- They don't run out of juice
+- You can actually fix/upgrade them
+- They force you to work on desk (meaning the ergonomics are usually better)
+
+End of this slight lyrical detour on the merits of ancient technology from more sophisticated times.
 
 ## The Distro
 
