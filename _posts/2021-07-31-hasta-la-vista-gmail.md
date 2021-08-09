@@ -74,4 +74,4 @@ I hope I managed to convince a few of you that Gmail has viable (and fun) altern
 Anyways, that's all from me for now. Time to go back to having more fun with my new inbox. Keep hacking!
 
 [^1]: Damn, that's 17 years! Almost half my life (I'm 36 as I write this).
-[^2]: That's quite subjective, of course, and probably "a bit dated" is better way to describe it. I'm talking strictly about appearance (design), not function here. To be more specific - I like the flat design adopted by most applications today better.
+[^2]: That's quite subjective, of course, and probably "a bit dated" is a more accurate way to describe it. I'm talking strictly about appearance (design), not function here. To be more specific - I like the flat design adopted by most applications today better.
