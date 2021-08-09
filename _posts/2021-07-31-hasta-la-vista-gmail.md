@@ -34,7 +34,7 @@ use HEY without its apps, there's no calendar). Enter Fastmail.
 ## Moving to Fastmail
 
 I've never heard of Fastmail, until I started to explore more actively Gmail alternatives in the past 3 months. At first I had
-quickly discarded it, because of its ancient looking UI, but once I got past this superficial stuff I realized it's a fantastic service:
+quickly discarded it, because of its ancient looking UI[^2], but once I got past this superficial stuff I realized it's a fantastic service:
 
 - It packs all the features I needed (e.g. custom domains, aliases, calendar, IMAP/JMAP)
 - It has great customer support
@@ -74,3 +74,4 @@ I hope I managed to convince a few of you that Gmail has viable (and fun) altern
 Anyways, that's all from me for now. Time to go back to having more fun with my new inbox. Keep hacking!
 
 [^1]: Damn, that's 17 years! Almost half my life (I'm 36 as I write this).
+[^2]: That's quite subjective, of course, and probably "a bit dated" is better way to describe it. I'm talking strictly about appearance (design), not function here. To be more specific - I like the flat design adopted by most applications today better.
