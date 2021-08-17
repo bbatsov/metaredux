@@ -72,7 +72,7 @@ Here are a few examples of using `incomplete`:
  {:candidate ":validator", :type :keyword}
  {:candidate ":value", :type :keyword}
  {:candidate ":var", :type :keyword}
- {:candnidate ":var-form", :type :keyword}
+ {:candidate ":var-form", :type :keyword}
  {:candidate ":var-name", :type :keyword}
  {:candidate ":var-params", :type :keyword}
  {:candidate ":var-query", :type :keyword}
