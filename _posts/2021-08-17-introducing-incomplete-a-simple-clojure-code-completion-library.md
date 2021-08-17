@@ -72,7 +72,7 @@ Here are a few examples of using `incomplete`:
  {:candidate ":validator", :type :keyword}
  {:candidate ":value", :type :keyword}
  {:candidate ":var", :type :keyword}
- {:candidate ":var-form", :type :keyword}
+ {:candnidate ":var-form", :type :keyword}
  {:candidate ":var-name", :type :keyword}
  {:candidate ":var-params", :type :keyword}
  {:candidate ":var-query", :type :keyword}
@@ -118,6 +118,10 @@ can also specify an explicit namespace.
 ``` clojure
 (completions "ma" 'clojure.core)
 ```
+
+While `incomplete` was extracted from nREPL, it won't be used to replace nREPL's
+own completion code (`nrepl.util.completion`), as nREPL can't have any runtime dependencies. The two codebases
+will be synchronized manually, as we've done in the past for nREPL's [bencode library](https://github.com/nrepl/bencode). This adds a bit of maintenance overhead, but it's a small price to pay compared to the benefits.
 
 That's all I have for you today. A short article for a simple library. I hope that some of you
 are going to find `incomplete` useful!
