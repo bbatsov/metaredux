@@ -37,6 +37,7 @@ I'm the author of a few projects:
 * [CIDER](https://cider.mx)
 * [cider-nrepl](https://github.com/clojure-emacs/cider-nrepl)
 * [orchard](https://github.com/clojure-emacs/orchard)
+* [incomplete](https://github.com/nrepl/incomplete)
 * [inf-clojure](https://github.com/clojure-emacs/inf-clojure)
 
 And the primary maintainer or a co-maintainer of a ton of commonly
@@ -55,6 +56,7 @@ experience:
 * [clojuredocs-edn-export](https://github.com/clojure-emacs/clojuredocs-export-edn)
 * [parseclj](https://github.com/clojure-emacs/parseclj)
 * [parseedn](https://github.com/clojure-emacs/parseedn)
+* [reply](https://github.com/trptcolin/reply)
 
 ### Emacs
 
