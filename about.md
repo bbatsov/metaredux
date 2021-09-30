@@ -32,6 +32,12 @@ Knowing me there's a high chance I won't actually write anything at all!
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
 
+## HEY World
+
+I also have a blog at [HEY World](https://world.hey.com/bozhidar).
+I'm still not sure what I'll use it for (if anything), but likely it
+will host short musings on random non-technical topics.
+
 ## Patronage
 
 As you might imagine maintaining many open-source projects is a
