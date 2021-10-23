@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Discord for OSS Projects
+title: Using Discord for Open-Source Projects
 tags:
 - Project Maintenance
 - Discord
