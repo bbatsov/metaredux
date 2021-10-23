@@ -67,7 +67,7 @@ Here are some random personal updates:
 - I've switched from Chrome to Firefox for my personal browsing. Firefox is awesome! I still plan to use Chrome for work.
 - I've switched from LastPass to 1Password and Bitwarden. That's not a mistake - I like them both, so I use them both, at least for the time being. 1Password has better UI/UX, but I like the simplicity of Bitwarden and the fact I don't need a desktop app with it.
 - I've been pondering whether to upgrade my trusted old iPhone XS. I love it, but its battery life leaves something to be desired.
-- I've been a super happy Fastmail user for several month now.
+- I've been a super happy Fastmail user for several months now.
 - I've read a ton of books. I can highly recommend "The Cult of We".
 - I've started watching the new season of "Sex Education". It's awesome!
 - I've started to re-watch Daniel Craig's James Bond movies. 2 down, 2 to go.
