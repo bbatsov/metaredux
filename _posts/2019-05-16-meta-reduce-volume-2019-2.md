@@ -168,9 +168,12 @@ in the series.
 I've decided to recover from it with some sci-fi short stories by Philip Dick and William Gibson.
 Philip Dick was so ahead of his time! I've always loved his work!
 
-On the cinema/TV front my life has been dominated by "Game of Thrones". Like many of you I've been outraged by how
-dark #8.3 was and how the story developed throughout the season in general. I'm fairly certain that whatever ending
-George Martin has in store for us is going to be significantly better. I just hope I'll live to read it.
+On the cinema/TV front my life has been dominated by "Game of Thrones". Like
+many of you I've been outraged by how dark episode #8.3 was (basically you
+couldn't see what was happening) and how the story developed throughout the
+season in general. I'm fairly certain that whatever ending George Martin has in
+store for us is going to be significantly better. I just hope I'll live to read
+it.
 
 And don't even get me started on "Endgame". It was OK, but it felt like some final victory lap, not like a real movie.
 Not to mention it was utterly predictable (unlike GoT). Still, it was an interesting milestone for the Marvel
