@@ -17,7 +17,7 @@ I assumed it was just some chat for gamers.[^1] However, after playing with it
 for a few months I figured out it's a great fit for the needs of my projects
 for several reasons:
 
-* You can create new Discord servers[^2] for each project, where you can create a nice channels structure like `#support`, `#hacking`, `#general`, `#feature-requests`, etc.
+* You can create new Discord servers[^2] for each project, where you can create a nice channels structure like `#support`, `#hacking`, `#general`, `#feature-requests`, etc.[^3]
 * The UI is simple and clean, and the client application is not a resource hog (unlike Slack). The UI assessment is obviously subjective, but a lot of people I've spoken with on the subject voiced the same opinion.
 * Even on a free plan you have unlimited chat history retention. That's one of my main
 issues with Slack and the famous [Clojurians Slack](https://clojurians.slack.com/), often the history there
@@ -48,3 +48,4 @@ are you using to collaborate on OSS projects if any. Feel free to share your tho
 
 [^1]: Truth be told, I kept confusing Discord with Discourse.
 [^2]: You can think of Discord servers as an instance of Discord or an isolated namespace. They are basically the same as workspaces in Slack.
+[^3]: I wrote a bit more about the structure of CIDER's Discord [here]({% post_url 2021-08-01-cider-is-now-on-discord %}).
