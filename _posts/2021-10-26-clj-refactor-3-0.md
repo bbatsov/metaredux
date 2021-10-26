@@ -46,4 +46,6 @@ ideas for what we can improve. Probably down the road we'll decouple `clj-refact
 done in CIDER a couple of years ago. More importantly, though, we'd like to show that we haven't reached the limit of what one can do with
 a purely (mostly?) REPL-powered approach to refactoring. We see that with the rise of `clojure-lsp` and tools like `clj-kondo` some people
 are starting to question the tradional Lisp ways, but we remain convinced that they are just as powerful and as relevant as they have always been.
-And as simple and elegant as Lisp. That's all from me for now. In the REPL we trust!
+And as simple and elegant as Lisp.
+
+That's all from me for now. In the REPL we trust!
