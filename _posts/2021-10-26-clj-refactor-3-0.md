@@ -15,8 +15,8 @@ Somewhat ironically, we also failed to achieve the main objective we had for thi
 old implementation of the functionality. So, why the major release then?
 
 Well, those of you who monitor the project closely know that it wasn't getting a lot of love in the past several years.
-Even though I'm one of the maintainers of the project, I never really used it and I wasn't particularly invested in it.
-I just had way too much work with nREPL, CIDER and Orchard to be able to dedicate a lot of time to another relative big project.
+Even though I'm one of the maintainers of the project, I never really used it much and I wasn't particularly invested in it.
+I just had way too much work with nREPL, CIDER and Orchard to be able to dedicate a lot of time to another relatively big project.
 Still, I'd be reviewing PRs, cutting new releases occasionally and making sure that `clj-refactor.el` mostly works.
 This year, however, there was a surge of contributions to the project that finally pushed it forward in significant ways.
 Most of those contributions, however, happened in the underlying nREPL middleware - namely `refactor-nrepl`.
