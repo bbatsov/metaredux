@@ -36,7 +36,7 @@ Projectile I had no idea how many people were still using it! I'm pretty sure a 
 * Projectile spawned an ecosystem of over 20 plugins (e.g. `helm-projectile`, `projectile-rails`, `consult-projectile`).
 * The main package reached over 2 million download on MELPA!
 * I learned a lot about how to run a open-source project, while running into every possible problem that one can imagine.
-* I rejected an opportunity to submit Projectile to GNU ELPA and potentially to Emacs itself early on. Long story short - I value a lower bar to contribution for my projects than a wide reach. Call me an idealist.[^3]
+* I rejected an opportunity to submit Projectile to GNU ELPA and potentially to Emacs itself early on. Long story short - I value a low bar to contribution for my projects more than a wide reach. Call me an idealist.[^3]
 * I got inspired to work on many other open-source projects.
 
 I'm reasonably sure that without Projectile, I would have never created my latter and better known open-source projects RuboCop and CIDER.
@@ -50,7 +50,7 @@ afterwards I wasn't spending that much time working on it. From time to time pro
 is actually needed. In recent years the focus has been mostly bug-fixes, performance improvements, better documentation, etc., and it's
 likely going to remain the same for the foreseeable future.
 
-I've read that now that Emacs has the built in `project.el` package a lot of people
+I've read that now that Emacs has the built-in `project.el` package a lot of people
 have stopped using Projectile and think that the project is irrelevant, and I respect their opinion. Projectile never aimed for
 any form of world domination, and it's obviously hard to compete with a built-in package, as it has a home-field advantage you can never match.
 Still, I think that competition is not a bad thing, and having a project with a lower bar to entry (when it comes to contribution) has its merits
