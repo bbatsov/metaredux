@@ -62,6 +62,6 @@ Thanks to everyone who has contributed to the project, supported it, criticized 
 and I wouldn't have learned the valuable lessons that I learned in process of developing and maintaining it. Projectile will forever have a special place in
 my heart! Here's to the next decade and whatever new adventures and challenges it may hold! Cheers!
 
-[^1]: I did start Emacs Prelude in the same year, so it's a bit hard to say which one was truly first, but it mind it was always Projectile.
+[^1]: I did start Emacs Prelude in the same year, so it's a bit hard to say which one was truly first. In my mind, however, it has always been Projectile.
 [^2]: That also prompted me to write my [(in)famous rant about the poor state of the Linux desktop experience](https://batsov.com/articles/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop/).
 [^3]: By the way - these days Projectile is available on the new NonGNU ELPA package repository, that's going to be enabled by default in Emacs 28.
