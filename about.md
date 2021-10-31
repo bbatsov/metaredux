@@ -27,12 +27,20 @@ mind with all of you, and in the mean time improve my
 I guess I'll mostly be writing on programming-related topics, but who knows...
 Knowing me there's a high chance I won't actually write anything at all!
 
-## Emacs Redux
+## About My Other Blogs
+
+### (think)
+
+[(think)](https://batsov.com) is my original technical blog. Meta Redux mostly
+supersedes it, but I still occasionally write some short articles over at
+`(think)` if I feel they don't fit my vision for Meta Redux.
+
+### Emacs Redux
 
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
 
-## HEY World
+### HEY World
 
 I also have a blog at [HEY World](https://world.hey.com/bozhidar).
 I'm still not sure what I'll use it for (if anything), but likely it
