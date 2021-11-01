@@ -23,7 +23,7 @@ a proper conference afterparty!
 ### In Bulgarian
 
 My ability to express myself in English is somewhat limited, so when I want to share something
-really deep and profound with the world I have to do in the Bulgarian.[^1]
+really deep and profound with the world I have to do it in Bulgarian.[^1]
 
 * [The Books That Every Programmer Must Read](https://www.youtube.com/watch?v=H6OQ2RESp4s) (HackConf 2015)
 * [How to Teach Ourselves to Program in 10+ Years](https://www.youtube.com/watch?v=B54nJHzXK1g) (HackConf 2016)
