@@ -73,6 +73,12 @@ Note that some of my projects also have an [Open Collective](https://opencollect
 * [Twitter](https://twitter.com/bbatsov)
 * [LinkedIn](https://www.linkedin.com/in/bbatsov/)
 
+The best way to reach me is via email. I love email and rarely bother to check
+messages on LinkedIn (and social media in general).
+
+I can heartily recommend Fastmail to everyone looking for a great email service
+that respects your privacy. Using my [affiliate link to sign up](https://ref.fm/u26676944) will give you a 10% discount for the first year.
+
 ## Colophon
 
 This website is powered by [Jekyll](https://jekyllrb.com/) and uses
