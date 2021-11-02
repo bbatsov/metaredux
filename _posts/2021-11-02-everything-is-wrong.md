@@ -55,4 +55,4 @@ the impact of the ANSI Common Lisp standard on the evolution of Common Lisp? In 
 
 But that's besides the point. Everything is wrong all the time. Everyone is wrong all the time. That's the world in which we live in.
 It's a tiring, frustrating and simply demotivating much of the time. And it's on all of us to make an effort and something different and maybe even more constructive for a change.
-A community is defined by the interactions that take place in it. A great community is defined by strong, respectful and constructive interactions. Over and out.
+A community is defined by the interactions that take place in it. A great community is defined by strong, respectful and constructive interactions. In such a community something may occasionally be right. Over and out.
