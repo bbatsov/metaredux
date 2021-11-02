@@ -21,8 +21,20 @@ Back to that blog post. Despite its ambitious name it focuses only on the follow
 * The use of [semantic indentation]({% post_url 2020-12-06-semantic-clojure-formatting %})
 * 80 characters line limit
 
-I definitely didn't see this coming. It's hard to find better examples to illustrate what bike-shedding is all about. I've worked on several style guides
+I definitely didn't see this coming. It's hard to find better examples to illustrate what bike-shedding is all about, as those guidelines are certainly not the most important part of the style guide. I've worked on several style guides
 over the years and always the longest, most heated and least constructive conversations always revolve around the most trivial topics. Human nature I guess.
+
+The Clojure Style Guide starts with the following "disclaimer":
+
+> A style guide is about consistency. Consistency with this style guide is important. Consistency within a project is more important. Consistency within one class or method is the most important.
+>
+> However, know when to be inconsistent — sometimes style guide recommendations just aren’t applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best. And don’t hesitate to ask!
+>
+> In particular: do not break backwards compatibility just to comply with this guide!
+
+A style guide is there to spare you the need to make lots of trivial decisions and
+an epic number of bike-shedding conversations. It is not, however, a replacement for
+doing some thinking and applying your common sense/best judgment.
 
 Anyways, I'm writing this article mostly, because the "everything is wrong" post
 is just one representation of a common problem in today's world. People love to
