@@ -15,7 +15,7 @@ The introduction of the article was very amusing for me, as it featured a few wo
 
 > It’s a style guide for Clojure that was created by a man who wrote some of the widely used tooling in Clojure, but primarily he’s a Ruby developer and the author of Rubocop, the most popular Ruby linter.
 
-I've been described in many different ways, but this one is probably my favorite so far. For the record - I never viewed myself as a Java developer, a Ruby developer, a Clojure developer or whatever. I happen to do some things for a living, a happen to enjoy doing some other things outside of my work. Yeah, Clojure has always been just a hobby for me, but I hope this doesn't diminish me as a Clojure programmer in the eyes of my fellow Clojurians.
+I've been described in many different ways, but this one is probably my favorite so far. For the record - I never viewed myself as a Java developer, a Ruby developer, a Clojure developer or whatever. I happen to do some things for a living, and I happen to enjoy doing some other things outside of my work. Yeah, Clojure has always been just a hobby for me, but I hope this doesn't diminish me as a Clojure programmer in the eyes of my fellow Clojurians.[^1]
 
 Back to that blog post. Despite its ambitious name it focuses only on the following 2 (!!!) points from the guide:
 
@@ -57,3 +57,5 @@ the impact of the ANSI Common Lisp standard on the evolution of Common Lisp? In 
 But that's besides the point. Everything is wrong all the time. Everyone is wrong all the time. That's the world in which we live in.
 It's a tiring, frustrating and simply demotivating much of the time. And it's on all of us to make an effort and something different and maybe even more constructive for a change.
 A community is defined by the interactions that take place in it. A great community is defined by strong, respectful and constructive interactions. In such a community something may occasionally be right. Over and out.
+
+[^1]: If someone wanted to embarrass me properly, they should have pointed out that I haven't been programming professionally for the past 10 years (I've held mostly managerial roles in this period, that required very little programming on my part). I guess I'm not even a real programmer anymore.
