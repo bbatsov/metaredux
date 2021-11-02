@@ -4,6 +4,7 @@ title: Everything is Wrong
 date: 2021-11-02 13:24 +0200
 tags:
 - Clojure
+- Code Style
 - Meta
 ---
 
