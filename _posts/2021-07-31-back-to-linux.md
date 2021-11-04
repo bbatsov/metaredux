@@ -151,14 +151,14 @@ GPU driver issues.
 
 ## The Development Experience
 
-Absolutely divine. Proper package manager. Proper service management. Emacs in all its GTK glory! All the fantastic GNU utils. Docker at its home. No more XCode installations. It doesn't get better than this.
+Absolutely divine! Proper package manager (`apt`). Proper service management (with `systemctl`). Emacs in all its GTK glory! All the fantastic GNU utils. Docker at its home. No more XCode installations. It doesn't get better than this!
 
 I'm 100% certain that Linux offers the best development experience for most software engineers. When there aren't hardware issues
 to affect it negatively, that is.
 
 ## Epilogue
 
-"Back to Linux" is a bit of a misnomer, because of the long period in which this article
+The title "Back to Linux" is a bit of a misnomer, because of the long period in which this article
 stayed on my backburner. By the time I wrapped it, I'm no longer using Linux, at least not
 natively.
 
