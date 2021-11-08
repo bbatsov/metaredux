@@ -42,7 +42,7 @@ working on and then you're out of time. No progress. Lots of
 frustration.
 
 I happen to be the steward a [few somewhat popular
-projects](/projects) and I'm saying all of this from experience.  I
+projects](https:/batsov.com/projects) and I'm saying all of this from experience.  I
 know that focus is the key to success in everything, but I've been
 finding it harder and harder to find my focus when it comes to OSS
 projects, as so much work has piled on my plate there that I

@@ -225,7 +225,7 @@ team of like-minded people when the scope of something is clearly
 defined. We need a lot more of those!
 
 The people who know me are aware of my immense passion for [free
-software projects](/projects) and that I always want to build
+software projects](https:/batsov.com/projects) and that I always want to build
 healthy communities around my projects, nurture contributors,
 etc. I hope that the Clojure community will be dominated by such a type of
 organizations down the road.

@@ -15,7 +15,7 @@ world-wide. I spend a lot of my (free) time on GitHub, contributing
 to various open-source Ruby, Clojure and Emacs Lisp [projects](/projects/).
 
 The above paragraph is actually what I typically use as my bio for
-[conference talks](/presentations/). I love speaking at conferences
+[conference talks](http://batsov.com/presentations/). I love speaking at conferences
 and I'm really bad at it![^3]
 
 ## About Meta Redux

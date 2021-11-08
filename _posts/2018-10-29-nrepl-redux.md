@@ -141,7 +141,7 @@ definitely value my limited time way too much to be wasting it on a
 process with which I completely disagree.
 
 The people who know me are aware of my immense passion for [free
-software projects](/projects) and that I always want to build
+software projects](https:/batsov.com/projects) and that I always want to build
 healthy communities around my projects, nurture contributors,
 etc. Clojure Contrib goes against everything I hold near and dear! I
 could have probably gotten commit access to the nREPL project in
