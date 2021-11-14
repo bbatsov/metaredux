@@ -19,7 +19,7 @@ email: "bozhidar@metaredux.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Meta-x meta-redux
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://metaredux.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://metaredux.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Some defaults that get applied to all posts, so you don't have repeat them
 # in the post metadata.
