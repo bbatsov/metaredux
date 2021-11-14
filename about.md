@@ -4,19 +4,21 @@ title: About
 permalink: /about/
 ---
 
-Meta Redux is the personal blog of Bozhidar Batsov. It (somewhat) complements
-and (mostly) succeeds my older blog "(think)" at <https://batsov.com>.
+Meta Redux is the personal tech blog of Bozhidar Batsov. It (somewhat) complements
+and (partially) succeeds my older blog "(think)" at <https://batsov.com>.
 
 ## About Me
 
 I'm Bozhidar[^1] and I love computers in general and programming in
 particular[^2]. My fanatic devotion to Emacs is known
 world-wide. I spend a lot of my (free) time on GitHub, contributing
-to various open-source Ruby, Clojure and Emacs Lisp [projects](/projects/).
+to various open-source Ruby, Clojure and Emacs Lisp [projects](https:/batsov.com/projects/).
 
 The above paragraph is actually what I typically use as my bio for
-[conference talks](http://batsov.com/presentations/). I love speaking at conferences
+[conference talks](https://batsov.com/presentations/). I love speaking at conferences
 and I'm really bad at it![^3]
+
+You can learn more about me [here](https://batsov.com/about/).
 
 ## About Meta Redux
 
@@ -24,16 +26,18 @@ This site is my attempt to share some of the things that are on my
 mind with all of you, and in the mean time improve my
 (non-programming) writing and communication skills.
 
-I guess I'll mostly be writing on programming-related topics, but who knows...
-Knowing me there's a high chance I won't actually write anything at all!
+The main focus of the blog are going to be my open-source work and programming.
+I reserve the right to write about anything and everything if I deem fit to do so.
+I also reserve the right to be lazy and not write about anything at all.
 
 ## About My Other Blogs
 
 ### (think)
 
-[(think)](https://batsov.com) is my original technical blog. Meta Redux mostly
-supersedes it, but I still occasionally write some short articles over at
-`(think)` if I feel they don't fit my vision for Meta Redux.
+[(think)](https://batsov.com) is my original personal site/technical blog. Meta
+Redux somewhat supersedes it (especially as a technical blog), but I still
+occasionally write articles over at `(think)` if I feel they don't fit my vision
+for Meta Redux.
 
 ### Emacs Redux
 
