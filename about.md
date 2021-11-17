@@ -35,6 +35,8 @@ I also reserve the right to be lazy and not write about anything at all.
 I have [way too many blogs]({% post_url 2020-12-12-making-sense-of-all-my-blogs %}) at this point! In hindsight, probably I went a
 bit overboard with them, but it is how it is.
 
+Generally I write here about programming and my open-source projects and most other topics end up on some of my other blogs.
+
 ### (think)
 
 [(think)](https://batsov.com) is my original personal site/technical blog. Meta
@@ -46,6 +48,9 @@ for Meta Redux.
 
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
+
+This blog precedes Meta Redux (I started it in 2013) and it inspired me to come
+up with the Meta Redux name.
 
 ### HEY World
 
