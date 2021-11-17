@@ -32,6 +32,9 @@ I also reserve the right to be lazy and not write about anything at all.
 
 ## About My Other Blogs
 
+I have [way too many blogs]({% post_url 2020-12-12-making-sense-of-all-my-blogs %}) at this point! In hindsight, probably I went a
+bit overboard with them, but it is how it is.
+
 ### (think)
 
 [(think)](https://batsov.com) is my original personal site/technical blog. Meta
