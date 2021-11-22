@@ -4,8 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Meta Redux is the personal tech blog of Bozhidar Batsov. It (somewhat) complements
-and (partially) succeeds my older blog "(think)" at <https://batsov.com>.
+> meta <br>
+> adjective
+>   1. _informal_ : showing or suggesting an explicit awareness of itself or oneself as a member of its category : cleverly self-referential
+>   2. An ancient modifier key on certain keyboards, the memory of which lives on in Emacs today.
+
+> redux <br>
+> adjective
+>   1. brought back; resurgent: <br>
+>   the Victorian era redux.
+
+Meta Redux is the other personal tech blog of Bozhidar Batsov. It (somewhat) complements
+and (partially) succeeds my original blog "(think)" at <https://batsov.com>.
 
 ## About Me
 
