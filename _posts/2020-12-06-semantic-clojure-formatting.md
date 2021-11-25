@@ -395,7 +395,7 @@ underlying code. I totally get their reasoning, but it saddens me
 regardless.
 
 Anyways, I don't really want to argue which style is better or worse. My one and only point is that
-I'll always value readability over some questionable gains in the tooling department. I can only
+I'll always value readability over some questionable gains in the tooling department. I can only hope
 that my perspective on the matter resonated with some of you.
 
 I've also updated the Clojure style guide, as part of the [Advent of Open Source]({% post_url 2020-12-03-advent-of-open-source %}), to feature
