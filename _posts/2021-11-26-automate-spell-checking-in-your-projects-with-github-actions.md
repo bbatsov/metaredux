@@ -49,7 +49,10 @@ jobs:
         run: ./misspell -error
 ```
 
-Just save this code under `.github/workflows/spell_checking.yml` and you're good to go.
+There's nothing fancy here. We're just installing a couple of popular spell-checkers for code and we run them
+on everything within the Git repository. If they discover any problems the build will fail.
+
+Just save the code above under `.github/workflows/spell_checking.yml` and you're good to go.
 The workflow will get triggered for each subsequent pull request.
 
 A couple of things to note:
@@ -57,6 +60,7 @@ A couple of things to note:
 - This workflow uses both [codespell](https://github.com/codespell-project/codespell) and [misspell](https://github.com/client9/misspell). Using both might be an overkill for some of you. Personally, I like `misspell` more, as it's super fast.
 - It's a good idea to run both tools locally first and address any existing typos.
 - You may want to limit the checks only to files that were changed in the pull request.
+- You may want to specify a locale for `misspell` if you want to enforce a specific flavor of English (e.g. `misspell -locale US`).
 - This should probably be made a [reusable workflow](https://docs.github.com/en/actions/learn-github-actions/reusing-workflows). I won't be surprised if someone actually has created a public reusable workflow for spell-checking code already.
 
 That's all I have for you today. Big thanks to my fellow OSS hacker [Koichi
