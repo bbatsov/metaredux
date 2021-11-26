@@ -57,6 +57,7 @@ A couple of things to note:
 - This workflow uses both [codespell](https://github.com/codespell-project/codespell) and [misspell](https://github.com/client9/misspell). Using both might be an overkill for some of you. Personally, I like `misspell` the most, as it's super fast.
 - It's a good idea to run both tools locally first and address any existing typos.
 - You may want to limit the checks only to files that were changed in the pull request.
+- This should probably be made a [reusable workflow](https://docs.github.com/en/actions/learn-github-actions/reusing-workflows). I won't be surprised if someone actually has created a public reusable workflow for spell-checking code already.
 
 That's all I have for you today. Big thanks to my fellow OSS hacker [Koichi
 Ito](https://github.com/koic), who came up with the idea of making
