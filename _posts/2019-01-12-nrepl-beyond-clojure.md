@@ -121,7 +121,7 @@ they see fit.
 ```
 
 Many people wonder why nREPL uses bencode as its default data encoding - after
-all arent' everyone using XML, JSON, MessagePack, etc? Those are all
+all isn't everyone using XML, JSON, MessagePack, etc? Those are all
 great and extremely flexible data formats, but their flexibility
 also brings a lot of complexity.[^2]
 

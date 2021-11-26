@@ -213,7 +213,7 @@ I don't know about you, but I find the following fixed indentation a big weird:
 ```
 
 Admittedly, list literals are not very common in Clojure, that's why it's understandable
-that for many people lists are nothing but an invocation syntax.
+that for many people lists are nothing but an invocation syntax.[^4]
 
 "Better Clojure Formatting" argued that the semantic formatting guidelines were not consistent:
 
@@ -406,3 +406,4 @@ That's all I have for you today. As usual, I'd love to hear your thoughts on the
 [^1]: For the record, I've got nothing but immense respect for Nikita and his work, even if I disagree with him on this topic.
 [^2]: Can you imagine reading a book where there are no paragraphs? Or a book where the text is not justified?
 [^3]: Damn you, `gofmt`!
+[^4]: It was brought to my attention that this examples were incorrect, as the fixed indentation was supposed to be applied only for lists that start with a symbol.

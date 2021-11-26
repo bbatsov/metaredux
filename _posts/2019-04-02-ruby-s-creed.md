@@ -302,7 +302,7 @@ normally say that `&.` solves real problems and give you a simple
 example like:
 
 ``` ruby
-user&.adress&.street
+user&.address&.street
 ```
 
 Law of Demeter aside, it makes sense. Consider, however, a few more subtle examples:

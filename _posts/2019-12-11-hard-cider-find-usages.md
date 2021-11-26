@@ -17,7 +17,7 @@ a new blog post here every day until Christmas.*
 
 The [State of CIDER survey]({% post_url 2019-11-02-state-of-cider %}) was super insightful for me on many levels.
 Here's one example - I realized that users might have missed some recent developments. A few people had commented it'd be
-nice if CIDER had a build-in "find usages (references)" functionality and funny enough - it already has this.
+nice if CIDER had a built-in "find usages (references)" functionality and funny enough - it already has this.
 
 <!--more-->
 

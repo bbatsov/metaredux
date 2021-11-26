@@ -169,6 +169,6 @@ Core Team for their love and support!
 That's all I have for you today.
 Now it's time for us to go back to work and make RuboCop 1.0 happen. My goal is to ship it later this week.
 
-[^1]: That's why I had closed the ticket. I responded I don't think we should rename the project, I waited for a day or two and as there were no more repsonses I thought this was it.
+[^1]: That's why I had closed the ticket. I responded I don't think we should rename the project, I waited for a day or two and as there were no more responses I thought this was it.
 [^2]: A lot of people have strong opinions when it comes to code style and would argue quite ardently to support their perspective. Imagine being in hundreds of such discussions...
 [^3]: The `sloccount` tool estimates that 31 person/years went into the development of the main RuboCop repo alone, which it puts at cost to develop of $4,200,000 (using an algorithm I don't quite understand). Regardless of the accuracy of those estimates that's a huge effort!
