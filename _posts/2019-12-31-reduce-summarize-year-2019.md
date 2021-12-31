@@ -29,7 +29,7 @@ Shame on me! The way things are going I doubt I'll do much in this department ne
 ## Open Source Work
 
 I think I've had a good year on the OSS front. My focus (again) was mostly on
-RuboCop, CIDER and nREP. All of them got to important milestones in 2019. I'm
+RuboCop, CIDER and nREPL. All of them got to important milestones in 2019. I'm
 especially proud with the work on nREPL, as the new version
 (a.k.a. `nrepl/nrepl`) has completely replaced the legacy `tools.nrepl` and
 brought a lot of improvements to both tool authors and end users.
