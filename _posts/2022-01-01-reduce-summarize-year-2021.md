@@ -26,6 +26,12 @@ change in the foreseeable future.
 One item that I want us to tackle in 2022 is performance (improvements). Perhaps we need an ambitious goal like
 "RuboCop 2x2"? Make RuboCop 2.0 2 times faster than RuboCop 1.x!
 
+A couple of smaller items:
+
+- RuboCop has a new home on GitHub (<https://github.com/rubocop/rubocop>) (we finally managed to get the `rubocop` org and moved away from `rubocop-hq`)
+- RuboCop now has GitHub discussions enabled (although few people have made use of them)
+- RuboCop now has a [Discord server](https://discord.gg/wJjWvGRDmm)
+
 ## nREPL
 
 I'm really glad that we managed to release [nREPL 0.9]({% post_url
