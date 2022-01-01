@@ -90,6 +90,8 @@ for some dedicated article I guess.
 
 I admire a lot people like [Michiel Borkent](https://www.michielborkent.nl/), who recently went all-in on his OSS work. They give me hope that everything is possible if you put your mind to it. Perhaps I'll be ready to take the red pill a few years down the line myself. Especially if I make the right crypto "investments" in the mean time.[^2]
 
+I'd like to give a big thanks to all my patrons! Your support means a lot to me and keeps me going after all those years! You rock!
+
 ## Changes to Meta Redux
 
 You might have noticed that this year I've been writing fewer articles here and they are mostly about my OSS projects. That's related my
