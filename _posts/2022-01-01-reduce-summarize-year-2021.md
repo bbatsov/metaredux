@@ -83,7 +83,7 @@ Of course, from time to time there are notable exceptions like:
 - Clojurists Together's annual funding of $1500/month for CIDER
 - Occasional bigger one-time donation
 
-Still, the dream of working full-time on OSS projects down the road seems to be as illusive as always. From time to time I come across idealistic articles like
+Still, the dream of working full-time on OSS projects down the road seems to be as elusive as always. From time to time I come across idealistic articles like
 [Funding isn't the Problem with Open-Source](https://www.haskellforall.com/2021/12/funding-isnt-problem-with-open-source.html), and I certainly can't agree with them.
 For one, I've yet to encounter those evil corporations that are willing to pay me money to subvert my projects to their bidding (and evil ways, of course). Topic
 for some dedicated article I guess.
