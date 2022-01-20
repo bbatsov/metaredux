@@ -9,7 +9,7 @@ tags:
 - Series
 ---
 
-Remember how I thought that the [syntax for single-quoted heredocs was weird]({% post_url 2022-01-20-weird-ruby-heredoc-delimiters %})? I've got something even weirder for you today!
+Remember how I thought that the [syntax for single-quoted heredocs was weird]({% post_url 2019-05-22-weird-ruby-single-quoted-heredocs %})? I've got something even weirder for you today!
 
 Turns out that when using single-quoted heredoc delimiters you can have pretty much anything in them, including spaces!
 
