@@ -29,7 +29,7 @@ beyond anything I could have ever imagined:
 That's an average rate of 20 releases per year over the course of an entire decade! I can think of no moment in
 time when RuboCop had stagnated and the development wasn't moving at a brisk pace.
 
-As I write this RuboCop is at #82 in the [list of most download Ruby gems](https://rubygems.org/stats)!
+As I write this RuboCop is at #82 in the [list of most downloaded Ruby gems](https://rubygems.org/stats)!
 A project that I've started with very modest goals became extremely popular within
 our Ruby community. Impossible is nothing, right? For me RuboCop is the very embodiment of the power of open-source software and open-source communities.
 
@@ -43,7 +43,7 @@ But we've always listened to our community - a few years ago we promised that wi
 We promised that we'd limit the work that people need to do on upgrades and we kept our word. We always listen and your feedback is always welcome!
 
 Anyways, back to the celebration! To commemorate this glorious occasion we've just released [RuboCop 1.28](https://github.com/rubocop/rubocop/releases/tag/v1.28.0), aka "RuboCop: The Anniversary Edition". It's packed with more
-goodies than usual and it has a most auspicious and round version number.[^3] I just hope we didn't pack more bugs than usual as well, but I guess you'll let us know about this soon enough.
+goodies than usual and it has a most auspicious and round version number.[^3] I just hope we didn't pack more bugs than usual as well, but I guess you'll let us know about this soon enough.[^4]
 
 What about the future of RuboCop? Clearly there are always things to improve and we definitely have a few ideas about the journey to RuboCop 2.0:
 
@@ -64,3 +64,4 @@ Those words have always been the driving force behind the [community Ruby style 
 [^1]: <https://www.youtube.com/watch?v=nrHjVCuVsGA&t>
 [^2]: Read this as "there are many cops checking for things that are not very important".
 [^3]: At least for software engineers, as 128 is 2^7.
+[^4]: Okay, now I know. Two critical issues were reported in 1.28.0, which we fixed immediately and a bugfix release (1.28.1) is now out!
