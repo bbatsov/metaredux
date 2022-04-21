@@ -15,9 +15,9 @@ linter and formatter for Ruby.
 > Every Journey Has A First Step. Every
 > Saga Has A Beginning.
 >
-> Star Wars Episode I: The Phantom Menace, Trailer
+> -- Star Wars Episode I: The Phantom Menace, Trailer
 
-The first step (commit) for RuboCop was quite [modest](https://github.com/rubocop/rubocop/commit/afbead34db54506c12a21dbd4ce04fada0f8b9a4). Back then I knew next to nothing about parser, lexer, abstract syntax trees and all that jazz. I recall I planned to implement RuboCop in terms of regular expressions... I remember I had the idea about the project for quite a while, but really struggled to come up with a name that I liked. Picking the name is probably the hardest part of every project and this was certainly true with RuboCop.
+The first step (commit) for RuboCop was quite [modest](https://github.com/rubocop/rubocop/commit/afbead34db54506c12a21dbd4ce04fada0f8b9a4). Back then I knew next to nothing about parsers, lexers, abstract syntax trees and all that jazz. I recall I planned to implement RuboCop in terms of regular expressions... I remember I had the idea about the project for quite a while, but really struggled to come up with a name that I liked. Picking the name is probably the hardest part of every project and this was certainly true with RuboCop.
 
 The journey that followed it was epic and
 beyond anything I could have ever imagined:
