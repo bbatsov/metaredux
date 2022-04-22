@@ -19,9 +19,12 @@ linter and formatter for Ruby.
 
 The first step (commit) for RuboCop was quite [modest](https://github.com/rubocop/rubocop/commit/afbead34db54506c12a21dbd4ce04fada0f8b9a4). Back then I knew next to nothing about parsers, lexers, abstract syntax trees and all that jazz. I recall I planned to implement RuboCop in terms of regular expressions... I remember I had the idea about the project for quite a while, but really struggled to come up with a name that I liked. Picking the name is probably the hardest part of every project and this was certainly true with RuboCop.
 
-The journey that followed it was epic and
+The journey that followed was epic and
 beyond anything I could have ever imagined:
 
+- 11,431 commits
+- 4,384 closed issues
+- 5,803 merged pull requests
 - 201 releases
 - 800+ contributors
 - 220+ million downloads
@@ -32,12 +35,13 @@ time when RuboCop had stagnated and the development wasn't moving at a brisk pac
 As I write this RuboCop is at #82 in the [list of most downloaded Ruby gems](https://rubygems.org/stats)!
 A project that I've started with very modest goals became extremely popular within
 our Ruby community. Impossible is nothing, right? For me RuboCop is the very embodiment of the power of open-source software and open-source communities.
+Did you know that today there are over 250 third-party RuboCop-related gems on RubyGems(extensions, configuration, etc)?
 
-This won't be a long article about the history of the project. I'm way too lazy to write one, plus I already spoke a few times about the (early) history of RuboCop in the past.[^1] This won't be a long article at all. Just a small celebration of RuboCop's 10th anniversary. I don't know about you, but to me 10 years in software is like 50 years in some other industry. Maybe even more.
+This won't be a long article about the history of RuboCop. I'm way too lazy to write one, plus I already spoke a few times about the (early) history of the project in the past.[^1] This won't be a long article at all. Just a small celebration of RuboCop's 10th anniversary. I don't know about you, but to me 10 years in software is like 50 years in some other industry. Maybe even more.
 
 I'm extremely proud of the RuboCop journey so far and all of our small victories along the way. I'm proud of the community that has formed around RuboCop and of the [RuboCop Core Team](https://docs.rubocop.org/rubocop/about/team.html) members that have been essential to its long-term success. I'm proud of all of the lessons that I learned along the way. I'm proud of all the challenges that we overcame together. There were many moments when I was ready to throw in the towel and call it a day, but somehow I managed to pull threw. Working on a project of such scale can be extremely emotionally draining.
 
-I know that RuboCop has become a very polarizing project in the community. In surveys it's often near the top in both "the most loved" and "the most hated" Ruby tool categories. Some people have told me that RuboCop played some part in their decision to stop doing Ruby. Admittedly we might have gone overboard at times in our desire to improve Ruby codebases.[^2] We've been accused of destroying some of the fun of programming by imposing too many rules. I guess there's some truth to this.
+I know that RuboCop has become a very polarizing project in the community. In surveys it's often near the top in both "the most loved Ruby tool" and "the most hated Ruby tool" categories. Some people have told me that RuboCop played a part in their decision to stop doing Ruby. Admittedly we might have gone overboard at times in our desire to improve Ruby codebases.[^2] We've been accused of destroying some of the fun of programming by imposing too many rules. I guess there's some truth to this.
 
 But we've always listened to our community - a few years ago we promised that with RuboCop 1.0 backward compatibility would become a top priority and we kept our word.
 We promised that we'd limit the work that people need to do on upgrades and we kept our word. We always listen and your feedback is always welcome!
