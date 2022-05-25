@@ -54,7 +54,7 @@ I guess by now this article might look like a Fastmail advertisement. I want to 
 of solid mail providers to choose from.
 I considered several Gmail alternatives before deciding on Fastmail. They all have their pros and cons and I guess for some of you they might be a better choice.
 
-- [ProtonMail](https://protonmail.com/) - a privacy-centered mail service, hosted in Switzerland. I liked ProtonMail a lot (it has all the essential features for me, plus a very sleek web UI), but because of the end to end encryption they use, you're stuck with their clients or a clunky IMAP bridge. I like open standards, that's why I went with Fastmail in the end.
+- [ProtonMail](https://proton.me/mail) - a privacy-centered mail service, hosted in Switzerland. I liked ProtonMail a lot (it has all the essential features for me, plus a very sleek web UI), but because of the end to end encryption they use, you're stuck with their clients or a clunky IMAP bridge. I like open standards, that's why I went with Fastmail in the end.
 - [mailbox.org](https://mailbox.org/en/) - another privacy-centered mail provider, this time hosted in Germany. It offers pretty similar features to Fastmail and it's a bit cheaper. I picked Fastmail over it, mostly because of JMAP.
 - [HEY](https://hey.com) - I already covered it above.
 
