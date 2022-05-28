@@ -48,22 +48,26 @@ many services to use the Fastmail addresses directly. My `batsov.com` domain is 
 
 I've opted not to import my Gmail contacts and mails into Fastmail, even though the process is trivial. I rarely need to check something in the archives and I decided to go for a clean start. Jason Fried and HEY taught me about the value of that. By the way, I'm still going to use HEY as well. Even though the service doesn't quite match my needs, there's a certain charm to it that I really like. I've been using it mostly as a newsletter reader and to write occasional emails to close friends, like in the pen pal era. You should try this! If nothing else - HEY taught me to favour top posting, instead of inline responses. Seems weird at first, but that's how real mail works. :-)
 
+If you'd like to try Fastmail, using [my referral link](https://ref.fm/u26676944) will give you a 10% discount for the first year.
+
 ## Fastmail Alternatives
 
 I guess by now this article might look like a Fastmail advertisement. I want to mention that I certainly don't think it's the only game in time, as there are plenty
 of solid mail providers to choose from.
 I considered several Gmail alternatives before deciding on Fastmail. They all have their pros and cons and I guess for some of you they might be a better choice.
 
-- [ProtonMail](https://proton.me/mail) - a privacy-centered mail service, hosted in Switzerland. I liked ProtonMail a lot (it has all the essential features for me, plus a very sleek web UI), but because of the end to end encryption they use, you're stuck with their clients or a clunky IMAP bridge. I like open standards, that's why I went with Fastmail in the end.
+- [ProtonMail](https://proton.me/mail) - a privacy-centered mail service, hosted in Switzerland. I liked ProtonMail a lot (it has all the essential features for me, plus a very sleek web UI), but because of the end-to-end encryption they use, you're stuck with their clients or a clunky IMAP bridge. Not to mention that the end-to-end encryption works only if both parties are using ProtonMail. I like open standards, that's why I went with Fastmail in the end.[^3]
+- [Tutanota](https://tutanota.com/) - Another encrypted email service, supposedly even more secure than ProtonMail (e.g. it encrypts the email subjects, while Proton doesn't). It's much cheaper than ProtonMail (only EUR12/year for the premium plan), but it suffers from the same problems that Proton has.
 - [mailbox.org](https://mailbox.org/en/) - another privacy-centered mail provider, this time hosted in Germany. It offers pretty similar features to Fastmail and it's a bit cheaper. I picked Fastmail over it, mostly because of JMAP.
+- [Migadu](https://www.migadu.com/) - the perfect service for people who want to go as close as possible to the "bare metal" email experience, without actually having to deal with running their own email servers. It'd say the service is great for people who want to run email using their own domain and I like to use standard email clients. Migadu have a really honest and funny page detailing the [pro and cons of their service](https://www.migadu.com/procon/). Like me, [they are not believers in encrypted email](https://www.migadu.com/procon/#not-encrypted).
 - [HEY](https://hey.com) - I already covered it above.
 
-Fastmail, Proton and mailbox.org allow you to have multiple users attached to one account, which is pretty handy if you want to create email accounts for your entire family or your business.
+All of the services allow you to have multiple users attached to one account, which is pretty handy if you want to create email accounts for your entire family or your business.
 
 I never considered one of the other big players (Outlook, Hotmail, Yahoo, etc), as I think they suffer from the same problems as Gmail (you pay for them with your privacy).
 Probably there are other cool services that I didn't try out. Feel free to mention those in the comments.
 
-The important thing to note is that there are plenty of good Gmail alternatives, and most of them are not particularly expensive either. ProtonMail has a free plan, Fastmail starts at $3/month and mailbox.org starts at only 1 EUR/month. From my perspective our privacy is worth a lot more than this.
+The important thing to note is that there are plenty of good Gmail alternatives, and most of them are not particularly expensive either. ProtonMail and Tutanota have a free plan, Fastmail starts at $3/month and mailbox.org starts at only 1 EUR/month. From my perspective our privacy is worth a lot more than this.
 
 ## Epilogue
 
@@ -75,3 +79,4 @@ Anyways, that's all from me for now. Time to go back to having more fun with my 
 
 [^1]: Damn, that's 17 years! Almost half my life (I'm 36 as I write this).
 [^2]: That's quite subjective, of course, and probably "a bit dated" is a more accurate way to describe it. I'm talking strictly about appearance (design), not function here. To be more specific - I like the flat design adopted by most applications today better.
+[^3]: The whole Proton suite is pretty cool, though. ProtonVPN is my primary VPN these days and Proton Drive is the only cloud storage that I really trust from a privacy standpoint.
