@@ -60,7 +60,7 @@ I considered several Gmail alternatives before deciding on Fastmail. They all ha
 - [Tutanota](https://tutanota.com/) - Another encrypted email service, supposedly even more secure than ProtonMail (e.g. it encrypts the email subjects, while Proton doesn't). It's much cheaper than ProtonMail (only EUR12/year for the premium plan), but it suffers from the same problems that Proton has.
 - [mailbox.org](https://mailbox.org/en/) - another privacy-centered mail provider, this time hosted in Germany. It offers pretty similar features to Fastmail and it's a bit cheaper. I picked Fastmail over it, mostly because of JMAP.
 - [Migadu](https://www.migadu.com/) - the perfect service for people who want to go as close as possible to the "bare metal" email experience, without actually having to deal with running their own email servers. It'd say the service is great for people who want to run email using their own domain and I like to use standard email clients. Migadu have a really honest and funny page detailing the [pro and cons of their service](https://www.migadu.com/procon/). Like me, [they are not believers in encrypted email](https://www.migadu.com/procon/#not-encrypted).
-- [HEY](https://hey.com) - I already covered it above.
+- [HEY](https://hey.com) - I wrote a [short review of HEY](https://world.hey.com/bozhidar/strong-hey-opinions-weakly-held-f773d176) a while ago. TLDR; It misses some essential for me features and it doesn't align very well with my preferred email workflow.
 
 All of the services allow you to have multiple users attached to one account, which is pretty handy if you want to create email accounts for your entire family or your business.
 
