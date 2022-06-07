@@ -75,7 +75,7 @@ expand on this topic later.
 terms of driver support, but I really wanted a Ryzen CPU and a reasonably
 powerful discreet GPU.
 
-Here's how my desktop before and after assembly:
+Here's my desktop before and after assembly:
 
 ![desktop_2020_before.jpg](/assets/images/desktop_2020_before.jpg)
 ![desktop_2020_after.jpg](/assets/images/desktop_2020_after.jpg)
