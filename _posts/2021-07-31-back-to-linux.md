@@ -75,6 +75,11 @@ expand on this topic later.
 terms of driver support, but I really wanted a Ryzen CPU and a reasonably
 powerful discreet GPU.
 
+Here's how my desktop before and after assembly:
+
+![desktop_2020_before.jpg](/assets/images/desktop_2020_before.jpg)
+![desktop_2020_after.jpg](/assets/images/desktop_2020_after.jpg)
+
 I have to say that this 1,600 EUR desktop completely blew out of the water my way more expensive MacBook Pro. Of course,
 desktops always offered better value/performance than most laptops, but in recent years we've all became completely obsessed with laptop/tablets.
 While portability is definitely a problem with desktops, they also have some cool advantages like:
