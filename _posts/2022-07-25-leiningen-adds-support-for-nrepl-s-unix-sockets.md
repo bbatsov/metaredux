@@ -7,9 +7,10 @@ tags:
 - nREPL
 ---
 
-The next release of Leiningen (likely 2.9.9) will include support for
-starting an nREPL server listening to an Unix domain socket.[^1] As a reminder
-- Unix domain sockets were one of the highlights of [nREPL 0.9]({% post_url 2021-12-12-nrepl-0-9 %}), which was released at the end of 2021.
+The next release of Leiningen (likely 2.9.9) will include support for starting
+an nREPL server listening to an Unix domain socket.[^1] As a reminder - Unix
+domain sockets were one of the highlights of [nREPL 0.9]({% post_url
+2021-12-12-nrepl-0-9 %}), which was released at the end of 2021.
 
 The support for Unix sockets in Leiningen is two-fold. First, you'll be able to do the following:
 
