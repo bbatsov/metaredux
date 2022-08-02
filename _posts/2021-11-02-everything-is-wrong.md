@@ -8,7 +8,7 @@ tags:
 - Meta
 ---
 
-A few months ago I came across an article named [The "Clojure Style Guide" is simply Wrong](https://roklenarcic.github.io/posts-output/2019-10-15-clojure-style-guide).
+A few months ago I came across an article named [The "Clojure Style Guide" is simply Wrong](https://web.archive.org/web/20210117152558/https://roklenarcic.github.io/posts-output/2019-10-15-clojure-style-guide).
 It seems the author was very passionate about this subject, as they created a new blog just for this one article and never posted anything else.
 
 The introduction of the article was very amusing for me, as it featured a few words about myself:
