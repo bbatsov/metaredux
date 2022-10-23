@@ -32,7 +32,7 @@ your operating system and your hardware.
 ## The Downfall of macOS for Software Development
 
 I won't go into much details here, as I hope everyone has noticed the shift in macOS to be
-something more like iOS. That's good for most users, but not really for software engineers.
+something more like iOS. That's good for most users, but not for software engineers.
 
 Apple used to spend a lot of time courting developers to their OS some 15 years ago, but now they
 only seem to care about macOS and iOS devs. They rarely update the Unix tools that ship with macOS,
