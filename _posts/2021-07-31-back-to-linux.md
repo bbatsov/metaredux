@@ -48,9 +48,15 @@ On a more practical note, here are a few things that have bothered me with macOS
 - The need to reinstall XCode after each macOS upgrade.
 - Almost every major OS upgrade breaks Homebrew or some tool that I use (like Karabiner, a keyboard remapping utility).
 - macOS ships by default with Emacs 22. That's not a typo. As noted above there are plenty of outdated Unix tools that ship with macOS.
+- Docker consumes a lot more resources on macOS than it does on Linux.
 - Cheap tricks to obscure some problems, like hiding the remaining battery life estimation.
 
 I can go on, but I'll stop at this point. I hope you get the idea.
+
+Don't get me wrong - macOS is still a good environment for most software
+engineers, but that's mostly due to macOS's Unix roots and the fantastic user
+community and Apple can take little credit for anything good that has happened
+on the development experience front in recent years.
 
 ## The New Hardware
 
