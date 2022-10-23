@@ -81,13 +81,13 @@ Here's my desktop before and after assembly:
 ![desktop_2020_after.jpg](/assets/images/desktop_2020_after.jpg)
 
 I have to say that this 1,600 EUR desktop completely blew out of the water my way more expensive MacBook Pro. Of course,
-desktops always offered better value/performance than most laptops, but in recent years we've all became completely obsessed with laptop/tablets.
+desktops always offered better value/performance than most laptops, but in recent years we've all become completely obsessed with laptop/tablets.
 While portability is definitely a problem with desktops, they also have some cool advantages like:
 
 - They don't overheat
 - They don't run out of juice
 - You can actually fix/upgrade them
-- They force you to work on desk (meaning the ergonomics are usually better)
+- They force you to work on a desk (meaning the ergonomics are usually better)
 
 End of this slight lyrical detour on the merits of ancient technology from more sophisticated times.
 
