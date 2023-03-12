@@ -13,7 +13,7 @@ terms of regular expressions. Even though this primitive approach mostly gets
 the job done, it's both slow and quite limiting in some ways.
 
 Emacs 29 aims to change this with the introduction of a built-in support
-[Tree-sitter](https://tree-sitter.github.io/tree-sitter/). Tree-sitter is a
+for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/). Tree-sitter is a
 parser generator tool and an incremental parsing library. It can build a
 concrete syntax tree for a source file and efficiently update the syntax tree as
 the source file is edited. Sounds great, right?
