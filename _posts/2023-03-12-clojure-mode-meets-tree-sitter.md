@@ -45,6 +45,14 @@ first steps on the long journey have been taken. Still, I expect that most
 people who switch to Emacs 29 will be able to do their basic programming in the
 new mode a lot faster, as it won't be an issue to have both modes installed at the same time. Once `clojure-ts-mode` matures enough we'll likely teach CIDER about it as well, so it could leverage either it or `clojure-mode`.
 
+Finally, on some happy day in the (not so) distant future the old `clojure-mode`
+will be retired and `clojure-ts-mode` will become `clojure-mode`. Right now it's
+common for the modes using Tree-sitter to be named `something-ts-mode` to
+distinguish them from the existing modes that don't, but I guess eventually
+we'll go back to having just one Tree-sitter-powered major mode for each
+programming language. As they were saying in "Highlander" - there can be only
+one!
+
 I really believe that Tree-sitter can be a game-changer for Emacs, as it will
 potentially make Emacs a lot more competitive with "modern" editors and IDEs,
 that have relied on custom sophisticated parsers for a while. The combination of
