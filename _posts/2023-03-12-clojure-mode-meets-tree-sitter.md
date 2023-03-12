@@ -55,8 +55,13 @@ one!
 
 I really believe that Tree-sitter can be a game-changer for Emacs, as it will
 potentially make Emacs a lot more competitive with "modern" editors and IDEs,
-that have relied on custom sophisticated parsers for a while. The combination of
-Tree-sitter and LSP support should narrow a lot the gap between various editors
-over time and I think this will play to Emacs's advantage. Time will tell.
+that have relied on custom parsers for a while to provide fast and reliable
+indentation and syntax highlight, and sophisticated code analysis and refactoring
+functionality. In general, the combination of Tree-sitter and LSP support should
+narrow a lot the gap in the area of programming languages support between
+various editors over time and I think this will play to Emacs's advantage.[^1] Time
+will tell.
 
 That's all I have for you today. Keep hacking!
+
+[^1]: Emacs is great in many departments, but sadly the support for some programming languages has been less than great for various reasons.
