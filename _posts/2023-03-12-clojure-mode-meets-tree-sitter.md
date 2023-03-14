@@ -33,8 +33,10 @@ means it doesn't carry all the legacy `clojure-mode` has from `lisp-mode`, on
 which it was originally based. Slates don't come much cleaner than this.
 
 Danny Freeman has been driving the work on `clojure-ts-mode` and he already got
-most of the basics working, so feel free to play with the mode if you want. That
-being said - a ton of work remains and help from everyone is most welcome. The
+some of the basics working (e.g. font-locking and fixed indentation), so feel
+free to play with the mode if you want. That being said - [a ton of work remains
+to done](https://github.com/clojure-emacs/clojure-ts-mode/issues/1) and help
+from everyone is most welcome. The
 [setup](https://github.com/clojure-emacs/clojure-ts-mode#installation) is a bit
 complex right now, but it's very well documented.
 
@@ -43,7 +45,10 @@ things like font-locking, indentation and finding expression boundaries, it will
 be a while until `clojure-ts-mode` can fully replace `clojure-mode`, but the
 first steps on the long journey have been taken. Still, I expect that most
 people who switch to Emacs 29 will be able to do their basic programming in the
-new mode a lot faster, as it won't be an issue to have both modes installed at the same time. Once `clojure-ts-mode` matures enough we'll likely teach CIDER about it as well, so it could leverage either it or `clojure-mode`.
+new mode a lot faster, as it won't be an issue to have both modes installed at
+the same time. Once `clojure-ts-mode` matures enough we'll likely teach CIDER
+(and `inf-clojure`) about it as well, so it could leverage either it or
+`clojure-mode`.
 
 Finally, on some happy day in the (not so) distant future the old `clojure-mode`
 will be retired and `clojure-ts-mode` will become `clojure-mode`. Right now it's
