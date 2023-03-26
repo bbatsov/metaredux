@@ -1,6 +1,6 @@
 ---
 layout: post
-title: adoc-mode Reborn
+title: adoc-mode reborn
 date: 2023-03-12 09:53 +0200
 tags:
 - Emacs
