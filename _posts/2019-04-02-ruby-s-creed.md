@@ -314,11 +314,11 @@ def foo
 end
 
 # Can any one of those methods return nil or just the first one? Go figure!
-foo&.bar&.baz.&.bax
+foo&.bar&.baz&.bax
 
 # Does any of those methods return nil or someone just decided to play it safe
 # and introduced a potential nil return value that we now have to handle?
-foo&.bar&.baz.&.bax
+foo&.bar&.baz&.bax
 
 # How did we allow file to potentially be nil to begin with?
 file&.close
