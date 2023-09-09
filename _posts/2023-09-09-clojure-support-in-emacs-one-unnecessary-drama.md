@@ -31,7 +31,7 @@ So, I was kind of skeptical of this request. Furthermore, I've always been of th
 
 That's why I've never submitted any packages that I've authored or maintained to either ELPA or Emacs's core.[^3]
 
-Anyways, I've tried to make my points and the Emacs maintainers made theirs. A few ideas where discussed and at some point the conversation took a rather unpleasant turn. First someone suggested that if we didn't want to collaborate the Emacs maintainers can create a new major Clojure mode. Then it was suggested it took be named `clojure-mode`, because it wasn't cool for third-party packages use such generic names. It didn't seem like a big deal at the time, though, plus I had some vacation time ahead of me and I dropped this conversation out of my mind.
+Anyways, I've tried to make my points and the Emacs maintainers made theirs. A few ideas where discussed and at some point the conversation took a rather unpleasant turn. First someone suggested that if we didn't want to collaborate the Emacs maintainers can create a new major Clojure mode. Then it was suggested it took be named `clojure-mode`, because it wasn't cool for third-party packages to use such generic names. It didn't seem like a big deal at the time, though, plus I had some vacation time ahead of me and I dropped this conversation out of my mind.
 
 During my vacation, however, I made the mistake of checking my email and I noticed that a new thread on the topic has started - one discussing a potential barebone major mode that simply derives from `lisp-mode`.[^4] At this point I got a bit upset and tried to understand what exactly was the problem that we were trying to solve here:
 
@@ -49,7 +49,7 @@ Then things really blew up and one member of Emacs's team turned this personal w
 > emacs-devel.  It's not an immoral thing to do and I'm not coming for His
 > Highness The Great Clojure Authority Life's Work.
 
-I also learned at this point there was 0 Emacs support for Clojure mode. Kind of funny, if Emacs has been the primary editor for most Clojure developers for the past 15 years, right? I totally disagree that having 3rd party packages for something is equal to 0 support.
+I also learned at this point there was 0 Emacs support for Clojure mode. Kind of funny, given that Emacs has been the primary editor for most Clojure developers for the past 15 years, right? I totally disagree that having 3rd party packages for something is equal to 0 support.
 
 I guess this escalation was triggered by a remark I made that it's best to leave such work to people who actually know and use Clojure:
 
@@ -85,6 +85,18 @@ I know a wise person would take the high road and ignore this, but I'm not a wis
 Not exactly proud of myself here, but that's a classic example that once a conversation starts feeling offensive to some of the participants, it quickly gets downhill.
 There's a lot of talk about "toxic" communication these days and for me such threads are a true masterclass in toxicity and gaslighting.
 
+For what is worth at one point I tried to defuse a bit the tension.[^5]
+
+> I was definitely on the defence, given that some of the messages implied things with which I strongly disagree - especially the part that I have something personal to gain from Emacs not having built-in Clojure support. The gist of it for me was simply "I'm ware of the impact that the inclusion would have to the current development process and to the number of outside contributions we'd be getting". I was also unsure of the reasoning for this sudden interest in Clojure from the Emacs team.
+>
+> Like most people I don't want to do something unless I'm sure it will be valuable in some way (e.g. for the health of the project, for the end users, for Emacs itself, etc). Eli's words that he believes that'd be good for Emacs and I perhaps am not thinking about this got me to pause and think a bit longer. After all, Clojure was probably the biggest reason for new people to try out Emacs around the time it was introduced.
+>
+> Anyways, despite everything and my own personal frustration, I think I have a reasonably good idea of where we stand right now and what to do next.
+>
+> P.S. I'm a very emotional person and yesterday I was royally pissed. Normally I think a bit longer about what I write, but that wasn't one of those days.
+
+Alas to no avail. The tone continued to be pretty bad until the very end...
+
 So, why am I writing this article? I guess part of the reason is to simply vent out. I'm not fond of bottling up frustration. But the main reason is to show everyone that hostile communication doesn't have positive outcomes. All of this made me quite angry and emotionally drained. I've also seriously started to question my commitment to Emacs after so many years. I'll follow-up on the promises I've made (starting a conversation with the other maintainers of whether they want us to submit anything to Emacs's core), but I'm unlikely to forget what happened. Most likely after the topic is resolved in one way or another I'd sign off from `emacs-devel` forever.
 
 I'd also like to hear your take on all of this? Is there really a (real) problem that will be solved if some Clojure mode is bundled in Emacs? Are you frustrated by the way we've been stewarding the development of `clojure-mode`, CIDER, etc.? Am I the unreasonable person in these exchanges? (always a possibility) What would have done if you were in my shoes?
@@ -107,3 +119,4 @@ That's all I have for you today. Until next time!
 [^2]: See <https://lists.gnu.org/archive/html/emacs-devel/2023-08/msg00954.html>
 [^3]: Outside of the tiny `subr-x` library I've created a long time ago.
 [^4]: See <https://lists.gnu.org/archive/html/emacs-devel/2023-08/msg01287.html>
+[^5]: See <https://lists.gnu.org/archive/html/emacs-devel/2023-09/msg00337.html>
