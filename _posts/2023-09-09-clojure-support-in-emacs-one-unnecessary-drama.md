@@ -26,7 +26,7 @@ While it's flattering to hear that Clojure is an important language, I'm fairly 
 So, I was kind of skeptical of this request. Furthermore, I've always been of the opinion that:
 
 - Emacs is already quite bloated and it doesn't make sense to bundle more major modes with it. I can't think of any other editor that bundles so many packages and I'm reasonably sure most Emacs users never use more than 5% of the bundled packages anyways. At this point pretty much everyone is used to installing whatever plugins they need and it seems this works fine.
-- Having more things distributed only as packages reduces the maintenance overhead and ensures that the end users will install recent version of the packages
+- Having more things distributed only as packages reduces the maintenance overhead and ensures that the end users will install recent version of the packages.
 - The FSF contributor agreement (required for packages that are in Emacs's core or in GNU ELPA) will detract some contributors for either legal or practical reasons (like that you have deal with snail mail for it) - you need to sign if you are to contribute more than 15 lines of code. For me it's super important not to discourage any contributors, especially is a small community like Emacs's or Clojure's.
 
 That's why I've never submitted any packages that I've authored or maintained to either ELPA or Emacs's core.[^3]
