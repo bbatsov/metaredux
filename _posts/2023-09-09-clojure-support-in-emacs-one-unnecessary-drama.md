@@ -111,6 +111,8 @@ This dramatic episode reminded me of some ugly/weird moments in the past years l
 None of them made the Emacs community stronger. In my opinion it was the other way around.
 I get that most of the people on `emacs-devel` are true believers in the mission of FSF and the GNU project, but it's very hard to argue with beliefs. There was a time when I was a true believer and nothing would have made me happier than an invitation to submit something to Emacs, but life has made me a lot more pragmatic. These days I care a lot more about great outcomes, regardless of how they were achieved. (e.g. I have no issues with using platforms like GitHub and providing first-class support for Windows and MacOS)
 
+The jury is still out on whether the events that transpired will lead to something useful or not, but right now this feels like a classic case of one unnecessary drama. I hope it's be the last one in which I'll ever participate.
+
 That's all I have for you today. Until next time!
 
 **P.S.** If there's one good thing that came out of this discussion it's that it start a [separate discussion](https://lists.gnu.org/archive/html/emacs-devel/2023-09/msg00011.html) about adding some auto-suggestion of major modes to install. I think that'd be a lot more useful to the majority of Emacs's users than built-in Clojure support.
