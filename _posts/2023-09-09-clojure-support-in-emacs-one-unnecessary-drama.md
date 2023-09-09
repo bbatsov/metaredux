@@ -31,7 +31,7 @@ So, I was kind of skeptical of this request. Furthermore, I've always been of th
 
 That's why I've never submitted any packages that I've authored or maintained to either ELPA or Emacs's core.[^3]
 
-Anyways, I've tried to make my points and the Emacs maintainers made theirs. A few ideas where discussed and at some point the conversation took a rather unpleasant turn. First someone suggested that if we didn't want to collaborate the Emacs maintainers can create a new major Clojure mode. Then it was suggested it took be named `clojure-mode`, because it wasn't cool for third-party packages to use such generic names. It didn't seem like a big deal at the time, though, plus I had some vacation time ahead of me and I dropped this conversation out of my mind.
+Anyways, I've tried to make my points and the Emacs maintainers made theirs. A few ideas where discussed and at some point the conversation took a rather unpleasant turn. First someone suggested that if we didn't want to collaborate the Emacs maintainers can create a new major Clojure mode. Then it was suggested it could be named `clojure-mode`, because it wasn't cool for third-party packages to use such generic names (even if there are ton of 3rd party modes named in this fashion). It didn't seem like a big deal at the time, though, plus I had some vacation time ahead of me and I dropped this conversation out of my mind.
 
 During my vacation, however, I made the mistake of checking my email and I noticed that a new thread on the topic has started - one discussing a potential barebone major mode that simply derives from `lisp-mode`.[^4] At this point I got a bit upset and tried to understand what exactly was the problem that we were trying to solve here:
 
