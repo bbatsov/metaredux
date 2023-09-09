@@ -131,6 +131,8 @@ That's all I have for you today. Until next time!
 
 **P.S.** If there's one good thing that came out of this discussion it's that it start a [separate discussion](https://lists.gnu.org/archive/html/emacs-devel/2023-09/msg00011.html) about adding some auto-suggestion of major modes to install. I think that'd be a lot more useful to the majority of Emacs's users than built-in Clojure support.
 
+**P.P.S.** Expect some follow-up regarding the discussions around whether to work towards submitting `clojure-mode` or `clojure-ts-mode` to Emacs. I'll get to this once I wrap up the work on the upcoming CIDER 1.8.
+
 [^1]: See <https://lists.gnu.org/archive/html/emacs-devel/2023-08/msg00395.html>
 [^2]: See <https://lists.gnu.org/archive/html/emacs-devel/2023-08/msg00954.html>
 [^3]: Outside of the tiny `subr-x` library I've created a long time ago.
