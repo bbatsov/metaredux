@@ -87,7 +87,7 @@ There's a lot of talk about "toxic" communication these days and for me such thr
 
 For what is worth at one point I tried to defuse a bit the tension.[^5]
 
-> I was definitely on the defence, given that some of the messages implied things with which I strongly disagree - especially the part that I have something personal to gain from Emacs not having built-in Clojure support. The gist of it for me was simply "I'm ware of the impact that the inclusion would have to the current development process and to the number of outside contributions we'd be getting". I was also unsure of the reasoning for this sudden interest in Clojure from the Emacs team.
+> I was definitely on the defence, given that some of the messages implied things with which I strongly disagree - especially the part that I have something personal to gain from Emacs not having built-in Clojure support. The gist of it for me was simply "I'm wary of the impact that the inclusion would have to the current development process and to the number of outside contributions we'd be getting". I was also unsure of the reasoning for this sudden interest in Clojure from the Emacs team.
 >
 > Like most people I don't want to do something unless I'm sure it will be valuable in some way (e.g. for the health of the project, for the end users, for Emacs itself, etc). Eli's words that he believes that'd be good for Emacs and I perhaps am not thinking about this got me to pause and think a bit longer. After all, Clojure was probably the biggest reason for new people to try out Emacs around the time it was introduced.
 >
