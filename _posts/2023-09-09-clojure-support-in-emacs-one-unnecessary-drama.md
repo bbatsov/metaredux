@@ -95,7 +95,21 @@ For what is worth at one point I tried to defuse a bit the tension.[^5]
 >
 > P.S. I'm a very emotional person and yesterday I was royally pissed. Normally I think a bit longer about what I write, but that wasn't one of those days.
 
-Alas to no avail. The tone continued to be pretty bad until the very end...
+Alas to no avail. The tone continued to be pretty bad until the very end... This was probably my "favorite" part:
+
+> Let's be clear: your help -- would there have been any -- would of
+> course have been welcomed.  But I didn't see it as essential: none of
+> your code was involved I was explicitly starting from scratch.  And to
+> be frank you didn't even pop in my head when starting the thread, so I
+> did was "reply to all".  Anyone can read these emails, after all.  You
+> did finally find the thread.  But then all you did was try to
+> intimidate, scaremonger and dissuade.
+>
+> Given that you're now backtracking, err... reviewing your position, we
+> might have your Clojure modes in GNU in the end.  So I guess something
+> decent might come of those 2 lines of code after all.
+
+So I all did in the discussion was "intimidate, scaremonger and dissuade". I didn't even know I had it in me! :D
 
 So, why am I writing this article? I guess part of the reason is to simply vent out. I'm not fond of bottling up frustration. But the main reason is to show everyone that hostile communication doesn't have positive outcomes. All of this made me quite angry and emotionally drained. I've also seriously started to question my commitment to Emacs after so many years. I'll follow-up on the promises I've made (starting a conversation with the other maintainers of whether they want us to submit anything to Emacs's core), but I'm unlikely to forget what happened. Most likely after the topic is resolved in one way or another I'd sign off from `emacs-devel` forever.
 
