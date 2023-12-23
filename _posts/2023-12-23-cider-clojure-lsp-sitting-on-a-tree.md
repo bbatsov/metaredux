@@ -62,8 +62,8 @@ In general I think that `clojure-lsp` is the clear winner until you decide to
 start a Clojure REPL. If you're the type of person who likes to work without a
 REPL you'll definitely appreciate `clojure-lsp`. Perhaps you can even get away
 without using something like CIDER at all, but at least for me - the big feature
-of Lisp is interactive programming, so I can't imagine anyone programming with a
-REPL.
+of Lisp is interactive programming, so I can't imagine anyone programming
+without a REPL.
 
 Once a REPL is up and running things become a lot more dicey. Why so? Because
 both tools provide some similar functionality (e.g. completions, eldoc, find
