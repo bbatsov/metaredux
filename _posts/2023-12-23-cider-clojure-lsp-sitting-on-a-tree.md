@@ -19,7 +19,7 @@ There are two common problems that I've noticed:
 1. People tend to conflate the specific `clojure-lsp` implementation and it's approach based on static code analysis with LSP in general. In the end they attribute to LSP some attributes that are not related to the protocol. E.g. you can totally implement a Clojure LSP server in terms of code evaluation (perhaps by using nREPL internally).
 2. People tend to believe it's a choice of one or the other tool, while in reality they work reasonably well in combination.
 
-Nobody's perfect, though, and CIDER and `clojure-lsp` have their strengths and their weaknesses.
+Let's start by examining quickly CIDER's and `clojure-lsp`'s strengths and limitations.
 
 ## The Case for clojure-lsp
 
@@ -104,7 +104,7 @@ depends on their preferences and their style of programming. I've been
 programming in Lisps for almost 20 years and I grew super accustomed to the
 REPL-driven style of programming, so I don't mind its limitations much.[^3] That
 being said I can definitely see the benefit of using something like
-`clojure-lsp` alongside CIDER and might try it down the road, and I'll keep
+`clojure-lsp` alongside CIDER, and I'll keep
 working towards making CIDER play better with `clojure-lsp`.
 
 Keep hacking!
