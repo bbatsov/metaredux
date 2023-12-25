@@ -7,6 +7,10 @@ tags:
 - CIDER
 ---
 
+> Less is more unless more is more.
+>
+> -- Anonymous
+
 CIDER (and nREPL by association) and `clojure-lsp` are often seen as competitors when it comes to Clojure development tools. You can find plenty of discussions online
 discussing the merits of both tools and their approaches.[^1]
 
@@ -80,6 +84,18 @@ they want to leverage from both tools. `lsp-mode` already provides a lot of
 topic](https://emacs-lsp.github.io/lsp-mode/tutorials/clojure-guide/), and I
 guess it'd be nice if CIDER had more coverage as well. That's definitely
 something I plan to work on, but contributions are always welcome.
+
+## REPL-driven vs Static Code Analysis
+
+While the article mostly focuses on CIDER and `clojure-lsp` it could have easily
+been about REPL-driven and static analysis powered Clojure tooling instead. CIDER has
+long had an extension called `clj-refactor` that makes heavy use of static
+analysis. `clj-kondo` is another great tool powered by static analysis, that
+combines well with CIDER. (and so it happens that `clojure-lsp` is using internally
+`clj-kondo`'s code analyzer)
+
+While people often speak about such tools as competitors, in practice they are
+often complementary and you'd better results if you combine some of them together.
 
 ## Epilogue
 
