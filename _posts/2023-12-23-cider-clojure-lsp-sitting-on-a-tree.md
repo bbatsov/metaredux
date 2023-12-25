@@ -42,11 +42,15 @@ Basically, it seems to me that to leverage the full power of Clojure you'll stil
 
 ## The Case for CIDER
 
-- Powered by a the classic REPL-driven Lisp approach
-- The information it obtains from the Clojure runtime is guaranteed to be accurate (although it may be stale)
+- Powered by a the classic REPL-driven/runtime introspection Lisp approach
+- The information it obtains from the Clojure runtime is guaranteed to be accurate (although it might also be stale in the sense that the latest source code might not reflect what's currently loaded in the runtime)
 - All of CIDER's functionality is optimized for Clojure, as it's not restrained by the LSP protocol
 
-In a nutshell, CIDER is an embodiment of the concept of [interactive programming](https://docs.cider.mx/cider/usage/interactive_programming.html) (a.k.a. REPL-driven programming). I grew fascinated by it when I started to use Emacs and subsequently SLIME for Common Lisp programming, and those tools are the direct inspiration for CIDER.
+In a nutshell, CIDER is an embodiment of the concept of [interactive
+programming](https://docs.cider.mx/cider/usage/interactive_programming.html)
+(a.k.a. REPL-driven programming). I grew fascinated by it when I started to use
+Emacs and subsequently SLIME for Common Lisp programming, and those tools are
+the direct inspiration for CIDER.
 
 Now that I'm quite used to this style of programming for me it feels like the
 most natural thing in the world. I'll admit, though, that coming to it from Java
@@ -63,7 +67,7 @@ many of the concepts that were new to me.
 ## Making them work together
 
 In general I think that `clojure-lsp` is the clear winner until you decide to
-start a Clojure REPL. If you're the type of person who likes to work without a
+start a Clojure REPL.[^2] If you're the type of person who likes to work without a
 REPL you'll definitely appreciate `clojure-lsp`. Perhaps you can even get away
 without using something like CIDER at all, but at least for me - the big feature
 of Lisp is interactive programming, so I can't imagine anyone programming
@@ -76,7 +80,7 @@ decide what to use.
 
 CIDER could have suppressed all the `lsp-mode`/`eglot` provided features when
 active and they could have done the same, but that's not the spirit of Emacs,
-right?[^2]
+right?[^3]
 
 That's why I believe it should be up to the end users to decide which features
 they want to leverage from both tools. `lsp-mode` already provides a lot of
@@ -102,7 +106,7 @@ often complementary and you'd better results if you combine some of them togethe
 I think that in the end of the day what's the right tool for someone really
 depends on their preferences and their style of programming. I've been
 programming in Lisps for almost 20 years and I grew super accustomed to the
-REPL-driven style of programming, so I don't mind its limitations much.[^3] That
+REPL-driven style of programming, so I don't mind its limitations much.[^4] That
 being said I can definitely see the benefit of using something like
 `clojure-lsp` alongside CIDER, and I'll keep
 working towards making CIDER play better with `clojure-lsp`.
@@ -110,5 +114,6 @@ working towards making CIDER play better with `clojure-lsp`.
 Keep hacking!
 
 [^1]: E.g. [this one](https://www.reddit.com/r/Clojure/comments/d01ux4/is_lspclojure_redundant_with_cider/)
-[^2]: See <https://batsov.com/articles/2021/11/16/why-emacs-redux/>.
-[^3]: Although early on I definitely missed some of the refactoring capabilities of Eclise and IntelliJ IDEA.
+[^2]: Simply because a REPL-driven tool like CIDER doesn't really do anything with a REPL. :-)
+[^3]: See <https://batsov.com/articles/2021/11/16/why-emacs-redux/>.
+[^4]: Although early on I definitely missed some of the refactoring capabilities of Eclise and IntelliJ IDEA.
