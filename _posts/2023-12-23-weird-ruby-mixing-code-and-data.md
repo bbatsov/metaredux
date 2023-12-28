@@ -37,7 +37,7 @@ That's one of the many weird features that Ruby inherited from Perl[^1] and is
 useful when you're playing with a single-file script and you need some test
 data.[^2] Not the most useful feature in a Rails application, though.
 
-Note, this trick works only for the file you've loaded directly in the
+Note that this trick works only for the file you've loaded directly in the
 interpreter and it won't work for any files that are referred (e.g. with
 `require`) by it - the `DATA` object will be empty for them.
 
