@@ -99,7 +99,11 @@ combines well with CIDER. (and so it happens that `clojure-lsp` is using interna
 `clj-kondo`'s code analyzer)
 
 While people often speak about such tools as competitors, in practice they are
-often complementary and you'd better results if you combine some of them together.
+often complementary and you'd better results if you combine some of them
+together.  In the context of Clojure it seems prudent to mix and match features
+powered by runtime analysis and static analysis - e.g.  I'd prefer my
+completions to come from the runtime, but I prefer "find references", linting
+and code refactorings to be implemented in terms of static analysis.
 
 ## Epilogue
 
