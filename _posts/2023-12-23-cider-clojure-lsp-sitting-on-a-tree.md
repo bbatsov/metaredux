@@ -19,7 +19,7 @@ There are two common problems that I've noticed:
 1. People tend to conflate the specific `clojure-lsp` implementation and it's approach based on static code analysis with LSP in general. In the end they attribute to LSP some attributes that are not related to the protocol. E.g. you can totally implement a Clojure LSP server in terms of code evaluation (perhaps by using nREPL internally).
 2. People tend to believe it's a choice of one or the other tool, while in reality they work reasonably well in combination.
 
-Let's start by examining quickly CIDER's and `clojure-lsp`'s strengths and limitations.
+Let's start by examining quickly CIDER's and `clojure-lsp`'s strengths and limitations. That will make it easier to understand why they are partners rather than competitors.
 
 ## The Case for clojure-lsp
 
