@@ -40,6 +40,12 @@ receiver. That's why you can also use `grep_v` with ranges like this:
 (1..10).grep_v(2..5) { |v| v * 2 } #=> [2, 12, 14, 16, 18, 20]
 ```
 
+Or with any `Class`:
+
+``` ruby
+["one", 1, 2, "two"].grep_v(String) #=> [1, 2]
+```
+
 Kind of weird, but in an useful way. Same as `grep`, of course.
 
 That's all I have for you today. Keep Ruby weird!
