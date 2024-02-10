@@ -8,7 +8,7 @@ tags:
 ---
 
 [Flycheck](https://www.flycheck.org) has been one of my favorite Emacs packages
-ever since it was released 10 years ago. I love writing clean idiomatic code, I love the help that lint tools provide with this, and I wasn't particularly happy with the "tried and true" Flymake back in the day. When I came across the Flycheck I was really impressed by its feature set, amazing documentation, very clean codebase and excellent test coverage. All of this was somewhat uncommon for Emacs packages circa 2014.
+ever since it was released almost 12 years ago. I love writing clean idiomatic code, I love the help that lint tools provide with this, and I wasn't particularly happy with the "tried and true" Flymake back in the day. When I came across the Flycheck I was really impressed by its feature set, amazing documentation, very clean codebase and excellent test coverage. All of this was somewhat uncommon for Emacs packages circa 2014.
 
 Unfortunately, after [the departure of the original Flycheck author Sebastian Wiesner](https://github.com/flycheck/flycheck/issues/1177), the project lost some of its early momentum. Sebastian was a great Emacs hacker and a great maintainer and it's not easy to fill in his shoes.
 
