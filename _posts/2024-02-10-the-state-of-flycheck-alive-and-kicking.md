@@ -36,14 +36,17 @@ At some point I might rework the project's website (I normally use [Antora](http
 - Complete transition of the project's tests from ERT to Buttercup
 - Update the docs to reflect modern developments (e.g. the changes that happened to our main "competitor" Flymake after Emacs 26)
 - Review the list of bundled checkers and trim those that are no longer relevant
-- I've noticed there's a bit of demand for TRAMP support, which shouldn't be too hard to add (but I'm always somewhat wary of TRAMP and the added complexity support for it brings)
+- I noticed there's a bit of demand for TRAMP support, which shouldn't be too hard to add (but I'm always somewhat wary of TRAMP and the added complexity support for it brings)
+- I noticed there are no Flycheck checkers for Java. I'm guessing the reason is that there are no Java CLI linters with fast startup time, but perhaps something has changed in recent years. (e.g. there might be some linter that can be compiled with GraalVM)
+- It seems that many people were forced to move to Flymake, because they wanted to use Eglot and its maintainer [didn't want to provide Flycheck integration for it](https://github.com/joaotavora/eglot/issues/42). It'd be great if we can do something about this, as Eglot is quite popular (like most built-in packages). This episode is also a great reminder about how hard it is to compete with built-in packages.[^1]
 
 If you have any ideas about improvements - feel free to share those in the comments or over at GitHub!
 
-I know that in the Emacs community there are many people who believe that if some feature is bundled in Emacs it doesn't make much sense to develop alternative solutions, but I'm fairly certain that those alternative solutions are driving progress in the long run. E.g. Flycheck likely inspired the big revamp of Flymake in Emacs 26, Projectile probably inspired the creation of `project.el` and so on. So having alternatives is a good thing in my book![^1]
+I know that in the Emacs community there are many people who believe that if some feature is bundled in Emacs it doesn't make much sense to develop alternative solutions, but I'm fairly certain that those alternative solutions are driving progress in the long run. E.g. Flycheck likely inspired the big revamp of Flymake in Emacs 26, Projectile probably inspired the creation of `project.el` and so on. So having alternatives is a good thing in my book![^2]
 
 Given the massive list of packages that I maintain, I can't promise any miracles, but I can promise you I'll do my best to ensure that Flycheck is in a good shape for many years to come. The power of OSS is you, the community around projects, so I'm hoping that some of you will help out on the journey of making Flycheck better. Emacs hackers together strong!
 
 And that's all I have for you today. Keep hacking!
 
-[^1]: Not to mention that for everyone uncomfortable with the Emacs development process it's usually easier to contribute to external packages like Flycheck.
+[^1]: Fortunately the great `lsp-mode` package provides support for both Flycheck and Flymake.
+[^2]: Not to mention that for everyone uncomfortable with the Emacs development process it's usually easier to contribute to external packages like Flycheck.
