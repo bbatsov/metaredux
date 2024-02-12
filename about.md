@@ -91,8 +91,9 @@ Note that some of my projects also have an [Open Collective](https://opencollect
 
 ## Contacts
 
-* Email - first name at `metaredux.com`, `batsov.net` or `hey.com`.
+* Email - first name at `metaredux.com` or `batsov.net`.
 * [Twitter](https://twitter.com/bbatsov)
+* [Bluesky](https://bsky.app/profile/batsov.net)
 * [LinkedIn](https://www.linkedin.com/in/bbatsov/)
 
 The best way to reach me is via email. I love email and rarely bother to check
