@@ -88,5 +88,5 @@ I write this article in the hope that seeing how donations get translated into
 real impact (e.g. productivity gains) more companies and individuals will be
 willing to help out. CIDER is all of you, the amazing Clojure community. Clojurists together strong!
 
-[^1]: I also hoped the collective would fund more Clojure conference trips for me and other key contributors, but sadly Covid-19 put those on halt for quite a while. I haven't been to a Clojure event since Feb 2020...
+[^1]: I also hoped the collective would fund more Clojure conference trips for me and other key contributors, but sadly Covid-19 put those plans on halt for quite a while. I haven't been to a Clojure event since Feb 2020...
 [^2]: You can find more details in the [changelog](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#180-2023-10-13).
