@@ -72,9 +72,9 @@ Now our collective is drained and it's not clear when we'll be able to do
 something like this again. If we assume a budget of $10,000/year that would
 happen 7 years down the road. Sadly, with the economic downturn that affected
 heavily the IT industry the amount of donations my projects have been getting
-has plummeted. Lots of companies and individuals pulled out and donation
-across GitHub Sponsors and OpenCollective in 2023 are down about 20% compared to
-2022. And I recall there was a smaller drop from 2021 to 2022.
+has plummeted. Lots of companies and individuals pulled out and donations
+across GitHub Sponsors and OpenCollective in 2023 are down about 20% compared to 2022.
+And I recall there was a smaller drop from 2021 to 2022.
 Sadly, donations remain a very unstable and unpredictable source of funding.
 Perhaps down the road we'll try some focused fundraisers for specific
 features/improvements, although I have some reservations about such an approach
