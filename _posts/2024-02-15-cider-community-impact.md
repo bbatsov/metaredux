@@ -55,6 +55,7 @@ have been impressive:
 
 - 6 CIDER feature releases (1.8-1.13)[^2]
 - Massive improvements to error handling, Java documentation rendering, the indentation logic, the test runner and the data inspector
+- Many (obscure) long-standing bugs were finally addressed
 - Countless releases of related projects (e.g. `enrich-classpath`, `orchard` and `cider-nrepl`)
 - Increased bandwidth for user support (as V. provided a lot of support himself over Slack and GitHub)
 
@@ -75,14 +76,22 @@ heavily the IT industry the amount of donations my projects have been getting
 has plummeted. Lots of companies and individuals pulled out and donations across
 GitHub Sponsors and OpenCollective in 2023 are down about 20% compared
 to 2022. I recall there was a smaller drop from 2021 to 2022.  Sadly, donations
-remain a very unstable and unpredictable source of funding.  Perhaps down the
+remain a very unstable and unpredictable source of funding.
+
+It'd be great if we had 20+ companies supporting the project with something like
+$500+/month (which is a drop in the pond for most businesses), but I doubt this
+will ever happen. Donating to OSS projects is a hard sell in general, and a
+plugin for Emacs is probably a sale that is as hard as it gets. Perhaps down the
 road we'll try some focused fundraisers for specific features/improvements,
 although I have some reservations about such an approach as well.
 
-[Clojurists Together](https://www.clojuriststogether.org/) is another great case
-study for the positive impact funding can have on FOSS projects.  I guess no other
+CIDER's success with funding some development via OpenCollective is not an
+isolated case, of course. [Clojurists
+Together](https://www.clojuriststogether.org/) is another great case study for
+the positive impact funding can have on FOSS projects.  I guess no other
 organization has done more for the Clojure community, and I'm extremely grateful
-for all the support the members of Clojurists Together have had for CIDER and friends over the years.
+for all the support the members of Clojurists Together have had for CIDER and
+friends over the years.
 
 I write this article in the hope that seeing how donations get translated into
 real impact (e.g. productivity gains) more companies and individuals will be
