@@ -6,14 +6,14 @@ tags:
 - CIDER
 - Clojure
 - Emacs
-- OpenCollective
+- Open Collective
 ---
 
 > Alone we can do so little; together we can do so much.
 >
 > -- Helen Keller
 
-I've started [CIDER's OpenCollective](https://opencollective.com/cider) some 7-8
+I've started [CIDER's Open Collective](https://opencollective.com/cider) some 7-8
 years ago and over the course of time it became of the main donation channels
 for the project. In good years it would raise somewhere between $10,000 and
 $15,000. While my initial plan was to use the money to fund my own work on the
