@@ -17,7 +17,7 @@ project, I wasn't in a rush to withdraw them as I had a pretty stable job, that
 managed to cover our family's expenses. So, I felt it was better to let the money
 get accumulated for a time when we could fund the work of other developers, or I
 find myself out of a job and could focus my entire attention on CIDER for a few
-months. One can dream, right?
+months.[^1] One can dream, right?
 
 Last year, one of CIDER's long-term contributors
 V. (a.k.a. [vemv](https://github.com/vemv)) was between jobs and I he offered to
@@ -49,7 +49,7 @@ happened to have the time and the energy to work on complex bodies of work. We
 started our collaboration in May 2023 and I hope you'll agree that the results
 have been impressive:
 
-- 6 CIDER feature releases (1.8-1.13)[^1]
+- 6 CIDER feature releases (1.8-1.13)[^2]
 - Massive improvements to error handling, Java documentation rendering, the indentation logic, the test runner and the data inspector
 - Countless releases of related projects (e.g. `enrich-classpath`, `orchard` and `cider-nrepl`)
 - Increased bandwidth for user support (as V. provided a lot of support himself over Slack and GitHub)
@@ -85,4 +85,5 @@ I write this article in the hope that seeing how donations get translated into
 real impact (e.g. productivity gains) more companies and individuals will be
 willing to help out. CIDER is all of you, the amazing Clojure community. Clojurists together strong!
 
-[^1]: You can find more details in the [changelog](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#180-2023-10-13).
+[^1]: I also hoped the collective would fund more Clojure conference trips for me and other key contributors, but sadly Covid-19 put those on halt for quite a while. I haven't been to a Clojure event since Feb 2020...
+[^2]: You can find more details in the [changelog](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#180-2023-10-13).
