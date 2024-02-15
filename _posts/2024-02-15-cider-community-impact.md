@@ -17,7 +17,7 @@ project, I wasn't in a rush to withdraw them as I had a pretty stable job, that
 managed to cover our family's expenses. So, I felt it was better to let the money
 get accumulated for a time when we could fund the work of other developers, or I
 find myself out of a job and could focus my entire attention on CIDER for a few
-months.
+months. One can dream, right?
 
 Last year, one of CIDER's long-term contributors
 V. (a.k.a. [vemv](https://github.com/vemv)) was between jobs and I he offered to
@@ -29,9 +29,11 @@ responsibilities as maintainer shifted from "writing all (most of) the code" to
 things like:
 
 - building a long-term strategy for the projects
-- evangelizing the projects
+- evangelizing the projects (with blog posts, presentations, etc)
 - providing support for the end-users
 - writing user and developer documentation
+- reviewing bug reports and feature requests
+- "recruit" contributors
 - helping contributors and reviewing their submissions
 
 I guess you get the idea. It's not very different from the professional
@@ -52,7 +54,7 @@ have been impressive:
 - Countless releases of related projects (e.g. `enrich-classpath`, `orchard` and `cider-nrepl`)
 - Increased bandwidth for user support (as V. provided a lot of support himself over Slack and GitHub)
 
-So much has happened last year that I'm certainly forgetting something.
+So much was done last year that I'm certainly forgetting something.
 At any rate, I'm quite happy with the outcomes, and I believe they showcase
 great how additional funding can help FOSS projects. The total funding our
 collective contributed to V.'s work was about $65,000 and while that's a lot of
@@ -60,22 +62,24 @@ money, I think it was money well spent. I've opted to fund his work at actual
 market rates, so he'd be most incentivized to deliver the best possible
 outcomes. That's the only way to do OSS work sustainably.
 
+**CIDER had a great 2023 and it had it because of its awesome community! You rock!**
+
 Now our collective is drained and it's not clear when we'll be able to do
 something like this again. If we assume a budget of $10,000/year that would
 happen 7 years down the road. Sadly, with the economic downturn that affected
 heavily the IT industry the amount of donations my projects have been getting
-kind of plummeted. Lots of companies and individuals pulled out and donation
+has plummeted. Lots of companies and individuals pulled out and donation
 across GitHub Sponsors and OpenCollective in 2023 are down about 20% compared to
-2022. Sadly, donations remain a very unstable and unpredictable source of funding.
-Perhaps down the road we'll try some focused fundraisers for specific features/improvements,
-although I have some reservations about such an approach as well.
+2022. And I recall there was a smaller drop from 2021 to 2022.
+Sadly, donations remain a very unstable and unpredictable source of funding.
+Perhaps down the road we'll try some focused fundraisers for specific
+features/improvements, although I have some reservations about such an approach
+as well.
 
 [Clojurists Together](https://www.clojuriststogether.org/) is another great case
 study for the positive impact funding can have on FOSS projects.  I guess no other
 organization has done more for the Clojure community, and I'm extremely grateful
 for all the support the members of Clojurists Together have had for CIDER and friends over the years.
-
-CIDER had a great 2023 and it had it because of it's community! You rock!
 
 I write this article in the hope that seeing how donations get translated into
 real impact (e.g. productivity gains) more companies and individuals will be
