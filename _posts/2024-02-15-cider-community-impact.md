@@ -23,7 +23,7 @@ get accumulated for a time when we could fund the work of other developers, or I
 find myself out of a job and could focus my entire attention on CIDER for a few
 months.[^1] One can dream, right?
 
-Last year, one of CIDER's long-term contributors
+Last year, one of CIDER's long-time contributors
 V. (a.k.a. [vemv](https://github.com/vemv)) was between jobs and I he offered to
 work on a long list of problems and improvements if we could fund his work with
 money from the collective. I was excited, as with me juggling so many projects
@@ -95,7 +95,17 @@ friends over the years.
 
 I write this article in the hope that seeing how donations get translated into
 real impact (e.g. productivity gains) more companies and individuals will be
-willing to help out. CIDER is all of you, the amazing Clojure community. Clojurists together strong!
+willing to [help
+out](https://docs.cider.mx/cider/contributing/funding.html). CIDER is all of
+you, the amazing Clojure community. Clojurists together strong!
 
 [^1]: I also hoped the collective would fund more Clojure conference trips for me and other key contributors, but sadly Covid-19 put those plans on halt for quite a while. I haven't been to a Clojure event since Feb 2020...
 [^2]: You can find more details in the [changelog](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#180-2023-10-13).
+
+**P.S.** I really struggled with the name for this article. I considered options like:
+
+- "The Impact of Community Funding to CIDER"
+- "CIDER: A Community-funded Success Story"
+- "Making a Difference for CIDER"
+
+In the end I probably went with the most vague, but shortest title I could think of. Somewhat typical for me.
