@@ -15,7 +15,7 @@ I've cut [Flycheck 34](https://github.com/flycheck/flycheck/releases/tag/34.0), 
 
 **Random trivia:** I noticed that Chef's `foodcritic` has been replaced by [cookstyle](https://docs.chef.io/workstation/cookstyle/), a project built on top of my very own RuboCop project (a linter & formatter for Ruby) and I wrote the checker for it myself.
 
-## `flycheck.org`
+## `flycheck.org` Ownership
 
 I've managed to obtain the ownership of the `flycheck.org` domain. Big thanks to Matthias Güdemann for paying for the domain after the departure of Sebastian from Flycheck.
 
@@ -36,6 +36,8 @@ I've created an [Open Collective for Flycheck](https://opencollective.com/flyche
 ## NonGNU ELPA
 
 I've filed a request to submit Flycheck to [NonGNU ELPA](https://elpa.nongnu.org/), one of Emacs's official package repositories. Let's see how this will go. I'm hoping to have there Flycheck and many of its extensions in the long run.
+
+**Update:** Sadly, Flycheck's NonGNU ELPA application [was rejected](https://lists.gnu.org/archive/html/emacs-devel/2024-02/msg00657.html). Supposedly it doesn't offer clear advantages over the built-in Flymake, so it shouldn't be included. It was also hinted that now Flycheck is obsolete and should be deprecated. A somewhat disappointing outcome, but definitely not unexpected. Oh, well - in MELPA we trust!
 
 ## Help Welcome
 
