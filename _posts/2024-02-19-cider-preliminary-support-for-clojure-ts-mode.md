@@ -18,6 +18,7 @@ will work reasonably well with them. There are a few caveats to keep in mind, th
 - Some functionality like dynamic indentation and dynamic font-locking (syntax highlighting) is still not support by `clojure-ts-mode`
 - You need to use the latest version of `clojure-ts-mode`, as it features some related changes
 - The new code hasn't been test much, so probably we'll encounter some bugs along the way
+- You'll need to use a snapshot release of CIDER (e.g. one installed from MELPA), as there's no stable CIDER release with this functionality yet (CIDER 1.14 will be the first one)
 - You need to be on Emacs 29 to be able to use `clojure-ts-mode` in the first place
 
 At any rate - we've made one big step towards decoupling CIDER from `clojure-mode` and gradually we'll get there. Thanks to everyone who was involved in
