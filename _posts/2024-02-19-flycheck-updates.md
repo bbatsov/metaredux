@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flycheck Updates: A new Stable Release and Way More
+title: "Flycheck Updates: A new Stable Release and Way More"
 date: 2024-02-19 10:30 +0200
 tags:
 - Emacs
