@@ -38,35 +38,34 @@ indentation with the following snippet:
     args are vertically aligned with the first arg in case (A),
     and vertically aligned with the function name in case (B).
 
-``` clojure
-(:require [foo.bar]
-          [bar.baz])
-(:require
- [foo.bar]
- [bar.baz])
-```
+   ``` clojure
+   (:require [foo.bar]
+             [bar.baz])
+   (:require
+    [foo.bar]
+    [bar.baz])
+   ```
 
 * `always-indent` - All args are indented like a macro body.
 
-``` clojure
-(:require [foo.bar]
-   [bar.baz])
-(:x
-   location
-   0)
-```
-
+    ``` clojure
+    (:require [foo.bar]
+       [bar.baz])
+    (:x
+       location
+       0)
+    ```
 
 * `align-arguments` - Case (A) is indented like `always-align`, and
     case (B) is indented like a macro body.
 
-``` clojure
-(:require [foo.bar]
-          [bar.baz])
-(:x
-   location
-   0)"
-```
+    ``` clojure
+    (:require [foo.bar]
+              [bar.baz])
+    (:x
+       location
+       0)
+    ```
 
 By the way, `clojure-ts-mode` also supports the fixed indentation style:
 
