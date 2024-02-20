@@ -11,7 +11,7 @@ I've been pretty busy with Flycheck ever since [I became its maintainer recently
 
 ## Flycheck 34
 
-I've cut [Flycheck 34](https://github.com/flycheck/flycheck/releases/tag/34.0), which features quite a few new checkers and removes a bunch of legacy checkers. As I'm not familiar with all the lint tools that Flycheck supports, I'd appreciate your input on whether some checkers need to be updated/replaced/removed down the road.
+I've cut [Flycheck 34](https://github.com/flycheck/flycheck/releases/tag/34.0), which features quite a few new checkers and removes a bunch of legacy checkers. As I'm not familiar with all the lint tools that Flycheck supports[^1], I'd appreciate your input on whether some checkers need to be updated/replaced/removed down the road.
 
 **Random trivia:** I noticed that Chef's `foodcritic` has been replaced by [cookstyle](https://docs.chef.io/workstation/cookstyle/), a project built on top of my very own RuboCop project (a linter & formatter for Ruby) and I wrote the checker for it myself.
 
@@ -48,3 +48,5 @@ If you want to hack on Flycheck or any of its extensions - now would be a great 
 And that's a wrap! It has been a busy few weeks working on Flycheck, but now I've done pretty much everything that I wanted to tackle originally. Moving forward I'll be working slowly on the backlog of issues and pull requests and pondering whether more ambitious changes will be needed down the road.
 
 Thanks to everyone for their support for the project! Keep hacking!
+
+[^1]: See <https://www.flycheck.org/en/latest/languages.html> for the list of built-in checkers.
