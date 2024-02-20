@@ -15,7 +15,7 @@ I've cut [Flycheck 34](https://github.com/flycheck/flycheck/releases/tag/34.0), 
 
 **Random trivia:** I noticed that Chef's `foodcritic` has been replaced by [cookstyle](https://docs.chef.io/workstation/cookstyle/), a project built on top of my very own RuboCop project (a linter & formatter for Ruby) and I wrote the checker for it myself.
 
-## `flycheck.org` Ownership
+## flycheck.org Ownership
 
 I've managed to obtain the ownership of the `flycheck.org` domain. Big thanks to Matthias Güdemann for paying for the domain after the departure of Sebastian from Flycheck.
 
