@@ -27,7 +27,7 @@ stripped-down version of `compliment` called
 - *Local bindings and resources*. Those two sources of completions completely rely on context, so they are disabled in Compliment-lite.
 - *Documentation*. The `documentation` function is absent from Compliment-lite.
 
-None of those, were things supported by `incomplete`, so nothing lost.
+None of those were things supported by `incomplete`, so nothing lost.
 Naturally, it made sense for nREPL to adopt it and offer improved out-of-the-box
 completion experience to Clojure programmers. As this doesn't affect the public
 API of nREPL[^2] I've opted to ship this change in a "bug-fix" release. A version like
