@@ -8,7 +8,9 @@ tags:
 - Emacs
 ---
 
-I'm glad to report that yesterday the long-awaited preliminary support for `clojure-ts-mode` in CIDER [has landed](https://github.com/clojure-emacs/cider/pull/3622)!
+I'm glad to report that yesterday the long-awaited preliminary support for
+[clojure-ts-mode](https://github.com/clojure-emacs/clojure-ts-mode) in CIDER
+[has landed](https://github.com/clojure-emacs/cider/pull/3622)![^1]
 
 This pull request (or rather the original PR on which it was based) was in the works for a very long time and it feels good to see it finally merged.
 What does this mean in practice? Well, CIDER will now properly recognize `clojure-ts-mode` and modes derived from it, meaning most of the functionality in CIDER
@@ -23,3 +25,5 @@ will work reasonably well with them. There are a few caveats to keep in mind, th
 
 At any rate - we've made one big step towards decoupling CIDER from `clojure-mode` and gradually we'll get there. Thanks to everyone who was involved in
 making this happen! Keep hacking!
+
+[^1]: I'd suggest checking out <https://metaredux.com/posts/2023/03/12/clojure-mode-meets-tree-sitter.html> if you're not familiar with `clojure-ts-mode`.
