@@ -9,8 +9,10 @@ tags:
 
 Today I've released [nREPL 1.1.1](https://github.com/nrepl/nrepl/releases/tag/v1.1.1) with a couple of small bug-fixes and one more notable, if mostly invisible change.
 
-Historically nREPL's `completions` op used internally a modified version of
-`clojure-complete`, that I eventually released as a library named
+Historically nREPL's `completions` op (introduced in [nREPL 0.8]({% post_url
+2020-06-15-nrepl-0-8-evolving-the-protocol %})) used internally a modified
+version of [clojure-complete](https://github.com/ninjudd/clojure-complete), that
+I eventually released as a library named
 [incomplete](https://github.com/nrepl/incomplete). `clojure-complete` was pretty
 much abadonware at this point and I wanted a simple drop-in replacement that we
 could use in tools like REPLy (and by association - Leiningen).[^1]
