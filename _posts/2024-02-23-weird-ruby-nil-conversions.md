@@ -57,4 +57,10 @@ irb(main):004:0> Float(nil)
 Notice how the "safe" number conversion methods `Integer` and `Float` operate differently and raise an exception when passed `nil`. That's part of the reason why it's often
 suggested to avoid the use of `to_i` and `to_f` to avoid converting unexpected values.
 
+The [Zen of Python](https://peps.python.org/pep-0020/) famously says:
+
+> Explicit is better than implicit.
+
+But in the land of Ruby it seems we like to live dangerously!
+
 That's all I have for you today. Keep Ruby weird!
