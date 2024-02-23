@@ -41,4 +41,20 @@ empty collection or 0). I know there are contexts in which this may be useful,
 but I'm fairly certain you'd be able to get similar results without resorting to
 such conversions.
 
+Keep in mind that you can do similar conversions in a different way:
+
+``` ruby
+irb(main):001:0> Array(nil)
+=> []
+irb(main):002:0> Hash(nil)
+=> {}
+irb(main):003:0> Integer(nil)
+# `Integer': can't convert nil into Integer (TypeError)
+irb(main):004:0> Float(nil)
+# `Float': can't convert nil into Float (TypeError)
+```
+
+Notice how the "safe" number conversion methods `Integer` and `Float` operate differently and raise an exception when passed `nil`. That's part of the reason why it's often
+suggested to avoid the use of `to_i` and `to_f` to avoid converting unexpected values.
+
 That's all I have for you today. Keep Ruby weird!
