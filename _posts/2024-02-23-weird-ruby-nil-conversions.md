@@ -61,6 +61,10 @@ The [Zen of Python](https://peps.python.org/pep-0020/) famously says:
 
 > Explicit is better than implicit.
 
+> Errors should never pass silently.
+
+> In the face of ambiguity, refuse the temptation to guess.
+
 But in the land of Ruby it seems we like to live dangerously!
 
 That's all I have for you today. Keep Ruby weird!
