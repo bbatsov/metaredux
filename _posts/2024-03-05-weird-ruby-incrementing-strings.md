@@ -12,7 +12,7 @@ I guess most Rubyists know that you can use the methods `Integer#succ`[^1] and i
 `Integer#next` to increment a number. E.g.:
 
 ``` ruby
-1.successor
+1.succ
 # => 2
 ```
 
