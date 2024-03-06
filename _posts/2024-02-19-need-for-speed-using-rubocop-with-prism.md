@@ -23,7 +23,7 @@ smaller. The good thing is that such rewrites can be done incrementally (I was
 migrating cops in batches), but it was still a lot of (boring, repetitive) work.
 
 That's why I was super happy when I recently discovered
-[parser-prism](https://github.com/kddnewton/parser-prism) - a gem that provides
+[parser-prism](https://github.com/kddnewton/parser-prism)[^1] - a gem that provides
 a new backend for the `parser` gem's syntax tree that uses the Prism parser. To
 make things better - it seemed that this library actually [worked with
 RuboCop already](https://github.com/kddnewton/parser-prism#rubocop). Yeah, the users
@@ -108,3 +108,7 @@ the same for `parser-prism` as well. (I assume a lot less projects use
 `parser-prism` compared to Prism) Exciting times ahead!
 
 That's all I have for you today! Keep hacking!
+
+**Update:** Experimental Prism support just landed in [RuboCop 1.62](https://github.com/rubocop/rubocop/releases/tag/v1.62.0)!
+
+[^1]: Shortly after I wrote this article the `parser-prism` code was moved to the main Prism repo and the standalone gem was deprecated.
