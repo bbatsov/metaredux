@@ -82,7 +82,23 @@ Cool stuff, right? I know what you're thinking now - that'd be really handy for 
 #  "99.9"]
 ```
 
-Oh, well... I guess this wasn't meant to be. Generating successive strings has its uses (mostly in code golfing), but it's probably not something you'll see often in Ruby applications. If you know any cool and useful applications - please share those in the comments!
+Oh, well... I guess this wasn't meant to be. By the way, did I mention that successive strings get extra weird if you're dealing with text that's not in English:
+
+``` ruby
+# Examples in Bulgarian with Cyrilic letters below
+
+# Looking good!
+'1999б'.succ
+# => "1999в"
+
+# WAT!!!
+'1999я'.succ
+# => "1999ѐ"
+```
+
+I guess not everyone will understand those examples, but let's say that most people would expect a different letter to appear after "я", which is normally the last letter in the alphabets of some Slavic languages. Of course, this has less to do with Ruby and more to do with Unicode and the character ordering there.
+
+Generating successive strings has its uses (mostly in code golfing), but it's probably not something you'll see often in Ruby applications. If you know any cool and useful applications - please share those in the comments!
 
 That's all I have for you today. Keep Ruby weird!
 
