@@ -37,8 +37,9 @@ I think today `select` is the most popular of the 3, but I can imagine that over
 
 The usage of aliases at this level has always been a bit controversial in the Ruby community. On one hand you make it easier for people coming from different backgrounds to find familiar methods, but on another you also confuse people a bit, as it's not obvious that the different names are aliases. I've seen plenty of people asking what's the difference between `inject` and `reduce` and so on.
 
-What's your preferred method to filter elements? Can you think of any other methods in the Ruby core classes that have multiple aliases? Please, share those in the comments!
+What's your preferred method to filter elements? Can you think of any other methods in the Ruby core classes that have multiple aliases?[^2] Please, share those in the comments!
 
 That's all I have for you today. Keep hacking!
 
 [^1]: I believe that `filter` is the terminology used in most programming languages.
+[^2]: `Enumerable#filter!` does not count! ;-)
