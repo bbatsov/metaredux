@@ -41,5 +41,13 @@ What's your preferred method to filter elements? Can you think of any other meth
 
 That's all I have for you today. Keep hacking!
 
+**P.S.** As someone commented, `Hash#include?` is even more curious (weird?) as it has 3 (!!!) aliases:
+
+- `has_key?`
+- `key?`
+- `member`?
+
+Will we be able to top this?
+
 [^1]: I believe that `filter` is the terminology used in most programming languages.
 [^2]: `Enumerable#filter!` does not count! ;-)
