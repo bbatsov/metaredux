@@ -45,7 +45,7 @@ That's all I have for you today. Keep hacking!
 
 - `has_key?`
 - `key?`
-- `member`?
+- `member?`
 
 Will we be able to top this?
 
