@@ -25,9 +25,9 @@ named `filter`, thus making the only Ruby method I can think of in this elite
 category. As a reminder here's how the methods behave:
 
 ``` ruby
-(1..10).find_all { |i|  i % 3 == 0 }   #=> [3, 6, 9]
+(1..10).find_all { |i| i % 3 == 0 }   #=> [3, 6, 9]
 
-[1,2,3,4,5].select { |num|  num.even?  }   #=> [2, 4]
+[1,2,3,4,5].select { |num| num.even? }   #=> [2, 4]
 
 [:foo, :bar].filter { |x| x == :foo }   #=> [:foo]
 ```
