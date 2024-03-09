@@ -102,7 +102,7 @@ will likely happen sooner rather than later. I'd encourage adventurous
 people to play with RuboCop on Prism and to contribute
 to getting all required pieces in place faster.
 
-I recall that RuboCop's adoption of `whitequar/parser` was instrumental in
+I recall that RuboCop's adoption of `whitequark/parser` was instrumental in
 uncovering (many) weird bugs in it, and I have a feeling that things might be
 the same for `parser-prism` as well. (I assume a lot less projects use
 `parser-prism` compared to Prism) Exciting times ahead!
