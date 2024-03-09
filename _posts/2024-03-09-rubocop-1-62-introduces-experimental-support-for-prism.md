@@ -43,8 +43,11 @@ Ruby 2.0+. This means Prism is still not a complete replacement for `whitequark/
 I expect that as more people start to use RuboCop with Prism we'll quickly identify and fix any outstanding problems. I'd encourage the more adventurous people to play a bit with RuboCop and Prism and report their findings.
 
 RuboCop will keep supporting `whitequark/parser` for the foreseeable future, so there's no rush for anyone to switch to using Prism today.
+Also, it's not like we can stop supporting `whitequark/parser` until we switch to using Prism's AST format natively - currently we're using
+Prism as a backend for `whitequark/parser`.[^3]
 
 That's all I have for you today. Keep hacking!
 
 [^1]: See my [previous article]({% post_url 2024-02-19-need-for-speed-using-rubocop-with-prism %}).
 [^2]: See <https://github.com/rubocop/rubocop-ast/pull/277#issuecomment-1962383316>
+[^3]: See <https://github.com/ruby/prism/blob/main/docs/parser_translation.md> for details.
