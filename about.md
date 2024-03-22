@@ -62,12 +62,6 @@ out as well - [Emacs Redux](http://emacsredux.com).
 This blog precedes Meta Redux (I started it in 2013) and it inspired me to come
 up with the Meta Redux name.
 
-### HEY World
-
-I also have a blog at [HEY World](https://world.hey.com/bozhidar).
-I'm still not sure what I'll use it for (if anything), but likely it
-will host short musings on random non-technical topics.
-
 ## Patronage
 
 As you might imagine maintaining many open-source projects is a
