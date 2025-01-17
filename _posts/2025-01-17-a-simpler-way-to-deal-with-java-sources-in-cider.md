@@ -31,7 +31,10 @@ it). Now CIDER will download the Java sources of third-party libraries for Java
 classes when:
 
 * you request documentation for a class or a method (`C-c C-d C-d`)
-* jump to its definition (`M-.`)
+* you jump to some definition (`M-.`) within a Java class
+
+Note that `eldoc` won't trigger the auto-download of Java sources, as we felt this might
+be harmful to the user experience.
 
 This feature works without `enrich-classpath`.[^2]  The
 auto-downloading works for both tools.deps and Leiningen-based projects. In both
