@@ -33,8 +33,19 @@ I'm happy to report that I finally got to doing something about the problems lis
 reading/writing the cache file for the currently visited project.
 
 This means that Projectile's loading time is much snappier if you're a heavy cache user.
-I plan more improvements in this area - e.g. adding an option to keep the cache only in memory (without writing it to disk),
-which is probably fine for most people.
+
+I've also addressed a common problem for people using Projectile over TRAMP - that writing to the
+cache file can be quite slow there if you're working on huge project. The writing of the cache
+when individual files are added to it is now deferred using `run-with-idle-timer`[^3], which means
+that you'll never experience a lock-up right after creating a new file within a project.
+Perhaps even more importantly - I've introduced the concept of "transient" cache. Basically
+it lives only in memory and is not persisted to a file.[^4] Going forward this is going to be
+the default caching behavior in Projectile, as I think it offers a better blend of performance and
+convenience. To enable the traditional "persistent" cache you'll have to add this to your config:
+
+```elisp
+(setq projectile-enable-caching 'persistent)
+```
 
 To make things better I've also reorganized how known projects are initialized, so now no IO operations
 happen during Projectile's initialization and it's lightning fast! To illustrate this with a bit
@@ -75,3 +86,5 @@ Projectile 2.9 gets officially released.
 
 [^1]: See <https://github.com/bbatsov/projectile/commit/5061bd8dcd9f4d0e874884272f88b10892d15da3>.
 [^2]: You'll probably want to add this file to your `.gitignore`. Or not, as the paths stored in it are relative to the project's root, so they can actually be reused across different machines.
+[^3]: See <https://github.com/bbatsov/projectile/commit/0efac68c82d8ebdb3fd83ea5e530c4b816c87f8f>.
+[^4]: See <https://github.com/bbatsov/projectile/commit/a4a6cacd908bc614d60c6233a7f224baebfe1178>.
