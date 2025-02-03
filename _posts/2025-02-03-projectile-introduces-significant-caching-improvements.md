@@ -30,7 +30,31 @@ I plan more improvements in this area - e.g. adding an option to keep the cache 
 which is probably fine for most people.
 
 To make things better I've also reorganized how known projects are initialized, so now no IO operations
-happen during Projectile's initialization and it's lightning fast!
+happen during Projectile's initialization and it's lightning fast! To illustrate this with a bit
+of code:
+
+```elisp
+;; projectile-mode init before
+;;
+;; initialize the projects cache if needed
+(unless projectile-projects-cache
+  (setq projectile-projects-cache
+        (or (projectile-unserialize projectile-cache-file)
+            (make-hash-table :test 'equal))))
+(unless projectile-projects-cache-time
+  (setq projectile-projects-cache-time
+        (make-hash-table :test 'equal)))
+;; load the known projects
+(projectile-load-known-projects)
+;; update the list of known projects
+(projectile--cleanup-known-projects)
+(when projectile-auto-discover
+  (projectile-discover-projects-in-search-path))
+
+;; projectile-mode init now
+;;
+;; nothing IO-related to show here
+```
 
 Last week I've started to prepare for the release of Projectile 2.9, which will bring a lot of
 bug fixes and improvements. I know that a lot of people have probably written off Projectile by
