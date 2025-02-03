@@ -22,8 +22,15 @@ is enabled. That causes two problems:
 
 I'm happy to report that I finally got to doing something about the problems listed above![^1] In a nutshell:
 
-- Now each project gets its own cache file in the root of the project's directory (named `.projectile-cache.eld` by default)[^2]
-- The cache is read from disk only when you trigger `projectile-find-file` for the first time
+- Now each project gets its own cache file in the root of the project's
+  directory. (named `.projectile-cache.eld` by default)[^2] I've opted for this
+  approach over something like `.emacs.d/cache`, as it avoids the need to hash
+  the project paths. (so cache files could be mapped to project root paths) I
+  might change this behavior in the future, depending on the user feedback I
+  receive.
+- The cache is read from disk only when you trigger `projectile-find-file` for the first time.
+- Both reading and writing the cache file is much faster, as you're only
+reading/writing the cache file for the currently visited project.
 
 This means that Projectile's loading time is much snappier if you're a heavy cache user.
 I plan more improvements in this area - e.g. adding an option to keep the cache only in memory (without writing it to disk),
