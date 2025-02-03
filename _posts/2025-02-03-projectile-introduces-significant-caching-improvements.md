@@ -42,5 +42,5 @@ That's all I have for you today. Keep hacking!
 **P.S.** I'd appreciate it if more Projectile users experimented with the current snapshot package, before
 Projectile 2.9 gets officially released.
 
-[^1]: <See https://github.com/bbatsov/projectile/commit/5061bd8dcd9f4d0e874884272f88b10892d15da3>
+[^1]: See <https://github.com/bbatsov/projectile/commit/5061bd8dcd9f4d0e874884272f88b10892d15da3>.
 [^2]: You'll probably want to add this file to your `.gitignore`.
