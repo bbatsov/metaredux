@@ -67,4 +67,4 @@ That's all I have for you today. Keep hacking!
 Projectile 2.9 gets officially released.
 
 [^1]: See <https://github.com/bbatsov/projectile/commit/5061bd8dcd9f4d0e874884272f88b10892d15da3>.
-[^2]: You'll probably want to add this file to your `.gitignore`.
+[^2]: You'll probably want to add this file to your `.gitignore`. Or not, as the paths stored in it are relative to the project's root, so they can actually be reused across different machines.
