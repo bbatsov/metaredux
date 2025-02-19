@@ -66,7 +66,7 @@ The OpenJDK doesn't have a convenient `dmg` installation image - it's
 distributed simply as a tarball. No problem! Installing this tarball
 is trivial:
 
-``` shell
+``` console
 $ tar xf tar xf openjdk-11.0.1_osx-x64_bin.tar.gz
 $ sudo mv jdk-11.0.1.jdk /Library/Java/JavaVirtualMachines
 ```
@@ -75,7 +75,7 @@ You just extract it and move it where macOS expects JDKs to be
 installed. You can check that now macOS picks up the right version of
 Java:
 
-``` shell
+``` console
 $ java -version
 openjdk version "11.0.1" 2018-10-16
 OpenJDK Runtime Environment 18.9 (build 11.0.1+13)
@@ -90,7 +90,7 @@ installed a new one? Well, they just stick around in
 check what JDKs are available there either by doing a simple `ls` or by
 using the `java_home` wrapper command:
 
-``` shell
+``` console
 $ ls /Library/Java/JavaVirtualMachines
 jdk-10.0.1.jdk   jdk-11.0.1.jdk   jdk1.8.0_131.jdk
 
@@ -111,7 +111,7 @@ newest JDK, but you can also easily switch between the installed JDKs.
 
 The simplest way to switch between JDKs is to set `JAVA_HOME` to whatever JDK you want to use:
 
-``` shell
+``` console
 # switch to Java 8
 $ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 $ java -version
@@ -128,7 +128,7 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 
 You don't really need to remember the exact path to each installed JDK, as `java_home` can help you with this:
 
-``` shell
+``` console
 $ /usr/libexec/java_home -v 1.8
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 # switch to Java 8
@@ -158,7 +158,7 @@ switch_java() {
 Add this to your shell config (e.g. `.bashrc`), reload the config
 (e.g. by using `. .bashrc`), and use it like this:
 
-``` shell
+``` console
 $ switch_java 1.8
 Switching to Java 1.8
 java version "1.8.0_131"

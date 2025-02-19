@@ -496,7 +496,7 @@ feature and a problem, depending on your respective. It's also the only tool whi
 you reasonable feedback about problems with your layout without fixing them. I didn't mention this earlier, but if you
 want to limit RuboCop to formatting duties only you should take note of those two commands:
 
-``` shellsession
+```console
 $ rubocop --only Layout
 $ rubocop --fix-layout
 ```

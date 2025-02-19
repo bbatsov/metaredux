@@ -37,13 +37,13 @@ I was too lazy to evaluate all of the tools, but I played a bit with `cloc` and 
 they get the job done well enough. Installing them on macOS is super easy if you're into
 Homebrew:
 
-``` shellsession
+```console
 $ brew install cloc scc
 ```
 
 Both tools work fairy similarly. Here's some data for my [RuboCop](https://github.com/rubocop-hq/rubocop) project:
 
-``` shellsession
+```console
 $ cloc .
     1264 text files.
     1264 unique files.

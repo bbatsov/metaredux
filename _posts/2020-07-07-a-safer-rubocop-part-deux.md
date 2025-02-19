@@ -17,7 +17,7 @@ and marking cops with unsafe auto-correction accordingly. Recently we reached an
 important milestone in our quest for safety - we've made safe auto-correct the default behavior
 of RuboCop! The change essentially makes `--auto-correct` and `--safe-auto-correct` the same.[^1]
 
-``` shellsession
+```console
 $ rubocop -a
 # or
 $ rubocop --auto-correct
@@ -28,7 +28,7 @@ $ rubocop --safe-auto-correct # deprecated
 I guess you might be wondering can you still have RuboCop run every possible auto-correction.
 Yes, you can!
 
-``` shellsession
+```console
 $ rubocop -A
 # or
 $ rubocop --auto-correct-all
@@ -47,7 +47,7 @@ In general I've always felt it's a bad idea to run all the auto-corrections poss
 Likely you'll immediately notice some problems, but you might have trouble finding where did they come from and which
 correction caused them. That's why my recipe for (unsafe) auto-corrections has always been less ambitious:
 
-``` shellsession
+```console
 # Run auto-correction for a cop at a time
 $ rubocop --auto-correct --only Some/Cop
 # Review carefully the diff

@@ -109,7 +109,7 @@ Normally, you want comments only for posts, so you'll need to modify the `post.h
 Jekyll's themes so you have to create a `_layouts` directory in your site, and copy the `post.html` from your site's theme (e.g. `minima`) there.
 I usually just grab the file from the theme's GitHub repo, you can also get it from the locally installed theme:
 
-``` shellsession
+```console
 $ cd mysite
 $ mkdir _layouts
 $ bundle info --path minima

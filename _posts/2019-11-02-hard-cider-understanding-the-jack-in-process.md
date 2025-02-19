@@ -52,7 +52,7 @@ simple - CIDER simply passes the extra dependencies and nREPL configuration to
 your build tool in the command in runs to start the nREPL server. Here's how
 this looks for `tools.deps`:
 
-``` shellsession
+```console
 $ clojure -Sdeps '{:deps {nrepl {:mvn/version "0.6.0"} cider/cider-nrepl {:mvn/version "0.22.4"}}}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]'
 ```
 

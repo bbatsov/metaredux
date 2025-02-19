@@ -41,7 +41,7 @@ Whenever a server process is not running, it will load the RuboCop runtime files
 
 Note that RuboCop servers are associated with the directory in which they were started, so you can have several of them running:
 
-``` shellsession
+```console
 $ ps waux | grep rubocop
 bozhidar 17801  0.2  0.5 1227840 87804 ?       S    10:50   0:00 rubocop --server /home/bozhidar/projects/rubocop
 bozhidar 17990  0.0  0.3 117240 53172 ?        S    10:54   0:00 rubocop --server /home/bozhidar/projects/rubocop-ast

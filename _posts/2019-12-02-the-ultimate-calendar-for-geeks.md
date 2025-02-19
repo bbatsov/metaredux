@@ -42,7 +42,7 @@ Now let's see `cal` in action!
 The `ncal` command is pretty similar, but displays the calendar a bit differently and has flags to show
 the date of Easter (amongst other features):
 
-``` shellsession
+```console
 $ ncal -e 2020 # Catholic Easter
 April 12 2020
 $ ncal -o 2020 # Orthodox Easter

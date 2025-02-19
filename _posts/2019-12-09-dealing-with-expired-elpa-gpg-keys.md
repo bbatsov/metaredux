@@ -40,13 +40,13 @@ anything from ELPA. No worries, there are a couple of workaround for this.
 
 If you're not afraid of the command-line you can fetch the new key manually with a command like this:
 
-``` shellsession
+```console
 $ gpg --homedir ~/.emacs.d/elpa/gnupg --receive-keys 066DAFCB81E42C40
 ```
 
 Alternatively you can modify the expiration date of the old key with something like:
 
-``` shellsession
+```console
 gpg --homedir ~/.emacs.d/elpa/gnupg --quick-set-expire 474F05837FBDEF9B 1y
 ```
 

@@ -15,7 +15,7 @@ Yesterday the project reached a very important milestone[^2] on its way to the "
 of extended cop[^3] metadata and the ability to run only cops and auto-corrections that can't possibly break your code by
 changing its meaning. We call such cops and their auto-corrections "safe". Making use of the new functionality is very easy:
 
-``` shell
+``` console
 # Run only safe cops.
 $ rubocop --safe
 

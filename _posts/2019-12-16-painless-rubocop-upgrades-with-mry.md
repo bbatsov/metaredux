@@ -29,14 +29,14 @@ Team member [Masataka "Pocke" Kuwabara](https://github.com/pocke). In case
 you're wondering - mry stands for "Migrate RuboCop.Yml".[^1]
 Using the tool is super simple:
 
-``` shellsession
+```console
 $ mry .rubocop.yml
 ```
 
 That's going to apply all the necessary changes for the latest RuboCop release.
 You can also be a bit more specific about the target RuboCop version:
 
-``` shellsession
+```console
 $ mry --target=0.75.0 .rubocop.yml
 ```
 

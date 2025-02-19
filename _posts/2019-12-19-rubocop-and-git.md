@@ -35,7 +35,7 @@ and git to some extent.
 
 The simplest option is just to run RuboCop on all staged files:
 
-``` shellsession
+```console
 $ git diff --name-only --diff-filter=MA | xargs rubocop
 
 # This also works
@@ -48,7 +48,7 @@ Seems like a great pre-commit hook to me.
 You can obviously do something way fancier if you want to. Here's how you can check
 all files that are not merged in `master` yet:
 
-``` shellsession
+```console
 $ { git diff HEAD --name-only --diff-filter=MA & git diff origin/master..HEAD --name-only --diff-filter=MA; } | sort | uniq
 ```
 
