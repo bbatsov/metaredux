@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Weird Ruby: Anonymous Heredocs'
-date: 2025-06-02 22:55 +0300
+date: 2025-06-02 07:55 +0300
 tags:
 - Ruby
 - Weird Ruby
