@@ -27,7 +27,7 @@ All this reminded me that we often don't value enough the people who make Clojur
 * [Phil Hagelberg](https://github.com/technomancy)
 * [Christophe Grand](https://github.com/cgrand)
 
-I'm reasonably certain they need no introduction and that most of you are well aware of their huge impact on the Clojure community. I'll just say "Thank you! You're awesome! Clojure wouldn't not be the same without you!".
+I'm reasonably certain they need no introduction and that most of you are well aware of their huge impact on the Clojure community. I'll just say "Thank you! You're awesome! Clojure wouldn't be the same without you!".
 
 Last, but not least - a very big "Thanks!" to Rich, Stu Halloway, Alex Miller, David Nolen and everyone else on Clojure(Script)'s team. There wouldn't be a Clojure community without you![^2]
 

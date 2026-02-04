@@ -35,7 +35,7 @@ which it was originally based. Slates don't come much cleaner than this.
 Danny Freeman has been driving the work on `clojure-ts-mode` and he already got
 some of the basics working (e.g. font-locking and fixed indentation), so feel
 free to play with the mode if you want. That being said - [a ton of work remains
-to done](https://github.com/clojure-emacs/clojure-ts-mode/issues/1) and help
+to be done](https://github.com/clojure-emacs/clojure-ts-mode/issues/1) and help
 from everyone is most welcome. The
 [setup](https://github.com/clojure-emacs/clojure-ts-mode#installation) is a bit
 complex right now, but it's very well documented.

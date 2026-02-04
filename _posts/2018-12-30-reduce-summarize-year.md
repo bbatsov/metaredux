@@ -38,7 +38,7 @@ I won't really repeat everything major I've done throughout the year here. I'll 
 I'm proudest of:
 
 * The big cleanup of the internals of CIDER 0.18
-* [Saving nREPL from Clojure Contrib and reviving its development](({% post_url 2018-10-29-nrepl-redux %}))
+* [Saving nREPL from Clojure Contrib and reviving its development]({% post_url 2018-10-29-nrepl-redux %})
 * Coming up with a solid plan for RuboCop 1.0 and growing the team around the project
 * Releasing for the first time a 1.0 version a major project of mine (Projectile) and the subsequent improvements
 for the upcoming Projectile 2.0

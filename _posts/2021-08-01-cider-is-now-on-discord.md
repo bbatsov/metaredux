@@ -12,7 +12,7 @@ Over the past few months I've been trying to find better ways to support the com
 why I was more focused on documentation and exploring new communication channels, instead of new features and fixes.
 Over the years I've tried a lot of different support channels with varying degrees of success:
 
-- Mailing List (Google Groups) - never gained any traction. I've noticed the Clojure mailing list hasn't been that active in recent years as well, so I think mailing lists are losing popularity in general. A pity, if you ask me. At any rate - given that no one uses the mailing list I definitely considering to shut it down completely.
+- Mailing List (Google Groups) - never gained any traction. I've noticed the Clojure mailing list hasn't been that active in recent years as well, so I think mailing lists are losing popularity in general. A pity, if you ask me. At any rate - given that no one uses the mailing list I'm definitely considering shutting it down completely.
 - Gitter chat - never gained any traction. Gitter was somewhat popular a few years ago, but that's no longer the case.
 - GitHub Discussions - it's still new, but there's not much traction there.
 - StackOverflow - never gained much traction either, although it's certainly more used for CIDER than any of the above options.

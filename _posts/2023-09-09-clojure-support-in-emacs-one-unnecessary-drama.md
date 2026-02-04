@@ -55,9 +55,9 @@ I guess this escalation was triggered by a remark I made that it's best to leave
 
 > That's one of the things that bother me the most in the conversations so far - lots of people tell us what the Clojure users need, but other than me and Danny, no one here has any real interest in Clojure. :-) Without an understanding of Clojure and its tooling ecosystem (and it's history) it's hard to make good suggestions about what makes sense and what doesn't.
 >
-> I already wrote we tried the "thin layer on top of lisp-mode" and this didn't worked out great in the past. Of course, people are welcome to try and learn from experience themselves if they thing they can do things better/differently.
+> I already wrote we tried the "thin layer on top of lisp-mode" and this didn't worked out great in the past. Of course, people are welcome to try and learn from experience themselves if they think they can do things better/differently.
 
-I don't thing there was something particularly hostile about my message, but the response I got was:
+I don't think there was something particularly hostile about my message, but the response I got was:
 
 > And no, I don't have to be A Bozhidar-Certified Clojure Programmer to
 > want to help out, just as I don't speak 90% of the languages Eglot

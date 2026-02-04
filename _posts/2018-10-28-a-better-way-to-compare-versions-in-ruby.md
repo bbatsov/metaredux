@@ -52,7 +52,7 @@ you get the right comparison behaviour. Note that this class implements some
 advanced comparison semantics and can compare properly pretty much every reasonable
 version scheme in existence.
 
-The class contains some other cool functionality. Let's play with for a bit!
+The class contains some other cool functionality. Let's play with it for a bit!
 
 ``` ruby
 v = Gem::Version.new('1.2.3.pre1')

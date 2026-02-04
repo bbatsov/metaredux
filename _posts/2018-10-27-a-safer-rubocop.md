@@ -71,13 +71,13 @@ they can also wreak havoc from time to time (especially if you don't have a good
 An even more nuanced example would be:
 
 ``` ruby
-# Is something a instance of class that implements empty?
+# Is something an instance of class that implements empty?
 # Does it have a size alias for length?
 something.length == 0
 ```
 
 `Style/ZeroLengthPredicate` would suggest using `empty?` here and most of the time that'd be a great idea, but not
-every class that a has `length` (or `size`) method would define a matching `empty?` method. Here's a very real example where this check
+every class that has `length` (or `size`) method would define a matching `empty?` method. Here's a very real example where this check
 would fail:
 
 ``` ruby
@@ -91,7 +91,7 @@ not a real solution.
 Another similar example would be the usage of `size` vs `length` - most often classes define those methods as aliases and people
 prefer to stick one or the other, but that's also not always the case.[^4]
 
-When in comes unsafe auto-corrections I think the classic examples would be something like:
+When it comes to unsafe auto-corrections I think the classic examples would be something like:
 
 ``` ruby
 # It'd be nice to use $CHILD_STATUS here instead, but is the English library loaded?
@@ -123,7 +123,7 @@ first instinct would be that it's probably safe to replace `!zero?` with `nonzer
 
 Pretty crazy, right?[^5]
 
-In practical terms this means that depending on how the result of the method was used things like be business as usual
+In practical terms this means that depending on how the result of the method was used things will be business as usual
 or breakage to your code (the need for a "real" boolean value vs the need for something truthy or falsy).
 
 Here's another classic example:

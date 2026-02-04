@@ -32,7 +32,7 @@ require:
 ```
 
 By default all the cops are scoped to `**/test/**/*`, which in theory should work fairly well for most
-projects. Keep in mind, however, that you mind have to adjust it if your project utilizes some non-standard
+projects. Keep in mind, however, that you might have to adjust it if your project utilizes some non-standard
 folder layout.
 
 On a related note - we've also launched a [Minitest Style Guide](https://minitest.rubystyle.guide) alongside

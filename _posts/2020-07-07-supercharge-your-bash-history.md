@@ -13,7 +13,7 @@ setup for a while and switch to a vanilla Bash. Guess I needed a bit of simplici
 One thing about my initial Bash experience that drove me nuts is the way it handles the
 history out-of-the-box:
 
-* Each shell session has its own history and once you terminate a session it history
+* Each shell session has its own history and once you terminate a session its history
 is dumped to `.bash_history`, overwriting whatever was there in the past. For me this pretty much kills the value of
 persistent shell history. Note that if you
 don't exit cleanly your history will just be lost.

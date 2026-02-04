@@ -172,7 +172,7 @@ This introduces three new operations:
 * `swap-middleware`, similar to `add-`, but replaces all existing middleware. Note that this _may_ remove the `dynamic-loader` itself.
 
 It practical terms this means that now clients can simply bundle whatever middleware they need to power their features (e.g. `piggieback`, `cider-nrepl`, `refactor-nrepl`, `sayid`) and load this middleware into an nREPL server after connecting to it.
-That's immensely powerful and will eventually result is no need for user setup to get access to everything a client has to offer. You'll forget about messages like `CIDER requires cider-nrepl for some its functionality to work properly`.
+That's immensely powerful and will eventually result in no need for user setup to get access to everything a client has to offer. You'll forget about messages like `CIDER requires cider-nrepl for some of its functionality to work properly`.
 It's going to take us a while to get to the point where most Clojure clients support this, but it's going to be a great moment when we get there.
 
 Big thanks to Shen Tian for tackling this!

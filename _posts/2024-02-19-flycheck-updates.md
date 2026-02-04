@@ -27,7 +27,7 @@ I quickly realized that Eglot support was one of the main reasons why people swi
 
 I've been updating the Flycheck [docs](https://www.flycheck.org/en/latest/) here and there. Most notably, I've updated the [comparison with Flymake](https://www.flycheck.org/en/latest/user/flycheck-versus-flymake.html), as a few people complained it was out-of-date.
 
-I haven't used Flymake in ages, so I'm definitely not an expert there, but I did my best to make sure the comparsion is reasonably accurate. If someone notices any issues there - please, submit improvements!
+I haven't used Flymake in ages, so I'm definitely not an expert there, but I did my best to make sure the comparison is reasonably accurate. If someone notices any issues there - please, submit improvements!
 
 ## Open Collective
 

@@ -101,7 +101,7 @@ I'd like to give a big thanks to all my patrons! Your support means a lot to me 
 ## Changes to Meta Redux
 
 You might have noticed that this year I've been writing fewer articles here and they are mostly about my OSS projects. That's related my
-decision to revive my original site [(think)](https://batsov.com) and do more of my writing there. And give some clear focus to Meta Redux by doing son.
+decision to revive my original site [(think)](https://batsov.com) and do more of my writing there. And give some clear focus to Meta Redux by doing so.
 
 ## Epilogue
 

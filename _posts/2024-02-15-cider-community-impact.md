@@ -24,7 +24,7 @@ find myself out of a job and could focus my entire attention on CIDER for a few
 months.[^1] One can dream, right?
 
 Last year, one of CIDER's long-time contributors
-V. (a.k.a. [vemv](https://github.com/vemv)) was between jobs and I he offered to
+V. (a.k.a. [vemv](https://github.com/vemv)) was between jobs and he offered to
 work on a long list of problems and improvements if we could fund his work with
 money from the collective. I was excited, as with me juggling so many projects
 it's hard to find enough time to go in "the zone" and work for an extended

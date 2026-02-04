@@ -14,7 +14,7 @@ Historically nREPL's `completions` op (introduced in [nREPL 0.8]({% post_url
 version of [clojure-complete](https://github.com/ninjudd/clojure-complete), that
 I eventually released as a library named
 [incomplete](https://github.com/nrepl/incomplete). `clojure-complete` was pretty
-much abadonware at this point and I wanted a simple drop-in replacement that we
+much abandonware at this point and I wanted a simple drop-in replacement that we
 could use in tools like REPLy (and by association - Leiningen).[^1]
 
 Using the much better

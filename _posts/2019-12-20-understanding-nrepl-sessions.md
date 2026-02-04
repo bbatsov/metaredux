@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Userstanding nREPL Sessions
+title: Understanding nREPL Sessions
 categories: posts
 tags:
 - Clojure

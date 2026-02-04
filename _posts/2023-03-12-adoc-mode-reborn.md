@@ -7,7 +7,7 @@ tags:
 - AsciiDoc
 ---
 
-It's no secret I'm a big of fan of both Emacs and [AsciiDoc](https://asciidoc.org/).
+It's no secret I'm a big fan of both Emacs and [AsciiDoc](https://asciidoc.org/).
 I've been using AsciiDoc heavily for years and most of the documentation of my bigger OSS projects is written in AsciiDoc. That being said, my experience with the only AsciiDoc major mode for Emacs (`adoc-mode`) has been a mixed bag - it's been somewhat buggy and missing some nice features that I've come to appreciate from modes like
 `markdown-mode` and `org-mode`. On top of that, the mode's development has been dormant for the past 7 years and the chances of something getting fixed seemed to be slim to none.
 

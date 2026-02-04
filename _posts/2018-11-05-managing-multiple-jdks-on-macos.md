@@ -48,12 +48,12 @@ provided some mechanism to switch between the JDKs you had installed
 (e.g. Fedora has the `alternatives` program).
 
 When I transitioned to macOS I really missed a proper package manager
-and such version management utilities. It felt so weird to have do
+and such version management utilities. It felt so weird to have to
 download and install libraries and applications manually. Sure,
 there's `homebrew`, but it's not quite like `dnf`, `apt`, `pacman`,
 and friends. It's getting better each year, though. However, I never
 installed Java through `brew` for some reason.  Maybe I just lost my
-console edge or something like this, but I'd simply to go Oracle's
+console edge or something like this, but I'd simply go to Oracle's
 website, download the latest image, double-click it and be done with
 it. Things just worked.
 

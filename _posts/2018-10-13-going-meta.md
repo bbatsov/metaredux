@@ -19,7 +19,7 @@ tooling[^2] and the vision right, but I can make no promises about the rest.
 Back in the day I wanted to write just for the sake of writing. And maybe with the hope
 that my posts were going to bring me fame and glory. Today I feel that I've got a lot
 of really interesting thoughts worth sharing on my mind and I hope that this blog is
-going to be an useful creative outlet. I don't really care at this point whether
+going to be a useful creative outlet. I don't really care at this point whether
 I'll actually get any readers (although I won't mind some), but I care a lot about the
 things I'll share with you. Perhaps I've grown older and wiser. I'm pretty certain about
 the **older** part.

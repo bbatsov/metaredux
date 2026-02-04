@@ -26,7 +26,7 @@ developing a robust common foundation for Clojure development tools.[^2]  I've y
 to achieve any of those goals, and I might never manage to do so, but it has
 been one fun, wild, stressful and very educational ride for me.
 
-I'd like to take moment to thank everyone who supported CIDER and friends, to everyone
+I'd like to take a moment to thank everyone who supported CIDER and friends, to everyone
 who contributed to the projects, to everyone who used the projects. You're
 awesome and CIDER, nREPL and the rest of the Orchard wouldn't be the same without you!
 Your help, support, positive energy and general greatness have kept me and the

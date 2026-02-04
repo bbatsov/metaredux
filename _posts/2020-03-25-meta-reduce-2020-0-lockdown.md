@@ -33,7 +33,7 @@ That's the best part of every conference for me. Well, I also enjoyed the best I
 conference and one truly legendary conference afterparty.[^3]
 
 I took the opportunity to release [CIDER 0.24 (India)](https://github.com/clojure-emacs/cider/releases/tag/v0.24.0) while I was at IN/Clojure. It's dedicated to all of India and all the fine people I met there. I never found the time to
-write a proper release announcement about CIDER 0.24, but it's a great releases and you definitely want to upgrade to it.
+write a proper release announcement about CIDER 0.24, but it's a great release and you definitely want to upgrade to it.
 
 I had the good fortune to attend a couple of meetups as well, while in India - an FP meetup in Bangalore and an Emacs
 meetup in Pune. Believe it or not this was the very first time in my life I attended any kind of
@@ -68,7 +68,7 @@ I've merged and reviewed a bunch of patches there recently. A new release should
 The most important thing, given the circumstances, is that so far me, my family and my friends have been spared
 by COVID-19. Bulgaria introduced the lockdown quickly and I hope this is going to help contain its spread, as our healthcare system
 is not exactly top notch. If the containment measures fail we'll finally test empirically whether our national brandy
-rakiya can truly cure every decease in existence...
+rakiya can truly cure every disease in existence...
 
 I'm fortunate enough to be working remotely, so little has changed in my day-to-day, other than all of the fun
 aspects of life disappearing all of a sudden. Still, I'm glad that "remote work" is trending these days and I hope

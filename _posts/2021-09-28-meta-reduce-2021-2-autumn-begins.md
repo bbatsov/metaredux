@@ -30,7 +30,7 @@ project missing at this point. I'll submit it there after its next stable releas
 I've also started to pay more attention to the `emacs-devel` mailing list, after mostly ignoring it for years.
 It's challenging, but insightful to be involved there.
 
-Outside of this and CIDER, I had very little time for my Emacs projects. I'd definitely like to spent
+Outside of this and CIDER, I had very little time for my Emacs projects. I'd definitely like to spend
 some time on Projectile before the end of the year.
 
 ## CIDER & Friends
@@ -44,7 +44,7 @@ provide the full range of CIDER functionality.
 That's big! Huge thanks to Arne for working on that functionality!
 
 `clj-refactor` and `refactor-nrepl` have been getting a lot of love by `vemv`,
-and I guess we'll be ready for great release in a couple of weeks. I think it's
+and I guess we'll be ready for a great release in a couple of weeks. I think it's
 safe to say that the projects hadn't seen so much activity in a very long time. At this pace
 the issue trackers for both projects will be empty by Christmas!
 

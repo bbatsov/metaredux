@@ -8,7 +8,7 @@ tags:
 ---
 
 One of Projectile's key features has always been the ability to cache the files in a project,
-so next time need to do something with them you'd skip the potentially expensive project file
+so next time you need to do something with them you'd skip the potentially expensive project file
 indexing step. The feature has always worked reasonably well, but it suffered from a couple of design
 flaws that I've been meaning to address for a while:
 

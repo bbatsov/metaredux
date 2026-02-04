@@ -22,7 +22,7 @@ and (partially) succeeds my original blog "(think)" at <https://batsov.com>.
 I'm Bozhidar[^1] and I love computers in general and programming in
 particular[^2]. My fanatic devotion to Emacs is known
 world-wide. I spend a lot of my (free) time on GitHub, contributing
-to various open-source Ruby, Clojure and Emacs Lisp [projects](https:/batsov.com/projects/).
+to various open-source Ruby, Clojure and Emacs Lisp [projects](https://batsov.com/projects/).
 
 The above paragraph is actually what I typically use as my bio for
 [conference talks](https://batsov.com/presentations/). I love speaking at conferences

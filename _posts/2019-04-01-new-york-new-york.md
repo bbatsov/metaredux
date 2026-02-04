@@ -20,7 +20,7 @@ Following the long overdue overview of [nREPL 0.6]({% post_url
 2019-03-29-nrepl-0-6 %}) I've got a new one for you!
 Brace yourselves for an overdue overview of the recently released CIDER 0.21 (New York)!
 
-It terms of volume of changes it's a pretty small release. If you
+In terms of volume of changes it's a pretty small release. If you
 consider their impact, however, you'll see it packs quite the punch!
 In fact it's probably one of the most significant releases CIDER has
 had in the past couple of years.

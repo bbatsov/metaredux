@@ -90,4 +90,4 @@ Enjoy the summer!
 
 [^1]: Frankly, by now I've forgotten most of what's happened.
 [^2]: I have a thing for islands.
-[^3]: Even if they didn't manage to capture the Sovient mentality/personality very accurately.
+[^3]: Even if they didn't manage to capture the Soviet mentality/personality very accurately.
