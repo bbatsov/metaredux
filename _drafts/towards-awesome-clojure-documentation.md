@@ -42,7 +42,7 @@ We can't really carbon copy those conventions to Clojure, but we can certainly b
 
 For one - I think we can use Markdown in docstrings to highlight param and var references.
 
-I also think it's pretty easy to adopt a convention of using gramatically correct sentences as the building blocks of docstrings. In particular - I believe it's quite important to have each docstring start a signle sentence overview. That's great for humans and it's great for programmings tools as well.
+I also think it's pretty easy to adopt a convention of using grammatically correct sentences as the building blocks of docstrings. In particular - I believe it's quite important to have each docstring start with a single sentence overview. That's great for humans and it's great for programming tools as well.
 
 ## Awesome Metadata
 
@@ -60,7 +60,7 @@ I think we can way more, though. A couple of things that immediately come to min
 
 * `:see-also` - one or more related vars
 * `:superseded-by` - used in conjunction with `:deprecated`
-* `:supercsdes`
+* `:supersedes`
 
 I've also campaigned for years for specifying the indentation of complex macros via
 indentation metadata.
