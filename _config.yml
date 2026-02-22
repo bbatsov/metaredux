@@ -17,7 +17,7 @@ title: Meta Redux
 author: Bozhidar Batsov
 email: "bozhidar@metaredux.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Meta-x meta-redux
+  Writings on programming and open-source by Bozhidar Batsov, creator of RuboCop, CIDER, and Prelude.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://metaredux.com" # the base hostname & protocol for your site, e.g. http://example.com
 
