@@ -39,7 +39,7 @@ rss: rss
 
 # disqus:
 #   shortname: metaredux
-google_analytics: UA-127656492-1
+google_analytics: G-EJZZPD1FLJ
 
 show_excerpts: true
 excerpt_separator: <!--more-->
