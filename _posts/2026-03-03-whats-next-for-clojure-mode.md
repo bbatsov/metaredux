@@ -39,7 +39,7 @@ as data (which they are), not as function calls.
 Small things, sure, but they add up to a noticeably better experience when
 you're editing config files, test fixtures, or any other EDN data.
 
-## Font-locking for Clojure 1.12
+## Font-locking Updated for Clojure 1.12
 
 Font-locking has been updated to reflect Clojure 1.12's additions -- new
 built-in dynamic variables and core functions are now properly highlighted.  The
