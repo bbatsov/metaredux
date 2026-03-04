@@ -43,9 +43,9 @@ you're editing config files, test fixtures, or any other EDN data.
 
 Font-locking has been updated to reflect Clojure 1.12's additions -- new
 built-in dynamic variables and core functions are now properly highlighted.  The
-`clojure-mode-extra-font-locking` package covers everything from 1.10 through
-1.12, including bundled namespaces and `clojure.repl` forms.[^2] Some obsolete
-entries (like `specify` and `specify!`) have been cleaned up as well.
+optional `clojure-mode-extra-font-locking` package covers everything from 1.10
+through 1.12, including bundled namespaces and `clojure.repl` forms.[^2] Some
+obsolete entries (like `specify` and `specify!`) have been cleaned up as well.
 
 On a related note, protocol method docstrings now correctly receive
 `font-lock-doc-face` styling, and `letfn` binding function names get proper
@@ -93,8 +93,8 @@ The two modes will coexist for as long as it makes sense. Use whichever one
 works best for you -- they're both maintained by the same team (yours truly and
 co) and they both have a bright future ahead of them. At least I hope so!
 
-As usual - big thanks to everyone supporting my Clojure OSS, especially the members
-of [Clojurists Together](https://www.clojuriststogether.org/)! You rock!
+As usual - big thanks to everyone supporting my Clojure OSS work, especially the
+members of [Clojurists Together](https://www.clojuriststogether.org/)! You rock!
 
 That's all I have for you today. Keep hacking!
 
