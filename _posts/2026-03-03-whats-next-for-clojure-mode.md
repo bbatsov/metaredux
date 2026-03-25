@@ -13,9 +13,9 @@ out with many small improvements and bug fixes!
 
 <!--more-->
 
-While TreeSitter is the future of Emacs major modes, the present remains a bit
+While Tree-sitter is the future of Emacs major modes, the present remains a bit
 more murky -- not everyone is running a modern Emacs or an Emacs built with
-TreeSitter support, and many people have asked that "classic" major modes
+Tree-sitter support, and many people have asked that "classic" major modes
 continue to be improved and supported alongside the newer TS-powered modes (in
 our case -- [clojure-ts-mode](https://github.com/clojure-emacs/clojure-ts-mode)).
 Your voices have been heard! On Bulgaria's biggest national holiday (Liberation
@@ -83,7 +83,7 @@ improvements for the foreseeable future. There is no rush for anyone to switch
 to `clojure-ts-mode`, and no plans to deprecate the classic mode anytime soon.
 
 That said, if you're curious about `clojure-ts-mode`, its main advantage right
-now is **performance**. TreeSitter-based font-locking and indentation are
+now is **performance**. Tree-sitter-based font-locking and indentation are
 significantly faster than the regex-based approach in `clojure-mode`. If you're
 working with very large Clojure files and noticing sluggishness, it's worth
 giving `clojure-ts-mode` a try. My guess is that most people won't notice a
