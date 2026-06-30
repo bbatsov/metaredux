@@ -43,6 +43,17 @@ the thing showing you can knock out a prototype in minutes. Boo me if you must,
 but when you're the maintainer of so many projects and you have only so little
 time to spend on all of them that really makes a difference.
 
+There's a third ingredient worth mentioning: I'd been *hammocking* on most of
+this for months, quietly turning the designs over in the back of my mind while I
+was wrapping up [CIDER 1.22](https://github.com/clojure-emacs/cider/releases/tag/v1.22.0).
+So while 1.22 itself took the better part of four months (and still shipped later
+than I'd have liked), the release right after it has been snapping together in a
+couple of weeks - the code was the easy part once the thinking was done. It helps
+that a lot of these changes close issues that had been gathering dust for years;
+the ClojureScript macroexpansion bug ([#2099](https://github.com/clojure-emacs/cider/issues/2099))
+was filed all the way back in *2017*. Nothing beats hammock-driven development -
+even if it's decidedly not the fastest way to ship anything.
+
 OK, enough preamble. Let's look at the goodies.
 
 ## Keymaps you can actually discover
@@ -93,6 +104,11 @@ The practical upshot: if you were reaching for clj-refactor.el or clojure-lsp
 *mostly to find usages*, you probably don't need them anymore. (If you were using
 them for other things, carry on - we're friends, not rivals.)
 
+Much of the inspiration here came straight from
+[swank-clojure](https://github.com/technomancy/swank-clojure) and
+[SLIME](https://github.com/slime/slime) itself, which have offered this kind of
+cross-referencing for ages. Sometimes nothing beats revisiting the classics.
+
 ## The debugging toolbox got a serious polish
 
 This is the part I'm most happy about. Pretty much every "what is my code
@@ -103,8 +119,9 @@ header line that shows the active expander and options, cycles namespace display
 and metadata in place, pulses the freshly-expanded form, and - at long last -
 says something useful when you point it at a special form or an unresolved
 symbol, instead of silently shrugging. Better still, there's a brand new inline
-stepper (`cider-macrostep`) that expands macros right where they sit, one step at
-a time. Expandable sub-forms get underlined so you can hop between them with
+stepper (`cider-macrostep`, a Clojure spin on the venerable
+[macrostep](https://github.com/emacsorphanage/macrostep) package) that expands
+macros right where they sit, one step at a time. Expandable sub-forms get underlined so you can hop between them with
 `n`/`p`, and every gensym is painted its own color, so you can finally follow
 where that `g__1234` ends up. I did not expect macro debugging to be *fun*, and
 yet here we are.
@@ -149,6 +166,14 @@ This was another area where AI tooling was quite helpful to me, as I've rarely
 used ClojureScript in the past, but I still managed to figure out how to finally
 solve those problems that have been pain points for CIDER's users for as long as
 we've had ClojureScript support.
+
+On a related note, I've also been chasing down a few small bugs in
+[Piggieback](https://github.com/nrepl/piggieback) (the middleware that powers
+most of the cljs REPLs CIDER talks to) - have a look at the recent
+[releases](https://github.com/nrepl/piggieback/releases) if you're curious. And
+I've been idly pondering some form of "native" shadow-cljs support down the road.
+That last one is very much TBD, so don't hold me to it - but the ClojureScript
+story keeps inching forward.
 
 ## A pile of quality-of-life touches
 
