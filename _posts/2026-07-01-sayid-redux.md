@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sayid Redux"
-date: 2026-07-01 15:00:00 +0300
+date: 2026-07-01 16:01:00 +0300
 categories: posts
 tags:
 - Clojure
