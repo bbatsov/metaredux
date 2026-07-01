@@ -209,6 +209,25 @@ everyone willing to kick the tyres on the revival!
 
 That's all from me for now. Keep hacking!
 
+## P.S. One more thing...
+
+Well, that didn't take long. Remember that "high on the list" bit a few
+paragraphs up - bounding the recording so you can safely trace a whole namespace
+under a test suite? Turns out I couldn't leave it alone. A short burst of small
+improvements after this post went up, and it's done: [Sayid 0.5][changelog].
+
+That was *the* thing that made Sayid feel like a toy - point it at a real
+workload and it would cheerfully eat your whole heap and fall over. The recording
+now has a set of tunable bounds instead: a cap on how many top-level calls it
+keeps, a depth limit, 1-in-N sampling for hot paths, a per-function cap, and a
+keep-only-the-last-N mode for when what you care about is whatever happened right
+before things went sideways. Fat and infinite values no longer hang the data ops
+either, and the traced-functions view got its enable/disable/remove actions back.
+
+The upshot for you: you can finally point Sayid at real code under real load
+without babysitting it. Same ask as before - give it a spin and tell me how it
+feels.
+
 [Sayid]: https://github.com/clojure-emacs/sayid
 [changelog]: https://github.com/clojure-emacs/sayid/blob/master/CHANGELOG.md
 [nrepl-api]: https://github.com/clojure-emacs/sayid/blob/master/doc/nrepl-api.md
