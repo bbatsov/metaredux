@@ -98,12 +98,20 @@ Your buffer is never
 actually modified in a way that sticks - collapse everything and it's exactly as
 it was.
 
+Here's how that looks in practice - note the header line with the key hints,
+the highlighted expansion and the underlined sub-forms you can step into:
+
+![cider-macrostep expanding when-let inline](/assets/images/cider-macrostep-when-let.png)
+
 A couple of touches I'm particularly fond of:
 
 - Every distinct gensym in the expansion gets its own color, so you can finally
   track where that `temp__5825__auto__` flows through the expanded code. Once
   you've seen a `for` expansion with colorized gensyms, you won't want to go
-  back.
+  back:
+
+![cider-macrostep expanding for, with colorized gensyms](/assets/images/cider-macrostep-for-gensyms.png)
+
 - `E` (`cider-macrostep-expand-all`) fully expands the form in one step, for
   when you don't care about the journey.
 - `b` (`cider-macrostep-expand-in-buffer`) runs the same stepping session in a
