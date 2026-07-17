@@ -98,10 +98,10 @@ Your buffer is never
 actually modified in a way that sticks - collapse everything and it's exactly as
 it was.
 
-Here's how that looks in practice - note the header line with the key hints,
-the highlighted expansion and the underlined sub-forms you can step into:
+Here's the whole flow in motion - expand, step into a nested macro, collapse
+back to the original code:
 
-![cider-macrostep expanding when-let inline](/assets/images/cider-macrostep-when-let.png)
+![cider-macrostep stepping through when-let and collapsing back](/assets/images/cider-macrostep.gif)
 
 A couple of touches I'm particularly fond of:
 
