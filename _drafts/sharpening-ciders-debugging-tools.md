@@ -53,12 +53,7 @@ whether locals was `l` or `L`.
 was always interleaved into the REPL, where it fought with your actual work.
 CIDER 2.0 gives traces a dedicated, live-streaming `*cider-trace*` buffer:
 
-```
-▾ (my.app/process {:id 7})
-    ▸ (my.app/validate {:id 7})  => true
-    ▸ (my.app/persist {:id 7})   => {:id 7, :saved? true}
-  => {:id 7, :saved? true}
-```
+![The *cider-trace* buffer showing a nested call tree with return values](/assets/images/cider-trace-buffer.png)
 
 Calls fold and unfold (`TAB`, or `F`/`U` for everything at once), `n`/`p` move
 between calls, and `.` jumps to a function's definition. `cider-list-traced`
@@ -75,6 +70,10 @@ suite, fixes for the same record/deftype instrumentation bugs as the debugger
 single form with `cider-enlighten-defun-at-point` instead of flipping a global
 mode, and `cider-enlighten-stop` turns everything off at once, rather than
 making you re-evaluate every function in penance.
+
+Every local and every intermediate result, right there in the buffer:
+
+![Enlighten showing argument and return values inline in the source](/assets/images/cider-enlighten.png)
 
 ## Tap into your programs
 

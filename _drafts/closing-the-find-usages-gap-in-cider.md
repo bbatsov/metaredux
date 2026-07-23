@@ -68,7 +68,10 @@ SLIME-inspired cross-referencing commands under `C-c C-w`, most of them
 rendered as expandable trees:
 
 - `cider-who-calls` / `cider-who-is-called` - the call graph, upward and
-  downward. Expand a caller to see *its* callers; spelunk as deep as you like.
+  downward. Expand a caller to see *its* callers; spelunk as deep as you like:
+
+  ![The cider-who-calls tree, expanded two levels up the call graph](/assets/images/cider-who-calls-tree.png)
+
 - `cider-who-implements` - a protocol's implementing types (inline
   `defrecord`/`deftype` implementations included) or a multimethod's dispatch
   values, each jumping to the implementation's source. Multimethods are a nice
