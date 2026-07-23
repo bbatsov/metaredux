@@ -40,31 +40,31 @@ it.
 
 ## What actually got better
 
-- **Running tests.** The regular test commands (`cider-test-run-ns-tests` and
+- The regular test commands (`cider-test-run-ns-tests` and
   friends) now work in ClojureScript REPLs, asynchronous `cljs.test/async`
   tests included. Previously CIDER just refused, and you were stuck evaluating
   `(run-tests)` by hand like an animal.
-- **Macroexpansion of user-defined macros.** Expanding your own macros (e.g.
+- Expanding your own macros (e.g.
   ones brought in via `:refer-macros`) used to silently echo the form back
   unexpanded - a bug filed all the way back in
   [2017](https://github.com/clojure-emacs/cider/issues/2099). The compiler
   environment is now threaded to the analyzer properly, and it just works.
-- **shadow-cljs without Piggieback.** `cider-nrepl` now resolves the
+- `cider-nrepl` now resolves the
   ClojureScript compiler environment through a provider chain, with a dedicated
   shadow-cljs provider - so the static-analysis ops keep working in a shadow
   REPL that never loads Piggieback.
-- **`tap>` streaming.** The new `cider-tap` viewer works with ClojureScript
+- The new `cider-tap` viewer works with ClojureScript
   too: a runtime helper buffers tapped values and the JVM side streams them to
   Emacs. (Tapped cljs values aren't inspectable - they live in the JS runtime -
   but you see them as they happen.)
-- **Saner error reporting.** ClojureScript stack frames now render their
+- ClojureScript stack frames now render their
   `ns/fn` properly instead of degrading to `nil/nil`, and unqualified core vars
   resolve against `cljs.core` rather than falling back to `clojure.core`
   (which quietly broke things like indentation metadata).
-- **Startup resilience.** A recent ClojureScript on the classpath (whose
+- A recent ClojureScript on the classpath (whose
   Closure compiler wants JDK 21+) no longer crashes `cider-nrepl` at startup on
   an older JDK - you get a Clojure-only session instead of no session.
-- **Piggieback maintenance.** Piggieback itself got a round of bug fixes in the
+- Piggieback itself got a round of bug fixes in the
   0.6.x/0.7.0 releases - it's easy to forget it exists (which is rather the
   point of it), but it powers most cljs REPLs CIDER talks to.
 

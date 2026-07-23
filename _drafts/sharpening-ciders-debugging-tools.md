@@ -27,8 +27,11 @@ got fixed:
   anything that compiled routes or components into records (compojure users
   know the pain).
 - `defrecord`/`deftype` inline methods no longer blow up with the infamous
-  `Unable to resolve symbol: STATE__` error, and neither do `#dbg` on bare
-  collection literals or heavily destructured arguments.
+  `Unable to resolve symbol: STATE__` error - the instrumenter now sensibly
+  skips the method bodies, which compile to real JVM methods that can't
+  capture debugger state. `#dbg` on a bare collection literal triggered the
+  same error; fixed too. And heavily destructured argument lists used to
+  crash instrumentation in their own special way - not anymore.
 - A form too large to instrument (yes, that's a JVM limitation - `Method code
   too large!`) now degrades gracefully: CIDER retries without local capture and
   tells you what happened, instead of surfacing a raw compiler error.
@@ -94,9 +97,9 @@ frames render their `ns/fn` properly, and the macroexpansion tooling - a
 debugging tool in its own right - got a full makeover that deserves (and will
 get) its own article.
 
-None of these tools is new. That's rather the point: CIDER 2.0's debugging
-story isn't about shiny features, it's about the existing ones becoming
-trustworthy. A debugger you don't trust is worse than no debugger at all.
+None of these tools is new. That's rather the point: the 2.0 debugging story
+is mostly the existing tools becoming trustworthy. A debugger you don't trust
+is worse than no debugger at all.
 
 The [debugging docs](https://docs.cider.mx/cider/debugging/debugger.html) cover
 everything in detail. Keep hacking!

@@ -38,7 +38,7 @@ runtime cleverness fixes "the code isn't loaded".
 
 So CIDER 2.0 does the obvious thing we should have done years ago:
 `xref-find-references` (`M-?`) now finds references by **searching the
-project's source files** on disk. Unloaded code, `cljs` files, comments-out
+project's source files** on disk. Unloaded code, `cljs` files, commented-out
 drafts - if the name occurs in the project, you'll see the exact occurrence,
 in the standard xref UI you already use for everything else in Emacs.
 
@@ -64,8 +64,8 @@ falls back to the runtime search.)
 ## Beyond find usages: the who-* family
 
 While closing the gap, we went further and built out a whole family of
-SLIME-inspired cross-referencing commands under `C-c C-w`, all rendered as
-expandable trees you can unfold level by level:
+SLIME-inspired cross-referencing commands under `C-c C-w`, most of them
+rendered as expandable trees:
 
 - `cider-who-calls` / `cider-who-is-called` - the call graph, upward and
   downward. Expand a caller to see *its* callers; spelunk as deep as you like.
