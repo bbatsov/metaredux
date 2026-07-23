@@ -40,6 +40,11 @@ all together, and even the debugger (`?` mid-session) and the inspector (`m`)
 got menus of their own. Jack-in and connect live in `cider-start-menu` at
 `C-c C-x`.
 
+Here's the evaluation menu, which is a good illustration of the problem the
+menus solve - I doubt many people knew all of this was hiding behind `C-c C-v`:
+
+![The CIDER evaluation transient menu, listing every evaluation command](/assets/images/cider-eval-menu.png)
+
 One design constraint was non-negotiable: **your muscle memory is safe**. These menus
 replace bare prefix keymaps, so every existing keybinding works exactly as
 before, at full speed - `C-c C-v e` still evaluates instantly, menu or no
@@ -54,6 +59,11 @@ pretty-printer with `--print-fn=`, set test selectors with
 `cider-ns-refresh`'s modes explicitly, pass Clojure CLI aliases at jack-in
 time. All those "this command behaves differently with a prefix argument"
 paragraphs in the manual are becoming visible checkboxes instead.
+
+The test menu shows this nicely - set the selectors once and every run below
+them picks them up:
+
+![The CIDER test transient menu with its include and exclude selector arguments](/assets/images/cider-test-menu.png)
 
 ## Discovery beyond menus
 
