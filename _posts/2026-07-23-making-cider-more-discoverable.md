@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Making CIDER More Discoverable
+date: 2026-07-23 18:50 +0300
 tags:
 - Emacs
 - Clojure
@@ -39,11 +40,12 @@ all together, and even the debugger (`?` mid-session) and the inspector (`m`)
 got menus of their own. Jack-in and connect live in `cider-start-menu` at
 `C-c C-x`.
 
-The crucial design constraint: **your muscle memory is safe**. These menus
+One design constraint was non-negotiable: **your muscle memory is safe**. These menus
 replace bare prefix keymaps, so every existing keybinding works exactly as
-before, at full speed. `C-c C-v e` still evaluates instantly. The menu only
-appears when you *pause* after the prefix, wondering what else is in there -
-which is precisely the moment you need it.
+before, at full speed - `C-c C-v e` still evaluates instantly, menu or no
+menu. And if you'd rather not see the menus at all unless you actually
+hesitate mid-chord, set `transient-show-popup` to a short delay and they'll
+appear only in that moment of doubt - which is precisely when you need them.
 
 Transient also gave us something the old keymaps never could: *arguments*.
 Menus now carry flags for the things that vary per invocation - pick a
