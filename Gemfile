@@ -13,9 +13,12 @@ gem "jekyll", "~> 4.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
-# TODO: Remove when this gets fixed in Jekyll
+# Standard library gems that newer Rubies no longer ship by default but
+# Jekyll 4.3.x still expects. Drop these once we're on a Jekyll that declares
+# them itself.
 gem "csv"
 gem "base64"
+gem "logger"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
