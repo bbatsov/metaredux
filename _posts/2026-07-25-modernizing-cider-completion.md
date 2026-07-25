@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modernizing CIDER's Completion
-date: 2026-07-25 12:00 +0300
+date: 2026-07-25 09:00 +0300
 categories: posts
 tags:
 - CIDER
