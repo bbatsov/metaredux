@@ -2,6 +2,7 @@
 layout: post
 title: Modernizing CIDER's Completion
 date: 2026-07-25 12:00 +0300
+categories: posts
 tags:
 - CIDER
 - Clojure
@@ -54,4 +55,4 @@ That's all I have for you today. Keep hacking!
 
 **P.S.** If you use Embark, I wrote up a fun way to act on Clojure symbols with
 it - documentation, jump-to-definition, inspect and so on - over on
-[Emacs Redux](https://emacsredux.com/blog/2026/07/25/cider-meets-embark/).
+[Emacs Redux](https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/).
