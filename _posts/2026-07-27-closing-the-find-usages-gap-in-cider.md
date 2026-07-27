@@ -76,7 +76,7 @@ The search runs in three stages:
    `orchard.misc/require-and-resolve`, the aliased `misc/require-and-resolve`,
    or a bare `require-and-resolve` where the namespace declaration makes that
    valid. The requires inside the `ns` form are excluded, so the import line
-   doesn't show up as a "usage".
+   doesn't show up as a "usage".[^fix]
 
 Is any of this as smart as clj-kondo's full analysis? No - it's ultimately a
 syntactic search, so an identically named var in another namespace can still
@@ -169,3 +169,11 @@ hacking!
     talking about Zion, but he might as well have been describing every
     debugging session that ends with you finally opening the file and reading
     the code instead of theorizing about it.
+
+[^fix]: Full disclosure: matching the aliased and namespace-qualified forms
+    correctly only landed *after* 2.0 - the 2.0.x releases had a bug where the
+    source scan quietly skipped files that referenced a var through its alias,
+    which is of course the common case. The fix will ship in CIDER 2.1, which
+    doesn't have a release date yet. I'm hoping to get back into a rhythm of
+    cutting a new CIDER release every month or two, so it shouldn't be a long
+    wait.
