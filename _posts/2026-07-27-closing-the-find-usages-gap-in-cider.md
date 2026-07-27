@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Closing the Find-Usages Gap in CIDER
+date: 2026-07-27 10:30 +0300
 tags:
 - Emacs
 - Clojure
