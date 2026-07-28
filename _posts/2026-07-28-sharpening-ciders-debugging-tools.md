@@ -3,6 +3,7 @@ layout: post
 title: Sharpening CIDER's Debugging Tools
 date: 2026-07-28 11:00 +0300
 tags:
+- CIDER 2.0
 - Emacs
 - Clojure
 - CIDER

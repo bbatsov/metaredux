@@ -3,6 +3,7 @@ layout: post
 title: Simplifying Session Management in CIDER
 date: 2026-07-16 09:10 +0300
 tags:
+- CIDER 2.0
 - Emacs
 - Clojure
 - CIDER

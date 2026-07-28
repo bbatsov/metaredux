@@ -2,6 +2,7 @@
 layout: post
 title: Leveling Up CIDER's ClojureScript Support
 tags:
+- CIDER 2.0
 - Emacs
 - Clojure
 - ClojureScript

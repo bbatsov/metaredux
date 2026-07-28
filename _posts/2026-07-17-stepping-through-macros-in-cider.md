@@ -3,6 +3,7 @@ layout: post
 title: Stepping Through Macros in CIDER
 date: 2026-07-17 08:15 +0300
 tags:
+- CIDER 2.0
 - Emacs
 - Clojure
 - CIDER

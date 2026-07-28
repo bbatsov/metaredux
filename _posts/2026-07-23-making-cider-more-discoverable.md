@@ -3,6 +3,7 @@ layout: post
 title: Making CIDER More Discoverable
 date: 2026-07-23 18:50 +0300
 tags:
+- CIDER 2.0
 - Emacs
 - Clojure
 - CIDER

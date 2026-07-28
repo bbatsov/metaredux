@@ -4,6 +4,7 @@ title: Modernizing CIDER's Completion
 date: 2026-07-25 09:00 +0300
 categories: posts
 tags:
+- CIDER 2.0
 - CIDER
 - Clojure
 - Emacs
