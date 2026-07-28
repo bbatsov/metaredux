@@ -104,3 +104,5 @@ CIDER is young and very much open to feedback.
 
 The [keybindings docs](https://docs.cider.mx/cider/keybindings.html) have the
 full picture. Keep hacking!
+
+{% include series_listing.html site=site series="CIDER 2.0" %}

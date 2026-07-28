@@ -151,3 +151,5 @@ Give it a try the next time a macro surprises you - and keep hacking!
     like `::auto/keywords`. See
     [#4111](https://github.com/clojure-emacs/cider/issues/4111) - fixed right
     after 2.0. Even diagnostics need diagnostics.
+
+{% include series_listing.html site=site series="CIDER 2.0" %}

@@ -104,3 +104,5 @@ is worse than no debugger at all.
 
 The [debugging docs](https://docs.cider.mx/cider/debugging/debugger.html) cover
 everything in detail. Keep hacking!
+
+{% include series_listing.html site=site series="CIDER 2.0" %}

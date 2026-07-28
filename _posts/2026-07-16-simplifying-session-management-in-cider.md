@@ -161,3 +161,5 @@ keep hacking!
     that they altered some long-standing behavior. In my defense, when I was
     working on them I still hadn't decided whether 2.0 would be the next
     release or something in the more distant future.
+
+{% include series_listing.html site=site series="CIDER 2.0" %}

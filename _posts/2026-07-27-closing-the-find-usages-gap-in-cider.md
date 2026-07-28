@@ -178,3 +178,5 @@ hacking!
     doesn't have a release date yet. I'm hoping to get back into a rhythm of
     cutting a new CIDER release every month or two, so it shouldn't be a long
     wait.
+
+{% include series_listing.html site=site series="CIDER 2.0" %}

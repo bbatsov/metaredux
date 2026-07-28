@@ -57,3 +57,5 @@ That's all I have for you today. Keep hacking!
 **P.S.** If you use Embark, I wrote up a fun way to act on Clojure symbols with
 it - documentation, jump-to-definition, inspect and so on - over on
 [Emacs Redux](https://emacsredux.com/blog/2026/07/25/cider-and-projectile-meet-embark/).
+
+{% include series_listing.html site=site series="CIDER 2.0" %}

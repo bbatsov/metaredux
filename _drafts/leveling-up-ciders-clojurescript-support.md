@@ -94,3 +94,5 @@ what's supported.
 
 If you're a ClojureScript user, I'd genuinely love to hear how 2.0 feels in
 your daily work - the feedback loop is what keeps this improving. Keep hacking!
+
+{% include series_listing.html site=site series="CIDER 2.0" %}
