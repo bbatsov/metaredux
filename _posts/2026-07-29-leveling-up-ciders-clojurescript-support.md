@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Leveling Up CIDER's ClojureScript Support
+date: 2026-07-29 17:00 +0300
 tags:
 - CIDER 2.0
 - Emacs
