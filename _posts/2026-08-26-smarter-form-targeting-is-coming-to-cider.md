@@ -17,6 +17,12 @@ actually is.
 
 <!--more-->
 
+NOTE: **Update:** this didn't survive contact with its users, and CIDER 2.1
+ships with the classic behaviour after all. See
+{% post_url 2026-08-29-smarter-form-targeting-is-not-coming-to-cider %} for
+what the feedback was, what replaced it, and the rather nasty bug the detour
+turned up.
+
 ## A bit of history
 
 Emacs has a very particular tradition when it comes to evaluating code:
