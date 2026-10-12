@@ -40,6 +40,36 @@ after:
 them freely, but neither tries to be an nREPL-first tool with CIDER's tooling,
 jack-in and a CLI for agents. That combination is the whole point of neorepl.
 
+**Update (2026-10-11):** A few people asked how neorepl relates to the
+[Clojure CLI REPL](https://github.com/clojure/clojure-cli.repl), which the
+Clojure team released a couple of weeks ago, and to `bb repl --connect`. (I'm a
+bit embarrassed to admit I hadn't heard of the former until after I announced
+neorepl.) Funny enough, all three are nREPL clients under the hood, but they're
+after pretty different things. In practical terms:
+
+- The Clojure CLI REPL runs only on the JVM and needs Clojure 1.12+. It ships
+  its own nREPL server, and its docs and data inspector are ops of that server,
+  so against any other server you can only evaluate code. It's deps.edn only.
+  Its editing is really nice, though - structural editing, evaluating the form
+  at the cursor and a `datafy`-based inspector - and I'll be borrowing some
+  ideas from it. It doesn't do completion yet.
+- `bb repl --connect` puts babashka's console REPL in front of any nREPL server,
+  with completion, arglists and docs, in very little code. It's a great way to
+  poke at a running server, but it won't start one for you.
+- neorepl works with any nREPL server and gets the most out of the ones with
+  cider-nrepl (or babashka's take on it), without any middleware of its own.
+  It starts a server for Leiningen, deps.edn, babashka and shadow-cljs projects,
+  follows you into ClojureScript, and everything the REPL does is also a
+  command with JSON output for scripts and agents. No structural editing yet,
+  however.
+
+So, if you want the fanciest line editing and you live in deps.edn land, give
+the Clojure CLI REPL a try. If you want CIDER in your terminal, for you and
+for your agents, that's what neorepl is for. The neat part is that babashka's
+server bundles CIDER's inspector and test runner ops these days, so neorepl's
+test runner (already on `main`) and the inspector that's coming next work with
+babashka out of the box.
+
 ## For humans
 
 Here's the REPL in action:
