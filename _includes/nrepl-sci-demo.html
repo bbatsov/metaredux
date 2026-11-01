@@ -1,0 +1,169 @@
+<!-- A REPL talking to nrepl-sci (https://github.com/nrepl/nrepl-sci), an
+     nREPL server that runs in Web Workers. The worker takes the bencode of
+     each request and posts back the bencode of each reply, so everything
+     below the markup is a small nREPL client. -->
+<div class="nrepl-demo" data-worker="/assets/js/nrepl-sci-worker-0.1.0.js">
+  <div class="nrepl-demo-log" aria-live="polite"></div>
+  <form class="nrepl-demo-input">
+    <label for="nrepl-demo-code">user=&gt;</label>
+    <input id="nrepl-demo-code" type="text" placeholder="(+ 1 2)" spellcheck="false"
+           autocomplete="off" autocapitalize="off" data-1p-ignore data-lpignore="true" data-bwignore>
+  </form>
+  <div class="nrepl-demo-bar">
+    <button type="button" data-code="(+ 1 2)">(+ 1 2)</button>
+    <button type="button" data-code='(println "Hello from nREPL!")'>(println "Hello from nREPL!")</button>
+    <button type="button" data-code="(map inc (range 10))">(map inc (range 10))</button>
+    <button type="button" data-code="(doc map)">(doc map)</button>
+    <button type="button" data-code="(range)">(range)</button>
+    <button type="button" class="nrepl-demo-interrupt" hidden>interrupt</button>
+    <label class="nrepl-demo-wire"><input type="checkbox"> show the messages</label>
+  </div>
+</div>
+<style>
+  .nrepl-demo { margin: 0 0 15px; border: 1px solid #e8e8e8; border-radius: 3px; background: #eef; font: 14px/1.5 Menlo, Monaco, Consolas, monospace; }
+  .nrepl-demo-log { max-height: 20em; overflow: auto; padding: 8px 12px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .nrepl-demo-log:empty { display: none; }
+  .nrepl-demo-log .input { color: #828282; }
+  .nrepl-demo-log .value { color: #1a7f37; }
+  .nrepl-demo-log .err { color: #c62828; }
+  .nrepl-demo-log .wire { color: #6a737d; font-size: 12px; }
+  .nrepl-demo-input { display: flex; gap: 8px; padding: 8px 12px; }
+  .nrepl-demo-input input { flex: 1; min-width: 0; padding: 0; border: 0; outline: none; background: none; font: inherit; }
+  .nrepl-demo-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 8px 12px; border-top: 1px solid #e8e8e8; }
+  .nrepl-demo-bar button { padding: 1px 8px; border: 1px solid #ccc; border-radius: 3px; background: #fff; font: 12px Menlo, Monaco, Consolas, monospace; cursor: pointer; }
+  .nrepl-demo-bar .nrepl-demo-interrupt { border-color: #c62828; color: #c62828; }
+  .nrepl-demo-wire { margin-left: auto; font-size: 12px; color: #6a737d; }
+</style>
+<script>
+(() => {
+  const demo = document.querySelector(".nrepl-demo");
+  const log = demo.querySelector(".nrepl-demo-log");
+  const input = demo.querySelector("#nrepl-demo-code");
+  const prompt = demo.querySelector("label[for]");
+  const interruptButton = demo.querySelector(".nrepl-demo-interrupt");
+  const showWire = demo.querySelector(".nrepl-demo-wire input");
+  const encoder = new TextEncoder();
+  const decoder = new TextDecoder();
+
+  // nREPL's messages go over the wire as bencode: dictionaries of strings,
+  // integers and lists.
+  const encode = (x) =>
+    typeof x === "number" ? `i${x}e`
+    : typeof x === "string" ? `${encoder.encode(x).length}:${x}`
+    : Array.isArray(x) ? `l${x.map(encode).join("")}e`
+    : `d${Object.keys(x).sort().map((k) => encode(k) + encode(x[k])).join("")}e`;
+
+  function decode(bytes) {
+    let i = 0;
+    const next = () => {
+      const c = bytes[i];
+      if (c === 0x69) { // i42e
+        const end = bytes.indexOf(0x65, i);
+        const n = Number(decoder.decode(bytes.subarray(i + 1, end)));
+        i = end + 1;
+        return n;
+      }
+      if (c === 0x6c || c === 0x64) { // l...e and d...e
+        i++;
+        const items = [];
+        while (bytes[i] !== 0x65) items.push(next());
+        i++;
+        if (c === 0x6c) return items;
+        const dict = {};
+        for (let k = 0; k < items.length; k += 2) dict[items[k]] = items[k + 1];
+        return dict;
+      }
+      const colon = bytes.indexOf(0x3a, i); // 5:hello
+      const start = colon + 1;
+      i = start + Number(decoder.decode(bytes.subarray(i, colon)));
+      return decoder.decode(bytes.subarray(start, i));
+    };
+    return next();
+  }
+
+  // The messages, shown as EDN
+  const edn = (x) =>
+    Array.isArray(x) ? `[${x.map(edn).join(" ")}]`
+    : typeof x === "object" ? `{${Object.entries(x).map(([k, v]) => `:${k} ${edn(v)}`).join(", ")}}`
+    : typeof x === "string" ? JSON.stringify(x)
+    : String(x);
+
+  let scrolling = false;
+  function print(kind, text) {
+    const line = document.createElement("div");
+    line.className = kind;
+    line.textContent = text.replace(/\n$/, "");
+    log.append(line);
+    while (log.childElementCount > 500) log.firstElementChild.remove();
+    if (!scrolling) {
+      scrolling = true;
+      requestAnimationFrame(() => { scrolling = false; log.scrollTop = log.scrollHeight; });
+    }
+  }
+
+  let worker = null;
+  let started = null;
+  let session = null;
+  let nextId = 0;
+  let ns = "user";
+  let running = null;
+  const handlers = {};
+
+  // Sends a request, calling `handle` with each of its replies.
+  function send(msg, handle) {
+    msg.id = String(++nextId);
+    if (session) msg.session = session;
+    if (handle) handlers[msg.id] = handle;
+    if (showWire.checked) print("wire", `→ ${edn(msg)}`);
+    worker.postMessage(encoder.encode(encode(msg)));
+    return msg.id;
+  }
+
+  function receive(event) {
+    const msg = decode(event.data);
+    if (showWire.checked) print("wire", `← ${edn(msg)}`);
+    const handle = handlers[msg.id];
+    if (msg.status?.includes("done")) delete handlers[msg.id];
+    if (handle) handle(msg);
+  }
+
+  // The server starts the first time it's needed, with a session of our own.
+  function start() {
+    started ??= new Promise((resolve) => {
+      worker = new Worker(demo.dataset.worker);
+      worker.onmessage = receive;
+      worker.onerror = () => print("err", "The server didn't start.");
+      send({ op: "clone" }, (msg) => resolve(session = msg["new-session"]));
+    });
+    return started;
+  }
+
+  async function evaluate(code) {
+    if (running) return;
+    running = true;
+    print("input", `${ns}=> ${code}`);
+    await start();
+    running = send({ op: "eval", code }, (msg) => {
+      if (msg.out) print("out", msg.out);
+      if (msg.err) print("err", msg.err);
+      if ("value" in msg) print("value", msg.value);
+      if (msg.ns) prompt.textContent = `${ns = msg.ns}=>`;
+      if (msg.status?.includes("done")) running = null;
+      interruptButton.hidden = !running;
+    });
+    interruptButton.hidden = false;
+  }
+
+  demo.querySelector("form").addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (running || !input.value.trim()) return;
+    evaluate(input.value.trim());
+    input.value = "";
+  });
+  demo.querySelectorAll("[data-code]").forEach((button) =>
+    button.addEventListener("click", () => evaluate(button.dataset.code)));
+  interruptButton.addEventListener("click", () =>
+    send({ op: "interrupt", "interrupt-id": running }));
+  input.addEventListener("focus", start);
+})();
+</script>
